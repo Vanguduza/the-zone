@@ -4,756 +4,663 @@
 |---|---|
 | **Document** | RC WORLD — Master Development Plan, Volume 6 of 12 |
 | **Title** | Marine Division |
-| **Revision** | 1.1 |
-| **Date** | July 2026 |
+| **Revision** | 1.0 — July 2026 |
 | **Status** | Planning baseline — Phase 2 build (Months 13–30) |
 
-**Purpose of this volume.** This volume is the complete concept, engineering, fleet, operations and safety plan for the RC WORLD Marine Division: a purpose-built pond complex operating a fleet of approximately 24 vessels across four programs — a working harbour simulation with scale tugs and barges, a fast-electric speed program, a one-design sailing program, and a small premium submarine program. It gives investors the business case and capacity math, gives architects and pond contractors the waterspace engineering brief (including liner selection, filtration hydraulics and a worked pump-sizing example), and gives Artisans and operations staff the fleet specifications, maintenance doctrine, SOPs and checklists needed to run the division day to day.
+**Purpose of this volume.** This volume is the complete concept, engineering, fleet, operations and economics plan for the RC WORLD Marine Division: a two-pond waterspace complex added in Phase 2, operating approximately 24 vessels across four programs — a working miniature harbour with scale tugs, barges and fire boats; a fast-electric speed pond; a one-design sail fleet; and a small premium submarine program. It gives investors the business case and capacity mathematics, gives architects and pond contractors the waterspace engineering brief (pond geometry, depth profiles, liner selection, filtration hydraulics and safety barriers), and gives Artisans and duty managers the fleet specifications, water-specific maintenance doctrine, SOPs and checklists needed to run the division day to day.
 
-**Intended readers.** Investors and lenders (Chapters 1, 8, 9); architects, pond contractors and the project engineer (Chapter 2); the Marine Division lead, Artisans and duty managers (Chapters 3–7); the safety officer and insurers (Chapter 2 §2.10–2.11 and the SOPs throughout).
+**Intended readers.** Investors and lenders assessing Phase 2 (Chapters 1, 9); architects and pond contractors detailing the complex with Volume 11 (Chapter 6); the Marine Division lead, harbour masters and duty managers (Chapters 2–5, 8); Artisans assigned to marine duty (Chapters 5, 7); the safety officer and insurers (Chapters 5, 6 and the SOPs throughout).
 
 **Chapters**
 
-1. Division concept — the working waterfront
-2. The pond complex — waterspace engineering
-3. Scale fleet & harbour simulation
-4. Fast electric program
-5. Sail program
-6. Submarine program
-7. Boat maintenance & marine engineering doctrine
-8. Fleet plan & procurement
-9. Operations, events, revenue & KPIs
+1. Division Overview
+2. Scale Boats & the Working Harbour
+3. Fast Electric Boats
+4. Sail Program
+5. Submarines
+6. Pond & Harbour Design
+7. Boat Maintenance
+8. Marine Operations & Programs
+9. Fleet & Economics
 10. Volume summary & cross-references
 
 ---
 
-## 1. Division concept — the working waterfront
+## 1. Division Overview
 
-### 1.1 Why RC WORLD goes to water
+### 1.1 The harbour concept
 
-Every division of RC WORLD is built on the same thesis: miniaturized industry, operated by customers, staged so well that spectating is half the product. The Motorsport Division delivers speed; the Construction Division delivers work; the Aviation Division delivers flight. The Marine Division delivers the fourth elemental spectacle — **water** — and it does something none of the land divisions can do: it slows the park down.
+Every RC WORLD division is built on the same founding thesis: a **miniaturized industrial complex, not a hobby sandbox**. The Construction Division proved the formula — customers do not merely drive an excavator, they execute a production chain (dig, load, haul, dump) governed by real logistics constraints, which is why the canonical 1:3 excavator-to-dump-truck ratio exists. The Marine Division applies the identical doctrine to water. Its centerpiece is not a pond with boats on it; it is a **working miniature port** — quay walls, fendered berths, a loading wharf, hopper barges, a container terminal with a quayside crane, tugs that assist "ship movements", and fire boats that answer incident calls from a harbour master's console. Around that centerpiece sits a second, entirely different body of water: a **speed pond** running fast-electric monohulls and catamarans on a buoyed oval, delivering the rooster-tail spectacle that reads from anywhere in the park.
 
-Water is intrinsically theatrical. A 600 mm tugboat pushing a loaded barge throws a real bow wave. A racing monohull at 45 km/h leaves a rooster tail visible from the entry pavilion. A sail fleet heeling in unison on a beat to the windward mark is silent, which in a park full of brushless motors is itself an attraction. And a submarine sliding under the surface and reappearing thirty metres away is, for most guests, the first time they have ever seen one move. The pond complex is deliberately sited (see Volume 11) so that the terrace of the Phase 2 restaurant overlooks the main harbour basin: the water is the park's most photogenic backdrop, and it works as spectacle even for guests who never book a marine Shift.
+The two waterspaces are deliberately opposite in character. The harbour is slow, precise and narrative — the marine equivalent of the Mining Zone. The speed pond is loud (by water standards), fast and competitive — the marine equivalent of Track B. Between them, a sail fleet and a small submarine bay complete a division that covers the full emotional register of watercraft: work, speed, silence and mystery.
 
-> **Investor Note** — The Marine Division is a **Phase 2 addition** (Months 13–30, "Full Park"), funded inside the Phase 2 capex envelope of ≈ $1.15 M alongside the Aviation Division, restaurant and grandstand (canon: Volume 1 and Volume 10). It opens after the core park has proven demand. Its ~24 vessels are the smallest powered fleet of any division and the cheapest — the entire fleet with batteries and spares lands under $10,000 — but the pond itself is the asset: a $200,000-class civil work with a 25–40 year liner life that anchors the park's F&B precinct, extends average visit length, and captures the family, senior and photographer demographics the land divisions under-serve.
+> **Investor Note** — The Marine Division is a **Phase 2 addition** (Months 13–30, "Full Park"), funded inside the Phase 2 capex envelope of ≈ $1.15 M alongside the Aviation Division, restaurant, expanded retail and grandstand (canon: Volume 1 and Volume 10). Its ~24 vessels are the cheapest powered fleet in the park — roughly $9,500 in hulls, under $13,500 with batteries and first-year spares (Chapter 9) — but the ponds are the real asset: a ≈ $210,000 civil work with a 25–40-year liner life that anchors the Phase 2 F&B precinct, extends average visit length, and captures family, senior and photographer demographics the land divisions under-serve.
 
-### 1.2 The harbour-simulation thesis
+### 1.2 Why marine broadens demographics
 
-The heart of the division is not the fast boats — it is the **working harbour**. The founding documents define RC WORLD as a *miniaturized industrial complex, not a hobby sandbox*, and the Mining Zone proved the formula: customers do not merely drive an excavator, they execute a production chain — dig, load, haul, dump — with real logistics constraints (the canonical 1:3 excavator-to-dump-truck ratio exists precisely because industrial flow, not individual machines, is the product). The Marine Division applies the identical doctrine to a port.
+The land divisions skew toward drivers aged 8–35 who progress on skill and speed. Water pulls in everyone else:
 
-In the harbour simulation, customers crew a scale waterfront:
-
-- **Tugs** assist "ship movements", nudge barges onto berths, and perform precision docking against fendered quay walls.
-- **Push boats** move hopper barges of bulk cargo — the same graded aggregate used in the Mining Zone, bagged in scale containers and ore tubs — from a loading quay to a discharge quay.
-- **Container barges** berth under a working quay crane, where a second customer — operating the crane with the same control interface used on the Construction Division's cranes (see Volume 4) — transfers scale containers between barge and quay.
-- **Fireboats** with working water monitors respond to "incidents" called by the harbour master — the single most reliable crowd-pleaser on the water.
-- The **harbour master's console** (an RC WORLD OS screen at the marina building) issues missions, tracks berth occupancy, and scores completed movements exactly as the Mining Zone's hopper tally scores hauled loads.
-
-This is what no municipal pond, hobby club or competitor can replicate: not boats on water, but **a port that works**. Cross-division play is designed in from day one — ore "mined" in the Mining Zone is weighed at the hopper, credited to the customer, and can then be "shipped" at the harbour in a combined **Pit-to-Port** mission (dig it, haul it, barge it, crane it), which is the park's flagship corporate-event format (Chapter 9).
-
-### 1.3 Demographics: the calm division
-
-The Marine Division is engineered for a different tempo and a different customer than the Motorsport Division:
-
-| Attribute | Motorsport / Mining | Marine |
+| Attribute | Motorsport / Construction | Marine |
 |---|---|---|
-| Dominant customer | 8–35, skill-progression driven | Families with young children, seniors, couples, photographers |
-| Session tempo | High arousal, competitive | Calm, methodical, contemplative |
+| Dominant customer | 8–35, progression-driven | Families with young children, seniors, couples, photographers |
+| Session tempo | High arousal, competitive | Calm, methodical, narrative |
 | Physical demand | Fast reactions | Low — seated operation, gentle inputs |
-| Noise level | Motor and impact noise | Near-silent (sail), low hum (scale) |
+| Noise signature | Motor and impact noise | Near-silent (sail), low hum (scale) |
 | Spectator draw | Grandstand bursts | Continuous terrace ambience |
-| Weather sensitivity | Rain stops play | Partially rain-tolerant (§1.4) |
+| Shared-generation play | Limited (parallel driving) | Strong (tug + crane + harbour master roles) |
 
-Three deliberate consequences follow. First, **the harbour program is the park's most accessible experience**: a scale tug at walking pace is operable by a seven-year-old with a grandparent beside them, and both are genuinely engaged — the tug is the shared-generation product the rest of the park lacks. Second, **the division extends dwell time rather than competing for it**: marine Shifts are typically booked as the "cooldown" block after racing or mining, which is why the pond sits beside the restaurant. Third, **seniors are a first-class segment here**: weekday-morning sail regattas and the harbour club target retirees, who fill the park's emptiest hours (Chapter 9 and Volume 9).
+Three design consequences follow. First, the harbour is **the park's most accessible experience**: a 1/50 tug at scale speed is operable by a seven-year-old with a grandparent beside them, and both are genuinely engaged — it is the shared-generation product the rest of the park lacks. Second, the division **extends dwell time rather than competing for it**: marine Shifts book naturally as the cooldown block after racing or mining, which is why Volume 11 sites the pond complex beside the restaurant terrace. Third, **weekday mornings finally have a product**: senior sail regattas and harbour-club sessions fill hours the land divisions leave empty (Chapter 8).
 
-### 1.4 Weather resilience
+### 1.3 Why marine calms the park's pace
 
-Water changes the park's weather calculus in both directions, and the design must be honest about it:
+A theme park composed entirely of adrenaline products exhausts its guests by mid-afternoon and empties early. The Marine Division is RC WORLD's deliberate **pace regulator**. Water is intrinsically theatrical at low speed: a 600 mm tug pushing a loaded barge throws a real bow wave; a sail fleet heeling together on a beat is silent, which in a park full of brushless motors is itself an attraction; a submarine sliding under and reappearing thirty metres away is, for most guests, the first time they have ever watched one move. The pond complex works as spectacle even for guests who never book a marine Shift — and the restaurant terrace overlooking the harbour converts that spectacle directly into F&B revenue.
 
-- **Light rain is playable.** Scale harbour boats and sailboats operate happily in drizzle; electronics are waterproofed to marine doctrine anyway (Chapter 7). Marine is the park's designated *soft-weather division*: on wet days when Tracks A/B close, the harbour stays open under the covered quay canopy, protecting revenue that would otherwise be lost.
-- **Wind is the binding constraint for sail and a hazard for scale.** The sail program needs roughly 1.5–8 m/s; above ~8 m/s scale harbour operations degrade (barges weathervane, docking precision collapses) and above ~10 m/s the waterspace closes. §2.5 specifies wind sheltering to widen the operating window.
-- **Cold is a soft stop.** Below ~5 °C customer appeal and LiPo performance both fall away; winter operating mode is defined in §2.9.
-- **Lightning closes all water instantly** — the pond is the most exposed conductor in the park. The 30/30 rule is in §2.11.
+Weather works differently on water, and the plan is honest about it in both directions. Light rain is playable: scale boats and sailboats run happily in drizzle, and marine electronics are waterproofed to division doctrine anyway (Chapter 7), so marine is the park's designated soft-weather division when Tracks A/B close. Wind is the binding constraint: sail needs roughly 1.5–8 m/s; above ~8 m/s scale docking precision collapses; above ~10 m/s the waterspace closes (wind sheltering in §6.6 widens that window). Lightning closes all water instantly — the ponds are the most exposed conductors on site.
 
-> **Field Note** — Operators of public boating ponds consistently report that the biggest schedule killer is not rain but wind chop: a 40 m pond in an open field can be unusable for scale work 60+ days a year, while the same pond behind a 3 m windbreak loses fewer than 15. The shelter budget in Chapter 2 is not landscaping — it is revenue protection.
+### 1.4 Division scope, phasing and headline numbers
 
-### 1.5 Division scope and fleet headline
+- **Opens**: Phase 2, targeted for Month 20–24 (pond civil works begin Month 14; water commissioning and fleet shakedown run 8–10 weeks before public opening).
+- **Waterspace**: two ponds — harbour pond ≈ 30 × 18 m with quay walls and a 1.5 m-deep submarine bay; speed pond ≈ 60 × 25 m (Chapter 6).
+- **Fleet**: ~24 powered vessels (9 harbour including the staff cargo ship, 8 fast electric, 6 sail, 1 submarine) plus a second show/spare submarine, 6 unpowered barges, a container terminal crane, and a dedicated retrieval tug as support assets (Chapter 9).
+- **Staffing**: one harbour master per operating session (customer-facing controller role), one marine Artisan on duty, marshals shared with adjacent divisions.
+- **Billing**: standard 20-minute Shift; Casual $15 standard classes / $22 premium (submarine, fire-monitor operations, 8S show boats); Operator Shift $26/$38 with pit-stop battery swap, per park canon.
+- **Telemetry**: every powered surface vessel carries an **RCW Node** (Micro-Node footprint) in its radio box, reporting GPS position and pack voltage over the park Wi-Fi mesh, with the geofence redrawn as **virtual harbour limits** (Chapter 8). Submarines are the single documented exception (radio physics, Chapter 5).
 
-At Phase 2 opening the division comprises:
+> **Field Note** — Public model-boating ponds have existed for over a century (the Kensington Round Pond in London and Central Park's Conservatory Water in New York still host weekly model yacht racing), so the *pond* is proven public infrastructure. What no municipal pond or hobby club offers is the *port*: missions, scoring, a crane, a harbour master, and a fleet a customer can rent for twenty minutes without owning anything. That is the moat.
 
-- **The pond complex** (Chapter 2): a ~40 × 25 m main basin at 600–800 mm depth — deep enough for submarines and sail keels, shallow enough for staff wading retrieval — zoned into a harbour basin and an open-water area, plus an 8 × 6 m clear-water submarine basin, a marina building (fleet room, charging annex, briefing point), quay structures and a covered spectator quay.
-- **~24 powered vessels** (canon) in four programs: 9 scale harbour and workboat hulls (Chapter 3), 7 fast electrics in throttle-limited rental tiers (Chapter 4), 6 one-design sailboats (Chapter 5), 2 submarines (Chapter 6) — plus an unpowered barge train that does not count against the powered-fleet number.
-- **The Rescue Tug Protocol** (SOP-MR-003): the marine analogue of the canonical Tow-Truck Retrieval Protocol. Customers never enter the water, ever, for any reason — a dead or drifting vessel is recovered by the customer piloting the dedicated rescue tug, converting the failure into gameplay exactly as the recovery crawler does on land.
-- **Marine Shift products** priced on park canon: Casual Shift $15 standard / $22 premium (submarine, fireboat mission, flagship tug); Operator Shift $26 / $38 (Chapter 9). The 20-minute Shift is billed decoupled from battery life, with the canonical ~30% buffer returned in the pack.
-- **RCW Node telemetry where feasible.** Every surface vessel large enough carries a conformal-coated Heavy-Node in an IP-rated pouch, reporting voltage and position over the park Wi-Fi mesh; the kill-switch doctrine is adapted for water (a killed boat drifts rather than stops — the rescue tug closes the loop). Submarines are the telemetry exception, for physics reasons explained honestly in §6.3.
+---
 
-## 2. The pond complex — waterspace engineering
+## 2. Scale Boats & the Working Harbour
 
-This chapter is the build brief for the pond contractor and the project engineer. It is written to be lifted directly into a design-and-build tender. Where a dimension is canonical it is flagged; everything else is the recommended baseline, adjustable at detailed design.
+### 2.1 The working-harbour gameplay loop
 
-### 2.1 Design requirements
+The harbour pond is run as a live port under the direction of a **harbour master** — a staff role (Chapter 8) with a console at the quayside marina hut. Customers book a vessel class and receive missions; completed movements score points that feed the RC WORLD License badge system (Volume 9). The core loop mirrors the Mining Zone's dig-haul-dump chain:
 
-The waterspace must simultaneously serve four programs with incompatible instincts:
+1. **Load** — a hopper barge is loaded at the bulk wharf (gravel chute fed with the same graded aggregate used in the Mining Zone) or a container barge is loaded by the quayside crane.
+2. **Move** — a tug or push boat takes the barge across the basin, holding the marked fairway, giving way per the harbour master's calls.
+3. **Berth** — the barge is pushed onto a fendered berth and held while it is "worked".
+4. **Discharge** — bulk cargo is tipped into the receiving hopper; containers are lifted off by the crane and stacked on the quay.
+5. **Score** — the harbour master logs the movement in RC WORLD OS; clean berthings (no fender strikes above walking pace) score bonus points.
 
-| Program | Wants | Hates |
+### 2.2 Signature harbour challenges
+
+| Challenge | Vessels | Skill tested | Format |
+|---|---|---|---|
+| **Precision docking** | Tug, solo | Throttle discipline, prop-walk anticipation | Berth inside a marked box between two fendered piers; scored on time + contact count |
+| **Barge push** | Tug + hopper barge | Push-coupling control, momentum management | Move a loaded barge across the basin and land it on the bulk berth |
+| **Container run** | Tug + container barge + quay crane | Two-customer coordination | Boat customer berths under the crane; crane customer transfers 4 scale containers barge-to-quay |
+| **Tanker assist** | 2 tugs + the "ship" (staff-driven cargo vessel) | Team tug work, communication | Two customers nudge the 900 mm cargo ship onto the long berth, one at the bow, one at the stern |
+| **Fire response** | Fire boat with working monitor | Navigation under time pressure, monitor aiming | Harbour master calls an "incident"; customer navigates to the incident float and knocks down a target flag with the water monitor |
+
+The **container run is the park's first cross-division bridge**: the quayside crane uses the same control interface and lead-screw electromechanical doctrine as the Construction Division's cranes (Volume 4), so a customer holding a Construction crane badge is immediately qualified on the harbour crane. The combined **Pit-to-Port mission** — ore is dug in the Mining Zone, weighed at the hopper, credited to the customer's account, then "shipped" at the harbour by barge and crane — is the flagship corporate-event format (Chapter 8).
+
+### 2.3 The harbour fleet — real vessels
+
+The harbour fleet follows the park's two-tier doctrine: a **rental workhorse tier** (cheap, tough, fast to repair) and a **premium/showcase tier** (higher detail, supervised or staff-operated).
+
+| Role | Model | Scale / LOA | Street price (2026) | Tier | Notes |
+|---|---|---|---|---|---|
+| Workhorse tug ×4 | **Heng Long 3810 work tug** | 1/50, 600 mm | $100–150 | Rental | ABS hull, 380 brushed motor, splash-proof 10 A ESC, 7.4 V 1800 mAh pack, **working water cannon**; ducted prop guarded against fingers and lines |
+| Fire boat ×1 | Heng Long 3810 (fire-livery variant) | 1/50, 600 mm | $110–160 | Rental | Same platform re-dressed; monitor pump upgraded in The Works for ~2 m throw |
+| Heavy harbour tug ×2 | **Pro Boat Horizon Harbor 30" tug** | ~760 mm | ≈ $400 | Rental-premium | 700-size motor, functional water cannon; announced 2026 at $399.99 — the natural "big tug" upgrade class |
+| Scale flagship tug ×1 | **Bancroft Fairplay VI** | 1/50, 650 mm | ≈ $700–760 | Premium | RTR harbour tug with brass photo-etch detail, dual motors; used for tanker-assist and photography sessions |
+| Cargo ship (staff vessel) | Arkmodel-class ABS/FRP civil-ship kit, built in The Works | ~1/72–1/100, 900–1,000 mm | $350–700 built | Staff | The "ship" that customers' tugs assist; slow, heavy, ballasted |
+| Hopper/container barges ×6 | Shop-built (plywood/epoxy or ABS sheet) | 1/50, 500–700 mm | ≈ $120 each to build | Unpowered | Push-knees and container twist-lock studs; The Works builds these as apprentice projects (Volume 7) |
+
+> **Field Note** — The Heng Long 3810 is the harbour's Huina 1580: a sub-$150 platform with an enormous parts ecosystem, tolerable to lose and trivial to fix. Its factory water cannon is weak; The Works replaces the pump with a standard 370-motor centrifugal unit for a proper 2 m stream — a 20-minute, $8 upgrade. Buy two hulls per four in service as rolling spares.
+
+**Display and heritage tier.** The marina hut doubles as a small maritime gallery. Two or three **static display builds** — e.g. a Billing Boats **Smit Rotterdam** 1:75 ocean tug (kit ≈ $350–450) and a Türkmodel wooden fishing vessel — are built by Artisans in winter and displayed behind glass, exactly as the Kabolite K970 anchors the Construction showroom. Legacy **Graupner and Robbe** harbour models (both brands went through insolvency and restructuring in the mid-2010s; Robbe continues under new ownership) appear regularly on the second-hand market at $150–400 and make excellent gallery pieces, but they are **not bought for the rental fleet**: spares availability does not meet the park's repair-time doctrine.
+
+### 2.4 Scale-speed discipline
+
+The single rule that makes the harbour look real is **scale speed**. Model speed should follow Froude scaling: the model's realistic speed is the full-size speed divided by the square root of the scale factor.
+
+Worked example — a 1/50 harbour tug whose prototype makes 12 knots (6.2 m/s):
+
+- Scale factor λ = 50, √λ ≈ 7.07
+- Scale speed = 6.2 ÷ 7.07 ≈ **0.87 m/s (about 1.7 knots — brisk walking pace across the pond)**
+
+Anything faster reads as a toy and, worse, makes docking impossible and wakes destructive. Enforcement is technical, not verbal: rental harbour boats are delivered with **ESC throttle end-points limited to scale speed** (a one-time setting in The Works), and the RCW Node flags sustained over-speed to the harbour master's console. Customers who want speed are sold the speed pond; the harbour sells precision.
+
+> **Trade Hack** — Set the throttle limit by measuring, not guessing: run the boat one pond length (30 m) at full stick and time it. 30 m in ~35 s = 0.86 m/s = correct for a 1/50 tug. Log the end-point percentage on the boat's fleet card so a replacement ESC is configured identically in two minutes.
+
+### 2.5 The quayside crane and harbour furniture
+
+The container terminal's **quay crane** is a Works-built machine, not a catalogue item, and it deliberately follows Construction Division doctrine (Volume 4): **lead-screw electromechanical actuation, no hydraulics**, because the rental fleet's repair-speed rule applies on the waterfront too. Specification:
+
+| Parameter | Value |
+|---|---|
+| Type | Gantry crane on a 2.4 m quay rail, manual traverse lock per berth |
+| Hoist / luff / slew | Three lead-screw axes, 25 kg-class digital servos + 550 brushed gearmotors from standard park spares stock |
+| Spreader | Magnetic twist-lock spreader picking 1/50 scale containers (steel top-plate insert in each container) |
+| Payload | 1.2 kg rated — three loaded scale containers |
+| Control | Same two-stick console mapping as the Construction Division cranes; customers keep their crane badge qualification |
+| Build cost | ≈ $850 in materials; two Artisan-weeks |
+
+Harbour furniture completes the set: fendered berth faces (dock-bumper rubber strip on the quay capping), a bulk-loading chute gravity-fed from a quay-top hopper, mooring bollards (turned aluminium, glued to the capping — decorative but photograph like the real thing), berth number boards that match the harbour master's console display, and a marked **fairway** of small green/red lateral buoys so traffic rules can be taught with real-world conventions. None of this furniture costs more than a few hundred dollars, and together it is what makes the harbour read as a port instead of a pool.
+
+### 2.6 Harbour session SOP
+
+> **SOP M-01 — Harbour session turn-around** · Rev 1.0 · Owner: Marine Lead · PPE: none (staff: waders for water entry only) · Tools: retrieval pole, towel, fleet tablet · Frequency: every Shift
+
+1. Receive returning vessel at the landing stage; hoist by lifting the hull, never the superstructure.
+2. Visual check: rudder linkage free, prop clear of weed/line, hatch seals seated, no water sloshing in the hull (tilt test).
+3. Swap battery (3:1 rotation, park canon); log outgoing pack voltage in RC WORLD OS.
+4. Wipe deck and superstructure; check fender strips and push-knees for damage.
+5. Confirm RCW Node heartbeat on the fleet tablet before reissue.
+6. Any water found inside the hull → tag **status: maintenance**, route to The Works (SOP M-20, Chapter 7). Never reissue a wet boat.
+
+---
+
+## 3. Fast Electric Boats
+
+### 3.1 Hull types and what the park runs
+
+Fast-electric ("FE") boating divides into three hull families, and the park runs all three in carefully separated roles:
+
+- **Deep-V monohulls** — self-righting versions are the backbone of the rental fleet. A V-hull is forgiving in chop, turns predictably in both directions, and modern RTR models right themselves after a capsize, which eliminates 80% of retrieval events. This is the only hull type customers rent unsupervised.
+- **Catamarans** — faster and flatter-cornering, but they trap air under the tunnel and **blow over** backwards when a gust gets under the bow at speed. Cats are premium-tier, marshal-supervised.
+- **Hydroplanes / outriggers** — the fastest and most fragile class; sponsons touch the water at three points and any wake upsets them. Hydros are staff-demonstration and club-race hardware only, never rented.
+
+### 3.2 Powertrain doctrine: brushless and water-cooled
+
+All FE boats run brushless motors — the rental tier mostly **outrunners in the 2000–2300 Kv class on 3S** (e.g. the Spektrum 2300 Kv outrunner in the Pro Boat Recoil 2), the premium tier 4-pole inrunners on higher voltage (the Sonicwake 36 V3 runs a 1350 Kv 4-pole on 8S with a 160 A ESC). Two facts drive marine powertrain maintenance doctrine:
+
+1. **Water cooling is structural, not optional.** FE motors and ESCs are cooled by pond water picked up at the rudder or a hull scoop and pumped through jackets. A kinked or blocked line cooks a $60 ESC in one Shift. Cooling-loop flow check is a daily-issue item (Chapter 7).
+2. **The flex-shaft drivetrain is a wear system.** Power reaches the prop through a flexible steel cable running inside a stuffing tube. The cable must be pulled, cleaned and re-greased on a fixed schedule or it wears, whips and eventually snaps — the single most common FE failure in rental service (Chapter 7).
+
+### 3.3 The speed fleet — real boats
+
+| Role | Model | LOA | Power | Speed | Street price (2026) |
+|---|---|---|---|---|---|
+| Rental trainer ×2 | **Pro Boat Sonicwake 24** (self-righting deep-V) | 610 mm | Brushless, 3S | ~40 km/h | ≈ $320 (battery + charger incl.) |
+| Rental standard ×3 | **Pro Boat Recoil 2 V2 26"** (self-righting deep-V) | 660 mm | 2300 Kv outrunner, 100 A, 3S | ~55 km/h | ≈ $420 |
+| Rental value ×1 | **Volantex Vector SR80 Pro** (self-righting deep-V) | 800 mm | 1800 Kv, 60 A water-cooled, 4S | ~65–70 km/h | $180–340 depending on channel |
+| Premium mono ×1 | **Pro Boat Sonicwake 36 V3** (self-righting deep-V) | 915 mm | 1350 Kv 4-pole, 160 A, 8S | 95+ km/h | ≈ $500 |
+| Premium cat ×1 | **Pro Boat Blackjack 24 V2** catamaran | 610 mm | Brushless, 3S–4S | ~50 km/h | ≈ $400 |
+| Show/club hardware | Pro Boat Blackjack 42 8S cat; TFL-class fiberglass race hulls | 1,070 mm | Twin/big brushless, 8S | 100+ km/h | $730+ (Blackjack 42 at $729.99) |
+
+Total speed-pond powered fleet: **8 vessels** (2+3+1+1+1 rental/premium) with show hardware owned by the park's race club program, not the rental pool.
+
+> **Safety Warning** — An 8S catamaran at 100 km/h carries more kinetic energy than anything else a customer can touch in this park, and unlike a car it cannot be fenced. **8S hardware never goes to unsupervised customers.** It runs only in marshal-controlled demonstration and club-race windows, with the pond cleared of all other traffic and spectators behind the setback line (§6.8). This is division law.
+
+### 3.4 Speed-pond rules and racing formats
+
+The park adapts the established national model-powerboat frameworks (NAMBA and IMPBA publish the reference rulebooks) to a small commercial pond:
+
+- **Course.** A regulation NAMBA electric oval — 30 ft (9.1 m) turn radii and a 170 ft (51.8 m) straight, 528.5 ft (161 m) per lap — is the design reference; the park's pond runs a **scaled oval of 25 m straights and 8 m turn radii (≈ 100 m per lap)**, which suits 60–90 km/h rental hardware. Turns are driven in one fixed direction per the posted course card.
+- **Buoys.** Per national practice: bright fluorescent red/orange turn buoys, contrasting green entrance buoys, 150–300 mm diameter, soft (non-injurious foam/plastic), anchored taut so they cannot walk in wind.
+- **Heat format.** Three to six boats per heat; one-minute pit time, 30-second mill time to the flying start, then 4–6 laps; a heat never exceeds five minutes of running — which nests two heats plus turnaround comfortably inside one 20-minute Shift.
+- **Right of way.** Overtaking boat stays clear; a boat that goes dead in the water is retrieved under yellow (all boats to idle lane) by the retrieval tug — the marine adaptation of the Tow-Truck Retrieval Protocol (Chapter 8).
+- **Buoy courses for solo Shifts.** Outside race windows, the oval is supplemented by a slalom string and a timed "hot lap" gate pair wired to the RCW Node lap timer, so a solo customer always has a scored task.
+
+### 3.5 Wake and shoreline erosion management
+
+Wake is the speed pond's pollution. A 90 km/h monohull throws a wash that will chew an unprotected earth bank into a turbid soup within a season, and turbidity kills the harbour pond's clear-water submarine viewing next door. Controls, in order of importance:
+
+1. **Hard edge on the racing perimeter.** The speed pond's long banks are finished with concrete block quay edging or rip-rap over liner (Chapter 6), not soft planted shores. Wave energy breaks on rock, not soil.
+2. **Setback of the course.** Turn buoys sit ≥ 4 m off the banks so the highest-energy wash arrives attenuated.
+3. **Wave-absorbing beach at the downwind end.** A 1:4 sloped cobble beach dissipates rather than reflects wake — reflected standing chop is what makes small ponds undriveable during long race sessions.
+4. **Throttle governance between events.** Rental FE boats are software-limited (ESC profile) to ~55 km/h; full power is a race-window setting applied by Artisans.
+5. **Floating turbidity curtain** available for deployment between the ponds' shared service channel during dredging or bank repairs.
+
+---
+
+## 4. Sail Program
+
+### 4.1 One-design or nothing
+
+Sail racing rewards boat development — which is precisely what a rental fleet must suppress. The park therefore runs a strict **one-design fleet**: identical hulls, rigs and sails, maintained to identical trim, so results are decided by the customer's hands, mirroring the Motorsport doctrine of lap-time parity within 2–3%.
+
+The class decision:
+
+| Candidate class | LOA | Street price (2026) | Assessment |
+|---|---|---|---|
+| **DragonForce 65 (DF65) V8** — RG65-class one-design | 650 mm | ≈ $375 PNP + ~$60 radio | **Selected.** The largest one-design RC sail class in the world, with an active international class association; ABS hull shrugs off dock knocks; three rig sizes cover 1.5–10 m/s; parts are catalogue items |
+| DragonFlite 95 (DF95) V3 | 950 mm | ≈ $520–580 PNP | Club/flagship tier: two boats for staff demonstrations, match-race finals and the sailing badge examination — more presence on the water, same control layout |
+| Generic RG65 / Volantex RG65-class RTR | 650 mm | ≈ $120 | Rejected for rental (rig quality and parts consistency below fleet standard); one kept as a try-out loaner |
+
+Fleet: **6 × DF65 V8** in rental service (plus 2 × DF95 club boats owned under the events budget, outside the 24-vessel count).
+
+### 4.2 Wind on small ponds
+
+Small-pond sailing is a wind-reading game more than a boat-speed game. Wind arriving over buildings and trees fragments into shifting lanes and holes; the sail area of the pond is deliberately positioned with the longest available **fetch aligned to the prevailing wind** (Volume 11 site plan) and with low planting — not walls — on the windward shore, because a solid windbreak creates a dead zone exactly where the beat begins. Operating envelope:
+
+- **Below ~1.5 m/s**: drifting conditions; sessions convert to coaching/tuning clinics.
+- **1.5–5 m/s**: A-rig conditions — the standard rental envelope.
+- **5–8 m/s**: B-rig (smaller) fitted by Artisans; rental continues for badge-holders.
+- **Above ~8 m/s**: sail rental closes with the rest of the scale waterspace.
+
+Rig changes on the DF65 take under five minutes and are an Artisan task, never a customer task — rig tune is the fleet-parity variable.
+
+### 4.3 Match-racing format
+
+Sail sells best as **short-course match racing**: two boats, one umpired duel, first across the line. The format fits the Shift perfectly — a windward-leeward course of 40–60 m legs gives 3–4 minute races, so a 20-minute Shift delivers a best-of-three series with coaching between races. Fleet racing (all six boats) runs in club windows and weekend regattas under simplified RRS-style rules: port gives way to starboard, windward gives way to leeward, touch a mark = one penalty turn. The harbour master doubles as race officer with a horn and a course board.
+
+> **Field Note** — Junior sailors take to RC match racing startlingly fast because the feedback loop is visual and immediate. The park's schools program (Volume 9) uses the sail fleet as its STEM anchor: one hour teaches wind awareness, vectors and apparent wind with zero physical risk and near-zero running cost.
+
+### 4.4 Why sail is the cheapest fleet to run
+
+The sail program's unit economics are the best in the park, and the plan exploits them deliberately:
+
+- **No propulsion energy.** The DF65 runs two servos from a 4×AA/NiMH pack (or a small LiFe) — a "battery cost per Shift" measured in fractions of a cent, versus $0.15–0.40 of LiPo cycle depreciation on a powered boat. The 3:1 battery doctrine is trivially cheap to honour.
+- **Almost no drivetrain.** No motor, ESC, cooling loop, flex shaft or stuffing box — the entire Chapter 7 powertrain maintenance regime reduces to servo checks, rigging inspection and hull care.
+- **Slow failure modes.** Sails stretch and lines chafe over months, not minutes; a season's consumables per boat (a sail set, rigging line, a servo) come to under $80.
+- **Weather complementarity.** Sail is at its best in exactly the fresh-breeze conditions that degrade scale-harbour precision, keeping the waterspace earning across a wider weather band.
+
+Result: after capital recovery, a sail Shift at $15 carries the highest contribution margin of any product on the water (Chapter 9).
+
+---
+
+## 5. Submarines
+
+### 5.1 Static divers versus dynamic divers
+
+Two fundamentally different machines share the name "RC submarine":
+
+- **Dynamic divers** are positively buoyant boats that dive only by driving: forward speed plus dive planes push them under, and the moment power stops they float back up. Cheap ($40–150 toy-grade), intrinsically self-recovering, and unserious-looking underwater. The park uses two as **training/taster hardware** in the viewing bay.
+- **Static divers** carry a **ballast system** that takes on water to destroy reserve buoyancy, so the boat submerges and hovers like the real thing. This is the premium product — and the recovery problem (§5.5).
+
+Ballast technology, in ascending order of control fidelity:
+
+| System | How it works | Character |
 |---|---|---|
-| Scale harbour | Calm, shallow, vertical quay walls, prop-safe floor | Wind chop, wake from fast boats |
-| Fast electric | Longest possible straight, clean deep water | Weed, floating debris, shallow prop strikes |
-| Sail | Open water, steady laminar wind, keel clearance | Wind shadow, short legs, powerboat wake |
-| Submarine | Clear water, visibility to the bottom, warm still basin | Turbidity, algae bloom, depth beyond radio reach |
+| **Pump/flood tank** | A roll pump floods and empties a tank | Simple, proven (Thunder Tiger Neptune SB-1); coarser depth control |
+| **Piston tank** | A motor-driven piston draws in a metered water volume | Precise, repeatable trim; the enthusiast standard (Arkmodel Dragon Shark II ships with one) |
+| **Compressed-gas blow** | Stored gas blows the tank dry instantly | An emergency-surface device more than a control system; fitted as backup on premium builds |
 
-The reconciliation is **zoning in space and time**: the harbour gets a permanently boomed-off basin; sail and fast electric time-share the open-water area (never simultaneously); submarines get their own small clear-water basin on a separate filtration loop.
+### 5.2 The park's submarine hardware
 
-**Canonical dimensions.** Main basin **~40 × 25 m** (1,000 m² water surface); operating depth **600–800 mm** — 600 mm at the perimeter shelf, grading to 800 mm along the central channel. This depth band is a deliberate compromise and must not be "improved" in either direction at detailed design:
-
-- **Deep enough**: a DragonForce 65 draws ~0.33 m and a DragonFlite 95 ~0.42 m under the ballast bulb; submarines running at periscope-to-0.5 m depth remain inside reliable radio range (§6.3); fast-electric props and rudders clear the floor everywhere.
-- **Shallow enough**: at 800 mm maximum, a staff member in chest waders can walk the entire basin for last-resort retrieval and for maintenance, and the drowning-hazard profile (§2.10) remains that of an ornamental pond rather than a swimming pool. Deeper water buys nothing operationally and costs safety, liner area, water volume, heating of the sub basin, and winter risk.
-
-Water volume: ~1,000 m² × ~0.68 m mean depth, less edge batter, ≈ **630–650 m³** for the main basin; the 8 × 6 m submarine basin at 800 mm holds ≈ **38 m³**.
-
-### 2.2 Layout — the CAD-style plan
-
-Orientation: the long (40 m) axis is aligned with the prevailing wind (site-specific; see §2.5) so sailboats get honest beats and runs, and the marina building sits on the downwind short edge so dead boats drift *toward* staff, not away.
-
-```
-                       PREVAILING WIND ————————————▶
-      ◀———————————————————— 40.0 m ————————————————————▶
-   N  ┌────────────────────────────────┬───────────────┐  ▲
-      │  ZONE O — OPEN WATER  26 × 25  │ ZONE H        │  │
-      │  (sail / fast-electric,        │ HARBOUR BASIN │  │
-      │   time-shared, never both)     │   14 × 25 m   │  │
-      │                                │               │  │
-      │   ○ buoy   ○ buoy              │ ▓ quay wall   │ 25.0 m
-      │        M-course, 6 buoys       │ ▓ + fenders   │  │
-      │   ○ buoy   ○ buoy              │ ▓ crane quay  │  │
-      │                                │ ▓ berths 1–4  │  │
-      │  ~~~ beach shelf, 1:4 batter   │ floating boom │  │
-      └───────────────┬────────────────┴───────┬───────┘  ▼
-        LAUNCH BEACH  │   COVERED SPECTATOR    │ MARINA BUILDING
-        (sail & fast) │   QUAY (canopy, rail)  │ fleet room · charging
-                      │                        │ annex · briefing · POS
-      ┌───────────────┴──┐   ┌────────────────┐│ plant room (pumps, UV,
-      │ SUB BASIN 8 × 6 m│   │ RESCUE STATION ││ filters) behind
-      │ 800 mm, clear-   │   │ rescue tug dock││
-      │ water loop, rail │   │ poles · rings  ││
-      └──────────────────┘   └────────────────┘┘
-```
-
-Key plan facts for the tender drawings:
-
-| Element | Dimension / spec |
-|---|---|
-| Main basin | 40.0 × 25.0 m, rectangular with radiused corners (r = 2 m) |
-| Depth | 600 mm perimeter shelf (2 m wide), 800 mm central channel |
-| Harbour basin (Zone H) | 14 × 25 m, boomed off with a floating debris/wake boom |
-| Open water (Zone O) | 26 × 25 m; longest clear run 26 m diagonal ~34 m |
-| Quay walls | Zone H east and north edges: vertical timber-faced concrete, coping +150 mm above waterline, rubber D-fender strip at waterline |
-| Launch beach | Zone O south edge: 1:4 smooth-batter beach, liner protected by pavers over geotextile |
-| Submarine basin | 8.0 × 6.0 m × 800 mm, separate structure 3 m from main basin, own loop |
-| Freeboard | 150 mm coping to waterline (wave containment without hiding the boats) |
-| Perimeter path | 2.0 m paved, drains away from pond |
-| Spectator quay canopy | 12 × 4 m, covering harbour control positions and 30 spectators |
-
-> **Trade Hack** — Radius the corners. Square pond corners collect every leaf, dead boat and film of pollen on site; a 2 m radius plus one skimmer per downwind corner keeps the surface self-clearing with the wind doing the work.
-
-### 2.3 Liner selection: EPDM vs reinforced concrete vs bentonite
-
-Three sealing systems are credible at this scale. The decision matrix, priced July 2026 for ~1,300 m² of lined area (floor + batters + anchor trench):
-
-| Criterion | 60-mil (1.52 mm) EPDM on geotextile | Reinforced concrete shell | Bentonite (GCL or raw clay) |
-|---|---|---|---|
-| Installed cost | $18–30/m² → **$25–40 k** | $90–150/m² → $120–200 k | $12–20/m² → $16–26 k |
-| Service life | 25–40 yr (UV-protected edges) | 40+ yr structure; sealant recoat every 7–12 yr | Indefinite *if never dried out* |
-| Failure mode | Puncture (repairable in 20 min with patch kit) | Hairline cracking, sealant delamination; repairs mean draining | Desiccation cracking, root/rodent penetration, turbidity |
-| Water quality | Inert, fish-safe, no pH effect | Fresh concrete pushes pH to 11–12; must cure ≥ 28 days and be washed/sealed before boats | Permanent silt/clay turbidity risk — fatal for the submarine program |
-| Vertical quay walls | Needs a structural wall behind the liner anyway | Native — walls are the structure | Cannot form vertical faces |
-| Speed of build | 2–3 weeks incl. earthworks | 8–12 weeks incl. cure | 3–4 weeks |
-
-**Decision: hybrid — EPDM membrane basin with a cast-in-place concrete quay/coping ring beam.** The membrane does the sealing; the concrete does the structure. Specifically:
-
-1. Excavate to formation; remove all stones > 10 mm; compact; blind with 50 mm of sand where the subgrade is stony.
-2. Lay **non-woven geotextile underlayment, ≥ 300 g/m²** (industry practice treats anything lighter as a liner-life defect), lapped 150 mm, carried up all walls and 300 mm beyond the anchor trench.
-3. Lay **60-mil (1.52 mm) EPDM** — the commercial-grade thickness recommended for public-park installations (45-mil is the residential standard; the step up costs ~15% and roughly doubles abrasion tolerance under wader traffic). Field seams with primer + double-sided seam tape, rolled; uncured flashing tape at corners and pipe penetrations, which is where liner ponds actually leak.
-4. Cast the **reinforced-concrete coping/quay ring beam** over the liner edge on a protection layer of spare geotextile, clamping the membrane in the anchor trench. Timber quay facing and fender strips bolt to the beam. **No exposed EPDM above the waterline anywhere** — exposed liner chalks and cracks under UV within a few seasons and then wicks water behind the edge.
-5. Floor finish in the harbour basin and beach: 40 mm of washed pea gravel over a sacrificial geotextile layer in traffic areas only, so waders and retrieval poles never bear directly on the membrane. The fast-electric zone floor stays bare liner (clean, dark, photogenic, prop-safe).
-
-Bentonite is rejected outright: it cannot form quay walls, it risks permanent turbidity (fatal to the submarine program), and a maintenance drain-down would crack it. Full concrete is rejected on cost and on the pH-cure problem; concrete appears only where it earns its keep, as the quay structure.
-
-> **Safety Warning** — If any concrete contacts pond water (the ring beam does), it must cure a minimum of 28 days and the pond must be filled, dosed with a pH buffer if needed, tested below pH 8.5, and flushed before the first hull touches the water. High-pH "new concrete" water attacks aluminium fittings and anodized parts fleet-wide.
-
-### 2.4 Edge and beach details
-
-- **Quay edges (Zone H):** vertical face, coping +150 mm, continuous rubber D-fender at waterline. Berth markings (painted bollard pairs, berth numbers 1–4) are gameplay infrastructure, not decoration — scoring uses them (§3.4).
-- **Launch beach (Zone O south):** 1:4 batter, paver-protected, the only place hulls are hand-launched and landed. A beach, not steps: sailboats with 0.4 m keels are lowered nose-first at the 600 mm shelf line.
-- **All other edges:** 150 mm coping, then the 2 m path, then rail or planting per the barrier plan (§2.10).
-- **Skimmer placements:** two surface skimmers in the downwind radiused corners of Zone O, one in Zone H. Skimmers are the primary debris system; a pond this size without skimmers becomes a leaf soup every autumn afternoon.
-
-### 2.5 Wind exposure and orientation
-
-Sailing wants wind; everything else wants less of it. The design resolves this with orientation plus graduated shelter:
-
-- **Long axis on the prevailing wind** (confirm with 12 months of the site's met data or the nearest airport's wind rose before design freeze — Volume 11 carries the site micro-climate study). Sail courses then get true beats; drifting dead boats collect on the marina (downwind) edge where staff are.
-- **Windward shelter belt:** 3 m evergreen hedging along the upwind long edge, set back ≥ 8 m so it trims gust structure without creating a dead wind shadow over the near lane. Rule of thumb: a porous windbreak protects 5× its height downwind; solid walls are worse than nothing (they shed turbulent eddies onto the water).
-- **Buildings placed leeward:** the marina building and canopy sit downwind where their wind shadow does no harm to sailing.
-- **Operating wind limits** (measured at the marina anemometer, logged by RC WORLD OS): sail program 1.5–8 m/s by rig (§5.3); scale harbour ≤ 8 m/s; fast electric ≤ 10 m/s; waterspace closed > 10 m/s sustained or on any thunderstorm risk (§2.11).
-
-### 2.6 Filtration & water treatment
-
-The pond holds no fish. This is the single most important water-chemistry fact: with no feed input and no fish waste, nutrient load is low, and the treatment philosophy is **"starve, skim, circulate, polish"** rather than heavy chemical dosing.
-
-**Worked example — main-loop pump sizing.** (This is the calculation the contractor must reproduce and stamp at detailed design; numbers here are the baseline.)
-
-1. **Volume:** main basin ≈ 650 m³ (§2.1).
-2. **Turnover target:** for an ornamental/boating pond without fish, one full turnover every 48 h is the accepted practice band (fish ponds need 12–24 h; we do not). Design flow = 650 m³ ÷ 48 h ≈ 13.5 m³/h → round to **Q = 15 m³/h** to cover skimmer draw (3 skimmers × ~5 m³/h nominal).
-3. **Total dynamic head (TDH):**
-   - Static lift (pond surface → filter inlet in plant room): 1.2 m
-   - Pipe friction: 63 mm PE (ID ≈ 55 mm), 30 m equivalent run at 15 m³/h → velocity v = Q/A = (15/3600) ÷ 0.00238 m² ≈ 1.75 m/s; friction ≈ 6 m per 100 m → 1.8 m
-   - Bead/pressurized filter: 2.0 m allowance (clean; backwash trigger at +0.5 m)
-   - UV clarifier and fittings: 1.3 m
-   - **TDH ≈ 6.3 m** → specify pump duty **15 m³/h @ 7 m**, ≈ 0.75 kW dedicated pond pump (not a swimming-pool pump — pond pumps are optimized for exactly this low-head/continuous-run duty).
-4. **Energy:** 0.75 kW × 24 h = 18 kWh/day ≈ **$2.50–4.00/day** at typical commercial tariffs — run continuously in season; circulation is the cheapest algae control there is.
-5. **Submarine basin loop (separate):** 38 m³ ÷ 4 h turnover ≈ **10 m³/h** through a fine (20 µm) cartridge or bead filter and a **full-flow 55–75 W UV clarifier**. The sub basin is the one place we buy genuine swimming-pool clarity, because the product is *seeing the submarine*. UV sizing follows the practical rule of ~5–8 W per m³/h of flow for reliable green-water kill; on the 38 m³ basin this is affordable. On the 650 m³ main basin, full-flow UV would demand kilowatts — instead the main loop carries a 110 W UV on a side-stream as a bloom-suppression measure only.
-
-**Algae control without hull-damaging chemicals.** Marine doctrine bans anything that attacks hulls, seals or drivetrains:
-
-- **Banned:** chlorine and bromine (perish nitrile O-rings, strip stuffing-box grease, corrode brass shafts), copper-based algaecides (toxic residue, stains ABS and gelcoat), any quat algaecide that foams under prop wash.
-- **Approved:** UV clarification (sub basin full-flow, main basin side-stream); phosphate binding (lanthanum-based products) each spring; barley-straw extract; beneficial-bacteria dosing in warm months; mechanical brushing of quay faces; and above all **nutrient starvation** — skimmers remove leaf litter before it rots, no fish are ever introduced ("no koi, no ducks fed, no exceptions" is a posted rule), and top-up water is screened for phosphate.
-- **String algae contingency:** manual twist-pole removal plus spot-dosing with hydrogen-peroxide-based products, which degrade to water and oxygen and leave nothing on hulls.
-
-### 2.7 Water level management
-
-- **Losses:** evaporation in high summer runs 4–6 mm/day over 1,000 m² = 4–6 m³/day, plus splash-out and wader drag ≈ 0.5 m³/day. Design make-up capacity 8 m³/day.
-- **Make-up:** first call is the park rainwater harvest tank (Volume 11); municipal top-up through an air-gapped float valve in the balance chamber covers dry spells. A water meter on the make-up line is the leak detector: a step-change in daily make-up that doesn't track the weather is a liner or plumbing investigation, triggered automatically by an RC WORLD OS threshold alert.
-- **Overflow:** fixed weir at design level +25 mm discharging to the storm system, so storms cannot raise the pond over the coping.
-- **Level datum:** a staff gauge at the marina; the harbour basin's fender strip is set to the datum so berthing "feels" right at design level.
-
-### 2.8 Retrieval doctrine — boat, pole, wader
-
-Retrieval is layered, and the layers are ordered by who does them:
-
-1. **Rescue tug (customer, gamified):** the default. A dead vessel triggers the Rescue Tug Protocol (SOP-MR-003) — the customer hands in their transmitter and pilots the dedicated rescue tug (fitted with a soft push-bow and a magnetic/Velcro tow bridle) to bring their casualty home. Friction becomes gameplay, exactly as the land divisions' Tow-Truck Retrieval Protocol intends.
-2. **Reach pole (staff):** four stations around the pond hold 6 m telescopic poles with net and hook heads, plus a throw-line bag and a life ring (§2.10). Poles cover everything within 6 m of an edge — which, with wind drift toward the marina edge, is where dead boats end up anyway.
-3. **Wading (staff, last resort):** two-person rule — one wades in chest waders on the marked gravel paths, one spots from the edge with the throw line. Wading is logged in RC WORLD OS. At 800 mm maximum depth this is a wet-legs job, not a water rescue, but the procedure treats it formally anyway. **Customers never enter the water under any circumstances — including parents after a child's boat.** This is briefed in the marine Toolbox Talk and enforced without exception.
-
-### 2.9 Winterization
-
-For a temperate site (adjust per Volume 12 localization):
-
-- **Season:** full operation ~March–November; December–February is "harbour lights" reduced mode (scale + sail on mild days) or full layup depending on climate.
-- **Layup:** pond stays full — an empty EPDM pond is a UV and uplift risk, and an empty bentonite pond would crack (another reason bentonite lost §2.3). Pumps, UV and exposed pipework drain down; skimmer throats get winter plates; a small aerator or ice-preventer runs at each skimmer corner if the site freezes, keeping a breathing hole and protecting the coping from ice jacking.
-- **Fleet:** boats winterized per Chapter 7 (final flush, full dry, seals greased, LiPos to 3.8 V/cell storage charge in the bunker).
-- **Ice rule:** ice is never load-bearing infrastructure. Any ice = waterspace closed, barriers checked daily; "no person on ice" is an absolute, printed on the winter signage.
-
-### 2.10 Safety: barriers, drowning prevention doctrine
-
-The pond is the park's only open water and is treated with swimming-pool seriousness even though it is engineered to be shallower and more benign than one.
-
-- **Maximum depth 800 mm, everywhere, forever.** Depth is a safety specification, not a landscaping choice; any future re-grade goes through management of change.
-- **Barrier plan:** the pond precinct is fenced from the rest of the park by a 1.1 m barrier with self-closing, self-latching gates; inside the precinct, operating quays have a continuous handrail with kick-plate except at the launch beach and rescue dock, which are staff-controlled zones. Small children must be within arm's reach of an adult inside the precinct — a posted, briefed and enforced rule.
-- **No-entry rule:** nobody — customer or staff — enters the water except per the wading procedure (§2.8). There is no swimming, paddling, or "just reaching in past the elbow."
-- **Rescue equipment:** life rings with 15 m lines at four stations (max spacing ~25 m), throw bags at the rescue dock, reach poles at all four stations, first-aid and AED at the marina building. Monthly rescue-equipment inspection is on the plant-room checklist (§2.12).
-- **Staffing:** minimum one water-aware staff member (annual water-safety and throw-rescue training) present whenever the precinct is open; they own the anemometer, the lightning call and the incident log.
-- **Signage:** depth ("MAX 0.8 m — NO ENTRY"), no swimming, no fishing, no feeding wildlife, lightning policy, and the child-supervision rule, at every gate.
-
-### 2.11 Lightning policy
-
-Open water plus carbon-fibre sail rigs plus handheld transmitters is the park's worst lightning combination. The rule is the standard **30/30**: if thunder follows lightning by ≤ 30 seconds (storm within ~10 km), the waterspace closes immediately — boats recalled or abandoned where they float (they can be retrieved later; people cannot), customers moved inside the marina building or main pavilion, sail rigs laid flat on racks, and the precinct stays closed until 30 minutes after the last thunder. The duty manager's weather feed in RC WORLD OS pre-arms this with a storm-cell alert; the marine lead makes the call and logs it. No Shift refunds are debated at the water's edge — the app auto-credits interrupted Shifts.
-
-### 2.12 Plant-room weekly checklist
-
-**CHK-MR-01 — Pond plant & waterspace, weekly** (duty Artisan, ~30 min, logged in RC WORLD OS):
-
-- [ ] Pump pressure/flow within band (15 m³/h main; 10 m³/h sub basin); no cavitation noise
-- [ ] Filter differential pressure < +0.5 m; backwash if exceeded
-- [ ] UV lamps: hour meter read; replace at 9,000 h; quartz sleeve wiped monthly
-- [ ] Skimmer baskets emptied; weirs moving freely; winter plates stored (season)
-- [ ] Water level at datum; make-up meter read and logged; step-change investigated
-- [ ] Water tests: pH 7.0–8.5, phosphate < 0.05 mg/L, clarity (Secchi to floor in sub basin)
-- [ ] Quay fenders, booms and berth markings secure; no exposed liner anywhere
-- [ ] Rescue stations: 4 poles, 4 rings + lines, throw bags, waders — present and serviceable
-- [ ] Anemometer and lightning-alert feed test ping received in RC WORLD OS
-- [ ] Perimeter fence and gates: self-close and latch on all gates
-
-## 3. Scale fleet & harbour simulation
-
-### 3.1 The tug is the product
-
-The scale program is built around the harbour tug for the same reason the Construction Division is built around the 1/14 excavator: it is the vehicle whose *work* is legible to a first-time customer within seconds. A tug at scale speed obeys real ship-handling physics — momentum, prop walk, the lag between helm and swing — and mastering a fendered berthing against a quay wall delivers the identical "I operated a machine" satisfaction the excavator delivers on land. The tug is also mechanically ideal for rental duty: brushed 380/540-class motors at walking speeds, no suspension, no gears to strip, a drivetrain whose only wear parts are a prop shaft and a rudder linkage.
-
-**Rental tug baseline: the Heng Long 3810-class 1/50 harbour tug.** Verified July 2026: a 600 mm ABS-hulled RTR harbour tug from Heng Long (the Guangdong manufacturer the park already buys tanks-division products from is a different firm — Heng Long here is the Shantou marine line), retailing $90–130 street internationally, with a splash-proof 10 A ESC, 380 brushed motor, steerable Kort-nozzle-style thruster, working navigation lights, and — decisively — a **transmitter-triggered working water cannon**. At wholesale (§8.2) it lands around $55–75/unit. Out of the box it is 80% of what rental duty needs; the park's standard upfit (Chapter 7) adds: XT60-converted 2S LiPo per park battery canon, a conformal-coated RCW Heavy-Node in an IP67 pouch above the waterline, a foam flotation block fore and aft (a holed rental hull must float awash, not sink), a soft bow push-pad, and a hull-number vinyl matching the RC WORLD OS asset tag.
-
-**Flagship tug: one 1/25-class ASD/harbour tug kit build.** The scale market above RTR level is kit territory — laser-cut wood and fiberglass tug kits in 1/20–1/33 scale from established houses (Turkish and European wooden-kit makers, and Chinese fiberglass hull suppliers) run $250–600 before electronics. The Works builds one ~900 mm flagship tug in the off-season as a display/premium-experience vessel: twin screws, bow thruster, working towing winch, sound module, full lighting. It exists for the same reason the Kabolite hydraulic excavator exists in the Mining Zone (canon): a premium supervised experience and a photo magnet, never general rental.
-
-**Fireboat: the guaranteed crowd-pleaser.** One 3810-class hull is converted to a dedicated fireboat: red/white livery, an upgraded 12 V pump feeding two brass monitors with 4–6 m throw, LED beacon. "Fire missions" (§3.4) are premium Shifts and the single most-photographed activity on the water — a boat that visibly *does something* to the world is spectacle even from the restaurant terrace. The monitor is also the park's best birthday-party set piece.
-
-> **Trade Hack** — Fit the fireboat's pump intake with a fine mesh strainer *inside* a through-hull scoop, and plumb the monitors with silicone tube on barbed brass, not push-fit. Pump-fed fittings vibrate loose over a season; a monitor that pops its tube floods the hull with its own firefighting water. The strainer also stops the pump eating the string algae the UV missed.
-
-### 3.2 Push boats, barges and the cargo chain
-
-The freight side of the harbour uses the **Springer-pattern push boat** — the model-boating world's standard workhorse: a simple, beamy, flat-bottomed pusher hull (~460 mm) designed to be built cheaply and shove barges around. The Works builds these in-house from marine ply or ABS sheet on published lines: ~$90–130 each in materials and electronics, brushed 540 power, weighted skegs for track-keeping. Two are in rental service; one, fitted with the soft push-bow and tow bridle, is the **rescue tug** (§2.8, SOP-MR-003).
-
-Barges are unpowered and workshop-built (they do not count against the 24-vessel canon):
-
-| Barge | Count | Build | Cargo |
-|---|---|---|---|
-| Hopper barge | 4 | 500 × 180 mm ply/ABS, open hold | Bagged aggregate "ore" tubs from the Mining Zone grades |
-| Container barge | 2 | 550 × 200 mm flat deck, cell guides | 1/50 scale containers (twist-lock dummy fittings) |
-| Tank barge (display) | 1 | As hopper, closed deck | None — set dressing and photo prop |
-
-Barge couplings are magnet-and-pin: strong enough to push a loaded barge, weak enough to break away in a collision instead of sinking anything. Loaded hopper-barge displacement is limited by a painted load line — overloading past the mark swamps in chop, which is itself a briefed teaching point.
-
-### 3.3 The quay crane and the Pit-to-Port loop
-
-The harbour's north quay carries a **container quay crane** — structurally a re-housed version of the Construction Division's slew crane (same electromechanical lead-screw hoist doctrine: no hydraulics in rental service, per canon), traveling on a 3 m gantry rail, lifting 1/50 containers and ore tubs with a magnetic spreader. It is operated from a fixed console on the quay by a second customer, using the identical control layout as the construction cranes, so a customer's crane competence (RC WORLD License, Volume 9) transfers directly.
-
-The **Pit-to-Port loop** is the park's flagship cross-division mechanic:
-
-1. In the Mining Zone, ore hauled to the processing hopper is weighed and credited to the customer's RC WORLD OS account (Volume 4).
-2. Credited ore appears on the harbour master's console as cargo awaiting shipment, bagged into tubs by staff.
-3. A harbour customer books a **shipping mission**: crane-load tubs onto a hopper barge (crane operator), push the barge from loading quay to discharge berth (push-boat skipper), berth within the marked fenders (tug assist optional, scored), discharge by crane.
-4. Completed shipments bank Gears (loyalty canon) for *both* the miner and the shipper — deliberately social, deliberately cross-selling the divisions to each other.
-
-### 3.4 Harbour missions and scoring
-
-Every harbour Shift is missionized. The harbour master's console issues, times and scores missions; scores post to the same leaderboard framework as lap times (Volume 3) and hopper tallies (Volume 4):
-
-| Mission | Crew | Scored on | Shift tier |
-|---|---|---|---|
-| Berthing trial | 1 (tug) | Time + fender contacts (soft touches only) | Casual $15 |
-| Barge shuttle | 1–2 (push boat ± tug) | Cargo delivered per Shift, load-line compliance | Casual $15 |
-| Container rotation | 2 (crane + boat) | Containers moved, drops = −points | Casual $15 |
-| Fire mission | 1 (fireboat) | Targets "extinguished" (hinged flags knocked down by water jet) | Premium $22 |
-| Pit-to-Port | 2–4 cross-division | End-to-end tonnage | Premium / event |
-| Tug Masters course | 1 (tug) | Slalom + barge park + precision tow, judged | Event (§9.2) |
-
-Scale-speed doctrine: the harbour basin is a **dead-slow zone** — ESCs on rental scale boats are firmware-limited to scale speed (~0.6–0.8 m/s). This is invisible to customers (a tug *should* move like that), eliminates hard collisions, and stretches battery far past the 20-minute Shift with the canonical ~30% buffer intact.
-
-### 3.5 Scale-fleet operating notes
-
-- **Radio:** all surface vessels on 2.4 GHz park-standard transmitters, QR-bound to the customer's session per RC WORLD OS canon. (2.4 GHz is fine *on* water; it fails *under* water — the physics lives in §6.3.)
-- **Telemetry:** Heavy-Node in every scale hull (they have room to spare); geofence set to the pond polygon; the kill action for marine is "throttle to neutral + strobe nav lights," and recovery is the rescue tug, not a walk-on.
-- **Wind limit:** scale operations degrade above ~8 m/s (§2.5); the harbour boom keeps fast-electric wake out of the basin at all times.
-
-## 4. Fast electric program
-
-### 4.1 Classes and the rental speed problem
-
-Fast electric is the marine division's motorsport: mono hulls, catamarans and hydroplanes on brushless power. The full hobby spectrum runs from 40 km/h trainers to 130+ km/h open-class hydros; almost none of that spectrum is rentable. A 100 km/h boat crosses the 40 m pond in under 1.5 seconds — no first-timer can steer it, and a bad line ends in the quay wall. The program therefore mirrors the Motorsport Division's tiering doctrine: standardized hulls, personalities via tuning, access gated by the RC WORLD License.
-
-| Tier | Hull class | Speed cap | Who | Fleet |
+| Role | Model | Type | Price (2026) | Notes |
 |---|---|---|---|---|
-| FE-1 "Harbour Runner" | 450 mm self-righting mono (Volantex Vector SR48/SR65 class) | 25 km/h (ESC-limited) | Any customer, Casual Shift | 3 |
-| FE-2 "Open Water" | 800 mm self-righting mono (Volantex Vector SR80 class) | 45 km/h | Marine License M2+ | 2 |
-| FE-3 "Vee/Cat" | 510 mm self-righting vee (Feilun FT011 class) | 55 km/h | M3, supervised | 1 |
-| FE-X display | 650–800 mm fiberglass race mono/hydro (TFL Hobby class) | Unlimited | Staff demo only | 1 |
+| Premium experience boat | **Arkmodel Dragon Shark II** 1/72 (piston tank), built in The Works | Static diver | Kit ≈ $430; ≈ $700–800 complete with electronics | 866 mm; kit includes the piston-ballast system and sealed running gear; the definitive rental static diver |
+| Premium/show boat | **Thunder Tiger Neptune SB-1-class** static diver | Static + dynamic | $535–950 (new-old-stock/second-hand) | 774 mm, 7.7 kg; pump-ballast; factory auto-surface protection on low battery, weak signal or leak detection — exactly the fail-safe doctrine the park requires |
+| Trainer/taster ×2 | Toy-grade dynamic divers (27/40 MHz) | Dynamic diver | $40–80 | Run inside the viewing bay only; also cannibalized for low-frequency receiver boards |
 
-Verified July 2026: the Volantex Vector SR80 (800 mm ABS unibody, 3536/1800 KV water-cooled brushless, 60 A water-cooled ESC, 3S–4S, ~67 km/h stock, **self-righting**) retails $135–200 PNP/ARTR internationally; the smaller Vector SR65/SR48 self-righting monos sit at $60–110; the Feilun FT011 (brushless, water-cooled) around $100–120 retail. TFL Hobby (Chinese manufacturer of fiberglass race hulls and marine hardware) supplies the staff-flagship hull and, more importantly, is the park's hardware source: struts, stingers, turn fins, prop shafts and couplers.
+Both static divers use a **watertight cylinder (WTC)** architecture — all electronics and ballast machinery live in one sealed acrylic tube inside a free-flooding outer hull — which is what makes them maintainable: one o-ring-sealed cylinder to service instead of a whole "waterproof" hull to chase leaks in.
 
-**Self-righting hulls are a hard requirement for every rental fast boat.** A capsized conventional hull sits inverted with its air pocket slowly burping out — a retrieval event every time. The Vector-class "auto roll back" hulls (asymmetric deck buoyancy rolls the boat upright when the driver blips throttle) convert 90% of capsizes back into gameplay in two seconds. Non-self-righting hulls are display/staff only.
+### 5.3 Radio physics in water — the honest constraint
 
-### 4.2 Buoy course racing
+Radio attenuation in water rises steeply with **frequency** and with **conductivity**. The practical consequences, well established across the RC-submarine community and consistent with basic EM physics:
 
-Zone O carries a six-buoy **M-course** (two straights, two sweepers, one chicane) laid out with ~30 m of longest run. Format follows NAMBA/IMPBA club practice adapted to rental: rolling start behind the rescue-tug "pace boat" line, 3–5 boats, 4 laps, transponder-free timing (the RCW Node's position feed gives lap splits at the start/finish gate geofence). Buoys are soft inflatable course markers on sliding anchors — a hit costs a one-place penalty, not a hull.
+- **2.4 GHz — the modern standard band — barely penetrates water at all.** A 2.4 GHz-equipped boat is controllable only with its antenna at or above the surface (periscope depth). This is why the RCW Node cannot ride a submerged hull, and why submarines are the telemetry exception in the park's fleet doctrine.
+- **The legacy low bands (27 MHz, 40 MHz, 72/75 MHz)** penetrate fresh water usefully: with an insulated receiver antenna, positive control to roughly **2–6 m depth** at short range is routine, and experienced operators report more in very clean water. These frequencies are why serious submariners hoard legacy FM radio gear — production largely ceased when the industry moved to 2.4 GHz.
+- **Salt water is effectively opaque** at all hobby frequencies — irrelevant to the park's fresh ponds but worth stating in staff training so nobody "tests" a sub on a seaside event hire.
+- **Antenna discipline**: the submerged receiving antenna must be fully insulated from the water, with the cut end sealed; an unsealed nick in the antenna wire reads as "random signal loss at depth" and wastes hours of fault-finding.
 
-Race Shifts run as the fast-electric block in the Zone O timeshare (§2.1): typically two 20-minute fast blocks per hour alternating with sail, published on the day board in RC WORLD OS. During fast blocks the harbour basin stays open behind its boom — the programs coexist by boom, not by schedule.
+Park doctrine: submarines run **75 MHz or 40 MHz FM surface-frequency gear** (region-dependent; legal hobby allocations vary by country and the local band plan is confirmed in Volume 8 procurement) with a frequency board at the sub bay because legacy FM has no automatic frequency hopping — two subs on one channel is a guaranteed double sinking. Both boats also carry the fail-safe described next.
 
-### 4.3 Tuning basics: turn fins, props, trim
+### 5.4 Fail-safe and depth doctrine
 
-The Artisan syllabus (full detail in Volume 7) covers the three levers that matter on rental hulls:
+- **Loss-of-signal = surface.** Every static diver is configured so that signal loss, low battery or leak detection drives the ballast system to blow/empty and the planes to rise — the Neptune SB-1 ships with this "auto-surface" logic, and the Arkmodel build replicates it with a ballast-control failsafe unit.
+- **Depth is limited by design, not discretion**: the submarine bay is 1.5 m deep (§6.3); at that depth even 40 MHz control margin is generous and a bottomed boat is visible and reachable with a pole.
+- **One sub in the water at a time** during rental sessions; the second boat is the hot spare on charge.
 
-- **Turn fin:** the small angled blade on the right transom corner that a mono/cat carves on. Rule of thumb: fin bites more → tighter, wetter turns but more drag; bend or shim in 1–2° steps only; a bent fin after a wall strike is the #1 cause of "it pulls left" complaints.
-- **Prop:** rental boats run stock metal props one size *down* from the hull's rated maximum — cooler ESC, longer battery, gentler wall strikes. Props are balanced on a magnetic balancer and sharpened/deburred at PM; a dinged prop is swapped, not filed on the quay. Going up a prop size is a staff-only change that must be verified against motor/ESC temperature after a full Shift, not a bench run.
-- **Trim/strut:** strut angle sets the ride attitude — nose-up for chop, flatter for speed. Rental setting is fixed and marked with paint; only FE-X gets live trim experimentation.
+### 5.5 Clear-water viewing windows
 
-### 4.4 Water cooling loops
+A submarine you cannot see is a radio-shaped hole in the water. The sub bay is therefore built for **spectating**:
 
-Every brushless boat in the fleet is water-cooled: a scoop or rudder pickup feeds pond water through the ESC plate and motor jacket and overboard via a visible tell-tale outlet. Operating rules:
+- An **acrylic viewing window** (~1,200 × 600 × 40 mm marine-grade cast acrylic panel, ≈ $900–1,500 supplied) is set into the concrete wall of the sub bay at child-eye height, framed like an aquarium panel and shaded by the quay canopy to kill surface glare.
+- Water clarity in the bay is held by the division's filtration and UV clarifier loop (§6.5) plus a strict **no-disturbance rule**: the bay is hydraulically separated from the harbour basin by a baffle wall, so barge traffic cannot stir sediment into it.
+- A fixed **underwater camera** feeds the marina hut screen and the customer app — the customer pilots partly by direct view through the window, partly by the feed, which is itself the premium experience's signature.
 
-- **Tell-tale check is a launch item** (CHK-MR-02): no visible outlet stream within 5 seconds of throttle = recall immediately; a blocked loop cooks a 60 A ESC in under two minutes.
-- Loops are back-flushed with clean water at post-session flush (Chapter 7) — pond grit and algae are what block them.
-- Silicone tube only, barbed fittings, no push-fit inside the hull (§3.1 Trade Hack applies to cooling loops equally).
+### 5.6 Recovery procedures for sunk assets
 
-> **Safety Warning** — Spinning props on fast electrics are the marine division's only serious laceration hazard. Doctrine: boats are armed **only** on the launch beach with the hull in hand contact with the water, never on the bench; carry armed boats by the bow, fingers never aft of the cockpit; the transmitter throttle-cut is verified in CHK-MR-02 before every session.
+Sinkings will happen; the plan treats them as routine, not crisis.
 
-## 5. Sail program
+> **SOP M-05 — Submerged-asset recovery** · Rev 1.0 · Owner: Marine Lead · PPE: waders, grip gloves · Tools: reach pole set, magnet rig, hook rig, retrieval tug, tag line · Frequency: as required
 
-### 5.1 One-design or nothing
+1. Mark the last-seen position from the harbour master's console (RCW Node last fix for surface boats; viewing window/camera for subs).
+2. Attempt self-recovery first: for a static diver, command emergency blow and wait 60 s — most "sinkings" are trim errors that resolve themselves.
+3. Shallow water (< 600 mm): recover with the 4 m reach pole and hook head from the bank or landing stage. Never wade during public sessions.
+4. Deep bay (1.5 m): deploy the **magnet rig** (a 75 mm neodymium recovery magnet, ~90 kg pull class, ≈ $25, on a throw line) for steel-ballasted hulls, or the weighted **hook rig** drawn across the bottom on two lines for non-ferrous hulls.
+5. If the asset cannot be raised in 15 minutes, buoy the position, log it, and recover after close with waders — the bay is 1.5 m deep and this is a two-person, feet-on-bottom job with a spotter, done under the park's shallow-water-entry rules (§6.8), not a diving operation.
+6. Any submerged LiPo/Li-ion pack goes to the quarantine bunker per park battery doctrine before the hull enters The Works for strip-down (Chapter 7).
 
-Sailing at rental scale only works as a **one-design** program: identical boats, so races are decided by the sailor, never the chequebook — which is exactly the Motorsport Division's "driver skill decides" doctrine (Volume 3, canon) expressed in cloth. The world's radio-sailing market has already converged on the answer. The **DragonForce 65 (DF65)** and **DragonFlite 95 (DF95)**, designed by the Tushingham/Dicks/Weston group and built under license by **Joysway Hobby** in China, are the largest one-design radio-sailing classes on earth — the DF65 alone has sold well over 24,000 hulls, with 1,000+ class-registered boats and fleets at 120+ clubs in the US alone, and both classes race under the DF International Class Association's **Restricted Class Rules**: the boat is raced as supplied, with only listed changes permitted. Verified July 2026: current versions are the **DF65 V8** (650 mm, 1.2 kg, ABS hull, aluminium keel with zinc bulb, ~$250–420 RTR by market) and **DF95 V3** (950 mm, 2.0 kg, carbon-fibre keel, ~$515–665 RTR/PNP by market), both shipping with the 2025-revision digital sail-winch servo.
-
-The park fleet is **five DF65 V8 + one DF95 V3**. The DF65s are the working school and regatta fleet: cheap enough to rent, tough enough to survive it, and identical enough that a six-boat start is a genuine race. The single DF95 is the "flagship yacht" — a premium supervised experience and light-air demonstrator (its 3,736 cm² of sail keeps moving in wind the DF65 barely feels). Because both classes are restricted-class, park boats double as legitimate class boats: guests who own DF65s at home can enter park regattas on equal terms, and the park can host official class events (§9.2) — a customer-acquisition channel no other division has.
-
-### 5.2 Why sailing rents well
-
-Sailing looks like the hardest sell in the fleet — no throttle, wind-dependent, "slow." Operationally it is the opposite:
-
-- **Zero fuel cost per Shift.** The winch and rudder servos sip from AA/2S packs; one charge outlasts a full day. Sailing Shifts have the best contribution margin on the water.
-- **The 20-minute Shift is a natural race window.** Two short windward-leewards fit a Casual Shift exactly; the billing unit and the sport agree without any engineering.
-- **It is the only program where the customer visibly *learns* inside one Shift.** First beat: zigzag chaos. Third beat: laylines. That visible progression drives rebooking and feeds the license ladder.
-- **Silence sells.** The sail fleet is the restaurant terrace's ambience machine, and night sailing with LED-lit fleets (§9.2) is the park's most shareable image.
-
-### 5.3 Wind envelope and rigs
-
-Both DF classes carry interchangeable rigs for different wind bands (class-legal, supplied by Joysway). Park doctrine, driven by the marina anemometer and logged wind band in RC WORLD OS:
-
-| Wind (sustained) | DF65 rig | DF95 rig | Program call |
-|---|---|---|---|
-| < 1.5 m/s | A+ (light-air) | A | DF95 demo only; school theory session |
-| 1.5–4 m/s | A | A | Full program — ideal teaching band |
-| 4–6 m/s | B | B | Racing continues; school beginners paused |
-| 6–8 m/s | C | C | Experienced/event sailors only |
-| > 8 m/s | — | — | Sail program closed (scale limit shared, §2.5) |
-
-Rig changes take a trained Artisan ~4 minutes per boat (mast slides out complete with sails); the fleet room stores rigged spares on wall racks so the fleet re-rigs inside one Shift turnover.
-
-### 5.4 Rig tuning basics
-
-The school teaches — and the Artisan PM verifies — the four adjustments that matter on a DF-class boat, in order:
-
-1. **Mast rake** per the class tuning guide baseline; rake aft = more weather helm.
-2. **Jib and main twist** via topping lift/vang: the top telltale should stream, not stall; over-tight leeches are the #1 novice speed killer.
-3. **Sheet throw end-points**: close-hauled booms at ~25–30° off centreline, never pinned amidships.
-4. **Winch line tension and servo end-point check** — a slipping winch drum mid-race is a retrieval, so it is a CHK-MR-02 item, not a hope.
-
-Setup sheets per hull live in RC WORLD OS maintenance logs, mirroring the Motorsport Division's documented-setup doctrine.
-
-### 5.5 Sailing school format
-
-The **RC WORLD Sailing School** runs as a laddered product tied to the RC WORLD License (Volume 9):
-
-- **Discover Sail (1 Shift, $15):** buddy-transmitter with an instructor; steer a pre-trimmed DF65 around two marks. Badge: *Helm*.
-- **Sail Course (4 Shifts, bundled $49):** points of sail, tacking/gybing drills, basic trim, racing rules of sailing in two-boat drills. Badge: *Skipper* — unlocks unsupervised sail rental and regatta entry.
-- **Race Clinic (2 Shifts, $26):** starts, laylines, mark rounding, covering. Badge: *Racer* — unlocks the DF95 flagship (supervised) and championship scoring.
-- **Weekday Harbour Club:** the seniors' standing booking (§1.3) — a morning coffee-and-regatta membership block that fills the park's quietest hours (pricing under membership canon, Volume 9).
-
-## 6. Submarine program
-
-### 6.1 Two boats, one theatre
-
-The submarine program is deliberately tiny — two boats — and deliberately premium ($22 Casual Shift, supervised). It exists because nothing else in the park matches its theatre-per-dollar: the moment a submarine slips under and its shadow glides along the pale basin floor, every guest at the rail is watching. The 8 × 6 m clear-water basin (§2.1) is the stage: 800 mm deep, full-flow UV-polished water (§2.6), pale floor finish for silhouette contrast, viewing rail on two sides.
-
-Fleet: one **dynamic diver** (rental workhorse) and one **static diver** (premium showpiece):
-
-- **Dynamic diver:** slightly positive buoyancy always; it dives by driving — planes push it under while it has way on, and the instant power stops it bobs up like a corked bottle. That physics *is* the safety system: signal loss, flat battery, or a released stick all end with the boat on the surface. Chinese suppliers offer capable 2.4 GHz dynamic RTR subs in the $60–150 band; the park runs a ~350–450 mm ABS dynamic hull, upfitted per Chapter 7.
-- **Static diver:** a kit-built boat with a real ballast system (park build on an Arkmodel-class Chinese kit, ~$300–600 before radio — Arkmodel of China is the dominant kit source, with piston-ballast systems in 1/48 fleet subs). It floods a tank to submerge, hovers, trims, and blows ballast to surface — genuine submarine behaviour. Ballast options in the hobby are the **piston tank** (leadscrew-driven syringe; precise, park choice), pump-flooded tank, and compressed-gas blow; all park boats regardless of type carry a **fail-safe surface routine**: on signal loss the ESC cuts, planes go to full rise, and the static boat's ballast drives to empty.
-
-### 6.2 Ballast, trim and the pre-dive ritual
-
-A static diver is trimmed like a real boat: with ballast full it should hover neutrally at mid-depth ("caught a stop"), with ballast empty it must float with the full sail (conning tower) dry. Trim is set with internal lead on the workshop's trim tank (a 300 L stock tank) — never in the pond — and checked whenever anything inside the hull moves. The pre-dive ritual is a formal checklist (CHK-MR-04, §6.5) because a submarine is the one vessel where a preparation error ends on the bottom rather than adrift.
-
-### 6.3 Radio physics: why 2.4 GHz barely penetrates water — and what we do about it
-
-Every customer asks why the submarine "only goes that deep." The honest physics, briefed in one paragraph at the rail:
-
-Radio attenuation in water rises steeply with frequency. Water is a lossy dielectric with meaningful conductivity; the induced currents dissipate the wave's energy, and the penetration ("skin") depth scales roughly with the inverse square root of frequency. At **2.4 GHz** — the park-standard band, chosen for everything that lives *in air* — fresh water absorbs so aggressively (this is, not coincidentally, near the band a microwave oven uses to heat water) that usable control range below the surface is measured in **centimetres**. The classic submarine bands, **75 MHz (US) / 40 MHz (EU)**, are ~30–60× lower in frequency and penetrate a few metres of clean fresh water; experienced submariners report reliable control at 1–2 m depth and hobby practice treats ~2 m as the working ceiling even on the low bands. Chlorinated or salty water is dramatically worse (conductivity rises, skin depth collapses) — one more reason §2.6 bans chlorine.
-
-The park's operational answer has four layers:
-
-1. **Shallow running depth by design.** The basin is 800 mm deep (canon), so the boat physically cannot exceed the low bands' reliable envelope, and even a 2.4 GHz dynamic boat running just under the surface (0.1–0.3 m) keeps adequate link margin in clean fresh water — the antenna-to-surface water path stays short.
-2. **Clear water.** The full-flow UV loop (§2.6) exists as much for radio confidence as for viewing: the operator must *see* the boat, because visual contact substitutes for the telemetry that cannot follow it under (RCW Node coverage is canonically "where feasible" — submerged is where it is not; the Node logs the session from the surface dock instead).
-3. **Low-band radio on the static diver.** The premium boat runs a 40/75 MHz FM set (jurisdiction-appropriate), kept as the division's only non-2.4 GHz system, stored and labeled separately so its crystals/modules never wander.
-4. **Tethered depth limit.** Both boats carry a discreet 1.5 m floating tether from the sail to a small surface float during rental Shifts: it caps achievable depth below the radio floor, marks the boat's position for the operator and spectators, and makes retrieval a reach-pole job rather than a wader deployment. Staff demonstrations may run untethered; rentals never.
-
-### 6.4 Sub Hunt: the gameplay layer
-
-The basin floor is dressed as a wreck field: a ballasted scale wreck, an "amphora" scatter, three numbered marker rings, and two rotating "treasure" pucks with RFID tags moved weekly by staff. **Sub Hunt** ($22 premium Shift) tasks the customer with photographing (dynamic boat, bow camera to the console screen) or physically bumping (static boat, bow probe) a briefed target list, scored on the harbour master's console; finding the weekly treasure puck banks bonus Gears. Sub Hunt converts "drive a submarine around" into a repeatable mission with weekly variation — the same missionization doctrine as §3.4 — and it is the anchor of the school-holiday "Treasure Week" event (§9.2).
-
-### 6.5 Submarine pre-dive checklist
-
-**CHK-MR-04 — Submarine pre-dive** (supervising Artisan + customer, at the sub dock, every Shift):
-
-- [ ] Hull halves/hatches seated; sealing ring clean, greased, no hair or grit on the O-ring land
-- [ ] Vacuum leak test in date (≤ 7 days, SOP-MR-002) — green tag on sail
-- [ ] Ballast function test dry: flood/blow full cycle, piston travel smooth (static boat)
-- [ ] Fail-safe verified: transmitter off → motor cuts, planes full rise, ballast blows
-- [ ] Battery: charged pack, connector fully home, balance lead stowed clear of linkages
-- [ ] Tether attached to sail eye, float clipped, 1.5 m length confirmed (rental Shifts)
-- [ ] Radio check at arm's depth: full control response with boat held just submerged
-- [ ] Basin clear of other traffic; viewing-rail guests briefed on the no-reach rule
-
-### 6.6 Submarine maintenance: seals, grease, vacuum testing
-
-Submarines flip the maintenance question: every other hull keeps water *out of a boat that floats on it*; a submarine keeps water out while *fully immersed under pressure*. Three disciplines:
-
-- **Seals.** Every penetration — prop shaft, pushrods, hatch, charge port — is an engineered seal: O-rings and radial shaft seals on rotating parts, greased static rings on hatches. Seals are consumables: hatch rings replaced each season, shaft seals at 50 running hours, and *any* seal disturbed for maintenance is renewed, not reused, if it shows set or nicks under the loupe.
-- **Grease.** Silicone grease on O-rings (never petroleum grease on nitrile — it swells the ring); marine grease in shaft stuffing tubes (§7.3 doctrine shared with surface fleet).
-- **Leak testing.** No submarine enters the water on faith. The watertight cylinder is proof-tested with a hand vacuum pump before first dive of the week and after any opening, per SOP-MR-002. Vacuum testing (rather than pressure) is the hobby-standard method: pulling a partial vacuum stresses every seal in the same direction water pressure will, and a held vacuum is a held hull.
+> **Trade Hack** — Epoxy a 30 mm mild-steel washer inside the bow and stern of every non-ferrous hull in the marine fleet during commissioning. It costs nothing, is invisible, and turns every future magnet-rig recovery from a 20-minute dredge into a 2-minute lift.
 
 ---
 
-**SOP-MR-002 — Submarine watertight-cylinder vacuum leak test**
+## 6. Pond & Harbour Design
 
-| | |
+### 6.1 The two-pond strategy
+
+One pond cannot serve both programs. Scale harbour work needs calm, clear, shallow water with hard vertical edges; fast-electric needs length, fetch-managed open water and energy-absorbing banks. Mixing them costs both: wake ruins docking and turbidity ruins the viewing window, while a harbour full of quay furniture leaves no racing line. The division therefore builds **two hydraulically independent ponds** sharing one plant room:
+
+| Parameter | Harbour pond | Speed pond |
+|---|---|---|
+| Plan dimensions | **30 × 18 m** (540 m² water) | **60 × 25 m** (1,500 m² water) |
+| Shape | Rectangular basin with quay walls, one soft corner | Rounded-rectangle "stadium" plan matching the oval course |
+| General depth | 400–500 mm | 500–600 mm |
+| Special depth | **Submarine bay 1.5 m deep, 6 × 4 m**, baffled off the basin | None (uniform) |
+| Edge treatment | Vertical concrete-block quay walls, fendered berths, timber-capped | Concrete edge beam + rip-rap on straights; cobble wave beach at downwind end |
+| Water volume | ≈ 250 m³ (incl. bay) | ≈ 820 m³ |
+| Programs | Scale harbour, sail (shared, scheduled), submarines | Fast electric, retrieval training |
+
+Depth doctrine: **400–600 mm** is the working band across both ponds. It is deep enough that keels, rudders and water pickups never ground, deep enough to stay cool and resist algal soup, but shallow enough that a staff member in waders can walk every square metre — which converts asset recovery, buoy maintenance and liner inspection from a diving problem into a housekeeping task. The sole exception is the submarine bay, whose 1.5 m depth exists to give static divers a genuine water column under the viewing window.
+
+### 6.2 Ground works and structure
+
+- Cut/fill balanced excavation into the site's 2–4% natural grade; the harbour pond floor is laser-screeded to ±20 mm, falling gently to a **silt sump** at the deepest corner where the bottom drain sits.
+- Quay walls are **hollow concrete block on a strip footing, rendered**, built *inside* the liner line with the liner dressed up behind them — the liner does the waterproofing, the wall does the shape and the abuse-taking. Timber capping gives the quays their port character and a warm edge for leaning customers.
+- The submarine bay is a **cast concrete box** (the acrylic window demands a rigid, crack-free frame), waterproofed with a cementitious tanking slurry and mechanically joined to the EPDM of the main basin with a clamped, sealed flange detail — the one genuinely specialist joint in the build, executed by the liner supplier's approved installer.
+
+### 6.3 Liner selection: EPDM versus concrete
+
+| Criterion | 45–60 mil EPDM rubber | Reinforced concrete throughout |
+|---|---|---|
+| Material cost | ≈ $8–22 /m² (45 mil ≈ $12–17 /m² typical 2026) + underlayment $3–4 /m² | ≈ $500–1,400 /m² installed for structural water-retaining work |
+| Life | 20–30 years typical; 40+ with underlayment and covered edges | 50+ years, **if** it doesn't crack |
+| Freeze–thaw / ground movement | Flexes, unaffected | Principal failure mode; needs joints, sealants, maintenance |
+| Repair | Patch kit, same-day, ≈ $20 | Saw-cut, resin injection, specialist |
+| Fish/plant safe | Yes (standard for koi ponds) | Needs curing washdown/sealer |
+| Verdict | **Selected for both pond bodies** | Used only where structure is needed: quay footings, sub bay, plant chambers |
+
+The hybrid — **EPDM membrane basins with concrete structures standing inside them** — is standard best practice in commercial water-feature construction and gives the park concrete's shape-making where it matters and rubber's forgiveness everywhere else. Underlayment is non-negotiable: 300 g/m² (8–10 oz) non-woven geotextile under every square metre of liner, carried up behind walls, per liner-industry practice.
+
+> **Trade Hack** — Order the EPDM as few, huge factory panels rather than many small ones: field seams are the only part of a rubber pond that ever fails young. A 30 × 18 m basin can be lined with two factory panels and one taped seam if the supplier is told the panel plan at quotation time.
+
+### 6.4 Filtration, skimmers and turnover
+
+The clarity standard is set by the submarine window, and clarity is bought with turnover, mechanical filtration and UV:
+
+- **Turnover**: harbour pond full volume every **4 hours** (≈ 62 m³/h duty); speed pond every **8 hours** (≈ 100 m³/h) — the speed pond needs less biology-fighting because wake aeration suppresses stratification, but more leaf/silt handling.
+- **Intake**: floating-weir **skimmers** (4 on the harbour pond, 6 on the speed pond) take the top millimetre — where pollen, dust, leaves and sunscreen film travel — plus one bottom drain per silt sump.
+- **Plant**: a shared plant room between the ponds houses drum or bead **mechanical filters**, a pumped **UV clarifier** loop sized for the harbour pond (algae bloom prevention; the window bay water passes the UV bank every cycle), and low-head, high-flow pumps (≈ 1.2–1.8 kW total connected load — small ponds reward oversized pipe and low-speed pumps).
+- **Make-up water**: municipal top-up through an air-gap break tank; evaporation in a warm summer month can run 100–150 mm across both ponds (≈ 25–30 m³), which is a budget line, not a surprise.
+- **No fish, minimal planting** in the operating basins: fish waste is a clarity tax, and planted margins tangle props. Planting lives in a separate ornamental margin strip outside the operating water, sharing the look but not the water body.
+
+**Worked example — harbour-pond pump sizing.** Volume ≈ 250 m³; target turnover 4 h → duty flow Q = 250 ÷ 4 = **62.5 m³/h (≈ 17.4 L/s)**. Head: static lift skimmer-to-filter ≈ 0.8 m; friction in 40 m of 110 mm PVC at 17.4 L/s ≈ 1.8 m/s velocity → ≈ 2.6 m friction loss (Hazen-Williams, C=150, incl. fittings at +30%); filter and UV pressure drop ≈ 2.5 m → **total dynamic head ≈ 5.9 m**. Hydraulic power = ρgQH = 1000 × 9.81 × 0.0174 × 5.9 ≈ **1.0 kW**; at 65% wire-to-water efficiency, a **1.5 kW low-head circulation pump** (or two 0.75 kW units for redundancy — preferred) carries the duty. Two smaller pumps also allow a half-flow night/winter economy mode, cutting the plant's annual energy cost by roughly a third. The speed pond's 100 m³/h loop is sized identically and shares the plant room but not the water.
+
+### 6.5 Wind fetch and shelter
+
+Fetch — the open-water distance wind blows across — sets wave height, and on the speed pond 60 m of fetch in a 10 m/s blow builds genuine chop. Design responses:
+
+- The speed pond's **long axis is set across, not along, the prevailing wind** where the site plan allows (final orientation is resolved with Volume 11's master plan), trading a little racing headwind for much shorter effective fetch.
+- The harbour pond hides behind the marina hut, quay canopy and a 2.5–3 m evergreen shelter belt on the windward side — solid-enough shelter is appropriate here because the harbour doesn't need wind, unlike the sail area (§4.2), which gets a deliberately open, low-planted windward shore.
+- The wave beach (§3.5) sits at the downwind end of the speed pond where wind-driven and wake energy both arrive.
+
+### 6.6 Retrieval fleet and recovery tools
+
+- **Retrieval tug**: one dedicated, staff-only workboat (a third Heng Long 3810 hull, stripped of scale detail, fitted with a bow push-pad, a towing horn and a Heavy-Node) lives on permanent standby at the marina hut. Dead rental boats are towed in by staff — or, in the marine version of the **Tow-Truck Retrieval Protocol**, by the customer under harbour-master supervision, converting the breakdown into gameplay exactly as the land divisions do.
+- **Reach poles**: 4 m telescopic poles with interchangeable hook, net and magnet heads, racked at four stations around each pond (they double as the safety reach poles, §6.8).
+- **Magnet and hook rigs** per SOP M-05 (§5.6).
+- **Waders and a throw line** at the marina hut complete the recovery kit; total tooling budget ≈ $600.
+
+### 6.7 Winter and algae management
+
+- **Algae**: the UV clarifier loop plus 4-hour turnover prevents green-water blooms; string algae on warm quay walls is brushed weekly in season (checklist, Chapter 7). No algaecides in the operating water — they foam under prop wash and cloud the window bay.
+- **Leaf season**: skimmer baskets emptied daily; a seasonal leaf net over the harbour pond's soft corner cuts the load by half.
+- **Winter (temperate site assumption)**: the ponds do not close, they *slow* — scale harbour and sail run on fair winter days (marine is the park's soft-weather division), while FE rental pauses below ~5 °C when LiPo sag and customer appetite both fade. Pumps run continuously to keep water moving; in hard-freeze climates an air-bubble de-icer keeps the skimmer throats open, and the franchise localization annex (Volume 12) handles full winterization for cold-market sites.
+
+### 6.8 Safety barriers, water depth and public protection
+
+Water is the park's only drowning hazard and is treated with layered controls despite the shallow design depth:
+
+1. **Barrier line**: a 1.1 m post-and-rail balustrade with mesh infill runs wherever the public can approach water deeper than 300 mm, broken only at the supervised landing stages and the viewing window bay. The quay edge zones inside the barrier are staff/supervised-customer areas.
+2. **Depth honesty**: 400–600 mm of water is a genuine hazard only to unsupervised toddlers — which is exactly who theme parks host. The barrier rule is therefore absolute, and the landing stages have self-closing gates.
+3. **Reach poles and throw line** stationed per §6.6; all marine staff hold basic water-rescue awareness training; the marina hut holds the division first-aid kit.
+4. **Staff water entry** only in waders, only two-on-site, never during public sessions except emergency (SOP M-05).
+5. **Electrical**: every mains circuit serving the ponds (pumps, UV, lighting, crane) is on 30 mA RCD protection with equipotential bonding of quay metalwork, per wet-location electrical code; the plant room is lockable and the ponds carry no mains equipment below water except the bonded, double-insulated pump intakes.
+6. **Lightning**: 30/30 rule — thunder within 30 s of flash closes all water for 30 minutes, same doctrine as the Aviation Division (Volume 5).
+
+> **Safety Warning** — The single most dangerous object in this division is not a boat: it is a **spinning FE propeller in a boat being carried**. A 2300 Kv outrunner that bumps to full throttle in someone's hands will cut to the bone. Division law: transmitter throttle-locked and hull cradled prop-outward for every carry; boats are armed only on the stand at the landing stage, facing open water.
+
+### 6.9 Pond complex capex summary
+
+| Item | Estimate |
 |---|---|
-| **SOP ID / Rev** | SOP-MR-002 · Rev 1.1 · July 2026 |
-| **Owner** | Marine Division Lead |
-| **Performed by** | Marine-endorsed Artisan |
-| **Frequency** | Before first dive of each operating week; after any cylinder opening; after any grounding/collision |
-| **PPE** | Safety glasses (spring-loaded test fittings) |
-| **Tools** | Hand vacuum pump with gauge (Mityvac class), test cap for charge port, silicone grease, loupe, green/red test tags, RC WORLD OS maintenance log |
+| Excavation, grading, compaction (both ponds) | $28,000 |
+| EPDM liner + underlayment, supplied & installed (~2,600 m² incl. walls/overlap) | $52,000 |
+| Quay walls, footings, timber capping, fendered berths | $34,000 |
+| Submarine bay (cast box, tanking, acrylic window, frame) | $18,000 |
+| Filtration plant, UV, pipework, skimmers, drains, plant room fit-out | $38,000 |
+| Edges: rip-rap, wave beach, paths, balustrade | $22,000 |
+| Marina hut, quay canopy, landing stages, course buoys & ground tackle | $14,000 |
+| Contingency (~10%) | $6,000 |
+| **Pond complex total** | **≈ $212,000** |
 
-1. Remove the watertight cylinder (WTC) from the hull; visually inspect every O-ring land under the loupe. Clean and re-grease any ring you disturb; replace any ring with nicks, flats or set.
-2. Close the WTC exactly as it runs (all hatches, plugs and linkages in running positions). Fit the vacuum test cap to the charge/test port.
-3. Pull vacuum slowly to **−0.3 bar** (−9 inHg). Do not exceed −0.4 bar: excessive vacuum can unseat lip seals inward and create the leak you are testing for.
-4. Isolate the pump. Watch the gauge for **5 minutes**. Pass criterion: pressure rise ≤ 0.02 bar over 5 minutes.
-5. If it fails: re-pull vacuum and probe each seal in turn — wet a fingertip of soapy water around each land and watch for the gauge to steady when you occlude the leak path; or listen with tubing as a stethoscope. Rectify (usually a hair on an O-ring or a loose pushrod seal), then retest from step 3.
-6. On pass: release vacuum *slowly* through the pump valve, remove the test cap, refit the charge-port plug with fresh grease.
-7. Tag the sail **green** with date and initials; log the test (pass/fail, seals replaced) in RC WORLD OS. A red-tagged or out-of-date boat does not enter the water — no exceptions, including staff demos.
+This sits inside the Phase 2 envelope of ≈ $1.15 M alongside the Aviation Division's netted airfield (Volume 5) and the F&B/retail expansion; Volume 10 carries the consolidated schedule.
 
 ---
 
-## 7. Boat maintenance & marine engineering doctrine
+## 7. Boat Maintenance
 
-The land divisions' maintenance doctrine (Volume 7) assumes dust, impacts and stripped gears. Water replaces most of that with a single patient enemy: **moisture** — in connectors, in bearings, in foam, under coatings. Marine maintenance is therefore built around one non-negotiable rhythm: *every hull that touches the pond gets flushed, dried and inspected before it goes back on the rack.* Everything else in this chapter hangs off that rhythm.
+### 7.1 Why water rewrites the maintenance manual
 
-### 7.1 Post-session flush & dry workflow
+The land fleet's enemies are impact and dust. The marine fleet's enemies are **ingress, corrosion and galvanic decay** — slow, invisible, and fatal to electronics. Volume 7 carries the park-wide workshop doctrine; this chapter defines the marine-specific regime layered on top of it. Three principles govern:
 
----
+1. **Every boat is assumed wet inside until proven dry.** Water finds a way; the regime is built around detecting it early, not preventing it perfectly.
+2. **Water-side wear parts are consumables, not repairs.** Flex shafts, prop-shaft seals, stuffing-box grease, sacrificial hardware — replaced on schedule, never run to failure.
+3. **Electronics are conformal-coated at commissioning, per park doctrine.** The mandatory acrylic/epoxy conformal coating specified for every RCW Node PCBA is extended in this division to every receiver and ESC board edge the factory left exposed, plus dielectric grease in every connector.
 
-**SOP-MR-001 — Post-session flush, dry & stow (all surface vessels)**
+### 7.2 The post-session flush and dry-out
 
-| | |
-|---|---|
-| **SOP ID / Rev** | SOP-MR-001 · Rev 1.1 · July 2026 |
-| **Owner** | Marine Division Lead |
-| **Performed by** | Duty Artisan (fleet room wet bench) |
-| **Frequency** | Every vessel, every session return; steps 6–8 end-of-day |
-| **PPE** | None specific; nitrile gloves for grease steps |
-| **Tools** | Wet bench with fresh-water rinse, flush syringe/squeeze bottle, low-pressure air (< 2 bar), microfibre cloths, silicone/marine grease, corrosion-inhibitor spray (non-conductive), hull stands, RC WORLD OS scanner |
+> **SOP M-20 — Marine end-of-day service** · Rev 1.0 · Owner: Marine Artisan · PPE: nitrile gloves · Tools: fresh-water wash bottle, air line (low pressure), grease gun, fleet tablet · Frequency: daily, every boat that touched water
 
-1. Scan the hull's asset QR into the wet bench station; the RC WORLD OS work card shows the vessel's Shift count and any open flags.
-2. Remove the battery **first**, inspect it (§7.5), and route it to the charging bunker on its rack — packs never dry-dock inside hulls.
-3. Rinse the exterior hull, prop and rudder with fresh water; wipe down. On fast electrics, back-flush the water-cooling loop with the syringe until the tell-tale runs clear both directions.
-4. Open the radio box/hatch. Sponge and cloth any bilge water; note the amount in the log — *a wet bilge is data*: more than a tablespoon means a seal, stuffing box or hatch is telling you something, and the hull gets an orange "investigate" flag.
-5. Blow connectors and switch gear with low-pressure air; a light film of corrosion-inhibitor on exposed metal connector shells (never inside signal connectors on the pin faces).
-6. Prop shaft: two pumps of marine grease into the stuffing-tube grease port (or tube withdrawal service if due per the PM matrix, §7.3).
-7. Leave hatches open on the drying rack overnight — hulls stow *open and empty*, bow down so any missed water finds the drain hole, in a ventilated fleet room (a sealed damp hull grows corrosion and mildew in a week).
-8. Close out the work card: bilge observation, cooling-loop status, any damage; RC WORLD OS auto-schedules PM items by Shift count.
+1. Rinse hull exterior and running gear with fresh tap water (pond water is clean, but the habit matters — event hires off-site will not be).
+2. **Flush cooling loops** (FE boats): squeeze fresh water through inlet-to-outlet until it runs clear; blow residual water out with low-pressure air. A blocked outlet found now is a saved ESC tomorrow.
+3. Open every hatch and radio box; boats dry overnight **open**, on their stands, bow-up so bilge water finds the drain point.
+4. Tilt-test and inspect: any moisture in a radio box → dry, identify the ingress path (hatch seal, antenna exit, pushrod boot), fix before reissue.
+5. Wipe prop shafts and rudder pivots with a lightly oiled cloth (corrosion film prevention).
+6. Log completion per hull in RC WORLD OS; the system blocks next-day issue of any boat without a closed M-20 entry.
 
----
+### 7.3 Drivetrain: stuffing boxes and flex shafts
 
-### 7.2 Waterproofing electronics
+The FE drivetrain is the division's highest-wear system. The flexible shaft runs inside a brass **stuffing tube** whose grease does three jobs: lubrication, vibration damping and — critically — **water sealing**, because the stuffing box is a deliberate slow-leak point that grease plugs.
 
-Rental marine electronics are protected in layers, cheapest first:
+- **Weekly (or every ~10 run-hours)**: pull each FE flex shaft; wipe old grease; inspect for kinked strands, bright wear bands or "birdcaging"; re-grease with marine-grade water-resistant grease (a $12 tube services the fleet for a season); reinstall with correct end-float (the shaft must not bottom in the coupler — 1–2 mm float, or it walks forward under load and eats the prop-shaft/strut interface).
+- **Replace on condition or 100 run-hours**, whichever first. A flex shaft is a $10–18 part; a snapped one at speed usually holes nothing but always ends the Shift and sometimes whips the stuffing tube oval.
+- **Scale boats** (fixed prop shafts): monthly shaft pull, grease, and check of the prop-shaft bushings for slop; a clacking shaft on a tug is bushing wear announcing itself.
 
-- **Conformal coating** (park canon for all RCW Nodes, extended here to receiver and ESC boards): acrylic spray on every PCB in the marine fleet, masked at connectors. This is the difference between "splashed" and "dead."
-- **Balloons over receivers:** the classic club trick, adopted as fleet standard on scale and fast hulls — the receiver goes inside a party balloon (or two, staggered), neck zip-tied around the loomed leads. Costs cents, survives full immersion, and is replaced at every PM because balloons perish. Antennas route up masts or inside plastic tubes above deck level.
-- **Grease tubes / stuffing boxes:** the prop shaft runs in a grease-packed stuffing tube (§7.3) — the grease *is* the water seal.
-- **Elevation and drainage:** ESCs and receivers mount on standoffs above the bilge floor; every hull has a lowest-point drain screw so the drying rack actually drains.
-- **Switches:** mechanical switches are mounted under rubber boots or replaced by magnetic/reed switches through the hull wall — every hole not drilled is a leak that never happens.
+### 7.4 Radio-box waterproofing and corrosion control
 
-> **Trade Hack** — Put a folded strip of water-indicating paper (or a cheap moisture-alarm sticker) on the floor of every radio box. At flush-down the Artisan doesn't have to judge "was this wet?" — the sticker already voted, and it costs two cents.
+- **Radio boxes** on FE boats are sealed at commissioning: lid gasket checked, pushrod exits fitted with rubber bellows boots, antenna exit sealed with a dab of neutral-cure silicone, and a **fresh silica-gel sachet** placed inside at every weekly service (the sachet is also the moisture tell-tale — a colour-changed sachet means the box breathed water even if none pooled).
+- **Connectors**: XT60s and servo plugs get dielectric grease; any connector that has been submerged is flushed with isopropyl alcohol, dried and re-greased — the failure is never the dunking, it is the green crust three weeks later.
+- **Galvanic pairs**: stainless prop shafts in brass tubes with aluminium struts form classic galvanic cells. Doctrine: rinse (SOP M-20), oil-film wipe, and inspect the strut for white aluminium-oxide bloom monthly. On the two 8S show boats, a small zinc/magnesium **sacrificial pencil anode** on the strut is cheap insurance.
+- **Ferrous fasteners are banned** from the marine fleet; replacements are stainless A2 or better from The Works' standard stock (Volume 7).
 
-### 7.3 Prop shaft & stuffing box service
-
-The stuffing box — the brass tube the prop shaft spins in — is the highest-frequency wear item on every powered hull and the most common leak path. Service doctrine:
-
-- **Grease charge every session day** (SOP-MR-001 step 6) via the grease port: marine/lithium grease pushed until clean grease shows at the outer bearing. The grease excludes water, lubricates, and quiets the driveline.
-- **Withdrawal service every 25 running hours** (PM matrix): shaft out; tube swabbed; shaft inspected for scoring and straightness (rolled on glass); new grease pack; prop nut and drive-dog checked for thread condition; universal/flex coupling inspected for frayed strands (flex-cable boats) — a fraying cable is replaced immediately, because it fails as a thrown blade inside the hull.
-- **Alignment:** any hull with a new motor mount or after a hard grounding gets a shaft-alignment check — misalignment shows as a warm coupler and a humming hull, and it eats bearings monthly until fixed.
-
-### 7.4 Hull repair
+### 7.5 Hull repair: ABS and fiberglass
 
 | Hull material | Fleet examples | Field repair | Workshop repair |
 |---|---|---|---|
-| **ABS** (blow/vac-formed) | Heng Long tugs, Vector monos, dynamic sub | Quay-side: clean, dry, tape patch to finish the day | Plastic-weld or solvent-cement ABS donor patch inside the hull; CA + baking-soda fill for gouges; never polyester resin (it doesn't bond ABS) |
-| **Fiberglass/GRP** | TFL race hull, flagship tug, static sub kit | Tape patch | Grind back, epoxy + glass cloth inside, fair, spot gelcoat; epoxy preferred over polyester for secondary bonds |
-| **Foam/EPP** (trainer inserts, buoy hardware) | Course marks, flotation blocks | — | Foam-safe CA / epoxy; replace rather than repair below 80% integrity |
-| **Marine ply** (Springer push boats, barges) | Push fleet | Tape patch | Epoxy-saturated repair, re-seal entire bilge annually |
+| **ABS** (vacuum-formed/blow-moulded) | Heng Long tugs, Volantex SR80, DF65, Recoil/Sonicwake canopies | Crack-stop drill + ABS cement (solvent weld) inside; tape outside; return to service same day | Solvent-weld ABS backing plate inside; fill, sand, respray. ABS glues to itself chemically — repairs are as strong as parent material |
+| **Fiberglass/FRP** | TFL-class race hulls, Arkmodel cargo ship, premium builds | Tape and retire from water that day (glass cracks wick water into the laminate) | Grind back 20:1 scarf, wet-lay glass cloth + epoxy, fair, paint; 24 h cure minimum |
 
-Every repair is logged with photos in RC WORLD OS `maintenance_logs`; a hull with three water-ingress repairs in a season is escalated for retirement-vs-rebuild review (the same fleet-economics rule the Motorsport Division applies to bent chassis).
+Hull integrity is checked by the tilt/slosh test daily and by an annual **bathtub soak test** (loaded hull sits in the test tank for 30 minutes; interior inspected) during winter overhaul.
 
-### 7.5 Battery handling on water
+### 7.6 Prop balancing and running-gear tune
 
-LiPo doctrine is park canon (3.4–4.2 V/cell window, 3:1 packs-per-vessel, bunkered charging, XT60). Water adds two aggravations that get their own rules:
-
-- **A LiPo in a hull is a fire risk *and* a sinking risk.** A swamped pack can short and vent; a venting pack in a closed hull is a floating incident. Rules: packs mount in a strapped tray above expected bilge level; hulls carry closed-cell foam flotation sized so that *hull + flooded bilge + pack* still floats awash (fitted at upfit, §3.1); any pack recovered from a swamped hull is quarantined in the sand bucket at the marina charging annex for 24 h regardless of appearance, then discharge-tested before it may rejoin the pool — a soaked pack that "seems fine" is the classic delayed-fire story.
-- **Charging happens in the charging annex, never in hulls, never on the quay.** The marina annex is a satellite of the main charging bunker, built to the same cinderblock/sand standard (Volume 7), with the same smart balance chargers and the same storage-charge (3.8 V/cell) end-of-day rule.
-
-> **Safety Warning** — A swollen, hot or swamped LiPo goes into the sand bucket *outdoors*, not into a bin and not onto a bench. The marina annex keeps a dedicated LiPo-fire bucket and a Class D-capable extinguishing plan per the park fire doctrine (Volume 7). Water on a lithium fire is for cooling surroundings, not extinguishing the pack.
-
-### 7.6 Corrosion control
-
-Fresh water is kind compared to salt, but a season is long: strategy is **sacrifice, film, and rotation**. Dissimilar-metal pairs (brass shaft in aluminium strut) get isolated with plastic bushings or a smear of lanolin grease; exposed steel fasteners are replaced with A2 stainless at first rust bloom; connector shells get the inhibitor film at every flush-down (§7.1); and hulls rotate through a monthly "deep dry" week where they sit out of service in the drying room — the cheapest corrosion program is simply guaranteed dry time.
+Out-of-balance props are the hidden tax on the whole drivetrain: vibration wears stuffing boxes, blurs radio boxes' seals, and on FE boats costs real speed. Every metal prop is **balanced on a magnetic prop balancer** (≈ $25 tool) at commissioning and after any strike: sharpen/dress the blades with a fine file, remove burrs, balance by sanding the heavy blade's back face, then polish. Plastic scale props are replaced, not dressed. Rudders and turn fins are checked square and sharp-edged monthly; a nicked turn fin on a cat is a handling fault customers will report as "the boat pulls".
 
 ### 7.7 Preventive-maintenance matrix
 
-Intervals in Shifts (20-min blocks) or running hours as metered by RCW Node session logs:
-
-| Task | Scale tugs/push | Fast electric | Sail | Submarines |
+| Task | Daily (per session day) | Weekly | Monthly | Season/annual |
 |---|---|---|---|---|
-| Flush, dry, bilge check (SOP-MR-001) | Every session | Every session | Rinse + dry daily | Every session |
-| Stuffing-tube grease charge | Session day | Session day | — | Session day |
-| Cooling-loop back-flush | — | Every session | — | — |
-| Prop inspect/balance | 25 Shifts | 10 Shifts | — | 25 Shifts |
-| Shaft withdrawal service | 25 h | 15 h | — | 25 h |
-| Receiver balloon + moisture sticker renewal | 50 Shifts | 25 Shifts | 50 Shifts | Every cylinder opening |
-| Rudder/pushrod seals & linkages | 50 Shifts | 25 Shifts | 25 Shifts (sheet exit) | Per SOP-MR-002 |
-| Winch line, rig fittings, bulb torque | — | — | 25 Shifts | — |
-| Vacuum leak test (SOP-MR-002) | — | — | — | Weekly + any opening |
-| Hatch/O-ring renewal | Season | Season | Season | Season or 50 h |
-| Full strip inspection & report | Season | Half-season | Season | Half-season |
+| SOP M-20 flush & dry-out | ● | | | |
+| Cooling-loop flow check (FE, at issue) | ● | | | |
+| Hatch/radio-box seal visual | ● | | | |
+| Battery rotation & voltage log (3:1, park canon) | ● | | | |
+| Flex-shaft pull, inspect, re-grease | | ● | | |
+| Silica-gel sachet swap | | ● | | |
+| Rigging & sail inspection (DF65/95) | | ● | | |
+| Quay-wall algae brush, skimmer baskets | ● (baskets) | ● (walls) | | |
+| Prop condition & balance check | | | ● | |
+| Scale-boat shaft pull & bushing check | | | ● | |
+| Rudder/strut fastener torque & anode check | | | ● | |
+| Ballast-system service (subs: piston seals, pump, failsafe test) | | | ● | |
+| Bathtub soak test, full strip, respray as needed | | | | ● |
+| ESC/receiver conformal-coat inspection & renewal | | | | ● |
+| Liner/quay underwater inspection (waders, closed day) | | | | ● |
 
-### 7.8 Marine spares inventory (permanent stock)
+### 7.8 Failure-mode table (marine FMEA extract)
 
-Mirrors the park's high-turnover spares doctrine (Volume 8 carries suppliers and reorder points):
-
-- **Continuous:** props (each class, ±1 size), prop nuts & drive dogs, flex cables & couplers, stuffing tubes & bushings, O-ring assortment (metric, nitrile + silicone), silicone & marine grease, balloons, moisture stickers, silicone cooling tube, XT60s, servo horns, rigging line & bowsies (DF classes), sail winch drums.
-- **High:** rudder assemblies, turn fins, 40 g metal-gear servos, DF-class sails (A & B rigs), 380/540 brushed motors, brushless ESC (60 A water-cooled), receiver units, hatch seals.
-- **Medium:** brushless motors (3536-class), sail winch servos (DF 2025-spec), Kort nozzle assemblies, barge couplings & magnets, monitor pump (fireboat), WTC seal kits (sub), keel bulbs & fin boxes.
-- **Hold one:** complete Vector SR80 hull, complete DF65 hull + rig, spare WTC (sub), rescue-tug drivetrain — the "bad Saturday" kit that keeps every program alive through its worst single failure.
-
-### 7.9 Pre-launch checklist (all rentals)
-
-**CHK-MR-02 — Vessel pre-launch** (issuing Artisan, at handover, every Shift):
-
-- [ ] Asset QR scanned; RC WORLD OS shows green (no open flags, PM current)
-- [ ] Battery: charged pack fitted, strap closed, connector fully home; hatch/radio box sealed
-- [ ] Transmitter bound, controls correct-sense; throttle cut verified (powered hulls)
-- [ ] Rudder throw free lock-to-lock; winch runs full throw (sail)
-- [ ] Cooling tell-tale streams within 5 s at the beach (fast electric)
-- [ ] Prop secure, no dings; turn fin straight (fast electric)
-- [ ] Rig correct for posted wind band; bowsies snug (sail)
-- [ ] Green vacuum tag in date; tether + float fitted (submarine — plus full CHK-MR-04)
-- [ ] Customer holds current Toolbox Talk marine module; license tier matches vessel class
-- [ ] Zone assignment confirmed against the day board (harbour / open water / sub basin)
-
-## 8. Fleet plan & procurement
-
-### 8.1 The 24-vessel composition
-
-The canonical ~24 powered vessels, with July-2026-verified model anchors and wholesale (direct-from-China, EXW/FOB band) costs. Retail comparisons are street prices at Western hobby retailers; Volume 8 carries supplier vetting, QC and import detail.
-
-| # | Program | Vessel | Model anchor (verified 2026) | Scale/LOA | Wholesale est. | Retail ref. | Duty rating |
-|---|---|---|---|---|---|---|---|
-| 4 | Scale | Rental harbour tug | Heng Long HL3810 seaport tug | 1/50 · 600 mm | $55–75 | $90–130 | Heavy — 10+ Shifts/day |
-| 1 | Scale | Fireboat (monitor upfit) | HL3810 base + pump/monitor kit | 1/50 · 600 mm | $75–110 upfitted | — | Heavy (premium Shifts) |
-| 2 | Scale | Push boat | Springer-pattern, Works-built | ~1/32 · 460 mm | $90–130 built | — | Heavy |
-| 1 | Scale | Rescue tug | Springer + push-bow/bridle | ~1/32 · 460 mm | $110–150 built | — | Protocol duty |
-| 1 | Scale | Flagship ASD tug | Kit build (wood/GRP kit class) | ~1/25 · 900 mm | $450–700 built | kits $250–600 | Display/premium only |
-| 3 | Fast | FE-1 trainer mono | Volantex Vector SR65/SR48 class | 450–650 mm | $45–80 | $60–110 | Heavy — capped 25 km/h |
-| 2 | Fast | FE-2 sport mono | Volantex Vector SR80 (self-righting) | 800 mm | $95–125 (PNP) | $135–200 | Medium — licensed |
-| 1 | Fast | FE-3 vee | Feilun FT011 class (brushless, cooled) | 650 mm | $70–90 | $100–120 | Medium — supervised |
-| 1 | Fast | FE-X display | TFL Hobby GRP race mono/hydro | 650–800 mm | $220–350 | $300–450 | Staff demo only |
-| 5 | Sail | School/regatta fleet | Joysway DragonForce 65 V8 (RTR) | 650 mm | $160–210 | $250–420 | Heavy |
-| 1 | Sail | Flagship yacht | Joysway DragonFlite 95 V3 | 950 mm | $330–420 | $515–665 | Premium supervised |
-| 1 | Sub | Dynamic diver | ABS dynamic RTR class (CN suppliers) | 350–450 mm | $60–120 | $80–150 | Medium — tethered |
-| 1 | Sub | Static diver | Arkmodel-class kit build, piston ballast | 1/48 · ~700 mm | $450–750 built | kits $300–600 | Premium supervised |
-| **24** | | **Powered total** | | | **≈ $3,600–5,400** | | |
-
-Unpowered (not counted): 7 barges (§3.2, ~$450 materials), 6 course buoys, wreck-field dressing (~$250).
-
-**Total marine fleet capex ≈ $6,500–9,500** including batteries at the canonical 3:1 ratio (~$900: mostly small 2S/3S packs), upfits (flotation foam, Nodes, balloons, XT60 conversion ~$40/hull average), and the §7.8 opening spares stock (~$1,200). This is the cheapest fleet per Shift-of-capacity in the park — the division's capital lives in the pond (§1.1 Investor Note).
-
-### 8.2 Supplier notes (verify at order time — Volume 8 process applies)
-
-- **Heng Long (Shantou):** HL3810 tug widely stocked worldwide; order the spares kit (props, Kort nozzle, rudder) at 20% of hull count. Confirm current-production radio is bind-compatible with park transmitter standard or plan receiver swaps at upfit.
-- **Volantex/Exhobby (marine line):** Vector series confirmed in production 2026 with PNP/ARTR options — buy **PNP** (no radio) and fit park-standard receivers; self-righting confirmed on SR48/SR65/SR80. Stock hulls are ABS unibody; crash spares are cheap and listed.
-- **Feilun:** FT011 remains the value brushless vee; QC variance on shaft alignment is the known issue — inspect on arrival per Volume 8 incoming-QC.
-- **Joysway:** licensed builder of the DF classes; buy through the class-authorized channel to keep boats class-legal (restricted-class status is a marketing asset, §5.1). Current versions DF65 **V8**, DF95 **V3**; 2025-revision winch servo is the serviceable spare to stock.
-- **TFL Hobby:** GRP hulls and the park's marine hardware source (struts, stingers, shafts, couplers, monitors).
-- **Arkmodel:** the established Chinese submarine-kit house; piston-ballast WTC kits are the park-preferred architecture (§6.1).
-
-> **Investor Note** — Fleet risk is negligible and diversified: no single vessel exceeds ~$750 built, the two most expensive boats are staff-operated, and every rental class has at least one complete spare hull or a same-day rebuild path from stock (§7.8). The asset that cannot be replaced quickly is the pond — which is why Chapter 2 is the longest chapter in this volume.
-
-## 9. Operations, events, revenue & KPIs
-
-### 9.1 Daily operating pattern and capacity
-
-The division runs from the marina building with a standing crew of **two** (one marine-endorsed Artisan on the wet bench and fleet, one harbour master / customer host on the console and briefings), flexing to three on event days. Concurrent customer stations at full pattern:
-
-| Zone | Stations | Notes |
-|---|---|---|
-| Harbour basin | 5 (3 tugs/push + fireboat + crane console) | Continuous, all wind bands ≤ 8 m/s |
-| Open water — sail block | 5 DF65 (+1 DF95 supervised) | Time-shared with fast block |
-| Open water — fast block | 3 (FE-1 ×2 + one FE-2/FE-3) | Time-shared; marshal = harbour master |
-| Sub basin | 1 (2 on event days) | Supervised, premium |
-
-Practical pattern: ~11 concurrent stations, ~2.5 Shift turns/station/hour allowing briefing and turnover → ≈ **27 Shift-sales/hour at saturation**; planning assumption for the revenue model is 30–40% average utilization across the operating day, weekday-weighted (Volume 10 carries the consolidated model; the division's Year-1-equivalent contribution target is $110–150 k of Shift revenue plus events, inside the park's canonical Year 3 ≈ $2.6 M trajectory as a Phase 2 addition).
-
-Session flow follows park canon end to end: Toolbox Talk marine module → QR bind at the marina POS → CHK-MR-02 handover → Shift with T-5 top-up offer per the live queue logic → return to the wet bench (SOP-MR-001). Breakdown on the water triggers the Rescue Tug Protocol:
+| Failure mode | Typical cause | Detection | Effect | Prevention / response |
+|---|---|---|---|---|
+| ESC burnout (FE) | Blocked/kinked cooling line | No tell-tale outlet stream at issue | Boat dead on water, $60–150 part | Daily flow check; flush per M-20; retrieve under yellow |
+| Flex-shaft snap | Grease neglect, strike-kinked strand | Vibration rising over sessions | Instant power loss; possible stuffing-tube damage | Weekly pull/grease; 100 h replacement |
+| Radio-box flood | Perished hatch seal, unbooted pushrod | Silica sachet colour; slosh test | Receiver/servo corrosion, delayed failure | Weekly seal check; conformal coating limits damage |
+| Stuffing-box leak | Grease washed out | Bilge water after session | Progressive flooding aft | Re-grease on schedule; grease is the seal |
+| Prop strike / thrown blade | Debris, buoy line contact | Audible; vibration | Imbalance cascade if run on | Line-free course discipline; balance after every strike |
+| Sail-winch servo failure (DF65) | Water in servo, load spikes in gusts | Sluggish sheeting | Boat unsailable, drifts downwind | Weekly rig check; B-rig above 5 m/s; retrieval tug |
+| Submarine fails to surface | Ballast jam, low battery under load | Auto-surface did not trigger | Sunk asset (recoverable) | Monthly ballast service; failsafe test; SOP M-05 |
+| Galvanic strut decay | Dissimilar metals, no rinse | White oxide bloom monthly check | Strut weakens, shaft misaligns | Rinse, oil film, anodes on 8S hulls |
+| Battery over-discharge on water | Customer ignores sag | RCW Node under-voltage alert | LiPo damage; boat dead mid-pond | Node kill-to-idle at 3.4 V/cell + harbour-master recall, park canon |
 
 ---
 
-**SOP-MR-003 — Rescue Tug Protocol (marine retrieval)**
+## 8. Marine Operations & Programs
 
-| | |
-|---|---|
-| **SOP ID / Rev** | SOP-MR-003 · Rev 1.1 · July 2026 |
-| **Owner** | Marine Division Lead |
-| **Performed by** | Harbour master (directs), customer (pilots), Artisan (backup) |
-| **Frequency** | On any dead, disabled or drifting vessel |
-| **PPE** | None (no water entry — that is the point) |
-| **Tools** | Rescue tug (charged, docked at rescue station), reach poles (backup), RC WORLD OS incident log |
+### 8.1 Session formats on the 20-minute Shift
 
-1. Vessel declared dead (no response, telemetry under-voltage kill, or visibly disabled). Harbour master pauses the customer's Shift clock in RC WORLD OS — retrieval time is never billed.
-2. Customer hands in their transmitter and receives the rescue tug's transmitter with a 15-second orientation ("push-bow forward, it steers like your tug").
-3. Customer pilots the rescue tug to the casualty and captures it: push-bow contact for hulls adrift, or the magnetic/Velcro tow bridle (harbour master talks them through the hook-on) for a tow.
-4. Casualty is brought to the rescue dock; Artisan lifts it clear, scans it, and routes it to the wet bench with an orange flag.
-5. Customer's Shift resumes immediately on a fresh vessel of the same class; the retrieval logs as gameplay (Gears credit for a clean tow — the friction point pays the customer).
-6. If the rescue tug cannot capture (fouled in a buoy line, aground on the beach shelf): reach pole from the nearest station. If beyond pole reach: two-person wading procedure per §2.8, customers kept behind the rail, incident logged.
-7. Any retrieval involving smoke, a hot pack or a swamped hull: battery quarantine per §7.5 before the vessel enters the fleet room.
+All marine products are sold in the park's canonical 20-minute Shift, with the ~30% battery buffer returned as per billing doctrine:
+
+| Product | Shift structure | Price (Year 1 canon) | Notes |
+|---|---|---|---|
+| Harbour Casual | 1 Shift, one vessel, missions from the harbour master | $15 | Entry product; tug or fire boat |
+| Harbour Operator | 2+ Shifts with pit-stop battery swap | $26 | Battery swap staged as a "crew change" at the landing stage |
+| Speed-pond Casual | 1 Shift, rental mono, buoy course + hot-lap gate | $15 | Throttle-managed fleet |
+| Speed-pond Premium | 1 Shift, Sonicwake 36/Blackjack 24 class, marshal present | $22 | Requires speed badge (Volume 9) |
+| Sail Casual / Match | 1 Shift, DF65; best-of-three match when paired | $15 | Highest-margin product on water |
+| **Submarine Piloting** | 1 Shift, static diver, instructor beside customer | $22 (premium) | Two customers per hour maximum; window + camera view |
+| Fire-boat Show slot | Scheduled demo, fire boat + monitor targets | Included / events | Also sold into birthday packages |
+
+The **harbour master** is the division's signature staff role: part air-traffic controller, part game master. One harbour master runs the harbour pond's traffic, missions and scoring from the marina hut console; the speed pond runs under a marshal during premium/race windows and under passive Node monitoring otherwise. Minimum marine staffing is two (harbour master + Artisan), matching the division's modest throughput.
+
+### 8.2 RCW Node adaptation for boats
+
+The land fleet's telemetry doctrine carries to water with three adaptations:
+
+- **Fit**: Micro-Node in the sealed radio box, conformal-coated per park canon, powered downstream of the main switch. GPS antenna under the ABS deck or canopy — plastic hulls are RF-transparent; the one placement rule is *never under a carbon or metallized deck*.
+- **GPS telemetry on water** is actually better than on land: no fences, walls or vehicle clutter, so position fixes are clean. Node reports position, speed and pack voltage over the park Wi-Fi mesh; the customer app shows a live harbour chart, and speed-pond hot laps are timed by geofence gates exactly as Track B laps are.
+- **Geofence as virtual harbour limits**: each pond's operating area is a Node geofence. Breach (a boat wedged behind a landing stage, or headed for the skimmer throat) triggers the standard PWM-intercept response — throttle to idle, alert to the harbour master — rather than a hard kill, because unlike a car, a killed boat is a stranded boat; idle-home keeps steerage. Under-voltage below 3.4 V/cell triggers the same throttle-to-idle plus a recall order, per park canon.
+- **The exception**: submarines run legacy low-band radio and carry no Node (2.4 GHz does not penetrate water, Chapter 5). Mitigation: one-at-a-time operation, instructor supervision, camera coverage and the auto-surface failsafe. This exception is documented here and must be honoured in Volume 13's fleet-coverage tables.
+
+### 8.3 Regattas and events
+
+- **Weekly club nights** (sail Wednesday, FE Friday): entry-fee racing under NAMBA/IMPBA-style heat rules (§3.4), building the resident community every division needs.
+- **Monthly Harbour Cup**: the five harbour challenges (§2.2) run as a scored gauntlet; leaderboard in the app.
+- **Quarterly regatta weekend**: invited hobby clubs bring their own boats (scrutineered: no IC/nitro, insurance-listed classes only, park frequencies respected) — the marine version of the Motorsport open meet, and a proven low-cost acquisition channel.
+- **Pit-to-Port corporate format** (from $1,400 / 2 h / 20 pax, park canon): teams rotate through excavator, dump truck, barge tug and quay crane stations; the scoring chain runs end-to-end through RC WORLD OS. This is the park's best demonstration that the divisions are one industrial system, not four attractions.
+- **Fire-boat shows** and **submarine windows** are scheduled spectacles (11:00 / 14:00 / 16:00) that cost almost nothing and anchor the terrace dwell.
+
+### 8.4 Badge tasks feeding the RC WORLD License
+
+The division contributes a marine ladder to the tiered license program (structure and rewards are Volume 9's canon; the tasks are defined here):
+
+- [ ] **Deckhand** — Toolbox Talk (marine module) passed; one clean harbour Shift, no barrier contacts
+- [ ] **Coxswain** — precision docking under 4 minutes with ≤ 1 fender touch; barge push completed
+- [ ] **Tug Master** — two-tug tanker assist as lead tug; container run with crane partner
+- [ ] **Race Skipper** — speed-pond license: 10 clean hot laps + heat finish without a buoy cut; unlocks premium FE hire
+- [ ] **Sail Grade 1–3** — laps of the windward-leeward course; match-race win; B-rig session above 5 m/s
+- [ ] **Submariner** (premium badge) — supervised static-diver Shift with a hover held ±0.2 m for 60 s at the window
+
+### 8.5 Weather-hold and emergency procedure
+
+> **SOP M-30 — Waterspace weather hold & emergency clear** · Rev 1.0 · Owner: Duty Manager · PPE: n/a · Tools: PA, harbour master console, anemometer feed · Frequency: as triggered
+
+1. **Wind**: at sustained 8 m/s, close scale harbour and sail rental (badge-holders on B-rig may continue at harbour master's discretion); at 10 m/s, close all water. RC WORLD OS pushes rebooking offers to affected Shifts automatically.
+2. **Lightning**: on the 30/30 trigger, sound the water-clear tone. All boats return at best speed; boats that cannot make the landing stage in 90 s are throttled to idle via Node and abandoned at their position — **staff do not remain at the water's edge to retrieve during a lightning hold**. Recovery after the all-clear.
+3. **Person in the water**: harbour master calls all-stop (fleet-wide throttle-to-idle via console), one staff member effects reach-pole/throw-line rescue, second staff member clears the barrier line and calls per the park emergency plan. The ponds' 400–600 mm depth makes this a stand-up assist in almost every case; the drill is practised monthly regardless.
+4. **Fuel/battery incident afloat** (smoking pack): do not bring the boat to the landing stage; steer it to the designated open-water quarantine corner, let it burn out or sink, recover with the magnet rig after 30 minutes, quarantine the pack per park battery doctrine.
+5. Log every hold and clearance in RC WORLD OS with timestamps; the weather-hold dataset feeds the park's seasonal scheduling model (Volume 10).
+
+### 8.6 Daily operations checklist
+
+- [ ] Pond visual: water level, clarity, debris; skimmer baskets emptied
+- [ ] Plant room: pump pressures, UV lamp hours, no leak alarms
+- [ ] Course check: buoys on station, lines taut and submerged, landing-stage gates self-close
+- [ ] Retrieval tug: charged, Node heartbeat, push-pad secure
+- [ ] Reach poles, throw line, first-aid kit at stations
+- [ ] Fleet issue check: cooling tell-tales, hatch seals, M-20 closed for every hull
+- [ ] Frequency board set (submarine days); wind forecast reviewed against sail/scale limits
+- [ ] Harbour master console: mission list loaded, berth board reset, leaderboard live
 
 ---
 
-### 9.2 Events calendar
+## 9. Fleet & Economics
 
-Events are the division's demand spikes and its media engine. The recurring set:
+### 9.1 The canonical 24-vessel fleet
 
-- **Club Regatta (monthly, DF65 one-design):** five-race series, park boats and member-owned class boats on equal terms (§5.1); trophies + Gears; feeds the *Racer* license tier. Because the fleet is class-legal, one regatta per year is run as an **official class open** — the event that puts the park on the national radio-sailing calendar.
-- **Tug Masters Championship (quarterly):** the §3.4 judged course — slalom under bridge piles, blind barge park, precision tow — run as a bracket. The park's most watchable event per square metre; finals run during Saturday lunch service for the terrace audience.
-- **Submarine Treasure Hunt / "Treasure Week" (school holidays):** the §6.4 wreck field re-dressed with a themed hunt; sold as premium Shifts with a family bundle tie-in; the two-boat sub fleet is the constraint, so slots pre-sell in the app.
-- **Night Sailing & Harbour Lights (monthly, summer):** LED-rigged DF65 fleet (class-legal removable masthead/deck LEDs), lit quay cranes and wreck-field uplights, terrace dinner service — a pure ambience event that sells F&B more than Shifts, and the park's most shared social-media content. Runs under the Phase 3 night-lighting expansion when available; a portable-light version runs earlier.
-- **Pit-to-Port Corporate (on demand):** §3.3 as a team-building format from the canonical corporate price base ($1,400 / 2 h / 20 pax), teams rotating mining, hauling, craning and shipping roles with a tonnage league table.
+Phase 2 canon assigns the Marine Division **~24 powered vessels**. The build-out:
 
-### 9.3 KPIs
+| # | Class | Model | Unit street price | Qty | Line total |
+|---|---|---|---|---|---|
+| 1–4 | Harbour tug (rental) | Heng Long 3810 work tug, monitor-upgraded | $130 | 4 | $520 |
+| 5 | Fire boat (rental) | Heng Long 3810 fire variant, pump-upgraded | $140 | 1 | $140 |
+| 6–7 | Heavy tug (rental-premium) | Pro Boat Horizon Harbor 30" | $400 | 2 | $800 |
+| 8 | Flagship tug (premium) | Bancroft Fairplay VI 1/50 | $730 | 1 | $730 |
+| 9 | Cargo ship (staff) | Arkmodel-class civil hull, workshop-completed | $600 | 1 | $600 |
+| 10–11 | FE trainer | Pro Boat Sonicwake 24 | $320 | 2 | $640 |
+| 12–14 | FE standard | Pro Boat Recoil 2 V2 26" | $420 | 3 | $1,260 |
+| 15 | FE value | Volantex Vector SR80 Pro (ARTR + radio) | $260 | 1 | $260 |
+| 16 | FE premium mono | Pro Boat Sonicwake 36 V3 (8S) | $500 | 1 | $500 |
+| 17 | FE premium cat | Pro Boat Blackjack 24 V2 | $400 | 1 | $400 |
+| 18–23 | Sail one-design | Joysway DragonForce 65 V8 + radio | $435 | 6 | $2,610 |
+| 24 | Submarine (premium) | Arkmodel Dragon Shark II, completed | $780 | 1 | $780 |
+| 24a | Submarine (show/spare) | Thunder Tiger Neptune SB-1-class (NOS/used) | $650 | 1 | $650 |
+| — | Retrieval tug (staff) | Heng Long 3810, stripped workboat | $110 | 1 | $110 |
+| — | Barges (unpowered) | Shop-built hopper/container | $120 | 6 | $720 |
+| — | Quay crane | Lead-screw electromechanical, The Works build (Volume 4 doctrine) | $850 | 1 | $850 |
+| | **Powered-vessel subtotal (the ~24)** | | | **24** | **$9,890** |
+| | **Division fleet total incl. staff/support assets** | | | | **≈ $11,570** |
 
-Marine KPIs post to the park dashboard (Volume 10 owns definitions; division targets below are Year-1-of-operation values):
+(The second submarine and the retrieval tug are counted as one rental asset plus support assets; the roster is managed in RC WORLD OS `fleet_inventory` like every other division's.)
 
-| KPI | Target | Notes |
-|---|---|---|
-| Shift utilization (open hours) | ≥ 32% avg / ≥ 65% weekend peak | Per zone; sail and harbour drive weekday base |
-| Premium mix (fireboat, sub, DF95, flagship tug) | ≥ 20% of marine Shift revenue | Protects margin |
-| Waterspace availability | ≥ 92% of scheduled hours | Weather closures logged by cause (wind/lightning/water quality) |
-| Fleet availability | ≥ 90% of vessels green each morning | CHK-MR-02 pass rate |
-| Retrieval rate | ≤ 1 per 25 Shifts, 80%+ resolved by rescue tug | Pole/wading events reviewed weekly |
-| Bilge-flag rate | ≤ 1 orange flag per 40 sessions | Leading indicator of seal/hull health |
-| Water-quality compliance | 100% of weekly CHK-MR-01 in band | pH, phosphate, clarity |
-| Cross-division conversion | ≥ 15% of marine customers book a land Shift same visit | Pit-to-Port funnel |
-| School completion | ≥ 60% of Discover Sail buyers start the Sail Course | Ladder health |
-| Incident rate (safety) | 0 water-entry events; all near-misses logged | Absolute standard |
+> **Investor Note** — The entire marine powered fleet costs less than one Kabolite K970 showcase excavator. The division's capital is 95% civil works, 5% boats — the inverse of the land divisions — which is why the fleet can be refreshed aggressively (Chapter 9.4) while the pond amortizes over decades.
 
-### 9.4 End-of-day close-down checklist
+### 9.2 Battery logistics at 3:1
 
-**CHK-MR-03 — Marine close-down** (duty Artisan + harbour master, last 30 min):
+Park canon: three packs per powered vessel (one running, one charging, one rested). Sail's tiny receiver packs make the ratio trivially cheap; the FE premium boats dominate the line:
 
-- [ ] All hulls scanned back; RC WORLD OS fleet count reconciles (24 powered + barges)
-- [ ] SOP-MR-001 flush/dry complete on every vessel run today; hatches open on drying racks
-- [ ] All LiPos to charging annex; storage charge (3.8 V/cell) set on packs idle > 48 h; quarantine bucket checked
-- [ ] Transmitters on charge, count verified; 40/75 MHz sub radio locked in its labeled case
-- [ ] Rescue tug recharged and docked ready; rescue stations complete (poles, rings, throw bags)
-- [ ] Course buoys and booms secure; no debris on the water; skimmer baskets emptied
-- [ ] Sub basin: wreck field intact, treasure pucks logged, viewing rail gates locked
-- [ ] Plant running in night mode; make-up meter read; anemometer/lightning feed healthy
-- [ ] Precinct gates locked; winter/ice signage state correct (season)
-- [ ] Day log closed in RC WORLD OS: Shifts, retrievals, flags, weather closures, water tests
+| Fleet segment | Pack type | Packs (3:1) | Unit | Cost |
+|---|---|---|---|---|
+| Harbour tugs & fire boat (7 hulls) | 2S 1800–2800 mAh Li-ion/LiPo, XT60 | 21 | $14 | $294 |
+| Cargo ship + retrieval tug | 2S 5000 mAh LiPo | 6 | $28 | $168 |
+| FE trainer/standard/value (6 hulls) | 3S 2200–3200 mAh LiPo | 18 | $22 | $396 |
+| FE premium (2 hulls, 8S = 2×4S) | 4S 3200–5000 mAh 100C pairs | 12 | $45 | $540 |
+| Sail (6 hulls) | 5-cell NiMH / 2S LiFe RX packs | 18 | $9 | $162 |
+| Submarines (2 hulls) | Sealed 12 V/2S service packs | 6 | $30 | $180 |
+| **Battery fleet total** | | **81** | | **≈ $1,740** |
+
+All charging happens in the park's bunkered charging room per canon (3.4–4.2 V/cell window, smart balance chargers); the marina hut holds only the day's rested packs in an ammo-can caddy. Any submerged pack quarantines before reuse (§5.6).
+
+### 9.3 Capacity and revenue per hour
+
+Waterspace capacity per operating hour (3 Shifts/hour per station):
+
+| Water | Concurrent stations | Shifts/hour | Blended price | Revenue/hour (full) |
+|---|---|---|---|---|
+| Harbour pond (tugs, fire, crane pair) | 6 | 18 | $15.50 | $279 |
+| Speed pond | 4 (2 in premium windows) | 12 | $16.75 | $201 |
+| Sail area (shared water, scheduled) | 4 | 12 | $15.00 | $180 |
+| Submarine bay | 1 | 2/hour (30-min premium format) | $22.00 | $44 |
+| **Division total** | **15** | **~44** | | **≈ $704/h full** |
+
+At a planning-realistic 35% annual utilization across ~2,900 operating hours, the division books ≈ **$210–260 k of Shift revenue in its first full year**, before events (Pit-to-Port corporates, regattas, birthday fire-boat packages) and its measurable uplift to F&B on the terrace — consistent with the Year 3 park revenue ramp to ≈ $2.6 M carried in Volume 10, which owns the consolidated model.
+
+### 9.4 Operating cost, spares and refresh
+
+- **Spares budget**: 18% of fleet value/year (≈ $2,100) — flex shafts, props, seals, servos, sail sets, ESCs — held in The Works' marine bin per the high-turnover spares doctrine.
+- **Water/energy**: filtration plant ≈ 1.5 kW continuous ≈ $1,600/yr; make-up water ≈ $400/yr.
+- **Fleet refresh**: rental workhorses (Heng Long, Recoil class) are replaced on a 2-season cycle from revenue; retired hulls become training airframes-equivalents, parts donors or gallery pieces.
+- **Premium experiences carry the margin**: submarine piloting at $22 with near-zero marginal cost, fire-boat show add-ons in birthday packages ($349 base, park canon), and the Pit-to-Port corporate format are the division's profit concentrators; the $15 harbour and sail Shifts are the volume base and the demographic gateway.
+
+---
 
 ## 10. Volume summary & cross-references
 
-The Marine Division converts ~1,000 m² of engineered shallow water into the park's calmest, most photogenic and most family-inclusive division. Its doctrine in one paragraph: a **working waterfront**, not a boating lake — the Mining Zone's industrial-simulation DNA applied to a port, with tugs, barges and a quay crane running scored cargo missions that interlock with the Construction Division's ore economy; a throttle-tiered, self-righting fast-electric program; a class-legal DF65/DF95 one-design sail school; and a two-boat submarine theatre engineered honestly around the physics of radio underwater. The pond itself is the capital asset: **40 × 25 m at 600–800 mm** — deep enough for keels and submarines, shallow enough that no person need ever be more than wader-deep — sealed with 60-mil EPDM under a concrete quay ring, circulated at 15 m³/h, polished by UV, and defended by skimmers and nutrient starvation rather than hull-eating chemicals. Customers never enter the water; the Rescue Tug Protocol makes sure they never want to.
+The Marine Division converts a ≈ $212,000 two-pond civil work and a ≈ $11,600 fleet into the park's calmest, broadest-demographic product: a working miniature harbour run under a harbour master, a NAMBA-style speed oval, a one-design DF65 sail fleet with the best unit economics in the park, and a two-boat static-diver submarine program with an aquarium-grade viewing window. It opens in Phase 2 per park canon, honours every fleet doctrine (20-minute Shift, 3:1 batteries, 3.4–4.2 V/cell, RCW Node telemetry with geofence-as-harbour-limits, Tow-Truck Retrieval adapted afloat), and documents the park's one telemetry exception — submarines on legacy low-band radio, because 2.4 GHz does not penetrate water.
 
 **Cross-references:**
 
-- **Volume 1** — Phase 2 scope and capex envelope carrying the pond complex.
-- **Volume 3** — tiering, standardized-fleet and lap-parity doctrine mirrored by the fast-electric program (see Volume 3, Chapters on fleet tuning).
-- **Volume 4** — Mining Zone ore economy and crane control interface that the Pit-to-Port loop and quay crane extend (see Volume 4, Chapter 3).
-- **Volume 7** — The Works: battery/charging doctrine, conformal coating, repair training and the marine wet-bench fit-out; marine PM matrix (§7.7) feeds the master maintenance planner.
-- **Volume 8** — supplier vetting, incoming QC and import process for Heng Long, Volantex, Feilun, Joysway, TFL Hobby and Arkmodel orders (§8.2).
-- **Volume 9** — RC WORLD License marine tiers (M1–M3), sailing-school badges, Gears earned in missions and retrievals, harbour club membership.
-- **Volume 10** — consolidated revenue model, insurance schedule (open-water endorsement) and the KPI definitions behind §9.3.
-- **Volume 11** — site placement of the pond complex, restaurant-terrace adjacency, wind micro-climate study, storm-water and make-up water integration.
-- **Volume 12** — climate localization of the winterization regime (§2.9) and jurisdictional check on 40/75 MHz submarine radio (§6.3).
-
-
-
+- **Volume 4** — quay-crane control interface and lead-screw doctrine shared with the Construction Division; Pit-to-Port mission chain.
+- **Volume 5** — Phase 2 sequencing partner; shared lightning (30/30) and weather-hold doctrine.
+- **Volume 7** — park-wide workshop doctrine under this volume's marine regime (SOP M-20, flex-shaft schedule, conformal coating); barge-building and Arkmodel/Billing kit builds as Artisan winter projects.
+- **Volume 8** — marine procurement: Horizon/Pro Boat dealer terms, Joysway class-legal DF65 supply, Arkmodel direct, legacy 75/40 MHz radio sourcing and regional frequency legality.
+- **Volume 9** — marine badge ladder (§8.4) feeding the RC WORLD License; senior and schools programs.
+- **Volume 10** — consolidated Phase 2 capex (pond complex ≈ $212 k) and the division's revenue contribution in the park model.
+- **Volume 11** — pond siting beside the restaurant terrace; prevailing-wind orientation, shelter belts and fetch; barrier and path integration.
+- **Volume 12** — winterization and cold-climate pond annex for franchise sites.
+- **Volume 13** — Node fleet-coverage tables must record the submarine exception; harbour-master console, mission scoring, berth board and geofence-as-harbour-limits as RC WORLD OS modules.
 

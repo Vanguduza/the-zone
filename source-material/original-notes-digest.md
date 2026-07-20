@@ -161,6 +161,14 @@ extends or supersedes a decision, it must say so explicitly.
   visits; badges for mastering skills or specific equipment; driver licenses; season passes.
 - End uses: investor presentations, financing applications, architect/contractor guidance,
   employee training, day-to-day operations, future franchising.
+- **Volume 13 (added by founder)** — IT & IoT volume detailing how the ERP application (RC WORLD
+  OS) manages ALL sectors of the business: finance, HR and payroll, online payments, fleet
+  management, bookings, live telemetry, plus every other function the business needs (POS/retail,
+  F&B, inventory/procurement, CRM/marketing, events, access control, CCTV/safety, reporting/BI,
+  franchise multi-site support). Must detail how to develop the ERP with **different interfaces
+  for different users based on access level** (role-based access control: executive, finance,
+  HR, operations manager, artisan/technician, marshal, front-of-house, franchisee, customer).
+  **Client apps must be supported on both Android and iOS.**
 
 ---
 

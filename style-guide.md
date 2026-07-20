@@ -36,7 +36,7 @@ one coherent book and never contradict each other on facts, names, or numbers.
 | Billing unit | The **Shift** — one 20-minute operating block |
 | Session types | Casual Shift (1 block); Operator Shift (2+ blocks with pit-stop battery swap) |
 | Telemetry hardware | **RCW Node** (Micro-Node ~25×25 mm; Heavy-Node ~40×30 mm) |
-| Software platform | **RC WORLD OS** (Kotlin/Jetpack Compose Android + Supabase PostgreSQL) |
+| Software platform | **RC WORLD OS** — the ERP covering finance, HR/payroll, payments, bookings, fleet management, live telemetry and all other business functions. Backend: Supabase (PostgreSQL) + Kotlin services. Client apps: **Kotlin Multiplatform / Compose Multiplatform targeting both Android and iOS** (staff and customer apps), plus a web admin console. Role-based access control gives each user class (executive, finance, HR, operations, artisan/technician, marshal, front-of-house, franchisee, customer) its own interface. Full detail: Volume 13. |
 | Customer program | **RC WORLD License** (tiered driver-license progression, see Volume 9) |
 | Recovery gameplay | **Tow-Truck Retrieval Protocol** |
 | Induction | **Toolbox Talk** digital induction |

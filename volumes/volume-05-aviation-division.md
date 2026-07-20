@@ -4,1126 +4,654 @@
 |---|---|
 | **Document** | RC WORLD — Master Development Plan, Volume 5 of 12 |
 | **Title** | Aviation Division |
-| **Revision** | 1.0 |
-| **Date** | July 2026 |
+| **Revision** | 1.0 — July 2026 |
 | **Status** | Planning baseline — Phase 2 build (Months 13–30) |
 
-**Purpose of this volume.** This volume is the complete concept, engineering, fleet, operations
-and safety plan for the RC WORLD Aviation Division: the fully netted airfield added in Phase 2
-(Months 13–30) with its 30 m paved runway, elevated helipads, and a fleet of approximately 20
-aircraft spanning fixed-wing trainers, electric ducted-fan (EDF) jets, helicopters, and FPV
-multirotors. It explains why aviation demands a fundamentally different regulatory and safety
-posture than RC WORLD's surface divisions, defines the containment-first "flight cage" doctrine
-that makes the division insurable and licensable, specifies the enclosure and airfield
-geometry for the architect, and provides the fleet specifications, flight-school curriculum,
-racing-league design, safety SOPs and maintenance programs needed to run the division
-profitably from opening day.
+**Purpose of this volume.** This volume is the complete concept, fleet, operations, training and safety plan for the RC WORLD Aviation Division: the fully netted airfield that opens in Phase 2 (Months 13–30) with a 30 m paved runway, elevated helipads, and a fleet of approximately 20 aircraft spanning fixed-wing trainers, electric ducted-fan (EDF) jets, helicopters, and FPV multirotors. It explains why the full net enclosure is the single decision that makes the division insurable, licensable and operable by walk-in customers; specifies the flight programs discipline by discipline; defines the flight school, the simulator lab and the RC WORLD Wings certification ladder; sets the airspace-management doctrine (one airspace, one controller); and closes with the fleet table, crash-repair economics and capacity mathematics that drive the division's P&L.
 
-**Intended readers.** Investors and lenders assessing Phase 2 (Chapters 1, 8); the architect
-and structural engineer detailing the netted enclosure with Volume 11 (Chapter 2); the General
-Manager, Aviation Lead and duty managers (Chapters 1–8); Artisans assigned to flight-line and
-workshop duty (Chapters 3–7, 9–10); the chief flight instructor and Academy staff (Chapter 8);
-the safety officer, insurers and regulators (Chapters 1, 9).
+**Intended readers.** Investors and lenders assessing Phase 2 (Chapters 1, 10); the architect and structural engineer detailing the enclosure with Volume 11 (Chapters 1, 8); the General Manager, Aviation Lead and duty managers (all chapters); flight instructors and Academy staff (Chapters 7, 9); Artisans assigned to flight-line and workshop duty (Chapters 2–6, 8, 10); the safety officer, insurers and local regulators (Chapters 1, 8).
 
 **Chapters**
 
-1. Division concept & regulatory framing
-2. Airfield design & containment engineering
-3. Fixed-wing program
-4. Jets & high-performance aircraft
+1. Division Overview
+2. Fixed Wing Program
+3. Jets
+4. FPV Program
 5. Helicopters
-6. FPV program
-7. Drone racing & league operations
-8. RC WORLD Flight Academy & pilot certification
-9. Safety & flight operations
-10. Fleet engineering & maintenance
-11. Volume summary & cross-references
+6. Drone Racing
+7. Flight School & Simulators
+8. Safety & Airspace Management
+9. Pilot Certification
+10. Fleet, Maintenance & Economics
+11. Volume Summary & Cross-References
 
 ---
 
-## 1. Division concept & regulatory framing
+## 1. Division Overview
 
-### 1.1 Why aviation is different — and why it waits for Phase 2
+### 1.1 The netted airfield concept
 
-Every other RC WORLD division operates vehicles that are bound to the ground. A runaway buggy
-is arrested by a barrier; a mis-driven excavator simply stops. The physics of failure are
-two-dimensional, low-energy, and contained by default. Aviation removes that default. An
-aircraft that departs controlled flight can leave the property, strike a spectator from above,
-or — in the worst historical pattern for the hobby — "fly away" beyond radio range and land
-where nobody intended. The energy involved is also categorically different: a 1.4 kg foam
-trainer at 45 km/h carries roughly 110 J of kinetic energy concentrated at a spinning propeller
-disc; a 70 mm EDF jet at 110 km/h carries over 600 J. No surface vehicle in the rental fleet
-presents an equivalent overhead hazard.
+Every RC WORLD division before this one operates vehicles bound to the ground. A runaway buggy is stopped by a barrier; a mis-driven excavator simply stalls against a berm. Failure is two-dimensional and contained by default. Aviation removes that default. A model aircraft that departs controlled flight can leave the property, descend onto a spectator, or — in the worst historical pattern of the hobby — "fly away" beyond radio range and land where nobody intended. The Aviation Division's founding decision, recorded in the original Omni-Zone blueprint and carried unchanged into this plan, is therefore **total containment**: the entire airfield — 30 m paved runway, taxiways, elevated helipads, pilot boxes and racing course — is enclosed in high-tensile netting on all sides *and overhead*, forming a single continuous flight cage. Nothing that flies at RC WORLD can physically exit the enclosure.
 
-This is why the Aviation Division is deliberately sequenced into **Phase 2 (Months 13–30,
-"Full Park")**. Phase 1 establishes the park's operating culture — the Toolbox Talk induction,
-the Shift billing rhythm, the Artisan maintenance discipline, RC WORLD OS telemetry — on
-forgiving ground vehicles. Aviation then inherits a proven operating system rather than
-inventing one under the least forgiving conditions. Sequencing also matches the capital logic:
-the enclosure is the single most expensive per-square-metre structure in the park, and it is
-funded from Phase 2 capex (≈ $1.15 M envelope, Volume 10) once Phase 1 revenue has validated
-demand. The division launches with a fleet of approximately **20 aircraft** (allocation in
-Section 1.5), a deliberately small count relative to the ~150 surface assets of Phase 1,
-because aviation throughput is constrained by airspace, not by fleet size.
+The reference enclosure (final structural design in Volume 11, Chapter 9) is a **70 m × 45 m footprint with an 18 m apex height**, carried on galvanised steel masts with tensioned perimeter cables — the same engineering family as golf driving-range and baseball-field barrier netting, a mature industry with established suppliers, load tables and inspection norms. The 30 m runway runs along the long axis with 15 m of paved overrun and grass margins inside the net; two elevated helipads (1.0 m platforms) sit on the eastern edge; the drone-racing gate course occupies the western half and is reconfigurable; a smaller 13 mm fine-mesh **Whoop Arcade** sub-enclosure sits beside the main cage for micro-drone flying that does not consume main-airspace capacity (Chapter 6). Spectators view through the net from a standoff rail and from the Phase 2 grandstand sightline (Volume 11).
 
-The second difference is skill asymmetry. A first-time driver can enjoy a rental buggy within
-ninety seconds of picking up the transmitter. A first-time pilot given an unstabilized
-fixed-wing aircraft will crash it in under thirty seconds — this is a near-universal constant
-of the hobby. The division therefore cannot be a walk-up rental operation in the way Motorsport
-is. It is structured as a **guided-experience and instruction business**: stabilized trainers,
-buddy-box supervision, simulator gateways, and a license ladder (Chapter 8) that gates access
-to progressively more demanding aircraft. This gating is not a commercial inconvenience; it is
-the revenue model. Customers pay for progression.
+The cage is not merely a safety device — it is the product. Full-size aviation is defined by the discipline the sky imposes; the RC WORLD cage lets us impose that discipline deliberately, in a space small enough that a first-time visitor can be flying a stabilised trainer within one visit, and structured enough that a hobbyist can earn jet and FPV type ratings over a season.
 
-### 1.2 Containment-first design: the regulatory unlock
+### 1.2 Why full enclosure changes the regulatory and safety posture
 
-The single most important design decision in this division — inherited directly from the
-original Omni-Zone blueprint, which specified "a 30 m paved runway, elevated helipads, fully
-enclosed in high-tensile netting for flyaway prevention and spectator safety" — is that **all
-flight occurs inside a fully enclosed, high-tensile netted structure**. The airfield is not an
-open flying field with a net on one side; it is a complete cage: netted walls on all four
-sides, a netted ceiling, and engineered double-door entry vestibules. Nothing that flies at
-RC WORLD can physically reach open airspace.
+Uncontained outdoor model flying sits squarely inside national airspace regulation. In the United States the default regime for sub-25 kg (55 lb) uncrewed aircraft is **FAA Part 107**, with a statutory recreational exception (49 USC 44809) that requires flyers to pass the free **TRUST** online test, follow the safety code of a recognised community-based organisation such as the **Academy of Model Aeronautics (AMA)**, and register aircraft over 250 g. In Europe, the **EASA "open" category** (subcategories A1–A3) governs sub-25 kg operations up to 120 m with operator registration and online competency tests. Comparable regimes exist in most jurisdictions (UK CAA, Australia CASA/MAAA, etc.).
 
-This decision converts aviation from the park's largest regulatory exposure into a manageable,
-largely self-contained activity. Written generically — because RC WORLD's reference site is a
-mid-size international city and the franchise model (Volume 12) will replicate the design
-across jurisdictions — the pattern as of July 2026 is:
+A fully enclosed structure changes the analysis fundamentally. The FAA has stated in published guidance that its rules apply to operations in the **National Airspace System** — operations conducted indoors are outside Part 107's scope, and a fully netted enclosure is widely treated in the same way, because the aircraft cannot enter navigable airspace. EASA's UAS framework similarly excludes indoor operations. **RC WORLD's planning position is therefore that flights inside the completed cage are enclosed-structure operations, not open-airspace operations** — which is what makes it feasible to let unlicensed walk-in customers fly at all.
 
-- **National aviation authorities regulate access to shared, open airspace.** Registration
-  thresholds (commonly around **250 g**), altitude ceilings (commonly 120 m / 400 ft),
-  visual-line-of-sight requirements, and remote-identification mandates all attach to aircraft
-  operating *in* that airspace.
-- **A fully enclosed structure is, in most jurisdictions, not open airspace.** Regulators in
-  several major frameworks have stated or implied that small-UAS rules apply to outdoor
-  operations and not to flight conducted indoors or within a fully enclosed structure.
-  Practitioner and industry guidance consistently treats a netted enclosure with walls **and**
-  ceiling — leaving no path for the aircraft to reach open air — as such a structure, taking
-  the flying inside it outside drone registration, remote-ID and airspace-authorization
-  regimes and placing it instead under building, workplace-safety and public-entertainment law.
-- **The exemption logic is physical, not legal fiction:** the rule protects other airspace
-  users and uninvolved people on the ground; a cage removes both exposures by construction.
+> **Safety Warning.** The regimes above are cited as *reference frameworks only*. Whether a netted outdoor enclosure is treated as "indoors," whether staff instruction constitutes commercial operation, and whether the masts themselves need aviation obstruction review (they will exceed 15 m, and proximity to any aerodrome matters) are jurisdiction-specific questions. **Written confirmation from the local civil aviation authority and from the insurer must be obtained before enclosure design is frozen — this is a Month 13 gating task, not an opening-week formality.** Nothing in this volume is legal advice; verify locally.
 
-> **Safety Warning — hedge every regulatory claim.** The paragraph above describes the
-> *general* pattern, not a guarantee. Jurisdictions differ on what counts as "fully enclosed"
-> (some contemplate rigid structures; some accept netting; some have never ruled), and a tall
-> cage near an aerodrome or flight corridor can trigger aviation *obstruction* review — an
-> obstacle assessment or warning-lighting requirement — even though the flying inside it is
-> unregulated. Before Phase 2 design freeze, RC WORLD must (1) obtain written confirmation
-> from the national aviation authority or qualified aviation counsel that the specific netted
-> design is outside open-air drone rules; (2) confirm with the local building authority which
-> structural code applies to a 15–16 m netted structure; and (3) run the obstruction check.
-> This legal review is mandatory **per site** and is a standing item in the franchise
-> due-diligence pack — see Volume 12. "Enclosed flight is generally exempt — verify locally"
-> is the doctrine; never state it as unconditional.
+The enclosure also transforms the insurance conversation. An uncontained model-flying operation open to the public is close to uninsurable at reasonable premium; a certified structure with documented netting inspection (Chapter 8), instructor supervision, a written airspace doctrine and telemetry-logged sessions is a conventional leisure-facility risk. Finally, the cage collapses the two failure modes that dominate RC aviation incident history — flyaway and third-party overflight injury — to zero and near-zero respectively, leaving on-site energy management (Chapter 8) as the residual risk to engineer against.
 
-Two further regulatory notes belong in every staff briefing, because customers who fly at home
-will ask:
+### 1.3 Phased opening inside Phase 2
 
-1. **Sub-250 g rules.** Most jurisdictions exempt drones under 250 g from registration. Much
-   of the RC WORLD FPV fleet — whoop-class quads at 25–90 g — would be exempt even outdoors.
-   This matters for retail conversations and for customers asking what they may legally fly at
-   home; it does not matter for cage operations, which are exempt by enclosure regardless of
-   weight.
-2. **Visual line of sight (VLOS).** Open-air rules almost universally require the operator or
-   an adjacent observer to keep the aircraft in unaided sight. Inside the cage this is
-   preserved by policy rather than by law: every FPV pilot flies with a designated spotter
-   (Section 6.4), both because it is good airmanship and because it trains customers in the
-   habits outdoor rules will demand of them.
+The Aviation Division is deliberately sequenced into **Phase 2 (Months 13–30, "Full Park")**. Phase 1 establishes the park's operating culture — Toolbox Talk induction, Shift billing, Artisan maintenance discipline, RC WORLD OS telemetry — on ground vehicles where mistakes are cheap. Aviation inherits that culture rather than having to invent it. Within Phase 2 the division itself opens in staged tranches:
 
-### 1.3 The flight-cage doctrine
-
-The doctrine, stated once and repeated in every aviation SOP:
-
-> **The net is the primary containment. Procedure is the secondary containment. Neither is
-> optional.**
-
-Treat the cage exactly as a machine shop treats a lathe guard. The guard's existence never
-licenses careless work; it exists for the moment procedure fails. Concretely:
-
-- **Physical layer.** High-tensile, UV-stabilized netting engineered for the heaviest, fastest
-  aircraft in the fleet (Section 2.2), inspected on a fixed schedule (Section 2.6), with
-  double-door vestibules so that no door ever opens directly from flight volume to open air.
-- **Procedural layer.** Sector rules, one-aircraft-on-the-runway discipline, flight-line
-  supervision, arming gates, and the license ladder. Procedures are written as if the net did
-  not exist.
-- **Cultural layer.** Staff and customers are taught *why* both layers exist. The Toolbox Talk
-  aviation module (Chapter 8) opens with the flyaway problem and the cage answer, because
-  customers who understand the doctrine police it.
-
-The doctrine also has a marketing face: RC WORLD sells the cage as a feature, not an apology.
-It is the only place in the region where a first-timer can fly a real RC aircraft — not a toy —
-with zero risk of losing it, and where FPV pilots can fly proximity freestyle that would be
-irresponsible or illegal in a public park.
-
-### 1.4 Spectator safety doctrine and insurance implications
-
-Spectating is half the RC WORLD product, and the Aviation Division is designed to be watched.
-The spectator doctrine has three rules:
-
-1. **Spectators never share a volume with aircraft.** All public viewing is from outside the
-   net, along a paved promenade on the enclosure's long southern side, or from the Phase 2
-   grandstand sightline (Volume 11). The net panel facing the promenade is specified in a
-   finer, dark-coloured mesh that reads as nearly transparent from 3 m away.
-2. **Pilots are inside the cage; their audience is not.** Pilot boxes (Section 2.4) sit inside
-   the enclosure behind a secondary knee-rail and overhead net apron, so a ballistic aircraft
-   can reach a pilot only after passing the flight-line supervisor's abort call and the box's
-   own screening.
-3. **The FPV spectator feed replaces FPV spectating.** Guests watch drone racing on repeater
-   screens fed from the video receivers (Chapter 7), not by pressing against the net.
-
-Aviation is the division insurers will price most cautiously, and the netted enclosure is the
-principal premium-control instrument. The Phase 2 insurance workstream (policy detail in
-Volume 10) presents the underwriter with a package:
-
-| Element | What the underwriter sees | Effect |
+| Stage | Months | Milestone |
 |---|---|---|
-| Engineered enclosure | Stamped structural drawings, netting mesh/tensile certificates, wind-load calculation | Removes third-party overflight exposure — the dominant aviation liability — from the risk picture |
-| Fleet ceiling | Foam airframes ≤ ~1.6 kg; 64–70 mm EDF as fastest class; **no turbine aircraft** (Chapter 4) | Caps kinetic energy and eliminates kerosene/fire aggravants |
-| Supervision model | License ladder, buddy-box instruction, instructor ratios, spotter rule | Demonstrates controlled access, not open rental |
-| Battery regime | LiPo doctrine (3.4–4.2 V/cell, bunkered charging, fire SOPs — Section 9.4) | Addresses the actual most-likely fire scenario |
-| Incident procedures | SOP-AV-001 through SOP-AV-007, incident register in RC WORLD OS | Evidence of an auditable safety management system |
+| A — Regulatory & design | 13–15 | Authority/insurer confirmations; enclosure structural design frozen (Volume 11); netting supplier contracted (Volume 8) |
+| B — Simulator lab opens | 16 | Flight School sim lab (Chapter 7) opens in the entry pavilion **before the cage exists** — building a certified-pilot pipeline and early revenue |
+| C — Civil works & enclosure | 15–19 | Runway, aprons, helipads poured; masts and netting erected; commissioning inspection |
+| D — Fixed-wing opening | 19–20 | Trainer program and buddy-box instruction open; Wings certification live in RC WORLD OS |
+| E — Rotorcraft & FPV | 21–22 | Helipad operations, cinewhoop experiences, Whoop Arcade |
+| F — Jets & racing league | 23–24 | EDF demo program; first drone-racing league season |
 
-Expect the insurer to exclude or separately rate any flight outside the enclosure. The
-operating answer is simple: **there is none**. Demonstration flights, media shoots and staff
-testing all occur inside the cage or not at all. Any future exception (e.g., a promotional
-outdoor event) is a separately insured, separately permitted project — never an extension of
-daily operations.
+> **Investor Note.** Aviation is allocated ≈ **$364 k of the $1.15 M Phase 2 capex** (Chapter 10.6): roughly $190 k enclosure, $85 k civil works, $45 k simulator lab, $32 k fleet/radios/FPV/spares, $12 k timing and AV. The expensive assets (cage, pavement, sim lab) last a decade or more; the aircraft customers actually crash are foam, cheap, and stocked with spare airframes. The division is the park's premium-price, lower-throughput, highest-halo product: it will not match Motorsport's Shift volume, but it commands premium-tier pricing ($22/$38), sells instruction at instructor margins, and gives the park its most photogenic marketing asset after the Mining Zone.
 
-### 1.5 Fleet allocation (the ~20 aircraft)
+### 1.4 Division at a glance
 
-The Phase 2 aviation fleet is capped at approximately 20 powered aircraft, allocated to match
-airspace capacity rather than demand fantasy (full composition and maintenance detail in
-Chapter 10):
-
-| Program | Aircraft class | Count | Chapter |
-|---|---|---|---|
-| Fixed-wing trainers | Micro trainers (HobbyZone Sport Cub S 2 class, sub-250 g) | 2 | Ch 3 |
-| Fixed-wing trainers | Primary trainers (E-flite Apprentice STS 1.5m class) | 4 | Ch 3 |
-| Fixed-wing trainers | Secondary/crash-tolerant trainers (HobbyZone AeroScout S 2 class) | 2 | Ch 3 |
-| Fixed-wing sport | Budget high-wing sport/glider (Volantex / FMS class) | 1 | Ch 3 |
-| Jets | 64–70 mm foam EDF (E-flite Habu STS / FMS 64 mm class) | 2 | Ch 4 |
-| Helicopters | Fixed-pitch/coaxial trainer | 1 | Ch 5 |
-| Helicopters | Collective-pitch (OMPHobby M2 class) + scale demo ship | 2 | Ch 5 |
-| FPV | Whoop-class course quads (BetaFPV Meteor75 class) | 4 | Ch 6 |
-| FPV | Cinewhoop for aerial-tour experiences (GEPRC CineLog / iFlight ProTek25 class) | 1 | Ch 6 |
-| FPV | 3.5-inch freestyle/display quad (staff-flown) | 1 | Ch 6 |
-| **Total powered aircraft** | | **20** | |
-
-Simulator stations (Chapter 8) and spare airframes held as parts donors are not counted
-against the 20. The count is a ceiling reviewed annually: aviation adds aircraft only when
-sector occupancy (Section 9.3) shows sustained saturation, never to decorate the hangar.
-
-> **Investor Note.** The Aviation Division's capital weight sits in the enclosure, not the
-> fleet. The entire 20-aircraft fleet, with batteries at the canonical 3:1 ratio and spares,
-> lands between $9,000 and $14,000 — less than a single premium hydraulic excavator. The
-> engineered netted structure, by contrast, is budgeted at $120,000–180,000 within the Phase 2
-> capex envelope of ≈ $1.15 M (Volume 10). This asymmetry is healthy: the expensive asset is
-> the one that lasts 15–20 years and unlocks the regulatory position; the cheap assets are the
-> ones customers crash.
-
----
-
-## 2. Airfield design & containment engineering
-
-### 2.1 The canonical enclosure: a 60 × 40 × 15 m flight cage
-
-The Aviation Division occupies a rectangle on the north-east quadrant of the 4.8 ha site
-(placement rationale and wind study in Volume 11). The canonical enclosure — the number every
-other volume should quote — is:
-
-| Parameter | Specification |
+| Parameter | Value |
 |---|---|
-| Flight cage footprint | **60 m × 40 m** (2,400 m²) |
-| Clear flight ceiling | **15 m** above runway datum (net sag allowance included; structural poles 16–17 m) |
-| Enclosed flight volume | ≈ 36,000 m³ |
-| Perimeter poles | Tapered galvanized steel, 16–17 m, at 10–12 m centres (18–20 poles) |
-| Roof support | Tensioned catenary cable grid (8–10 mm galvanized or Dyneema-core cable) at ≤ 12 m spacing, crowned +1 m at centre for drainage and sag control |
-| Access | Two double-door personnel vestibules (net airlocks, ≥ 2 × 2 m); one vehicle/maintenance gate (3 m, double-gated) |
-| Orientation | Long axis aligned with the prevailing wind (Section 2.3) |
+| Opens | Phase 2, staged Months 16–24 (sim lab first) |
+| Enclosure | ~70 × 45 m footprint, 18 m apex, high-tensile knotless netting, fully roofed |
+| Runway | 30 m paved, with 15 m overrun; two elevated helipads |
+| Fleet | ~20 powered aircraft: 8 fixed-wing, 2 EDF jets, 4 helicopters, 7 FPV multirotors (Chapter 10) |
+| Disciplines | Fixed wing, jets, helicopters, FPV freestyle/cinewhoop, drone racing |
+| Pricing | Premium tier per canon: Casual Shift $22; Operator Shift $38; instruction and checkrides priced in Chapter 10.4 |
+| Airspace doctrine | One airspace, one controller (Chapter 8.2) |
+| Certification | RC WORLD Wings ladder, integrated with the RC WORLD License (Chapter 9; Volume 9) |
 
-The 60 × 40 footprint is not arbitrary. It is the smallest volume that simultaneously
-supports: a 30 m runway with overrun at both ends; a circuit pattern for a 1.5 m-wingspan
-trainer flying 300–400 m laps at 30–50 km/h; a segregated FPV race volume; and buffer zones
-that keep all programmed flight paths ≥ 5 m from any net face. A smaller cage forces trainers
-into continuous tight turns — the single most common cause of beginner crashes — and a taller
-one buys little training value while multiplying structural cost, wind load and obstruction-
-review risk.
+## 2. Fixed Wing Program
 
-### 2.2 Netting specification
+### 2.1 Trainer doctrine: stabilised, high-wing, foam
 
-Netting practice at this scale is mature technology, borrowed from two adjacent industries:
-**golf driving ranges** (where engineered barrier nets routinely reach 30–61 m high on tapered
-steel poles with spans of 15–25 m between poles) and **commercial drone enclosures** (where
-containment nets for consumer and light-commercial UAVs are the established product category).
-RC WORLD's specification draws on both:
+The fixed-wing program is the division's backbone: it is where customers learn, where instructors earn, and where the Wings ladder (Chapter 9) begins. The fleet doctrine mirrors the park-wide philosophy — standardised, repairable platforms differentiated by configuration rather than exotic hardware — applied to the three properties that matter most in a rental trainer:
 
-| Element | Specification | Rationale |
+1. **High-wing layout.** Pendulum stability: the aircraft wants to return to level flight. Every primary trainer in the fleet is high-wing.
+2. **EPO/EPP foam construction.** Crashes end in glue, not write-offs. A foam trainer's fuselage survives impacts that would total a balsa airframe, and a broken one is repaired at the bench in minutes (Chapter 10.3).
+3. **SAFE-class electronic stabilisation.** Horizon Hobby's SAFE (Sensor Assisted Flight Envelope) system — and the equivalent gyro/envelope systems on Chinese airframes such as FMS's Reflex and the XPilot-class stabilisers used across the Volantex range — provides three switchable modes: a beginner mode that limits bank/pitch angles and self-levels when sticks are released ("panic recovery"), an intermediate mode with wider envelopes, and an experienced mode with no assistance. This single feature is what makes a 20-minute walk-in trainer Shift viable: the instructor can hand a total novice the sticks in beginner mode knowing the aircraft cannot be rolled inverted into the ground.
+
+### 2.2 Trainer fleet
+
+The trainer fleet pairs the Western reference platforms (HobbyZone/E-flite, whose SAFE implementation and spares network are the industry benchmark) with Chinese-sourced equivalents that cut airframe cost roughly in half — the same dual-sourcing logic used across Volumes 3 and 4 and executed in Volume 8.
+
+| Class | Model (reference) | Wingspan | Power | Street price (July 2026, approx.) | Role |
+|---|---|---|---|---|---|
+| Primary trainer | HobbyZone AeroScout S 2 1.1 m (SAFE, pusher prop) | 1,100 mm | 3S, ~1300–2200 mAh | $200–270 RTF | First-flight workhorse; pusher layout protects the propeller in nose-over landings |
+| Club trainer | E-flite Apprentice STS 1.5 m (SAFE) | 1,500 mm | 3S 3200 mAh | ~$360 RTF | Larger, smoother, more wind-tolerant; the buddy-box instruction ship |
+| Value trainer | FMS Ranger 1220 mm V2 (Reflex V3 gyro) | 1,220 mm | 3S 2200 mAh | ~$180 PNP | Chinese-sourced equivalent; spares stocked identically |
+| Sport/FPV platform | Volantex Ranger 1600 (pusher glider) | 1,600 mm | 3S 2200 mAh | ~$95–165 PNP | Slow, floaty camera/sport platform; blow-moulded fuselage shrugs off abuse |
+
+All PNP (plug-and-play) airframes are completed in The Works with standard receivers bound to fleet transmitters, an **RCW Micro-Node** on the balance lead for voltage telemetry and session logging (GPS geofencing is unnecessary inside the cage; the node's kill function is retained as a throttle-limit intercept), and XT60 battery leads per park battery doctrine.
+
+### 2.3 Buddy-box instruction
+
+All customer trainer flights below solo certification are flown on a **buddy-box (trainer link)**: two transmitters linked so the instructor's master radio can reclaim control instantly. The fleet standardises on wireless trainer linking (Spektrum's wireless trainer function on the master radio binding directly to the student's transmitter; on the OpenTX/EdgeTX side, RadioMaster radios support equivalent wired and wireless trainer modes). Operating rules:
+
+- The **instructor's radio is master**; the student flies only while the instructor holds the trainer switch. Releasing the switch returns control in under half a second — faster than any verbal "I have control" exchange.
+- Instructor:student ratio is **1:1 in the air**. One instructor may run a rotation of up to 3 students per hour (one aloft, one briefing, one debriefing).
+- Beginner mode stays engaged until the Wings syllabus (Chapter 9.3) prescribes otherwise.
+- Every buddy-box Shift is logged in RC WORLD OS against the student's Wings record — sim hours, buddy-box minutes and solo flights accumulate automatically toward certification.
+
+### 2.4 Runway operations
+
+Thirty metres of pavement is short by full-scale instinct and generous by foam-trainer reality: an AeroScout lifts off in under 10 m into any headwind and lands in 15 m with a normal approach. Standard pattern inside the cage:
+
+- **Left-hand circuit**, 8–20 m altitude band for trainers, oriented into the prevailing wind; the circuit is flown *inside* the net with a 5 m lateral buffer from the netting maintained at all times (the "soft wall" rule — the net will stop an aircraft, but a net strike is logged as an incident, Chapter 8.6).
+- Take-offs and landings are called to the airspace controller ("RC Tower") by the instructor: *"Trainer 3, departing runway 27."* One aircraft on the runway at a time; helis and FPV yield per the airspace matrix (Chapter 8.2).
+- Nose-wheel steering taxi to and from the apron; no hand launches or hand catches by customers, ever.
+
+**Pre-flight checklist — fixed wing (laminated at each pilot box, mirrored in the app):**
+
+- [ ] Airframe: wings latched, control surfaces attached, hinges sound, no unrepaired cracks
+- [ ] Linkages: clevises secure, no slop at horns
+- [ ] Propeller: no chips or cracks; spinner tight (pusher prop guard intact on AeroScout)
+- [ ] Battery: charged pack (storage-charge packs are marked), connector fully seated, strap tight, hatch latched
+- [ ] Radio: correct model selected; range check at reduced power on first flight of the day
+- [ ] Controls: surfaces move correct direction (elevator up = stick back); stabiliser mode confirmed
+- [ ] Failsafe: transmitter off → motor stops within 1 s (first flight of day; Chapter 8.7)
+- [ ] Trainer link: master override verified before student takes sticks
+- [ ] Tower: session slot confirmed with airspace controller
+
+### 2.5 Aircraft classes: trainer to sport
+
+The fixed-wing ladder gives certified pilots something to climb toward, mirroring Motorsport's class ladder (Volume 3):
+
+| Class | Aircraft | Access requirement (Chapter 9) |
 |---|---|---|
-| Primary net material | Knotted **UHMWPE** (Dyneema/Spectra class, #18 twine or heavier) **or** knotted nylon of equivalent break strength; UV-stabilized, dyed black | UHMWPE offers the best strength-to-weight and 15–25 year outdoor life; black mesh is least visible to spectators and cameras |
-| Mesh size (walls & roof) | **45–48 mm (1¾–1⅞ in) square** — the industry-standard drone-containment mesh | Stops every aircraft in the fleet including 75 mm whoops; passes wind, limiting sail loading on poles |
-| Break strength | ≥ 1.8 kN (≈ 400 lb) per mesh for UHMWPE #18 class | Arrests the worst case — a 1.6 kg EDF at ~120 km/h (≈ 890 J) — with a large margin; nets absorb energy by deflection, not rigidity |
-| Spectator-side panel | Same twine, same mesh, tensioned flatter, with a 2 m-high secondary skirt net at 25 mm mesh behind the promenade rail | Redundant screening where the public stands; fine mesh stops detached props and small debris |
-| FPV race-volume divider nets | Interior curtain nets, 25–45 mm mesh on messenger cables, repositionable | Sub-divide the cage into sectors (Section 2.5) |
-| Perimeter attachment | Border rope (≥ 10 mm braided, Dyneema-core preferred) laced to poles and cables; ground edge buried or ballast-piped so no gap > 50 mm | A net that a quad can slip under at ground level is not containment |
-| Hardware | Stainless or hot-dip galvanized shackles, turnbuckles, thimbles throughout | 15-year corrosion life to match net warranty |
+| FW-T (Trainer) | AeroScout S 2, FMS Ranger, Apprentice STS in beginner/intermediate mode | Any customer, buddy-box; solo with Bronze Wings |
+| FW-S (Sport) | Apprentice STS experienced mode; Volantex Ranger 1600; four-channel sport handling, basic aerobatics (loops, rolls, stall turns) | Silver Wings |
+| FW-J (Jet) | EDF jets (Chapter 3) | Gold Wings + Jet type rating, instructor-supervised |
 
-> **Trade Hack.** Specify the roof net in **panels** joined by lacing cord along the catenary
-> cables rather than as one monolithic sheet. A prop-strike hole or storm chafe then means
-> dropping and re-lacing one 12 × 12 m panel from a scissor lift — an afternoon's work for two
-> Artisans — instead of a crane-and-crew net replacement. Order 10% spare net area with the
-> original production run so repair panels are colour- and mesh-matched.
+> **Field Note.** Resist the temptation to add a low-wing warbird class in Year 1. Warbirds are the most-requested and most-crashed airframes in club flying — high wing loading, tip-stall behaviour on landing, and cosmetic damage that customers notice. The sport tier on the existing high-wing fleet delivers 90% of the progression satisfaction at a fraction of the repair load. Revisit at the Phase 3 fleet review.
 
-**Worked containment case (the number to quote to the engineer and the insurer).** The
-design-basis impact is the heaviest-fastest credible aircraft: a 1.6 kg EDF jet at 120 km/h
-(33.3 m/s), kinetic energy E = ½ × 1.6 × 33.3² ≈ **890 J**. A tensioned UHMWPE panel arrests
-by deflection: allowing 1.0–1.5 m of net deflection, the mean arresting force is
-F = E/d ≈ 590–890 N, distributed across the 15–25 meshes a 1 m-class airframe engages — well
-under 60 N per 1.8 kN mesh strand, a margin above 25×. The same panel arrests a 75 mm whoop
-(65 g at 15 m/s ≈ 7 J) without measurable deflection. The governing case for the *net* is thus
-never the aircraft; it is chafe, UV and wind fatigue, which is why the inspection regime
-(Section 2.6) watches the net's condition rather than its strength class.
+## 3. Jets
 
-Wind load is the governing structural case, not aircraft impact. A 45–48 mm mesh presents
-roughly 8–12% solidity; the engineer of record must still design poles and foundations for the
-site's 50-year gust on the full net area, including a fouled-net case (wet leaves, snow where
-applicable). This calculation is part of the stamped drawing set the insurer sees (Section 1.4).
+### 3.1 EDF jets as the spectacle tier
 
-### 2.3 Runway, apron and helipads
+Electric ducted-fan (EDF) jets are the division's spectacle product: a 70 mm-class EDF at full throttle produces a genuine turbine-like howl and 130+ km/h flypasts that stop foot traffic across the park. They are deliberately positioned as an **advanced and demonstration tier, not a rental tier**. The reference fleet is two airframes:
 
-The airfield inside the cage follows the original blueprint: a paved runway, an apron, and
-elevated helipads.
-
-| Element | Specification |
-|---|---|
-| Runway | **30 m × 4 m**, machine-floated concrete or fine asphalt, centreline and threshold markings, aligned within ±20° of the prevailing wind (take the site wind rose from the Volume 11 study; model aircraft are far more crosswind-limited than full-scale) |
-| Overruns | 5 m mown-turf overrun at each threshold (also the belly-landing strip for the EDF jets, which are hand-launched and grass-landed) |
-| Apron | 8 × 12 m paved apron at mid-field on the pilot-box side: aircraft staging, arming benches, battery caddies |
-| Helipads | **Two elevated helipads**, 1.2 × 1.2 m, at 0.8 m height on the apron's east edge — elevation puts the rotor disc above bystander ankle height, gives clean air away from ground-effect dust, and stages the machine at hand height for the pilot's pre-flight |
-| Pilot boxes | Four numbered pilot boxes (Section 2.4) |
-| Wind indication | One windsock at the cage's upwind end, visible from all pilot boxes; anemometer feeding RC WORLD OS for the weather-minima dashboard (Section 9.5) |
-| Surface drainage | 1.5–2% cross-fall to a French drain along the south edge; the site's 2–4% natural grade is regraded flat within the cage |
-
-The runway length deserves one engineering note, because 30 m sounds short to full-scale
-thinking. A 1.4 kg trainer with a 10 m/s stall speed and a modest 2 m/s² accelerating at half
-throttle is airborne in 12–18 m; landing rollout with proportional braking (or simple friction
-on grass-adjacent asphalt) is under 15 m. The 30 m runway is therefore generous for every
-wheeled aircraft in the fleet, with the remaining margin consumed as operating comfort for
-students. EDF jets, the fastest class, hand-launch and land on the turf overruns; nothing in
-the rental fleet requires more pavement.
-
-### 2.4 Pilot boxes and the flight line
-
-Four pilot boxes stand in a line along the runway's south side, 3 m back from the pavement
-edge, each 1.5 × 1.5 m with a waist-high rail, a transmitter shelf, a Shift-status screen and
-a numbered overhead sign. Design rules:
-
-- Pilots fly **from inside a box, facing the runway with the sun behind or beside them**
-  (box orientation fixed at design time from the sun path — a student staring into afternoon
-  sun loses orientation, and orientation loss is the beginner's primary failure mode).
-- An overhead **net apron projects 2 m over the boxes** from the cage wall, so no aircraft can
-  descend vertically onto a pilot.
-- Box 1 is the **instruction box**: wider (2 × 2 m) to hold instructor + student standing
-  shoulder to shoulder for buddy-box work, with a wired buddy-box cradle.
-- Box 4 doubles as the **heli box**, nearest the helipads.
-- The **flight-line supervisor** (an Artisan rated under Chapter 8) stands behind the boxes
-  with sight of all aircraft and holds the abort authority: the call "**ALL STOP**" means every
-  pilot throttles to idle/land immediately, no discussion.
-
-### 2.5 FPV race volume, sectors and buffer zones
-
-The cage is internally divided into **three sectors** by repositionable curtain nets, so
-dissimilar programs never share air:
-
-| Sector | Volume | Program |
-|---|---|---|
-| **Sector A — Circuit** | Western ≈ 60 × 25 m to full 15 m ceiling, containing the runway | Fixed-wing, EDF, helicopters |
-| **Sector B — FPV race volume** | Eastern ≈ 30 × 15 m footprint, netted to 8 m | FPV quads: race course, freestyle, tours |
-| **Sector C — Buffer & spectator margin** | 5 m continuous margin inside all external net faces, plus the apron | No programmed flight; overfly permitted above 10 m in Sector A only |
-
-The FPV course inside Sector B is built from **soft, frangible course furniture**: 5-ft
-(1.5 m) fabric-and-fibreglass-pole air gates in the MultiGP style, flag pylons, a dive tower
-and LED-strip gate lighting for night formats (Chapter 7). Course elements are staked with
-rubber-capped pins, never concreted: the course is re-laid monthly to keep league pilots
-learning. Whoop-class quads at 25–90 g cannot damage the 45 mm perimeter mesh even at full
-speed, so Sector B's curtain walls are as much about discipline (keeping FPV traffic out of
-the fixed-wing circuit) as containment.
-
-Buffer-zone doctrine: **all programmed flight paths keep ≥ 5 m from external net faces**, and
-instructors teach the cage's interior "hard deck and walls" as if they were terrain. The net
-is never used as a backstop on purpose; an aircraft in the net is logged as an incident
-(Section 9.7) even when undamaged, because each contact is data about where procedure failed.
-
-### 2.6 Enclosure inspection & maintenance
-
-The enclosure is a life-safety structure and is inspected like one:
-
-- **Daily (opening checklist, Chapter 9):** walk the perimeter; check vestibule doors, ground
-  seal, and visible net damage at reachable height.
-- **Weekly:** binocular scan of roof panels and catenary hardware; tension check by feel at
-  marked stations; clear debris (branches, balloons, bird nests) from the roof.
-- **Quarterly (SOP-AV-006, summarized here, full text in the SOP register):** lift or drone-
-  camera inspection of every roof panel; torque-mark check on turnbuckles; UV-degradation
-  test — pull-test a sacrificial mesh coupon sewn to the south face and compare to new-net
-  break values; log everything in RC WORLD OS `maintenance_logs` against the asset record
-  "ENCLOSURE-AV-01".
-- **After any storm exceeding the design gust's 60%:** full perimeter and roof inspection
-  before the next flight.
-- **Net repair standard:** holes ≤ 3 mesh squares may be hand-laced with matched twine; larger
-  damage means panel replacement from spare stock. No flight in a sector whose containment has
-  an unrepaired hole larger than one mesh. There is no "temporary" exception to this rule.
-
----
-
-## 3. Fixed-wing program
-
-### 3.1 Program design: the trainer is the product
-
-Fixed wing is the division's volume business and the Academy's backbone. The product is not
-"fly a plane for 20 minutes"; it is **the experience of being taught to fly by a professional,
-in an environment engineered so the student cannot fail catastrophically**. Every design choice
-in this chapter serves that framing: high-wing foam trainers with modern
-stabilization, buddy-box dual control as the default for every first flight, and a fleet
-standardized so that an Artisan can swap a student between airframes without re-briefing.
-
-The doctrine mirrors Motorsport's standardized-chassis rule: **one primary trainer platform,
-bought in depth, with a full spares bench** — not a museum of one-off models. Personality and
-progression come from stabilization tiers and aircraft class, not from fleet diversity.
-
-### 3.2 Trainer fleet selection (verified July 2026)
-
-The 2026 trainer market remains dominated by high-wing EPO/EPP foam designs with
-gyro-stabilization suites. Three platforms anchor the RC WORLD fleet, chosen from the classes
-that current-year buyer's guides and club practice consistently rank at the top:
-
-**Primary trainer — E-flite Apprentice STS 1.5m class.** The club-standard adult trainer and
-the Academy's workhorse. Its 1.5 m high-wing, flat-bottom airframe is inherently stable and
-visible; its **SAFE** (Sensor Assisted Flight Envelope) system provides three switchable
-modes — Beginner (bank/pitch envelope limits, self-leveling), Intermediate (widened envelope),
-Experienced (unassisted) — plus a **Panic Recovery** button that returns the aircraft to level
-flight from any attitude. It is buddy-box compatible with Spektrum DSMX transmitters, which
-defines the division's radio standard, and its EPO airframe with rubber-band wing attachment
-is designed to shed energy and survive training. RC WORLD operates **four**.
-
-**Crash-tolerant secondary — HobbyZone AeroScout S 2 1.1m class.** A pusher-prop high-wing
-trainer: the motor sits behind the wing, so the propeller and motor survive the nose-first
-arrival every student eventually makes. Runs the same SAFE + AS3X stack and the same Spektrum
-ecosystem. Used for early solo consolidation, windier days (within minima) and as the
-resilience reserve when Apprentices are on the bench.
-
-**Micro/indoor class — HobbyZone Sport Cub S 2 class (sub-250 g).** A ~60 g, 617 mm micro Cub
-with the full SAFE stack. In the cage it serves calm-morning micro sessions and children's
-programs; commercially it matters because it is the aircraft customers can legally fly at home
-without registration in most jurisdictions, making it the retail counter's natural upsell.
-
-**Value sport/glider tier — Volantex / FMS class.** Two budget high-wing airframes (Volantex
-TrainStar/Sport Cub 500 class or FMS Easy Trainer 1280 class, per procurement pricing at
-order time — Volume 8) fill the "graduate rental" slot: cheap to buy, cheap to crash, flown
-by licensed soloists who want stick time without instruction.
-
-### 3.3 Trainer specification table
-
-| Spec | Micro trainer (Sport Cub S 2 class) | Primary trainer (Apprentice STS class) | Secondary (AeroScout S 2 class) | Sport/glider (Volantex/FMS class) |
+| Model | Fan | Power | Street price (approx.) | Notes |
 |---|---|---|---|---|
-| Wingspan | 617 mm | 1,500 mm | 1,095 mm | 1,280–1,400 mm |
-| Flying weight | ~57–61 g (sub-250 g) | ~1,390 g | ~750–800 g (with battery) | ~800–1,000 g |
-| Wing type | High-wing scale Cub | High-wing, flat-bottom | High-wing, pusher prop | High-wing / powered glider |
-| Power | 1S coreless brushed | Brushless outrunner, 30 A Smart ESC | 2306-class brushless, 30 A ESC | Brushless, 30–40 A ESC |
-| Battery | 1S 150–500 mAh LiPo | 3S 3,200–4,000 mAh LiPo | 3S 1,300–2,200 mAh LiPo | 2S–3S 1,500–2,200 mAh LiPo |
-| Flight time | 6–9 min stock | ~10+ min (3S 3,200) | ~10 min at half throttle (2,200) | 10–15 min |
-| Stabilization | SAFE + AS3X + Panic | SAFE 3-mode + Panic Recovery | SAFE + AS3X (always-on) + Panic | Xpilot / Reflex-class 3-mode gyro |
-| Role at RC WORLD | Kids' & micro sessions; retail demo | Academy primary; buddy-box instruction | Solo consolidation; wind reserve | Licensed-solo rental |
+| E-flite Habu SS 70 mm | 70 mm 10-blade | 4S–6S 3200–4000 mAh | ~$280–300 BNF/PNP | The benchmark "easy" sport EDF: docile low-speed handling, SAFE Select envelope, tricycle gear |
+| FMS or Freewing 70 mm scale jet (e.g. F-16 class) | 70 mm 12-blade | 6S 3300–4000 mAh | ~$250–350 PNP | Scale demo star; less forgiving at low speed — instructor-flown in demos, checkride ship for the type rating |
 
-All fixed-wing rentals fly on the park-standard battery doctrine — 2S/3S LiPo, XT60 (adapters
-fitted where a platform ships EC3/IC3), 3:1 battery-to-airframe ratio, 3.4–4.2 V/cell window,
-charged only in the bunker (Section 9.4).
+Both are EPO foam and repairable at the bench, but a jet crash is an order of magnitude costlier than a trainer crash: fan units, 6S packs and retracts concentrate value. Spare-airframe policy in Chapter 10.3.
 
-### 3.4 Buddy-box dual-control training
+### 3.2 Energy management — the jet discipline
 
-Buddy-box is the non-negotiable core of instruction. Two transmitters are linked (wired
-trainer port or wireless trainer bind); the instructor's master transmitter holds control
-authority, and a spring-loaded switch under the instructor's finger grants or revokes the
-student's slave transmitter instantly. The student experiences full, genuine control; the
-instructor's takeover latency is under half a second — faster than any verbal instruction, and
-the reason a properly run buddy-box program almost never bends an airframe.
+Jets are hard for one reason: **energy**. A trainer flies at 8 m/s and stops flying gently; a 70 mm EDF approaches at 20+ m/s, carries three times the kinetic energy per kilogram, and — critically — has *no propwash over the tail*, so control authority collapses with airspeed. Inside a 70 m cage this compresses further: the pilot has perhaps four seconds of straight line before the far net. Jet operations therefore run under their own rules:
 
-Standard first-flight protocol (taught verbatim in instructor training):
+- **Racetrack pattern only** — continuous oval at the 12–18 m band, no hovering discipline sharing the airspace, no student traffic aloft (jets get exclusive airspace slots, Chapter 8.2).
+- **Throttle is a planning tool, not a reflex.** The syllabus teaches energy budgeting: power set on downwind, speed bled progressively, approach flown on a stabilised glidepath with power carried to the flare. Chopping throttle on final in an EDF is the canonical beginner crash.
+- **Flight duration 3–4 minutes** against a timer; 6S packs land at ≥ 3.5 V/cell per the park LiPo window (canon 3.4–4.2 V/cell, Chapter 8.4).
+- **Wind limits tighter than trainers** (Chapter 8.5): crosswind on a 30 m runway with a fast, short-coupled airframe is an instructor-only condition.
 
-1. Instructor performs take-off, climbs to circuit height (8–12 m in the cage), trims.
-2. "**You have control**" — student acknowledges "**I have control**." Handovers are always
-   verbal and positive, both directions; this is airline-grade discipline scaled down.
-3. Student flies gentle circuits in SAFE Beginner mode; instructor coaches one axis at a time
-   (ailerons first, then elevator coordination, then throttle).
-4. Any exceedance — the instructor takes control *before* the aircraft is in trouble, resets,
-   hands back. Take-backs are framed as normal ("that's what I'm here for"), never as failure.
-5. Instructor lands. Students do not attempt landings until Academy Stage 3 (Chapter 8).
+### 3.3 Who may fly jets
 
-### 3.5 Stabilization tiers as a progression instrument
+Jet access requires **Gold Wings plus the Jet type rating** (Chapter 9.3), and every jet flight — including those by rated customers — is **instructor-supervised**: the instructor stands at the pilot box with a linked master radio for the customer's first three rated flights, and remains physically present as spotter/controller-liaison thereafter. There is no casual jet rental. This is the same premium-supervised logic the park applies to the Kabolite hydraulic excavator (Volume 4): the machine is the marketing; the supervision is the margin protection.
 
-The SAFE/gyro modes map directly onto the license ladder, which lets the Academy sell
-progression without changing aircraft:
+### 3.4 Demo-day programming
 
-| Tier | Stabilization state | Who flies it |
+Because most visitors will never fly a jet, the jets earn their keep on the schedule:
+
+| Slot | Content | Duration |
 |---|---|---|
-| Tier 1 | SAFE Beginner + Panic; envelope limited | Discovery flights, Cadet students |
-| Tier 2 | SAFE Intermediate; widened envelope, Panic armed | Stage 2–3 students, new soloists |
-| Tier 3 | Experienced/gyro-off; Panic available | Pilot license holders |
-| Tier 4 | No net assistance culture — Panic treated as emergency-only | Instructor candidates, display pilots |
+| Daily 12:00 & 16:00 | "Jet Blast" flypast demo — instructor-flown scale jet, commentary over PA, 2 flights | 10 min |
+| Weekend 14:00 | Type-rating showcase: rated customer flights, Habu SS, announced by name (aspirational marketing for the Wings ladder) | 20 min |
+| Monthly | Twilight demo on events lawn sightline, paired with Motorsport night-race events (Phase 3 lighting permitting) | 30 min |
 
-The flight-line supervisor sets the tier on the transmitter before handover and records it in
-the session log; a student may never self-select a higher tier.
+> **Safety Warning.** EDF intakes are the division's only exposed-rotor hazard that cannot be caged: a 70 mm fan at partial throttle will ingest a finger. Jets are armed **only on the runway centreline**, never on the apron; the arming procedure in SOP AV-03 applies to every jet movement, and customers never carry a live jet.
 
----
+**SOP AV-03 — EDF jet arming & movement** (ID: AV-03 · Rev 1.0 · Owner: CFI · PPE: none beyond standard · Tools: throttle-lock tag, battery caddy · Frequency: every jet flight):
 
-## 4. Jets & high-performance aircraft
+1. Jet is carried to the centreline **without a battery installed**; battery travels separately in the caddy.
+2. Pilot and instructor confirm transmitter on, correct model, throttle stick low, **throttle-cut/lock engaged**, rates and failsafe verified per the fixed-wing checklist.
+3. Battery installed and hatch latched at the centreline; aircraft pointed down-runway, intake and exhaust clear of all persons by ≥ 3 m.
+4. Instructor calls "JET LIVE" to the tower; tower confirms exclusive slot active and airspace otherwise cold.
+5. Throttle lock released only when both pilot and instructor are behind the wing line. Any interruption (spectator question, radio anomaly, weather call) → throttle lock re-engaged before anything else is discussed.
+6. After landing: throttle lock on, "JET COLD" call, battery out at the centreline before the aircraft is carried anywhere. Battery voltage logged; pack to the flight-line cache or quarantine (Chapter 8.4) as condition dictates.
 
-### 4.1 EDF jets: the premium supervised experience
+## 4. FPV Program
 
-The jet program exists because "I flew a jet" is the single strongest word-of-mouth sentence
-the division can generate. The offering is built on **64–70 mm electric ducted-fan (EDF) foam
-jets** (E-flite Habu STS 70mm class with SAFE, or FMS 64 mm class): 0.9–1.6 kg airframes,
-100–130 km/h, with the turbine sound signature that makes spectators look up — at electric
-cost and electric risk.
+### 4.1 The FPV product family
 
-The EDF experience is sold as a **premium Shift ($22)** and is always supervised: the customer
-flies from Box 2 with an instructor on buddy-box master, minimum license tier "Pilot"
-(Chapter 8) or as a fully instructor-shadowed taster. The Habu-class SAFE envelope makes this
-honest to sell — the customer genuinely flies the jet — while the master transmitter makes it
-insurable. Hand-launch and turf belly-landing are performed by staff; the customer flies the
-en-route portion. Two EDF airframes carry the program; at ~6 minutes per pack, the 20-minute
-Shift is choreographed as brief → flight one → battery swap and debrief → flight two.
+First-person-view flight — piloting through goggles fed by an onboard camera — is the fastest-growing segment of RC aviation and the division's strongest draw for the 16–35 demographic. The program runs three distinct products:
 
-### 4.2 Why turbine jets are excluded from rental
+1. **Cinewhoop experiences (rental core).** Ducted 2–2.5" quadcopters in the BetaFPV Pavo20-class (~$300–460 depending on video system) flown smoothly through a decorated course. Prop ducts make them near-harmless on contact; flight character is slow and cinematic. This is the walk-in FPV product: after a sim introduction (Chapter 7), a customer flies a real cinewhoop on their first visit with an instructor on a second set of goggles.
+2. **Freestyle progression (certified tier).** 3.5"–5" freestyle quads for customers holding the FPV type rating (Chapter 9.3), flown in dedicated airspace slots. Acro-mode flight — no self-levelling — is the discipline's summit and is gated accordingly.
+3. **Tiny Whoop / micro (Whoop Arcade).** 65–75 mm brushless 1S whoops (Meteor65-class) flown in the fine-mesh side enclosure. Because the Arcade is its own sealed airspace, it runs in parallel with main-cage operations and is the division's highest-throughput product (Chapter 6.4).
 
-Real kerosene turbines are explicitly excluded from the rental and instruction fleet, and the
-reasoning is recorded here because investors and enthusiast customers both ask:
+Video standard: the park standardises on **digital HD FPV (DJI O4-class air units)** for cinewhoops and analog 5.8 GHz for racing (analog remains the racing norm for latency, cost and multi-pilot channel management). Spectator screens at the FPV pit repeat the pilot's feed — the single best conversion tool the division has, because bystanders see exactly what the pilot sees.
 
-| Factor | Turbine reality | Division verdict |
-|---|---|---|
-| Cost | $2,500–8,000 per engine; airframes $1,500–10,000+; a single crash can write off more than the entire foam fleet | Fails the crash-economics doctrine (Section 10.3) |
-| Fuel | Kerosene/Jet-A storage, fire class change, separate permits and fire-marshal review for the whole site | Contaminates the park's clean all-electric fire posture |
-| Insurance | Underwriters treat model turbines as a distinct, heavily loaded risk class; most jurisdictions layer certification requirements on turbine operators | Undoes the premium position the cage bought (Section 1.4) |
-| Noise | 100–110 dB(A) at close range vs ~75–85 for EDF; incompatible with a peri-urban lease and same-cage instruction | Breaches the site noise envelope (Volume 11) |
-| Speed & energy | 200–350 km/h typical; a 15 m ceiling and 60 m cage are simply too small | Physically incompatible with the enclosure |
+### 4.2 Goggles hygiene
 
-**The airshow exception:** turbines are not banned from RC WORLD — they are banned from
-*rental*. Invited display pilots flying their own turbine aircraft may feature in ticketed
-airshow events under a per-event permit, per-event insurance, an outdoor temporary flight area
-and the national model-aircraft association's display-pilot standards. That is an events
-project (Volume 9 events calendar), never a daily operation.
+Goggles are shared headwear, and the park treats them with barbershop discipline:
 
-> **Field Note.** Position the EDF program's marketing exactly as the industry does: "jet
-> experience", not "jet trainer". Customers are buying the sound, the speed sensation and the
-> photo; the SAFE envelope and buddy-box do the flying safety. Honest framing keeps
-> expectations aligned and protects the five-star review rate.
+- Disposable single-use **face-foam liners** (fleet-standard faceplate pads) issued per customer; used liners binned in sight of the customer.
+- Lens and shell wiped with alcohol-free optical disinfectant between users; UV-C sanitising cabinet at the FPV pit runs a 5-minute cycle per returned set.
+- Focus/diopter adjustment briefed by staff; customers with glasses get the box-style goggle option (DJI Goggles N3-class, ~$270, accepts spectacles).
+- Goggle sets are fleet assets with asset tags in RC WORLD OS; foam-liner stock is a standing consumable in Volume 8's procurement schedule.
 
----
+### 4.3 Video frequency management — the 5.8 GHz channel plan
+
+Control links (2.4 GHz frequency-hopping) coexist essentially without management, but **5.8 GHz analog video does not**: two pilots on the same or adjacent video channels will wipe out each other's picture, and a pilot who powers up on the wrong channel mid-race blinds everyone. The park therefore runs a fixed channel plan, administered by the airspace controller, using **RaceBand** — the eight-channel band with 37 MHz spacing designed for multi-pilot racing:
+
+| Slot | Band/Channel | Frequency | Standing assignment |
+|---|---|---|---|
+| 1 | R1 | 5,658 MHz | Race heat slot 1 |
+| 2 | R2 | 5,695 MHz | Race heat slot 2 |
+| 3 | R3 | 5,732 MHz | Race heat slot 3 / freestyle A |
+| 4 | R4 | 5,769 MHz | Race heat slot 4 / freestyle B |
+| 5 | R6 | 5,843 MHz | Race heat slot 5 |
+| 6 | R7 | 5,880 MHz | Race heat slot 6 / instructor cinewhoop |
+| 7 | R8 | 5,917 MHz | Race heat slot 7 (verify legal in-country) |
+| 8 | Digital (O4-class, auto-managed) | 5.8 GHz DFS | Cinewhoop rentals — digital system self-coordinates |
+
+Rules of the plan: maximum **7 simultaneous analog pilots** (R5 at 5,806 MHz is skipped as an interference guard for the digital system, and top-of-band channels must be verified against local spectrum law — several RaceBand channels are not legal in all jurisdictions; verify locally and amend the plan); **25 mW transmit power** standard (the MultiGP norm — sufficient inside a 70 m cage and the key to clean multi-pilot video); no video transmitter is powered up anywhere on site except at the FPV pit with a channel token physically in hand. Channel tokens are numbered tags hanging at the controller's desk — an old club trick that makes spectrum occupancy visible at a glance.
+
+> **Trade Hack.** Smoke-stop every analog channel dispute with a $60 handheld 5.8 GHz spectrum scanner at the controller desk. When a pilot swears they are on R3 and the screen shows energy on R4, the argument is over in five seconds. Log recurring offenders' equipment — a mis-programmed VTX that "sticks" a channel is a maintenance ticket, not a discipline issue.
+
+### 4.4 Spotter requirement
+
+A pilot under goggles is blind to the world. **Every FPV flight requires a designated spotter** standing at the pilot's shoulder: eyes on the aircraft, ears on the tower, hand on the pilot's shoulder for urgent physical alerts. For rental cinewhoop sessions the instructor is the spotter; for certified freestyle slots customers may spot for each other only if both hold the FPV rating; for racing the heat marshal spots the group collectively with lane spotters at large events. The spotter — not the goggled pilot — owns collision avoidance with other airspace users and executes the "LAND LAND LAND" call (Chapter 8.6).
+
+### 4.5 Simulator-first pathway
+
+FPV in acro mode is the only park discipline in which a novice's first sixty seconds are near-guaranteed destruction: there is no self-levelling, no envelope, and control response is instantaneous. The park's rule is absolute: **no customer touches a real acro-mode quad until they have logged simulator hours** (Chapter 7.3 sets the numbers — 3 sim hours for the cinewhoop-to-freestyle step, with gate-navigation proficiency demonstrated in Velocidrone). The sim-to-real transfer in FPV is the best of any RC discipline — muscle memory built in Liftoff or Velocidrone transfers almost 1:1 because the control loop is identical — which makes the simulator lab both a genuine training tool and an honest gatekeeper. Stabilised cinewhoop rentals are exempt from the sim gate (angle mode plus ducts plus instructor-spotter makes first-flight risk acceptable), which preserves the walk-in product.
 
 ## 5. Helicopters
 
-### 5.1 Why helicopters are a demo and advanced-member class
+### 5.1 The hardest discipline — and why the park teaches it anyway
 
-Helicopters are the most demanding aircraft in the hobby. A **collective-pitch (CP)**
-helicopter — where rotor blade pitch changes collectively for climb/descent and cyclically for
-translation — is fully aerobatic, fully unstable without electronic aid, and unforgiving: a
-beginner on an unaided CP machine will destroy it within seconds, and CP rotor discs at
-2,000+ RPM are the most dangerous rotating assemblies in the fleet. A **fixed-pitch (FP)** or
-coaxial helicopter throttles the rotor for altitude and is docile but aerodynamically limited.
+A collective-pitch helicopter is the most demanding machine in all of RC. It is unstable in every axis simultaneously; hovering demands continuous correction on four controls at once; and orientation reverses when the nose faces the pilot. Full-scale pilots routinely report that a 400-class RC heli is harder to hover than the real aircraft, because the real one gives vestibular feedback and the model gives none. The park teaches helicopters precisely because of this: the discipline is the Wings ladder's Everest, and "I can hover nose-in" is the kind of earned skill that turns a customer into a member. Modern flybarless stabilisation systems have also softened the entry: today's micro collective-pitch machines carry gyro-stabilised rescue modes that recover to level flight at the flip of a switch — a panic button the discipline never used to have.
 
-The division's answer is honest segmentation rather than pretending helis are rentable:
+### 5.2 Trainer doctrine: coax first, collective-pitch second
 
-- **Staff demonstration.** The scale demo ship (a 380–450-class scale fuselage machine, e.g.
-  OMPHobby M4-class mechanics in a scale body) flies scheduled demo slots — the single most
-  photographed asset on the airfield, per club experience everywhere.
-- **Advanced-member class.** CP flying (OMPHobby M2-class, 200 mm, 3D-capable, cheap blades)
-  is available only to members holding the **Heli Rating** (Chapter 8), always from Box 4 over
-  the elevated helipads, with rotor-speed governor and throttle-hold failsafe verified before
-  every session.
-- **Taster experience.** The FP/coaxial trainer plus simulator gives casual customers a
-  20-minute "helicopter hover challenge" Shift — genuinely fun, honestly safe, and a feeder
-  into the rating pathway.
-
-### 5.2 Scale heli experiences
-
-The scale program monetizes spectacle: a "fly the rescue mission" premium Shift where a
-member-pilot (or staff pilot with the customer directing via headset) flies the scale machine
-through a scripted winch-and-rescue scenario over the Construction Division diorama props
-(cross-staging with Volume 4's set dressing). It is theatre — and at $22 premium pricing with
-near-zero marginal cost, it is some of the best margin in the park.
-
----
-
-## 6. FPV program
-
-### 6.1 The immersive product
-
-FPV — first-person view, flying through video goggles from a camera on the aircraft — is the
-division's highest-intensity product and its strongest draw for the 16–35 demographic. The
-cage is an FPV pilot's dream venue: proximity flying that would be illegal or antisocial
-anywhere public, a permanent course, night formats, and no flyaway anxiety. The program has
-four products:
-
-1. **FPV Discovery (premium Shift, $22).** Simulator warm-up, then a whoop-class quad in
-   Sector B on stabilized angle mode with an instructor spotter. The customer is flying real
-   FPV inside ten minutes.
-2. **FPV plane experience.** A gyro-stabilized FPV-equipped trainer flown in Sector A —
-   buddy-boxed exactly like Chapter 3, but the student wears goggles while the instructor
-   flies line-of-sight master. The "passenger seat becoming pilot seat" moment sells itself.
-3. **Aerial tour (cinewhoop).** A staff-flown ducted cinewhoop carries the customer's goggles
-   view on a smooth scripted lap of the whole cage — the wheelchair-accessible, zero-skill FPV
-   product, and the demo that converts watchers to bookers.
-4. **Race practice & league.** Open-course practice for FPV-rated pilots and the structured
-   league (Chapter 7).
-
-### 6.2 Simulator-first pipeline
-
-FPV's learning curve is real: acro-mode multirotor control is a motor skill built over hours,
-and burning those hours on real airframes is needless cost. The doctrine is
-**simulator-first**: four sim stations (gaming PCs, genuine hobby radios as controllers,
-current titles of the Liftoff/Velocidrone/Uncrashed class, plus a fixed-wing sim seat) sit in
-the airfield pavilion. Discovery customers fly 5 sim minutes before their first real pack;
-FPV-rating candidates log a required sim curriculum (Chapter 8); rainy-day revenue keeps the
-division earning when weather minima ground the cage. Sim time is sold in standard Shifts
-($15) and bundled free with FPV Academy stages.
-
-### 6.3 Video frequency management: the 5.8 GHz channel plan
-
-Analog FPV video lives in the 5.8 GHz band, and uncoordinated transmitters jam each other —
-two pilots on one channel means both lose video, and a pilot losing video mid-flight is the
-FPV equivalent of an engine fire. Frequency management is therefore a duty-manager function,
-not pilot etiquette:
-
-- **The canonical grid is Raceband (R1–R8)**, eight channels spaced ~37 MHz from 5,658 to
-  5,917 MHz, designed for multi-pilot racing.
-- **Simultaneous-pilot ceiling: 4 in normal operations** (R1/R3/R6/R8 — the wide-spaced,
-  IMD-friendly subset), expandable to 6 for league nights (R1/R2/R4/R5/R7/R8 with 25 mW power
-  discipline and gate spacing) — beyond six, intermodulation products degrade everyone's video.
-- **Power limit: 25 mW inside the cage.** The cage is small; 25 mW covers it completely, and
-  low power is the single biggest lever against channel bleed. Rental quads are firmware-locked
-  to 25 mW.
-- **Channel assignment is physical:** a channel board at the Sector B gate holds eight numbered
-  tokens; a pilot without a token does not power a video transmitter. Powering a VTX without a
-  token — even "just on the bench" — is the FPV cardinal sin, because it blinds every airborne
-  pilot on that channel; it is a same-day session termination on first offence.
-- **Digital FPV** (DJI O3/O4-class, HDZero, Walksnail) coexists on the same band with its own
-  channel budget; the duty manager's channel board treats digital slots as consuming two
-  analog-adjacent channels. The rental fleet standardizes on analog for cost and latency;
-  members flying digital register their system at the gate.
-- The duty manager owns a **spectrum scan** (a $30 RF Explorer-class dongle or the timing
-  system's built-in analyzer) run at every session start, because a customer's powered-up
-  goggles-with-VTX in a backpack is the classic phantom jammer.
-
-### 6.4 Spotter requirement and goggles hygiene
-
-**Spotter rule:** every goggled pilot has a designated un-goggled spotter — an instructor,
-Artisan, or rated companion — standing beside them, watching the actual aircraft and the
-sector, empowered to call "LAND NOW". This mirrors the VLOS-observer requirement of outdoor
-law (Section 1.2) and is non-negotiable even for staff.
-
-**Goggles hygiene protocol** (rental goggles touch dozens of faces a day; treat them like
-rental helmets or bowling shoes):
-
-- Every goggle set carries a removable, washable faceplate foam; each customer receives a
-  fresh **disposable hygiene liner** (single-use foam/fabric mask insert, the cinema-VR
-  standard product) fitted in front of them.
-- Between customers: liner discarded, lenses and shell wiped with non-alcohol optical
-  disinfectant wipes (alcohol crazes polycarbonate lenses), inspected, and returned to the
-  UV-C sanitizing cabinet at the FPV desk (the barber-shop model: visible hygiene is a
-  product feature).
-- Faceplate foams rotate through a wash cycle weekly or on visible soiling; every set is
-  deep-cleaned and lens-checked in the Works monthly (PM matrix, Section 10.5).
-- Customers with eye infections are politely moved to the screen-relay experience (the tour
-  feed on a monitor) — the booking script includes the question.
-
----
-
-## 7. Drone racing & league operations
-
-### 7.1 Product logic
-
-Drone racing converts the FPV program from experience revenue into **community revenue** —
-memberships, league nights, spectator events, sponsorships. The model is deliberately built on
-the format architecture proven worldwide by MultiGP-style chapter racing: standardized class
-rules, short heats, rotating channel assignments, season points, and a spec class that keeps
-cost out of the competition.
-
-### 7.2 League structure
-
-| Element | Specification |
-|---|---|
-| Spec class | **Whoop spec** — rental-identical 75 mm whoops (BetaFPV Meteor75 class), 1S, 25 mW analog; park provides the fleet, so racing is a pure skill contest (the Motorsport 2–3% parity doctrine applied to air) |
-| Open class | Members' own sub-120 g micro quads, 25 mW cap, tech-inspected at the gate |
-| Heat format | 4 pilots × 2-minute heats, most-laps-wins; 3 qualifying rounds then ladder finals (MultiGP-style "Race to the Finals" ladder) |
-| Season | 8 league nights per quarter; season points; podium at the quarterly park festival |
-| Progression hook | League standing feeds the RC WORLD License ladder (Chapter 8) and the Gears loyalty ledger (Volume 9) |
-| Entry pricing | League night = premium Operator Shift pricing ($38, two blocks with pit-stop battery swaps) for non-members; included in Operator/Foreman memberships |
-
-### 7.3 Gate design and course furniture
-
-Race gates follow the community-standard geometry: **1.5 m (5 ft) circular or square air
-gates** on fibreglass poles with fabric skins, plus flag pylons for turn markers. Everything
-is soft, frangible and re-stakeable. Two engineering notes:
-
-- Gate skins carry **hook-and-loop LED strips** (addressable WS2812-class, 5 V battery packs
-  in the base): white for day definition, full RGB for **night racing**, where gates glow
-  through course-sequenced colours and the cage's low ambient light makes the whoop LEDs into
-  tracer fire. Night league runs after park close under floodlight-off conditions — the
-  spectator promenade shot is the park's best social-media asset.
-- Course design language uses the standard vocabulary — start/finish gate, hurdle gates, slalom
-  flags, a dive gate off the 8 m Sector B ceiling — and is re-laid monthly from a course
-  library kept in RC WORLD OS so league lap-time history stays comparable within a season.
-
-### 7.4 Timing systems (verified July 2026)
-
-FPV race timing works by detecting each quad's own 5.8 GHz video transmission as it crosses
-the gate — no transponders needed. Two systems dominate current practice, and RC WORLD runs
-both tiers:
-
-- **RotorHazard** (open-source, Raspberry Pi server + RX5808 receiver nodes) is the league
-  standard: it times and *manages* the event on one system — pilots, heats, classes, results,
-  LED and audio cues — supports up to 16 seats, tracks analog and digital VTXs, and its
-  race-replay "marshaling" recovers missed laps from RSSI history, which matters when a
-  volunteer is running race night. Hardware cost is low (~$100–200 self-built), and its JSON
-  API feeds lap data into RC WORLD OS so league laps land on the park leaderboard beside
-  Motorsport lap times.
-- **ImmersionRC LapRF 8-way** (commercial event-grade timer with gate-shaped detection
-  antennas, Ethernet integration, LiveTime-compatible) is the specification for ticketed
-  spectator events; RotorHazard's LapRF interface plugin can also drive LapRF hardware as its
-  data source, so both investments serve one software stack.
-
-Timing displays mirror to the promenade screens with the goggle feeds, so spectators watch the
-race the way pilots fly it — this, more than anything, is what makes drone racing watchable.
-
----
-
-## 8. RC WORLD Flight Academy & pilot certification
-
-### 8.1 The Academy as the division's engine
-
-The **RC WORLD Flight Academy** is the structured instruction program that converts one-time
-visitors into progressing, returning, paying pilots. Everything upstream of it (trainers,
-simulators, buddy boxes) is its equipment; everything downstream of it (solo rental, FPV
-league, heli class) is gated by its ratings. It is run by the chief flight instructor (an
-Artisan with instructor rating and program ownership) and staffed by rated instructors.
-
-### 8.2 Curriculum ladder
-
-The ladder runs **simulator → buddy-box trainer → solo wings → specialty ratings**, and every
-rung maps to the park-wide RC WORLD License framework of Volume 9:
-
-| Stage | Name | Content | Gate to advance | Typical duration |
+| Tier | Machine class | Reference model | Street price (approx.) | Character |
 |---|---|---|---|---|
-| 0 | Toolbox Talk (Aviation) | Digital induction module: cage doctrine, LiPo rules, flight-line discipline, waiver | Module passed in app | 15 min, before first booking |
-| 1 | **Cadet** | Simulator fundamentals (orientation, circuits); first buddy-box flights, SAFE Beginner, instructor take-offs/landings | Fly 3 consistent circuits with ≤ 2 instructor take-backs | 3–5 Shifts |
-| 2 | Cadet advanced | Buddy-box: full circuit including approach; SAFE Intermediate; simulated failsafe drill | Instructor-observed circuit incl. landing flare with verbal-only coaching | 3–6 Shifts |
-| 3 | **Pilot (solo wings)** | Supervised solo on primary trainer: solo take-off, circuit, landing with instructor observing (not on buddy box); practical test (Section 8.4) | Practical test pass | test session |
-| 4 | **FPV Racer rating** | Sim curriculum (angle → acro), spotter-crewed whoop flights, channel-plan exam, race-format check | Timed course clean run + written frequency exam | 4–8 Shifts |
-| 5 | **Heli rating** | FP hover school → CP hover circuits on M2-class with throttle-hold drills | Hover box test + autorotation-awareness oral | 6–10 Shifts |
-| 6 | **Instructor rating** | Teaching practice under CFI, buddy-box master technique, incident-command role | CFI sign-off + safety-officer interview | Foreman members / staff |
+| H-1 Coax | Coaxial fixed-pitch micro | Blade 70 S-class coax/fixed-pitch micro (segment is thin in 2026 — source current equivalents at procurement, Volume 8) | $60–120 RTF | Twin counter-rotating rotors self-cancel torque; machine hovers hands-off; teaches orientation only |
+| H-2 CP trainer | Micro collective-pitch, stabilised | OMPHobby M2 EVO (MK2) | ~$330 PNP / ~$470 RTF | Full collective-pitch response with GPS-free attitude rescue mode; brushless direct-drive; crash-cheap by heli standards |
+| H-3 CP sport | 380–450-class collective-pitch | OMPHobby M4/M4 Max-class or equivalent | $500–800 | Instructor and demo machine; checkride ship for the Heli type rating |
 
-Each rating is written to the customer's profile in RC WORLD OS and rendered in the app as
-wings on their digital license card. The **logbook is in the app**: every Shift auto-logs
-aircraft, duration, instructor, weather, and exercises completed (instructor taps a rubric);
-practical tests are logged against the standards in Section 8.4. The logbook is not
-decoration — duty managers check it at the gate, and lapsed currency (no logged flight in 90
-days) drops a pilot one supervision tier until a refresher Shift.
+The teaching sequence is fixed: **orientation on the coax → hover discipline on the sim (Chapter 7) → collective-pitch on the M2-class with rescue mode armed → circuits and autorotation awareness on the 380-class under buddy supervision.** Skipping the sim step on helis is the most expensive mistake a flight school can make; a single botched CP hover costs a full set of blades, main shaft, feathering spindle and often a tail boom.
 
-### 8.3 Session structure, ratios and pricing
+### 5.3 Helipad operations
 
-| Product | Structure | Instructor ratio | Price |
+The two elevated helipads (1.0 m high, 1.5 m square, rubber-surfaced, railed on the spectator side) exist for three reasons: they put the hover at eye level for spectators; they keep rotor wash off runway dust; and they physically separate rotorcraft from the fixed-wing flow. Operating rules:
+
+- Helis fly in the **eastern hover box** (helipad side), a 15 × 15 m column to 10 m altitude, deconflicted from the fixed-wing circuit by the airspace matrix (Chapter 8.2).
+- Spool-up only on the pad, throttle-hold engaged until the pilot box confirms tower clearance; approach and departure paths never cross the runway centreline below 10 m.
+- Customers stand at the marked pilot box 4 m from the pad — never beside a spooled machine. Rotor-disc contact is the heli program's defining hazard: even a 200-class machine's blades cut, and a 450-class disc is treated with the same respect as the EDF intake.
+- Maximum **two helis airborne** in the hover box simultaneously, and only if both pilots hold the Heli rating; instruction sessions get the box exclusively.
+
+**Pre-flight checklist — rotorcraft:**
+
+- [ ] Blades: no cracks, chips or delamination; blade grips tight to spec
+- [ ] Head: feathering spindle straight, linkages secure, swashplate level (leveller tool on first flight of day)
+- [ ] Tail: belt/shaft drive intact, tail blades sound, tail servo linkage secure
+- [ ] Frame: no cracked frames or loose motor mount; canopy latched
+- [ ] Battery: charged, strapped, connector seated; hover-check voltage telemetry live
+- [ ] Radio: correct model; throttle hold ON before power-up; rescue mode armed and switch verified
+- [ ] Failsafe: hold-to-throttle-off verified (first flight of day)
+- [ ] Tower: hover-box slot confirmed
+
+### 5.4 Maintenance intensity
+
+Helicopters are the fleet's maintenance outlier. A crashed foam trainer is a glue job; a crashed CP heli is a teardown — the industry's "crash kit" (main blades, main shaft, feathering spindle, tail boom, servo gears) exists because those parts fail together. Budget doctrine (fed into Chapter 10 and Volume 7's workshop planning):
+
+- **Maintenance hours per flight hour: ~0.6 for CP helis vs ~0.1 for foam fixed-wing.** One Artisan bench-shift per week is standing heli allocation.
+- Crash kits stocked at **2 per airframe** at all times; blades treated as consumables like Motorsport tires.
+- After *any* ground contact, the machine is grounded until an Artisan has checked shaft runout and spindle straightness — a bent spindle flown on vibrates the airframe to death in ten flights.
+- Skid-and-blade inspection every 10 flights; head teardown inspection every 50; motor and ESC thermal check every 25 (logged in `maintenance_logs` per park schema).
+
+> **Field Note.** The M2-class direct-drive brushless micros have quietly transformed heli-school economics: no gears to strip, no belt to snap, and a full crash repair often under $30 in parts. Ten years ago a training fleet of nitro 450s would have needed a dedicated technician. Do not let nostalgia for big helis creep into the rental tier — the 380/450-class machines are instructor and demo ships only.
+
+## 6. Drone Racing
+
+### 6.1 Course design inside the net
+
+The western half of the cage is the racing volume: a reconfigurable course of **air gates and flags** in the style established by MultiGP club racing and the Drone Racing League (DRL) — the two reference formats for course grammar, heat structure and spec philosophy. Physical inventory:
+
+| Element | Spec | Qty | Note |
 |---|---|---|---|
-| Discovery Flight | 20-min premium Shift: sim warm-up + buddy-box flight | 1:1 | $22 (premium Casual Shift) |
-| Academy Stage Shift | 20-min instructed Shift against curriculum rubric | 1:1 on buddy box; 1:2 permitted at Stage 2+ (one flying, one observing/sim) | $22, or Operator Shift $38 for double blocks |
-| Coaching upsell | Dedicated senior-instructor session with video debrief | 1:1 | +$15 on any Shift (the park-standard coaching upsell, Volume 9) |
-| Solo rental (rated Pilots) | Standard Shift on sport tier | Flight-line supervisor oversight only | $15 standard / $22 premium airframes (EDF, FPV) |
-| Group programs (schools, scouts) | 90-min block: sim rotation + buddy-box rotation | 1:4 with sim stations absorbing waiting students | From $349 (party pricing anchor, Volume 9) |
-| Membership integration | Apprentice/Operator/Foreman members receive Academy discounts and league access per Volume 9 | — | $29/$59/$99 per month |
+| Square air gates | 1.5 m × 1.5 m, push-fit poles + fabric flags, LED-taped | 8 | MultiGP-standard 5 ft gate class |
+| Large start/finish gate | 2.4 m arch, LED chase lighting | 1 | Houses the timing loop (6.2) |
+| Flags/pylons | 2.5 m flexible pylons | 10 | Turn markers; harmless on strike |
+| Hurdles/ladders | 0.6 m low gates | 4 | "Under" elements; forces altitude changes |
+| Dive gate | Gate mounted at 6 m on mast, dive to ground gate | 1 | Signature spectacle element |
 
-Capacity math for investors: Sector A supports one instructed aircraft plus one solo aircraft
-concurrently within flight-line discipline; Sector B supports four FPV seats plus four sim
-stations. Six flying seats × three Shifts/hour × 10 hours = 180 Shift-slots on a weekend day;
-at 60% weekend utilization the division sells ≈ 110 flying Shifts plus 25–35 sim Shifts daily.
+Design rules learned from club practice: gates never point a race line *at* the spectator net; consecutive gates are ≥ 8 m apart at 5" speeds; the course crosses its own line at most once (marshalling clarity); and every course revision is flown in Velocidrone first — the sim's track editor doubles as the park's course-design CAD (Chapter 7.2). Track resets take one staff-hour; the league publishes a new layout monthly.
 
-**Worked revenue example (steady-state Year 2 of division operation).** Assume 104 weekend
-days at the above (≈ 135 Shift-equivalents blended ≈ $19 → ≈ $2,570/day) and 210 operable
-weekdays at 30% utilization (≈ 65 Shift-equivalents → ≈ $1,240/day), less an 8% weather
-cancellation factor: ticket revenue ≈ (104 × 2,570 + 210 × 1,240) × 0.92 ≈ **$485 k/year**,
-before Academy course packages, league nights, coaching upsells, birthday/corporate blocks and
-retail attach. Against a fleet costing under $14 k and repair opex of ≈ $15–20 k/year, the
-division's operating leverage is the strongest in the park once the enclosure is amortized —
-which is precisely why the enclosure ($120–180 k) belongs in Phase 2 capex and not in any
-operating comparison. Division P&L consolidates in Volume 10.
+### 6.2 Timing systems
 
-### 8.4 Practical test standards (PTS)
+Racing without timing is practice. The park runs RF-based lap timing, which detects each quad's own 5.8 GHz video transmitter as it passes the start/finish gate — no transponders to install:
 
-Tests are standardized so a rating means the same thing under any instructor. Extracts (full
-rubric sheets live in RC WORLD OS):
+- **Primary: RotorHazard** — the open-source race-timing platform that has become the de facto club standard: multi-node 5.8 GHz receiver hardware (~$150–300 self-built or assembled), per-pilot channel lock, voice callouts, and an API that The Works' software team bridges into RC WORLD OS so laps, holeshots and personal bests post to the park-wide leaderboard alongside Motorsport lap times (Volume 13 carries the integration spec).
+- **Backup/portable: ImmersionRC LapRF** 8-way class (~$600) for pop-up events on the events lawn (inside temporary netting only) and as hot spare.
+- Results feed the same `live_telemetry`-adjacent event tables as Motorsport timing; a customer's racing history lives on their RC WORLD License profile (Volume 9).
 
-- **Pilot (solo wings):** pre-flight inspection performed unprompted per CL-AV-02; take-off
-  within runway width; three circuits holding height band ±3 m; one simulated
-  "instructor-called ALL STOP" response; landing on the paved surface within the marked 15 m
-  zone, no go-around penalty (one go-around allowed — electing to go around is graded
-  *upward*); oral: LiPo window, sector rules, failsafe behaviour.
-- **FPV Racer:** channel-board procedure demonstrated; arm/disarm discipline; clean
-  timed run of the standard course (no gate strikes, no net contact); controlled
-  failsafe-on-signal-loss explanation; spotter briefing delivered by the candidate.
-- **Heli rating:** 60-second stationary hover inside a 2 × 2 m box at helipad height;
-  nose-in hover 30 s; throttle-hold kill demonstrated on command; oral on rotor-disc danger
-  zones and spool-up discipline.
+### 6.3 Class tiers
 
----
-
-## 9. Safety & flight operations
-
-This chapter is the division's operating law. It assumes the containment doctrine of
-Chapter 1 and the sector architecture of Chapter 2, and it is written to be auditable: every
-rule here maps to a checklist item, an SOP step, or a telemetry event in RC WORLD OS.
-
-### 9.1 Airspace and regulatory awareness (operational summary)
-
-Staff teach and customers hear a consistent, generic story (full analysis in Section 1.2):
-drone rules in nearly all countries attach to *open airspace* — registration above roughly
-250 g, altitude ceilings around 120 m, VLOS, remote ID where applicable. **Inside the RC WORLD
-cage none of these apply in most jurisdictions, because the enclosure is not open airspace —
-and outside the cage all of them apply, immediately.** Staff never give customers legal advice
-about flying at home beyond pointing to the national authority's official guidance; the retail
-counter stocks the authority's leaflet where one exists. Site-specific legal confirmation is a
-Phase 2 gating deliverable and a franchise requirement (Volume 12).
-
-### 9.2 No-fly rules (absolute)
-
-- [ ] No flight outside the enclosure. Ever. No staff exception.
-- [ ] No flight in a sector whose containment net has unrepaired damage (Section 2.6).
-- [ ] No flight without a flight-line supervisor present in the cage.
-- [ ] No goggled flight without a spotter (Section 6.4).
-- [ ] No arming anywhere except the apron arming benches or Sector B start blocks.
-- [ ] No turbine aircraft, no internal-combustion engines, no aircraft over 2.0 kg AUW
-      without a written variance from the safety officer and CFI jointly.
-- [ ] No pilot under the influence of alcohol or impairing substances (park-wide rule,
-      enforced at the aviation gate with zero discretion).
-- [ ] No flight when weather minima (Section 9.5) are exceeded — the anemometer decides,
-      not enthusiasm.
-
-### 9.3 Sector discipline and telemetry
-
-One aircraft on the runway at a time; circuits flow one direction (set daily with the wind);
-overtaking is called by the supervisor. Fixed-wing aircraft above trainer class carry **RCW
-Micro-Nodes** where payload allows (25 × 25 mm, ~10 g installed): voltage telemetry feeds the
-Shift dashboard, and the geofence function is repurposed as a *sector*-fence advisory —
-inside a cage GPS is a soft signal, so the node alerts the supervisor rather than killing
-throttle in flight (an automated mid-air kill of a fixed-wing is itself a hazard; the
-kill-switch doctrine for aircraft is failsafe-based, Section 9.6). Whoops are too small for
-nodes; their containment is Sector B itself and the timing system's presence log.
-
-### 9.4 LiPo handling for aircraft
-
-Aircraft LiPos follow the park battery doctrine (3.4–4.2 V/cell operating window, 3:1
-battery-to-airframe ratio, XT60 standard, bunkered charging in the Phase 1 charging bunker
-with the aviation cabinet added in Phase 2) with aviation-specific additions:
-
-- **Crash-involved packs are quarantined**, whatever they look like. A LiPo that has taken a
-  crash load can fail thermally minutes or hours later; every crashed pack goes into the
-  sand-filled quarantine crock at the flight line for a minimum 30-minute observation, then to
-  the bunker quarantine shelf for 24 hours before inspection (puffing, wrinkled cells, split
-  wrap → salt-water discharge and disposal per Works SOP, Volume 7).
-- **Charging only in the bunker, only on balance chargers, only to storage voltage
-  (3.80–3.85 V/cell) at day end.** Full charges happen against the day's booking sheet, not
-  speculatively.
-- 1S whoop packs charge on multi-port 1S boards inside the same bunker regime — small packs
-  are not exempt; they are the most-abused cells in the building.
-- Field rule of thumb taught to every student: **land at 3.5 V/cell under load**; the Shift
-  choreography (~30% buffer returned, per canon) exists so nobody is tempted to stretch a pack.
-
-### 9.5 Weather limits
-
-Flight minima are posted at the gate and enforced from the RC WORLD OS weather dashboard (cage
-anemometer + rain sensor). The cage's netting attenuates but does not eliminate wind; interior
-gusting near the ceiling is real.
-
-| Condition | Trainers / whoops (Sector A/B) | EDF & sport | Helis (CP) | Action |
-|---|---|---|---|---|
-| Steady wind | ≤ 20 km/h | ≤ 25 km/h | ≤ 15 km/h | Above limit: class grounded |
-| Gusts | ≤ 28 km/h | ≤ 32 km/h | ≤ 20 km/h | Two-minute average, anemometer at 10 m |
-| Rain | None (EPO + electronics) | None | None | Light drizzle: whoops in Sector B only, duty-manager discretion; all else grounded |
-| Visibility | Full length of cage clearly visible | Same | Same | Fog/dusk below floodlight threshold: grounded (except lit night-league formats) |
-| Temperature | 0–38 °C | Same | Same | Below 5 °C: LiPo packs pre-warmed in the pit case; above 35 °C: EDF duty-cycle halved |
-| Lightning within 10 km | All classes | All | All | Cage evacuated — a 16 m steel-pole structure is respected as such |
-
-### 9.6 Kill-switch and failsafe configuration (all aircraft)
-
-Every aircraft in the fleet, without exception, is configured and bench-verified so that
-**loss of signal produces a safe, predictable outcome**:
-
-| Class | Failsafe configuration | Verified how |
-|---|---|---|
-| Fixed-wing trainers/sport | Throttle to idle, control surfaces neutral, SAFE self-level active where fitted (aircraft descends in a shallow glide inside the cage) | Range-check + TX-off test at pre-flight (CL-AV-02) |
-| EDF jets | Throttle cut, surfaces neutral | Same |
-| Helicopters | **Throttle hold** (rotor power cut, blades to low pitch); transmitter throttle-hold switch is also the pilot's manual kill | TX-off spool-down test before every session |
-| FPV quads | Betaflight-class failsafe: **drop** (disarm) within 300 ms of signal loss — inside a cage, an immediate drop is safer than any GPS-rescue behaviour | Bench failsafe test at weekly PM; arming impossible unless failsafe test date current in RC WORLD OS |
-| All rentals | Transmitter kill/arm switch mapped identically fleet-wide (top-left momentary = kill) so instructors' muscle memory transfers between aircraft | Fleet configuration standard, audited quarterly |
-
-RCW Node under-voltage alerts route to the flight-line supervisor's tablet; for aircraft, the
-node advises and the human commands (contrast the ground fleet's automated PWM-intercept kill,
-which remains the standard for surface vehicles per canon).
-
-### 9.7 Incident procedures
-
-**Flyaway (defined as any aircraft not responding to control):** inside the cage a "flyaway"
-is a contained event — call "ALL STOP", track the aircraft to net contact or battery
-exhaustion, recover, quarantine aircraft and battery, log. The word is still used and drilled,
-because the response habit must exist before any future outdoor event, and because a
-non-responding aircraft with a spinning prop inside the cage is still a hazard to the people
-inside it: all personnel behind the flight line until it is down and disarmed.
-
-**Crash:** supervisor calls the sector cold; pilot disarms/throttle-holds; only a staff member
-recovers the airframe (customers never enter flight volume — the aviation analogue of the
-Tow-Truck Retrieval rule; for theatre, wreck recovery on the runway is performed with the
-park's 1/10 recovery crawler and flatbed trailer when practical, which customers love).
-Battery to quarantine crock; airframe to the triage bench; incident logged in RC WORLD OS with
-photos before repair.
-
-**Injury:** first-aid-trained duty manager responds (park-wide EAP, Volume 9 ops annex);
-sector remains cold until the safety officer clears it; prop-laceration kit (the realistic
-injury class) is stocked at the flight line, not just the pavilion.
-
-**Net contact without damage:** logged as a near-miss with location; three contacts at the
-same course feature in a month triggers a course-design review. This is the division's
-leading-indicator discipline.
-
-### 9.8 Standard operating procedures
-
-> **SOP-AV-001 — Pre-Flight Inspection & Release to Fly**
-> **Revision:** 1.0 (Jul 2026) · **Owner:** Chief Flight Instructor · **Frequency:** before
-> every flight session of every airframe · **PPE:** none specific; prop-handling awareness ·
-> **Tools:** transmitter, charged pack, hex drivers, RC WORLD OS tablet
->
-> 1. Retrieve airframe from hangar rack; confirm asset status "active" in RC WORLD OS (a
->    "maintenance" flag is a hard stop).
-> 2. Airframe walk-around: wings/booms secure; control surfaces attached, hinges sound,
->    linkages clipped; no foam cracks at load points (wing saddle, motor mount, gear mount);
->    prop/rotor/EDF fan undamaged and torqued; canopy/hatch latched.
-> 3. Battery: correct pack type for airframe; ≥ 4.15 V/cell if full-charge required, never
->    < 3.75 V/cell at install; connector and leads undamaged; pack strapped, CG checked at
->    the marked balance point.
-> 4. Power on transmitter first, select correct model memory (read the airframe's asset tag
->    aloud against the TX screen), then connect flight battery on the arming bench.
-> 5. Control check: each surface moves correct direction and full travel on command
->    (the "right stick → right aileron up" litany); stabilization mode confirmed against the
->    session's authorized tier (Section 3.5).
-> 6. Failsafe check: transmitter off — confirm throttle cut/surfaces neutral (or disarm on
->    quads, throttle-hold on helis); transmitter on — confirm clean re-link.
-> 7. Range/RF check per radio manufacturer procedure at first session of the day.
-> 8. Log release in RC WORLD OS (airframe, pack ID, inspector, tier); hand transmitter to
->    pilot at the pilot box only.
-> 9. Any fail at any step: airframe to triage bench with a written defect note. No verbal
->    defects.
-
-> **SOP-AV-002 — FPV Session Operations (Sector B)**
-> **Revision:** 1.0 (Jul 2026) · **Owner:** Aviation Lead · **Frequency:** every FPV session ·
-> **PPE:** none specific · **Tools:** channel board, spectrum scanner, timing system, goggles
-> cabinet, hygiene liners
->
-> 1. Duty manager opens Sector B: curtain nets verified closed to Sector A; course furniture
->    staked and undamaged; timing gate powered and self-tested.
-> 2. Run spectrum scan; confirm band quiet. Investigate any carrier before issuing tokens
->    (classic cause: a powered VTX in a bag).
-> 3. Assign channels from the board: one token per pilot, token clipped to the quad. Max 4
->    simultaneous (6 on league nights per Section 6.3). Record assignments in the session log.
-> 4. Fit each customer's goggles with a fresh hygiene liner; set diopters; confirm the pilot
->    sees their own camera (call their channel aloud, wave at the camera).
-> 5. Brief spotters: names paired, "LAND NOW" authority explained, spotter positioned beside
->    their pilot.
-> 6. Arming only on start blocks, on the supervisor's "ARM" call; quads placed by staff.
-> 7. Session runs against the Shift clock; supervisor monitors the repeater screens and the
->    sector, not their phone.
-> 8. On any video loss or NFZ breach of the curtain line: "LAND NOW" to that pilot;
->    on any collision between quads: "ALL STOP", recover, re-brief, restart clock at
->    supervisor discretion.
-> 9. Session end: disarm, packs out and to the rest rack (or quarantine if crashed), tokens
->    returned to board, goggles to sanitizing cabinet with liners discarded, laps synced from
->    the timer to RC WORLD OS.
-
-### 9.9 Operational checklists
-
-**CL-AV-01 — Airfield opening (duty manager, daily)**
-
-- [ ] Perimeter walk: net faces intact, ground seal continuous, vestibule doors latching
-- [ ] Roof scan (binoculars from the promenade): no debris, no visible panel damage
-- [ ] Windsock free; anemometer reporting to RC WORLD OS; weather minima dashboard green
-- [ ] Runway/apron swept (FOD walk — foam scraps and prop fragments are today's FOD)
-- [ ] Helipads secure, pilot-box rails and net aprons intact
-- [ ] Sector curtain nets positioned for the day's program
-- [ ] Charging bunker: aviation cabinet inventory vs booking sheet; no packs left on chargers
-- [ ] First-aid and prop-laceration kit sealed and in place at the flight line
-- [ ] Timing system, repeater screens, spectrum scanner, sim stations booted
-- [ ] Incident log reviewed from previous day; any open defect flags honoured
-
-**CL-AV-02 — Pilot's pre-flight (customer-facing, printed at each pilot box)**
-
-- [ ] Right aircraft, right transmitter, right model memory (asset tags match)
-- [ ] Wings, prop, surfaces: look, wiggle, listen
-- [ ] Battery secure, connector fully seated, CG at the mark
-- [ ] Controls respond correctly on all axes; stabilization tier as briefed
-- [ ] Failsafe verified this session (staff initials on the release log)
-- [ ] Wind within class minima; circuit direction confirmed with the supervisor
-- [ ] Spotter beside you if goggles are on
-- [ ] You know today's two calls: "ALL STOP" and "LAND NOW"
-
-**CL-AV-03 — Airfield closing (duty manager, daily)**
-
-- [ ] All aircraft accounted for against the asset register; hangar racks complete
-- [ ] All packs to storage voltage and racked in the bunker; crashed packs in 24 h quarantine
-- [ ] Crash-damaged airframes on triage bench with defect notes attached
-- [ ] Goggles sanitized, liners restocked, sim stations shut down
-- [ ] Course furniture checked; LED packs off charge and stored
-- [ ] Net contact/near-miss entries completed in RC WORLD OS
-- [ ] Sector gates and vestibules locked; floodlights and screens off
-- [ ] KPI snapshot auto-posted: Shifts flown, utilization by sector, incidents, cancellations
-      (weather vs maintenance)
-
----
-
-## 10. Fleet engineering & maintenance
-
-### 10.1 Fleet composition & procurement summary
-
-The working table below is the maintenance-planning view of the Section 1.5 allocation
-(procurement channels and landed costs in Volume 8):
-
-| # | Class | Reference platform | Unit cost (est.) | Packs (3:1) | Spares posture |
+| Class | Airframe | Battery | VTX power | Venue | Who |
 |---|---|---|---|---|---|
-| 2 | Micro trainer | HobbyZone Sport Cub S 2 class | $130–170 | 1S ×6 | 1 donor airframe |
-| 4 | Primary trainer | E-flite Apprentice STS 1.5m class | $300–380 | 3S 3,200 ×12 | Full crash-kit: wings, fuselages, gear, props, motors |
-| 2 | Secondary trainer | HobbyZone AeroScout S 2 class | $200–260 | 3S 2,200 ×6 | Nose gear mounts, props |
-| 1 | Sport/glider | Volantex/FMS 1,280–1,400 mm class | $120–200 | 3S ×3 | Props, motors |
-| 2 | EDF jet | E-flite Habu STS 70 mm / FMS 64 mm class | $280–400 | 4S/3S ×6 | Spare fan units, ESCs |
-| 1 | FP/coax heli trainer | Current FP trainer class | $80–120 | 1S/2S ×3 | Blades, canopies |
-| 2 | CP heli | OMPHobby M2 class (+ scale demo ship) | $250–600 | 3S/6S ×6 | Blades (bulk), servos, tail parts |
-| 4 | Race whoop | BetaFPV Meteor75 class | $80–120 | 1S ×16 pool | Frames, props (bulk), cameras, VTXs |
-| 1 | Cinewhoop | GEPRC CineLog / iFlight ProTek25 class | $250–350 | 4S ×3 | Ducts, props, motors |
-| 1 | Freestyle 3.5" (staff) | Current 3.5" class | $250–300 | 4S ×3 | Arms, props |
+| Whoop (Tiny Whoop-class) | 65–75 mm ducted, brushless 1S | 1S 300–450 mAh | 25 mW | Whoop Arcade | Any customer post-sim-intro; the racing on-ramp |
+| 3-inch | 3–3.5" props, park spec ~250 g | 4S 650–850 mAh | 25 mW | Main cage, racing slots | FPV type rating |
+| 5-inch (league spec) | 5" spec quad per league rules | 6S 1,100–1,300 mAh | 25 mW | Main cage, exclusive slots | FPV rating + league membership |
 
-Fleet capital including packs and opening spares: **$9,000–14,000** (Investor Note,
-Section 1.5). Radio standard: Spektrum DSMX across the trainer fleet (buddy-box ecosystem);
-ELRS 2.4 GHz across the FPV fleet. Consumable inventory minima: **props at 10× per airframe
-per quarter for quads, 4× for fixed wing; one full "crash kit" per two primary trainers on
-the shelf at all times** — the aviation entries in the Works' high-turnover spares list
-(Volume 7).
+The 5-inch tier runs as a **spec class** — identical park-supplied or homologated airframes, following the MultiGP spec-class logic (and its 25 mW VTX rule, adopted verbatim): parity keeps racing about the pilot, exactly mirroring the Motorsport doctrine of lap-time parity within 2–3%. Customer-owned quads are welcome in open practice if they pass a pit inspection (weight, VTX power, failsafe, battery condition) and fly on assigned channels.
+
+### 6.4 The Whoop Arcade
+
+The 12 × 8 m fine-mesh sub-enclosure beside the main cage is the racing program's nursery and the division's volume product: six LED-lit micro gates, park Meteor65-class whoops (~$100–130 each for analog trainer spec; the HD-camera variants used for premium sessions run higher), goggle or FPV-monitor option for nervous first-timers, and — because it is a separate sealed airspace — **it runs continuously regardless of what the main cage is doing**, with up to 4 simultaneous 1S pilots on the channel plan. A whoop session is priced as a standard-tier Casual Shift ($15): the deliberate cheap first taste of FPV.
+
+### 6.5 League structure
+
+The racing league follows the season template proven by MultiGP chapters worldwide, adapted to a commercial venue:
+
+| Layer | Format | Cadence |
+|---|---|---|
+| Open practice | Channel-managed sessions, RotorHazard running, personal bests logged | Weekly standing slots |
+| Club night | 2-minute qualifying heats ("laps in time" format), then triple-run mains by seeded groups of up to 7 | Fortnightly, entry ~$15–20 |
+| Season | 8 rounds, points table, Whoop/3"/5" tiers; season champion earns a season pass + trophy | 2 seasons/year |
+| Marquee event | Invitational with visiting pilots, spectator programming, sponsor activation (Volume 9 events calendar) | 1–2/year |
+
+League nights are also the division's community engine: the pilots who race Tuesday nights are the same enthusiasts who become weekend instructors, marshals and the park's most credible advocates. Treat the league as marketing that pays for itself.
+
+## 7. Flight School & Simulators
+
+### 7.1 The simulator lab as gateway
+
+The Flight School's front door is not on the airfield — it is the **simulator lab**: six stations in the entry pavilion (relocating to the RC Academy classrooms in Phase 3), open from Month 16, three months before the cage itself. Each station is a mid-range gaming PC (~$1,200), a 27" monitor, and *real transmitter hardware* — RadioMaster-class radios (~$130–230) and a Spektrum-class radio matching the trainer fleet, connected as USB controllers — because the entire point is that the controller in the customer's hands at the sim is the controller they will hold at the flight line.
+
+| Station | Software | Approx. licence | Role |
+|---|---|---|---|
+| 1–2 | RealFlight Evolution (~$100) | per-seat | Fixed-wing and heli primary; SAFE-style trainer models mirror the real fleet |
+| 3–4 | Liftoff (~$20) | per-seat | FPV freestyle and cinewhoop introduction; approachable physics, strong content |
+| 5–6 | Velocidrone (~£17 base + packs) | per-seat | Race training and course design — the competitive-racing standard sim |
+
+A 15-minute sim block is bundled free into every aviation booking; standalone sim Shifts sell at the standard $15 Casual rate — meaning the lab produces revenue from Month 16, a full quarter before the first real aircraft flies, and continues to produce it in weather that grounds the cage.
+
+### 7.2 Why the sim is doctrine, not garnish
+
+Three economics drive the sim-first rule. First, **crash cost transfer**: every orientation mistake made in RealFlight is a $0 repair. Second, **instructor leverage**: one staff member supervises six sim stations vs one buddy-box student. Third, **honest gating**: sim hours are logged automatically per station login against the customer's Wings record in RC WORLD OS, so certification prerequisites (Chapter 9.3) are verifiable data, not self-declaration. Velocidrone earns its third role as the course-design tool: every real gate layout is built and flown virtually before a pole is moved (Chapter 6.1), and league pilots can practise the coming month's track from home — a retention hook no ground division can match.
+
+### 7.3 The curriculum ladder: sim → buddy-box → solo
+
+| Rung | Content | Exit standard |
+|---|---|---|
+| 1. Ground school (45 min) | Aviation Toolbox Talk: cage rules, airspace doctrine, LiPo handling, parts of the aircraft, radio basics | Quiz ≥ 80% in app |
+| 2. Sim foundation (2 h logged) | RealFlight: level circuits, climbing/descending turns, landing pattern on the trainer model | 5 consecutive sim landings on the runway, no crash |
+| 3. Buddy-box (3 Shifts min) | Real AeroScout/Apprentice, instructor master radio: straight-and-level, turns, then full circuits, then landings | Instructor sign-off per manoeuvre in OS |
+| 4. Pre-solo check | Instructor-observed circuit set incl. simulated motor-out glide from 15 m | Checkride pass (Chapter 9.4) |
+| 5. Solo (Bronze Wings) | First solo Shift, instructor on the line, beginner mode available but not required | Bronze Wings issued |
+| 6. Type extensions | Jet / FPV / Heli tracks per Chapter 9.3, each with its own sim prerequisite | Type rating endorsed |
+
+Typical calendar time for a motivated customer from first visit to Bronze Wings: 4–6 visits. The ladder is deliberately purchasable as a package (Chapter 10.4) — "Learn to Fly" is the division's flagship SKU.
+
+### 7.4 Instructor staffing
+
+| Role | Headcount (steady state) | Profile |
+|---|---|---|
+| Chief Flight Instructor (CFI) | 1 full-time | Owns syllabus, checkride standards, airspace doctrine; deputises for Aviation Lead |
+| Flight instructors | 2 part-time equivalent, scaling to 3–4 in season | Club-experienced pilots trained in the park syllabus; many recruited from league nights |
+| Sim lab supervisor | Front-of-house cross-trained | Runs the lab, logs hours, teaches ground school |
+| Flight-line Artisan | 1 per operating day (shared with The Works) | Field repairs, battery logistics, pre-flight fleet checks |
+
+Instructor pay is structured as base plus per-instruction-Shift commission, making instruction margin-positive from the first booking (Chapter 10.4). All instructors hold current park certifications in every class they teach, plus the marshal-grade first-aid and LiPo-incident training from Volume 7's staff manual. The one-airspace rule means the airspace controller (Chapter 8.2) is a *role*, not necessarily an extra head: on quiet weekdays the duty instructor wears the controller hat; on peak days and league nights it is a dedicated position.
+
+## 8. Safety & Airspace Management
+
+### 8.1 Netting specification and inspection
+
+The net is the division's licence to operate; it is engineered, inspected and documented like the structural asset it is.
+
+**Specification (procurement detail in Volume 8; structural design in Volume 11, Chapter 9):**
+
+| Parameter | Main cage | Whoop Arcade |
+|---|---|---|
+| Mesh | 25 mm (1") knotless HDPE square mesh | 13 mm fine mesh |
+| Twine strength | ≥ 2.0 mm high-tenacity, UV-stabilised; breaking strength verified by supplier certificate against smallest/fastest containable aircraft (design case: 5" quad at 130 km/h and 70 mm EDF at 140 km/h) | 1S micro only |
+| Colour | Black (best spectator see-through; best UV life) | Black |
+| Structure | Galvanised steel masts, tensioned perimeter and catenary cables, netting hung with breakaway margin — the net absorbs strikes by deflecting, never drum-tight | Framed panels |
+| Ground seal | Netting skirt buried/ballasted at grade; zero gap ≥ 25 mm anywhere | Full seal |
+| Doors | Two personnel airlocks (double-door vestibules — outer door closed before inner opens), one vehicle gate (openable only when airspace is cold) | Single vestibule |
+
+**Inspection regime (SOP AV-01):**
+
+| Check | Frequency | Owner |
+|---|---|---|
+| Walkdown: visual scan of all panels, doors, ground seal; pull-test any suspect panel | Daily, before first flight | Duty instructor |
+| Detailed: every seam, shackle, tension point; mast bolts torque-checked; UV degradation sample test | Monthly | Artisan + Aviation Lead |
+| Engineering: full structural inspection, tension measurement, netting-condition report | Annual + after any storm exceeding site wind design case | Contracted structural engineer |
+| Strike log review | Weekly | CFI (every net strike is logged with location; repeat-strike panels get early replacement) |
+
+- [ ] Daily walkdown complete and logged in RC WORLD OS before airspace opens
+- [ ] All doors closed and latched; vestibule discipline briefed to any new staff
+- [ ] No unrepaired holes, detached panels, or slack exceeding placard limits
+- [ ] Wind/weather check recorded (8.5)
+
+> **Safety Warning.** A hole in the net is a full airspace stop, not a judgement call. The airspace goes cold the moment a breach is found and stays cold until an Artisan has patched and the duty instructor has signed the log. There is no "we'll keep the pattern on the other side" exception — the entire regulatory and insurance posture of the division (1.2) rests on containment being absolute.
+
+### 8.2 One airspace, one controller
+
+The cage is one volume of air. However many pilot boxes are occupied, **exactly one person owns the airspace at any moment**: the airspace controller ("RC Tower"). The rule exists because mid-air deconfliction by mutual glancing — the informal club method — fails exactly when traffic gets interesting. The controller:
+
+- Runs the session board in RC WORLD OS: who is aloft, in which zone, on which frequency slot, until when.
+- Issues and terminates every airspace slot; nobody powers up without one.
+- Owns the emergency vocabulary (8.6) and the weather hold (8.5).
+- Enforces the **compatibility matrix** — which disciplines may share the air:
+
+| Aloft together? | Trainer FW | Sport FW | Jet | Heli (hover box) | Cinewhoop | 5"/3" FPV |
+|---|---|---|---|---|---|---|
+| Trainer FW | ✔ (max 3) | ✔ | ✘ | ✔ | ✔ | ✘ |
+| Sport FW | ✔ | ✔ (max 2) | ✘ | ✔ | ✘ | ✘ |
+| Jet | ✘ | ✘ | **exclusive** | ✘ | ✘ | ✘ |
+| Heli (hover box) | ✔ | ✔ | ✘ | ✔ (max 2) | ✔ | ✘ |
+| Cinewhoop | ✔ | ✘ | ✘ | ✔ | ✔ (max 2) | ✘ |
+| 5"/3" FPV | ✘ | ✘ | ✘ | ✘ | ✘ | **exclusive (max 7)** |
+
+Absolute ceiling: **4 aircraft aloft in the main cage** in mixed operations; the Whoop Arcade is separate and always-on. Jets and racing get exclusive slots — they are scheduled products, not walk-ups, which is also what makes them programmable spectacle (3.4, 6.5).
+
+### 8.3 Flight-line discipline
+
+The flight line is the painted boundary between the pilot boxes and the live airfield. The rules are few, absolute, and identical to the park's ground-division doctrine (customers never walk onto live operating areas):
+
+1. Pilots fly from numbered pilot boxes only; transmitters stay in the box.
+2. Nobody crosses the flight line while any aircraft is live. Retrieval of a downed aircraft happens only after the controller calls "AIRSPACE COLD" — all aircraft landed and throttle-locked.
+3. Downed-aircraft retrieval is performed by staff. (The Tow-Truck Retrieval Protocol does not extend to aviation: the comedy of a recovery crawler is not worth customers fixating on entering the cage. The aviation equivalent that *is* offered: the customer keeps their Shift clock frozen during retrieval.)
+4. Arming discipline: fixed-wing armed on the apron facing the runway; jets on the centreline only (3.4); quads armed on the launch pads; helis spool on the pads with hold engaged (5.3).
+5. Props and rotors are treated as live whenever a battery is connected, without exception.
+
+### 8.4 LiPo handling for aircraft
+
+Aviation inherits the park battery doctrine (3.4–4.2 V/cell window, 3:1 battery:asset ratio, XT60, bunkered charging — Volume 7 carries the master procedures) with three aviation-specific extensions:
+
+- **Higher energy, stricter margins.** Jet 6S packs land at ≥ 3.5 V/cell (3.2); all aircraft packs use timer + telemetry rather than "fly till it sags," because an aircraft that browns out doesn't coast to a stop — it arrives.
+- **Crash quarantine.** Any pack that has been in a significant impact goes into the sand-filled quarantine bin at the flight-line charging cache for 24 h observation before inspection — impact-damaged LiPos can enter thermal runaway minutes to hours later. Puffed, dented or punctured packs are salt-water discharged and disposed per Volume 7.
+- **Field cache limits.** The flight line holds max one operating day of charged packs in steel ammo-box caddies; all charging happens in the Phase 1 charging bunker, which Phase 2 extends with aviation shelving. Whoop 1S packs charge on multi-port 1S boards at the Arcade desk under staff eyes — the only charging permitted outside the bunker, capped at 6 packs simultaneously on a fireproof mat.
+
+### 8.5 Wind and weather limits
+
+The cage kills flyaway risk, not weather risk. Limits are placarded at the tower desk and enforced by the controller from the on-site anemometer (mast-mounted, feeding RC WORLD OS):
+
+| Condition | Trainer FW | Sport FW | Jet | Heli | Whoop/Cinewhoop | 5" FPV |
+|---|---|---|---|---|---|---|
+| Sustained wind | ≤ 20 km/h | ≤ 25 km/h | ≤ 18 km/h | ≤ 20 km/h | Arcade: n/a (sheltered); cage ≤ 15 km/h | ≤ 25 km/h |
+| Gust spread | ≤ 10 km/h over sustained | ≤ 10 | ≤ 8 | ≤ 8 | ≤ 8 | ≤ 10 |
+| Rain | Stop (electronics + visibility) | Stop | Stop | Stop | Arcade continues | Stop |
+| Lightning within 10 km | **Full stop, cage evacuated** — the masts are the tallest steel on site | | | | | |
+
+Weather holds pause Shift clocks automatically; the sim lab absorbs displaced bookings — a deliberate redundancy that keeps weather days revenue-positive.
+
+### 8.6 Incident procedures and emergency vocabulary
+
+Three standard calls, briefed in every ground school, exercised monthly:
+
+- **"LAND LAND LAND"** — controller's general recall. Every aircraft lands immediately at its designated area; FPV spotters physically relay to goggled pilots.
+- **"STOP STOP STOP"** — imminent danger (person inside the cage, structural issue). All motors stop *now*; fixed-wing ditches straight ahead. An aircraft is always sacrificed before a person is risked.
+- **"FIRE FIRE FIRE"** — LiPo or other fire: airspace cold, evacuate per park emergency plan, LiPo-rated extinguishing media (sand/Class D at the cache; CO₂ for electrical) — staff fight only incipient fires.
+
+**SOP AV-02 — Incident response & reporting** (ID: AV-02 · Rev 1.0 · Owner: CFI · PPE: gloves for wreck handling · Tools: incident kit, quarantine bin · Frequency: per event):
+
+1. Controller declares the appropriate call; airspace cold.
+2. Injuries first: first-aid per park emergency plan (Volume 7); serious injury = emergency services + GM notification within 15 min.
+3. Battery from any crashed aircraft to quarantine (8.4).
+4. Scene photos, telemetry snapshot (session log auto-preserved in RC WORLD OS), witness names before the crowd disperses.
+5. Incident record filed same day: category (net strike / mid-air / ground strike / injury / battery / structural), aircraft, pilot certification level, conditions, narrative.
+6. CFI weekly review; any injury or structural incident triggers a stand-down review before the affected program resumes.
+
+### 8.7 Lost-link failsafe configuration
+
+Even inside a net, a lost radio link must produce a predictable, minimum-energy outcome. Fleet standard, verified at build and re-verified at the first flight of each day (transmitter-off test on the checklists):
+
+| Type | Failsafe on link loss |
+|---|---|
+| Fixed-wing (SAFE/stabilised) | Throttle to idle/off; stabiliser to self-level; controls neutral — aircraft mushes down within the cage |
+| EDF jet | Throttle off, wings-level command; accepted outcome is a firm arrival — energy off is the only priority |
+| Helicopter | Throttle hold (autorotation state); rescue-mode level if system supports it |
+| FPV quad (Betaflight-class firmware) | Failsafe stage 2 = **drop** (disarm) after 1.5 s signal loss — the configured and tested park standard; GPS-rescue modes are disabled (pointless and unpredictable inside a cage) |
+| All types | Receiver failsafe positions physically verified after any receiver rebind (bind-time capture is the classic silent misconfiguration) |
+
+### 8.8 Spectator protection
+
+Spectators are the net's second constituency. Standoff rail 2 m outside the netting on all public sides (a slowed aircraft can still deform the mesh inward ~0.5 m); viewing windows at the grandstand sightline use the same 25 mm mesh — no openable panels on public faces; the FPV pit's repeater screens (4.1) sit outside the rail so crowds gather at the screens, not against the net; PA callouts precede jet demos so the flypast startles nobody. The insurer's site file (Volume 10) carries the enclosure certificate, inspection log and this section's rail drawings.
+
+## 9. Pilot Certification
+
+### 9.1 The RC WORLD Wings program
+
+Wings is the Aviation Division's implementation of the park-wide **RC WORLD License** progression (Volume 9 owns the overall scheme, tiers, badges and rewards; this section defines the aviation ladder that plugs into it). The design principle: every rung is earned by *logged, verifiable evidence* — sim hours from the lab logins, buddy-box minutes from instructor sign-offs, checkrides from the CFI — all recorded against the customer profile in RC WORLD OS, and every rung unlocks something a customer visibly wants (solo access, new aircraft classes, league eligibility, Gears bonuses).
+
+### 9.2 Certification card and system integration
+
+The Wings credential lives on the customer's RC WORLD License digital card in the app (physical collector cards printed for each tier — deliberately covetable, per Volume 9's badge doctrine). At booking, RC WORLD OS enforces prerequisites automatically: a customer without the FPV rating cannot book a freestyle slot; the tower session board shows each pilot's tier so the controller staffs supervision accordingly. Wings tiers also map to License points and Gears earning multipliers defined in Volume 9 — aviation achievements feed the same park-wide status economy as Motorsport lap records and Mining tonnage.
+
+### 9.3 The ladder
+
+| Tier | Prerequisites (logged) | Assessment | Unlocks |
+|---|---|---|---|
+| **Ground Wings** | Aviation Toolbox Talk + ground-school quiz ≥ 80% | In-app quiz | Sim lab; buddy-box booking; Whoop Arcade (post sim intro) |
+| **Bronze Wings** | 2 h sim + 3 buddy-box Shifts + manoeuvre sign-offs | Solo checkride (9.4) | Solo trainer (FW-T) rental |
+| **Silver Wings** | Bronze + 10 solo Shifts + aerobatics sign-off | Sport checkride | FW-S sport class; spotter privileges |
+| **Gold Wings** | Silver + 25 logged Shifts + currency (9.5) | CFI review flight | Type-rating eligibility; league officer roles |
+| **Type: Jet** | Gold + 1 h EDF sim + energy-management ground module | Jet checkride with CFI (instructor-supervised flying thereafter, 3.3) | Habu SS under supervision; demo-day slots |
+| **Type: FPV** | Ground Wings + 3 h logged FPV sim (gate proficiency in Velocidrone) + cinewhoop session | Acro checkride (line flight + course flight) | 3" freestyle slots; league racing; self-spotting pairs |
+| **Type: Heli** | Silver + coax session + 2 h heli sim | Hover checkride (four-point hover + circuit, rescue armed) | M2-class CP rental in hover box |
+
+### 9.4 Checkrides
+
+Checkrides are flown to a published standard — customers see the exact card the examiner scores, removing all mystery:
+
+- **Solo (Bronze):** preflight from memory; taxi; two circuits each direction; go-around on demand; simulated motor-out glide from 15 m to a survivable touchdown; landing within the marked 15 m zone. Two attempts included in the checkride fee; further attempts after a remedial buddy-box Shift.
+- **Jet:** energy-managed circuit set; stabilised approach with power carried to flare; missed-approach; verbal walkthrough of failsafe and net-strike procedure.
+- **FPV Acro:** line-of-sight hover and orientation recovery; goggled course flight with ≤ 2 gate misses; controlled disarm-and-drop on command; spotter-protocol test.
+- **Heli:** pads-off four-point hover (nose-out, both sides, nose-in) within a 3 m box; controlled circuit; rescue-mode recovery demonstration; throttle-hold response on command.
+
+### 9.5 Currency and renewal
+
+Skills decay; the program prices that honestly rather than pretending a 2024 checkride guarantees a 2026 pilot:
+
+| Rule | Standard |
+|---|---|
+| Rolling currency | ≥ 1 logged flight (real or examiner-witnessed sim session) per 90 days per tier |
+| Lapse ≤ 12 months | One refresher buddy-box Shift restores currency |
+| Lapse > 12 months | Re-checkride at current standard (ground school not repeated) |
+| Type ratings | Jet: currency flights are always supervised anyway (3.3). FPV/Heli: 90-day rule applies per type |
+| Annual admin renewal | Free with any active membership; $10 standalone — keeps records honest and nudges membership conversion (Volume 9) |
+
+> **Field Note.** Publish the currency rule at *sign-up*, not at lapse. Customers accept "flying skills expire like gym fitness" cheerfully when told upfront, and resentfully when discovered at the booking screen. The 90-day nudge notification in the app ("Your Silver Wings go stale in 14 days — book a Shift") is one of the division's best re-booking triggers; Volume 9 wires it into the loyalty messaging calendar.
+
+## 10. Fleet, Maintenance & Economics
+
+### 10.1 Fleet table (~20 aircraft, Phase 2 baseline)
+
+Prices are July 2026 street-price ranges for planning; Volume 8 executes actual procurement (expect 25–40% below Western street price on the Chinese-sourced lines via wholesale channels, per park sourcing doctrine).
+
+| # | Role | Model (reference) | Qty | Unit street price | Line total (mid) | Batteries (3:1) |
+|---|---|---|---|---|---|---|
+| 1 | Primary trainer | HobbyZone AeroScout S 2 1.1 m | 3 | $200–270 | $705 | 3S 2200 ×9 |
+| 2 | Club trainer | E-flite Apprentice STS 1.5 m | 2 | ~$360 | $720 | 3S 3200 ×6 |
+| 3 | Value trainer | FMS Ranger 1220 mm (Reflex) | 2 | ~$180 | $360 | 3S 2200 ×6 |
+| 4 | Sport/utility | Volantex Ranger 1600 | 1 | ~$95–165 | $130 | 3S 2200 ×3 |
+| 5 | Sport jet | E-flite Habu SS 70 mm | 1 | ~$280–300 | $290 | 6S 3300 ×3 |
+| 6 | Scale demo jet | FMS/Freewing 70 mm scale | 1 | ~$250–350 | $300 | 6S 3300 ×3 |
+| 7 | Coax heli trainer | 70–120-size coax (current equivalent) | 2 | $60–120 | $180 | 1S–2S ×6 |
+| 8 | CP heli trainer | OMPHobby M2 EVO MK2 | 2 | ~$330 PNP | $660 | 3S 550 ×6 |
+| 9 | Whoop fleet | Meteor65-class 1S brushless | 4 | $100–130 | $460 | 1S 450 ×12 |
+| 10 | Cinewhoop | BetaFPV Pavo20-class (digital HD) | 2 | $300–460 | $760 | 3S 550 ×6 |
+| 11 | 3" freestyle | 3.5" BNF park spec | 1 | ~$250 | $250 | 4S 650 ×3 |
+| **Total airframes** | | | **21** | | **≈ $4,815** | |
+
+Supporting equipment: fleet transmitters (6 × Spektrum-class for the SAFE fleet, 6 × RadioMaster-class for FPV/sim, ~$1,900); goggles (6 sets mixed digital/analog + monitor, ~$1,900); RotorHazard timer + LapRF backup (~$900); gates/flags/LED (~$1,800); battery fleet per 3:1 doctrine (~$2,600); tools/crash kits/initial spares (~$2,400). **Fleet & equipment subtotal ≈ $16.3 k** at street prices — wholesale execution should land near $12–13 k, comfortably inside the $32 k Chapter 1.3 allocation with the balance held as Year-1 spares and attrition reserve.
 
 ### 10.2 Crash-repair economics
 
-Foam aviation is unique in the park: the *expected* failure mode is customer-induced crash
-damage, and the business is designed around repairing it cheaply and fast. The economics rule:
+Aviation's maintenance profile is the inverse of Motorsport's: fewer, cheaper assets, but a higher *event rate* per Shift, dominated by trivially repairable foam damage. Planning rates (to be replaced by logged data after Season 1, per the park's failure-data doctrine):
 
-> **Trade Hack — the 30% rule.** If a repair consumes parts and Artisan time worth more than
-> 30% of a new airframe's landed cost, the airframe becomes a parts donor and a new one is
-> commissioned. Foam trainers at $130–380 make this arithmetic brutal and liberating: almost
-> every repair passes, almost no repair is precious. Track repair cost per airframe in
-> `maintenance_logs`; the 30% rule is why the division can let students land badly.
+| Event | Expected rate | Typical cost (parts + Artisan minutes) |
+|---|---|---|
+| Trainer hard landing / nose-over | 1 per 6 rental Shifts | $0–4, 10 min (glue, prop) |
+| Trainer structural foam repair | 1 per 25 Shifts | $8–20, 30 min |
+| Trainer write-off (airframe swap) | 1 per 200 Shifts | $80–140 replacement airframe (motor/servos transfer) |
+| Whoop prop/frame | 1 per 4 sessions | $1–5, 5 min |
+| Cinewhoop duct/camera event | 1 per 20 sessions | $10–40 |
+| 5" race crash | ~1 per 2 race heats | $5–30 (props, arm) — the class is designed to crash |
+| CP heli crash | 1 per 15 CP sessions (post-sim-gate) | $25–60 crash kit, 45–90 min bench |
+| Jet event | Rare (supervised) but $100–250 when it happens | Fan/ESC/retract concentration |
 
-Standard foam-repair SOPs (full bench technique in Volume 7's workshop manual; summary here):
+The division's whole training doctrine — sim gates, buddy boxes, stabilisers, supervised jets — is visible in this table as suppressed right-hand columns. Every sim hour sold is also avoided repair cost.
 
-- **Hot glue** is the field repair for EPO/EPP: low-temperature glue gun, joint rejoined in
-  seconds, flexible bond that matches foam behaviour. An Artisan with a glue gun returns a
-  wing-cracked trainer to the line inside one Shift.
-- **UV-cure resin** for canopy/camera-mount and small structural tabs: cures in 10 s under
-  the bench lamp, sandable, ideal where hot glue is too soft.
-- **Carbon spar splints:** a snapped wing gets a 3–5 mm carbon tube let into a hot-wire or
-  knife channel across the break, glued, taped — the classic club repair that leaves the wing
-  stiffer than stock. Fibre-reinforced strapping tape over leading edges is applied
-  *preventively* on all trainers at commissioning.
-- **CA + activator** for hard-point rebuilds (motor mounts, gear blocks), with foam-safe CA
-  stocked to avoid melting EPS-class foams.
-- Whoop repair is modular: frames, props, cameras and VTXs swap in minutes; soldering (motor
-  and pack leads) is the only bench skill above parts-swapping.
+### 10.3 Foam repair techniques and spare-airframe policy
 
-### 10.3 Airframe retirement criteria
+The Works' aviation bench (full procedures in Volume 7, Chapter on airframe repair) runs on four techniques that between them fix 90% of fixed-wing damage: **foam-safe CA with kicker** for clean breaks (medium CA melts EPS; stock foam-safe plus activator); **5-minute epoxy + carbon spar splints** for wing folds and firewall tears; **fibre-reinforced tape hinging** for control-surface repairs; and **hot-glue skinning** for cosmetic crush zones (fast, peelable, surprisingly aerodynamic at trainer speeds). Colour-matched packing tape over repairs keeps the rental fleet looking professional — customers judge airworthiness by cosmetics.
 
-An airframe is retired to donor status when **any** of: cumulative repair spend exceeds 60%
-of replacement (lifetime, from `maintenance_logs`); structural foam is crushed at the wing
-saddle or nose to the point of geometry loss; a trainer no longer trims hands-off straight
-and level after bench-true (students must never fight a bent airframe); electronics
-water/crash damage exceeds one major component; or the platform leaves production and the
-spares shelf is empty. Retired airframes are stripped to the last servo — foam is the only
-part with no salvage value.
+**Spare-airframe policy:** for every rental fixed-wing type, hold **one bare spare airframe** (no electronics) per two operating airframes. Electronics — motor, ESC, servos, receiver, RCW Node — are the durable value and transfer to the spare in under an hour, so a written-off AeroScout costs an $80–140 airframe kit, not a $250 aircraft. Helis hold 2 crash kits per airframe (5.4); quads hold frames, arms and props in depth (props are consumables at Motorsport-tire intensity); jets hold one complete spare fan/motor unit per type.
 
-### 10.4 Prop and battery inventory
+### 10.4 Session pricing
 
-Props are lot-controlled consumables: correct size/pitch per airframe posted on the hangar
-rack; any prop with a chipped tip or stress mark at the hub is binned, never flown (a shed
-blade inside a cage is a spectator-facing event). Battery fleet management follows the park
-doctrine plus aviation logging: every pack carries an asset tag; cycle count, internal-
-resistance trend (from the bunker's smart chargers) and crash history live in RC WORLD OS;
-retirement at IR doubling, visible puffing, any cell > 30 mV imbalance at full, or crash
-quarantine failure. Expected pack life: 150–250 cycles for 3S trainer packs, 80–150 for
-hard-flown 1S whoop packs — whoop packs are priced into opex as true consumables.
+Per canon, aviation is a **premium class**: Casual Shift $22, Operator Shift $38. The aviation-specific price card:
 
-### 10.5 Preventive maintenance matrix
+| SKU | Price | Notes |
+|---|---|---|
+| Sim Shift (20 min) | $15 | Standard tier; bundled free with aviation bookings |
+| Whoop Arcade Shift | $15 | Standard tier; the FPV on-ramp |
+| Trainer/cinewhoop Casual Shift | $22 | Premium tier; includes instructor-as-spotter where required |
+| Operator Shift (2 blocks + battery-swap pit stop) | $38 | Premium tier |
+| Instruction Shift (buddy-box, 1:1) | $45 | Instructor commission inside |
+| "Learn to Fly" package (ground school + 4 sim h + 3 instruction Shifts + solo checkride) | $249 | Flagship SKU; ~$310 of parts sold as a journey |
+| Checkride / type-rating assessment | $35 | Includes one re-fly |
+| Jet supervised experience (rated pilots) | $55 per flight slot | Exclusive airspace priced in |
+| League night entry | $15–20 | Chapter 6.5 |
 
-| Interval | Fixed wing | EDF | Helis | FPV quads | Infrastructure |
-|---|---|---|---|---|---|
-| Every flight | SOP-AV-001 pre-flight | + fan-blade visual | + blade/grip check, spool-up listen | Arm-check, prop check | Sector/course walk |
-| Daily | Wipe-down, linkage check, defect triage | Intake FOD check | Head cleanliness | Prop swap as needed, camera lens wipe | CL-AV-01 / CL-AV-03 |
-| Weekly | Servo centering, prop torque, foam crack audit under flex | Fan balance listen-test | Gear mesh, tail belt/shaft, servo play | Failsafe bench test, VTX power audit, motor bearing feel | Roof/catenary binocular scan; sim station updates |
-| Monthly | Radio range checks; CG re-verify; strapping-tape renewal | ESC connector inspection | Blade replacement audit; one-flight staff test | Full teardown of 2 rotating fleet quads; goggles deep-clean | Timing system calibration; LED/course kit audit |
-| Quarterly | Fleet configuration audit (kill-switch mapping, failsafe, tiers) | Fan unit replacement assessment | Full head teardown on CP ships | Frame/motor lifecycle review | SOP-AV-006 enclosure inspection; net coupon pull-test |
+### 10.5 Capacity under the one-controller constraint
 
-### 10.6 Division KPIs
+The airspace matrix (8.2) caps mixed operations at 4 aircraft aloft. Realistic peak-hour throughput, with 20-minute Shifts and staged starts:
 
-Reported weekly on the RC WORLD OS dashboard beside the park-wide set (Volume 10 defines
-targets; opening-year guide values here):
+| Stream | Simultaneous | Shifts/hour |
+|---|---|---|
+| Main cage mixed (trainers, heli box, cinewhoop) | 4 | 12 |
+| Whoop Arcade (parallel airspace) | 4 | 12 |
+| Sim lab | 6 | 18 |
+| **Peak total** | **14 flying + 6 sim** | **≈ 42** |
 
-| KPI | Guide target |
+Blended peak revenue ≈ $800–900/hour across the three streams — roughly half of Motorsport's peak, which is exactly why aviation is priced premium and programmed with high-margin instruction, league nights and demo-anchored spectating rather than chasing raw Shift volume. The Arcade and sim lab exist precisely to add throughput that costs no main-cage airspace. Exclusive slots (jets, 5" racing) are scheduled off-peak or as ticketed programming so they displace the minimum of rental capacity.
+
+### 10.6 Division economics summary
+
+| Item | Value (planning) |
 |---|---|
-| Airframe availability (fleet flyable at open) | ≥ 85% |
-| Sector A / B utilization (booked Shifts ÷ available) | ≥ 55% weekend, ≥ 30% weekday |
-| Mean repair turnaround (crash → released) | ≤ 24 h trainers; ≤ 2 h whoops |
-| Repair cost per flying hour | ≤ $4 trainers; ≤ $2 whoops |
-| Academy conversion (Discovery → Stage 1 enrolment) | ≥ 25% |
-| Rating completion (Stage 1 → solo wings within 90 days) | ≥ 40% |
-| Incidents per 1,000 flights (logged, all severities) | Trend down; no severity-3+ |
-| Net contacts per 1,000 flights | ≤ 15 and trending down |
-| Weather cancellation rate | Tracked for Phase 3 indoor-arena business case |
+| Capex allocation (within Phase 2's $1.15 M) | ≈ $364 k: enclosure $190 k; civil (runway, aprons, pads, drainage) $85 k; sim lab $45 k; fleet/radios/FPV/spares $32 k; timing & AV $12 k |
+| Steady-state revenue (Year 3, division) | $280–340 k/yr: rental & sim Shifts ~55%, instruction & certification ~25%, league/events/demos ~12%, aviation retail attach ~8% (retail P&L sits in Volume 9/10) |
+| Direct operating cost | Instructor & controller labour dominant; parts & attrition ~ $14–18 k/yr at planned Shift volumes (10.2) |
+| Contribution posture | Margin-accretive from opening at Phase 2 volumes; division carries the park's premium-brand halo and the Academy pipeline into Phase 3 |
 
----
+Full financial integration — division P&L, sensitivity to instruction attach rate, and the Phase 3 indoor-arena upside case (an all-weather netted volume multiplies aviation capacity) — is carried in Volume 10.
 
-## 11. Volume summary & cross-references
+### 10.7 Division KPIs
 
-The Aviation Division is Phase 2's headline attraction and the park's most safety-engineered
-product. Its foundation is a single decision: **all flight happens inside a 60 × 40 × 15 m
-engineered netted enclosure** over a 30 m paved runway, elevated helipads and a segregated FPV
-race volume — a containment-first design that in most jurisdictions takes the flying outside
-open-airspace drone regulation (verify per site), converts the hobby's flyaway problem into a
-non-event, and gives insurers an auditable, bounded risk. On that foundation the division runs
-a deliberately small ~20-aircraft fleet — SAFE-equipped foam trainers, supervised EDF jets,
-demo-and-rating helicopters, and a whoop-based FPV and racing program — operated not as walk-up
-rental but as a **guided-experience and instruction business**: buddy-box training,
-simulator-first FPV, the RC WORLD Flight Academy ladder from Cadet to Instructor, and a
-MultiGP-style race league timed on RotorHazard-class systems. The economics follow the same
-inversion: the enclosure is the expensive, long-lived asset; the airframes are cheap,
-crash-tolerant and repaired under the 30% rule; and yield comes from premium Shifts ($22),
-coaching upsells and membership progression rather than asset count.
+The Aviation Lead reports the following on the RC WORLD OS division dashboard (park-wide KPI architecture in Volume 10; dashboard implementation in Volume 13):
 
-**Cross-references**
+| KPI | Target (Year 1 of division) | Why it matters |
+|---|---|---|
+| Cage utilization (airspace-slot hours sold / hours open) | ≥ 55% weekends, ≥ 30% weekdays | The single scarce resource is airspace, not aircraft |
+| Sim-to-flight conversion | ≥ 40% of sim-only customers book a real Shift within 60 days | Validates the gateway model; drives Learn-to-Fly attach |
+| Learn-to-Fly completion rate | ≥ 70% of package buyers reach Bronze Wings | Incomplete ladders create refund pressure and dead pipeline |
+| Wings holders (cumulative) | 150 Bronze+, 25 type ratings by Month 12 of operation | The certified base is the league, membership and Phase 3 Academy pipeline |
+| Repair cost per Shift | ≤ $1.20 blended (10.2 rates) | Early-warning on training-gate erosion or fleet fatigue |
+| Net strikes per 100 Shifts | ≤ 3, trending down | Leading indicator for both pilot standards and course design |
+| Incident rate (reportable per 1,000 Shifts) | ≤ 1, zero injuries | The licence-to-operate metric; insurer-visible |
+| Weather-displaced revenue recovered via sim lab | ≥ 60% | Tests the redundancy design of 8.5 |
+| League retention (season-over-season re-entry) | ≥ 65% | Community health; instructor recruitment pool |
 
-- **Volume 1** — Executive Master Plan: Phase 2 scope, capex summary, division sequencing.
-- **Volume 4** — Construction Division: shared diorama staging for scale-heli scenarios;
-  recovery-vehicle theatre.
-- **Volume 6** — Marine Division: the sibling Phase 2 division sharing the Phase 2 capex
-  envelope and spectator-first design language.
-- **Volume 7** — Engineering & Workshop Manual: foam-repair bench technique, soldering
-  standards, LiPo end-of-life SOPs, high-turnover spares doctrine.
-- **Volume 8** — Procurement Handbook: trainer/FPV supplier channels, landed-cost tables,
-  netting and pole procurement.
-- **Volume 9** — Customer Experience & Loyalty: RC WORLD License integration of the
-  Cadet → Pilot → FPV Racer → Instructor ladder; Gears earning on Academy stages; events
-  calendar (airshows, night league).
-- **Volume 10** — Finance: division P&L, Phase 2 capex detail ($120–180 k enclosure line),
-  insurance program.
-- **Volume 11** — Architecture & Park Design: site placement, wind study, enclosure
-  structural engineering, promenade and grandstand sightlines.
-- **Volume 12** — Franchise Manual: the per-site aviation legal review (enclosure exemption
-  confirmation, building code, obstruction check) as a mandatory franchise deliverable.
+> **Investor Note.** Watch sim-to-flight conversion and Learn-to-Fly completion before anything else in the division's first two quarters. Cage utilization will look poor early — it is capped by instructor supply and certification pipeline, not demand — and both metrics recover mechanically as the certified base grows. A division that converts sim customers at 40%+ is compounding; one that doesn't has a pricing or programming problem, not an aviation problem.
 
+## 11. Volume Summary & Cross-References
+
+The Aviation Division converts the most dangerous branch of the RC hobby into a walk-in leisure product through one structural decision and three doctrines. The decision is **total containment**: a 70 × 45 m, 18 m-apex high-tensile netted cage around the 30 m runway and helipads, which moves flying out of national-airspace regimes (FAA Part 107/TRUST and EASA open category treated strictly as reference frameworks — local written confirmation is a Month 13 gating task) and into the insurable world of certified structures. The doctrines: **one airspace, one controller**, with a published compatibility matrix and exclusive slots for jets and racing; **simulator-first training**, with a six-station lab (RealFlight, Liftoff, Velocidrone) opening three months before the cage and gating every high-risk discipline; and **earned progression**, the RC WORLD Wings ladder from ground school through buddy-box to solo and type ratings, enforced automatically by RC WORLD OS. The ~21-airframe fleet pairs SAFE-equipped Western trainers with Chinese-sourced equivalents, positions EDF jets as supervised spectacle, helicopters as the prestige discipline, and FPV — cinewhoop, freestyle, Tiny Whoop and a MultiGP-pattern racing league — as the division's growth engine. At premium-tier pricing with instruction margins layered on ~42 peak Shifts/hour across cage, Arcade and sim lab, the division earns its ≈ $364 k share of Phase 2 capex while giving the park its strongest aspirational brand asset.
+
+**Cross-references:**
+
+- **Volume 7 (Engineering & Workshop):** master LiPo procedures, foam and heli repair bench practice, staff training and first-aid standards extended by Chapters 5.4, 8.4 and 10.3.
+- **Volume 8 (Procurement):** wholesale execution of the Chapter 10.1 fleet table, netting supplier contract, goggle-liner and prop consumable schedules.
+- **Volume 9 (Customer Experience & Loyalty):** the RC WORLD License scheme that Wings (Chapter 9) plugs into; badges, Gears multipliers, membership hooks, events calendar and the currency-nudge messaging.
+- **Volume 10 (Finance):** division P&L, Phase 2 capex staging, insurance file, sensitivity cases.
+- **Volume 11 (Architecture & Park Design):** structural design of the enclosure, masts and helipads per Chapter 1.1 and 8.1; grandstand sightlines; Whoop Arcade placement.
+- **Volume 12 (Franchise Manual):** jurisdiction-specific regulatory verification protocol generalised from Chapter 1.2.
+- **Volume 13 (RC WORLD OS):** Wings record schema, sim-hour logging, session board and airspace-slot management, RotorHazard timing integration, weather-hold automation.
 
 

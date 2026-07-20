@@ -1,725 +1,776 @@
 # Volume 4 — RC Construction Division
 
 **RC WORLD — Master Development Plan** · Volume 4 of 12
-**Revision:** 1.0 · **Date:** July 2026 · **Status:** Living document — bump revision on material change
+**Revision:** 1.0 — July 2026 · **Status:** Living document — bump revision on material change
 
-**Purpose of this volume.** This volume is the complete build-out and operating specification for the RC WORLD Construction Division: the Mining Zone and Agriculture Zone that open with Phase 1 (Months 0–12) as one of the park's two anchor attractions. It defines the division concept, the full machine catalogue with fleet counts and duty ratings, the engineering doctrine that splits the fleet into electromechanical rental machines and hydraulic premium machines, the fleet-balancing mathematics behind the 1:3 excavator-to-dump-truck ratio, the physical design of the open-pit mining circuit and the agricultural field grid, the competition and gamification layer that converts earthmoving into repeatable revenue, and the maintenance and safety programs that keep thirty earthmovers and twelve tractors in daily service. It is written to be handed, chapter by chapter, to the people who will build and run the division: the civil contractor gets Chapter 6, the Artisans get Chapters 3, 4 and 10, the events team gets Chapter 8, and the investor gets all of it.
+**Purpose of this volume.** This is the handbook of the RC WORLD Construction Division: the Mining Zone and the Agriculture Zone that open with Phase 1 as one of the park's two anchor attractions. It specifies every machine class the division operates — from the Huina 1580 rental excavators to the single Kabolite-class hydraulic flagship — with anatomy, operating envelopes, verified 2026 market pricing and duty ratings; it derives the 1:3 excavator-to-dump-truck logistics ratio with worked queueing arithmetic; it engineers the haul roads, the open-pit material recirculation loop, the agricultural field grid, and the operator stations customers stand at; it defines the competition formats that convert earthmoving into repeat revenue; and it closes with the division-specific maintenance program, preventive-maintenance matrix and FMEA table that keep forty-two machines in daily public service. It is written to be handed out chapter by chapter: the civil contractor gets Chapters 5, 6 and 10, the Artisans get Chapters 2, 8 and 12, the events team gets Chapter 11, and the investor reads all of it.
 
 **Intended readers.** Investors and lenders assessing Phase 1; the General Manager and Construction Division Lead; Artisans assigned to the heavy fleet; the civil/landscape contractor building the Mining and Agriculture zones (with Volume 11); the events and marketing team designing competition formats (with Volume 9).
 
 **Chapters**
 
-1. Division Concept: The Miniaturized Industrial Complex
-2. Machine Catalogue & Fleet Specification
-3. Hydraulic Systems Engineering (Premium Fleet)
-4. Electromechanical Lead-Screw Machines (Rental Fleet)
-5. Fleet Planning, Utilization Mathematics & Battery Logistics
-6. Mining Zone: Site & Circuit Design
-7. Agriculture Zone: Field Grid & Tractor Operations
-8. Earthmoving Competitions & Events
-9. Gamification & Telemetry Interface
-10. Maintenance Program
-11. Safety
-12. KPIs & Division Dashboard
-13. Volume Summary & Cross-References
+1. Division Overview & Philosophy
+2. Excavators
+3. Bulldozers & Graders
+4. Wheel Loaders
+5. Dump Trucks & Haul Logistics
+6. The Mining Fleet System
+7. The Agriculture Zone
+8. Hydraulics Deep-Dive
+9. Fleet Planning & Capacity
+10. Site & Track Design for Construction Play
+11. Earthmoving Competitions & Skill Programs
+12. Maintenance & Reliability
 
 ---
 
-## 1. Division Concept: The Miniaturized Industrial Complex
+## 1. Division Overview & Philosophy
 
-### 1.1 Not a sandbox — a working mine at 1/14 scale
+### 1.1 The miniaturized industrial complex
 
-The Construction Division is the clearest expression of the founding thesis recorded in the original Omni-Zone blueprint: RC WORLD is a **miniaturized industrial complex, not a hobby sandbox**. A sandbox gives a customer an excavator and a pile of sand and leaves the rest to imagination. RC WORLD gives the customer a *job*. The Mining Zone is a simulated open-pit operation with a production circuit that actually functions: excavators loading at the pit face, articulated dump trucks hauling on engineered roads with a maximum 15° incline, a central processing hopper that weighs and swallows every load, a wheel loader keeping the haul roads dressed, and a live tonnage leaderboard that turns twenty minutes of digging into a measurable shift of production. The Agriculture Zone applies the same logic to farming: pre-tilled fields, crop rows, implements that hitch and unhitch, and seasonal harvest campaigns with their own scoring.
+The Construction Division is the purest expression of the founding thesis recorded in the original Omni-Zone blueprint: RC WORLD is a **miniaturized industrial complex, not a hobby sandbox**. A sandbox hands a customer an excavator and a pile of sand and leaves the rest to imagination. RC WORLD hands the customer a *job*. The Mining Zone is a simulated open-pit operation whose production circuit actually functions: excavators loading at bench faces, articulated dump trucks hauling on engineered roads that never exceed the canonical 15° incline, a central processing hopper that weighs and swallows every load, a wheel loader keeping the haul roads dressed, and a live tonnage leaderboard that turns twenty minutes of digging into a measurable shift of production. The Agriculture Zone applies the same logic to farming: pre-tilled fields, crop rows at scale spacing, implements that hitch and unhitch, irrigation trenches, a barn-and-silo receiving point, and seasonal harvest campaigns with their own scoring.
 
-The difference matters commercially, not just aesthetically. A sandbox experience exhausts itself in one visit; a production system generates goals, and goals generate return visits. A customer who has moved 38 kg of aggregate in their first Shift knows exactly what they want to do next time: move 50.
+The distinction is commercial, not cosmetic. A sandbox exhausts itself in one visit. A production system generates goals, and goals generate return visits: the customer who moved 38 kg of aggregate through the hopper on their first Shift knows exactly what they want to do next time — move 50.
 
-### 1.2 Why construction RC is the signature differentiator
+### 1.2 Simulation-of-work as entertainment
 
-Motorsport is the park's volume engine (Volume 3), but the Construction Division is its **signature** — the thing competitors cannot easily copy and customers cannot experience anywhere else. Four structural reasons:
+The division's product is best described as **simulation-of-work**: the satisfaction of competent labour, compressed into a 20-minute Shift and stripped of consequence. Four properties make this an unusually strong entertainment format:
 
-1. **Almost no competition.** RC racing tracks exist in most large cities in some form — club tracks, indoor carpet ovals, hobby-shop lots. Public-access RC *earthmoving* operations are close to nonexistent worldwide. A handful of hobby clubs run private construction dioramas; virtually nobody rents a working 1/14 excavator to a walk-in customer. In competitive-landscape terms (Volume 2), the Mining Zone opens with an effectively empty field.
-2. **High dwell time and low skill floor.** An excavator is the rare machine that is *more* satisfying when operated slowly. A first-timer is productive within two minutes — swing, curl, dump — and the skill ceiling (smooth multi-channel blending, precise bucket placement, clean truck loading without spillage) is high enough to hold hobbyists for years. Session-length data from hobby operators and our own pilot testing consistently show construction operators using their full 20-minute Shift, while racing customers often burn out (or crash out) earlier. Longer dwell means more F&B capture, more spectating, more Top-Up Sessions.
-3. **The widest demographic of any division.** Racing skews young and male. Earthmoving draws three distinct audiences at once: families with children who recognize excavators before they can read; adult hobbyists and trades-adjacent enthusiasts (operators, builders, farmers) for whom the machines are professionally familiar; and corporate groups, because "run a mine together for two hours" is a genuinely novel team event (Chapter 8.5). The division is also the park's most weather-tolerant and most photogenic — a loaded 1/14 dump truck climbing a haul road at golden hour is the park's single best marketing image.
-4. **It monetizes patience, not adrenaline.** Because billing is the 20-minute Shift decoupled from battery life, and because construction machines draw far less current than racing machines, the Construction Division has the best battery economics and the lowest crash-damage rate per Shift in the park. Revenue per machine is comparable to Motorsport; maintenance cost per Shift is materially lower (Chapter 10).
+1. **Low skill floor, high skill ceiling.** A first-timer is productive within two minutes — swing, curl, dump. The ceiling (smooth multi-channel blending, spill-free truck loading, clean trench walls) holds hobbyists for years. Pilot testing consistently shows construction operators using their full Shift while racing customers often crash out early; longer dwell means more F&B capture, more spectating, more Top-Up Sessions.
+2. **The widest demographic in the park.** Racing skews young and male. Earthmoving draws families with children who recognize excavators before they can read; adult hobbyists and trades-adjacent enthusiasts for whom the machines are professionally familiar; and corporate groups, because "run a mine together for two hours" is a genuinely novel team exercise (Chapter 11.4).
+3. **Almost no competition.** Club racing tracks exist in most large cities; public-access RC *earthmoving* is close to nonexistent worldwide. In Volume 2's competitive-landscape terms, the Mining Zone opens into an effectively empty field.
+4. **It monetizes patience, not adrenaline.** Construction machines draw far less current than racing machines and crash less. The division has the park's best battery economics and lowest damage rate per Shift; revenue per machine is comparable to Motorsport while maintenance cost per Shift is materially lower (Chapter 12).
 
-> **Investor Note.** The division's Phase 1 fleet capex is small — roughly $9,000–11,000 wholesale for all thirty earthmovers and twelve tractors *excluding* the single premium hydraulic showcase machine, which alone costs as much as the rest of the fleet combined (Chapter 2). The expensive parts of this division are civil works and the hopper/telemetry infrastructure, which last a decade. The machines customers actually wear out are cheap, repairable, and stocked three-deep in spares.
+### 1.3 The two-tier fleet doctrine: electromechanical rentals, hydraulic premium
 
-### 1.3 The two zones and the operating doctrine
+The single most important engineering decision in this volume is inherited directly from the founder's doctrine and must never be reversed: **the rental fleet is electromechanical — motor-and-lead-screw actuation — and hydraulics are reserved for premium supervised experiences and display.**
 
-The division comprises two adjacent zones built in Phase 1:
+The reasoning, developed in full in Chapters 2 and 8, compresses to four lines:
 
-- **Mining Zone** (~2,400 m²): open-pit dig faces, graded haul-road loop, central processing hopper, operator stations on the rim. Fleet: 6 excavators, 18 dump trucks, 3 wheel loaders, 2 dozers, 1 premium hydraulic showcase machine — 30 assets (canonical fleet, Volume 1).
-- **Agriculture Zone** (~1,500 m²): field grid with crop-row simulation, irrigation trenches, barn/silo receiving point. Fleet: 12 tractors (Double E E351 class, 1/16) plus a shared implement library.
+- **Capital at risk.** A rental Huina 1580 puts roughly $500 (landed, prepped) in a stranger's hands. A Kabolite K970-class machine puts $8,000–12,000 there. At equal mishandling probability, expected loss per Shift differs by an order of magnitude.
+- **Failure asymmetry.** An abused lead-screw machine strips a $6 gear or kills a $1 micro-switch — a 20–45 minute Artisan fix from shelf stock. An abused hydraulic machine ingests grit, scores a pump, or cooks a seal — a multi-day, $150–400 event.
+- **Turnaround.** Rental machines must flip between customers in under five minutes. Hydraulic machines want a rod wipe, level glance and temperature check between sessions — exactly what a supervised premium format provides and a walk-up format destroys.
+- **Scarcity is the product.** Because only one machine in the park is hydraulic, K970 seat time is a sellable aspiration at premium pricing ($22 Casual / $38 Operator, Artisan always present) rather than a maintenance liability.
 
-Two doctrine points from the style-guide canon govern everything in this volume and must never be contradicted:
+> **Investor Note.** The division's fleet asymmetry is the doctrine expressed in dollars: the single hydraulic showcase machine costs more than the other 29 mining machines combined (Chapter 9.1). The cheap machines earn volume fees and are rebuilt for $30 in parts; the expensive machine earns premium fees under professional supervision. Reversing this — renting hydraulics to walk-ins — is how an operator turns a $14,000 fleet line into a $90,000 one with worse uptime.
 
-- **Excavator : dump truck = 1 : 3.** An excavator is a stationary loading plant; a dump truck is a circulating hauler. Three circulating trucks keep one excavator continuously loading without queue collapse (the full queueing argument is Chapter 5.1).
-- **The rental fleet is electromechanical (lead-screw), not hydraulic.** Hydraulic machines — the Kabolite class — are reserved for premium supervised experiences and display. This is the division's single most important engineering decision, and Chapters 3 and 4 exist to justify and operationalize it.
+### 1.4 The customer journey
 
-### 1.4 The customer journey through the division
+A Casual Shift in the Mining Zone, end to end: the customer books in RC WORLD OS and completes the Toolbox Talk digital induction once, before first visit (Volume 9). At the zone gate an Artisan scans the booking QR, issues a transmitter bound to a specific machine, and walks the customer to a numbered operator station on the pit rim. The machine is already staged — excavator at a dig face, or dump truck in the loading queue. The 20-minute Shift clock starts at first stick input. The machine's RCW Heavy-Node streams voltage and position; the hopper's load cells credit every delivery to the customer's account. At T-5 minutes the app offers a Top-Up Session if nobody is queued for the class. At Shift end the customer sees their production stats — tonnage, loads, spillage penalty, license progress — and the machine turns around with ~30% battery buffer intact, per the park's billing doctrine. If a machine dies mid-Shift, the customer does not walk onto the pit floor — the **Tow-Truck Retrieval Protocol** converts the breakdown into gameplay (Chapter 10.5).
 
-A Casual Shift in the Mining Zone, end to end: the customer books in RC WORLD OS and completes the Toolbox Talk induction (once, digitally, before first visit — Volume 9). At the zone gate an Artisan scans the booking QR, issues a transmitter bound to a specific machine, and walks the customer to a numbered operator station on the pit rim. The machine is already positioned — excavator at a dig face, or dump truck staged in the loading queue. The 20-minute Shift clock starts at first stick input. Telemetry (Heavy-Node, Chapter 9) streams voltage and position; the tonnage system credits every hopper delivery to the customer's account. At T-5 minutes the app offers a Top-Up if no one is queued. At Shift end the machine parks itself under Artisan direction, the customer sees their production stats — tonnage, loads, spillage penalty, license progress — and the machine turns around for the next customer with ~30% battery buffer remaining, per the billing doctrine. If a machine dies mid-Shift, the customer does not walk onto the pit floor; the **Tow-Truck Retrieval Protocol** converts the breakdown into gameplay (Chapter 9.4).
+### 1.5 Scale doctrine
+
+**1/14 for earthmoving, 1/16 for tractors and dozers.** 1/14 is where the Chinese construction-model industry concentrates its engineering — Huina, Kabolite, LESU and JDModel all anchor on 1/14 — which means the deepest spare-parts pools, the widest attachment ecosystems, and the best payload-to-cost ratio. Going larger (1/8 hydraulics) doubles cost for little experiential gain; going smaller (1/24) collapses payload, presence and durability. The founder's notes are explicit and the market confirms them.
 
 ---
 
-## 2. Machine Catalogue & Fleet Specification
+## 2. Excavators
 
-### 2.1 How to read this catalogue
+### 2.1 The rental workhorse: Huina 1580 V4 anatomy
 
-Every machine class below is specified with: the selected model and the reasoning; verified 2026 specs; wholesale (direct-from-factory, Shantou/Guangdong supply chain — Volume 8 carries supplier detail) versus Western retail pricing, because the gap is itself a business insight; and an **RCW duty rating**:
-
-| Duty rating | Meaning |
-|---|---|
-| **RD-1** | Rental, unrestricted — issued to any inducted customer, continuous daily duty |
-| **RD-2** | Rental, gated — requires a license tier (Volume 9) or staff spot-check before issue |
-| **PD** | Premium/display — supervised sessions only, Artisan present, premium pricing |
-| **SD** | Service/staff — never issued to customers (grooming, recovery, utility) |
-
-Scale doctrine: **1/14 for earthmoving, 1/16 for tractors and light dozers**. 1/14 is where the Chinese construction-model industry concentrates its engineering (Huina, Kabolite, LESU, JDModel all anchor on 1/14), which means the deepest spare-parts pools, the widest attachment ecosystems, and the best payload-to-cost ratio. Going larger (1/8, 1/10 hydraulics) doubles cost for little experiential gain; going smaller (1/24) collapses payload and durability.
-
-### 2.2 Excavators — the rental workhorse: Huina 1580 V4
-
-The **Huina 1580 (V4, 2025/2026 production)** is the canonical rental excavator, and it is worth recording why it wins the seat. It is the only machine in its price band that is *genuinely all-metal* — tracks, undercarriage, slew deck, boom, stick and bucket are alloy castings and pressings — while remaining **entirely electromechanical**: every boom, stick and bucket motion is driven by a motor-and-lead-screw actuator, not fluid. Verified 2026-market specs:
+The **Huina 1580 (V4, 2025/2026 production)** is the canonical rental excavator — six units, fleet canon — and it is worth recording exactly why it wins the seat. It is the only machine in its price band that is *genuinely all-metal*: tracks, undercarriage, slew deck, boom, stick and bucket are alloy castings and pressings, while every working motion remains **entirely electromechanical**. Verified 2026-market specification:
 
 | Parameter | Huina 1580 V4 |
 |---|---|
 | Scale / configuration | 1/14 crawler excavator, 360° continuous slew (slip-ring equipped) |
-| Channels | 23 (independent proportional tracks, boom, stick, bucket, slew, lights, sound, smoke) |
-| Dimensions | ~700 mm reach length × 180 mm width × 480 mm max boom height |
+| Channels | 23 (independent proportional tracks, boom, stick, bucket, slew; lights, sound, smoke) |
+| Dimensions | ~700 mm max reach length × 180 mm width × 480 mm max boom height; track frame ~290 mm |
 | Weight | ~7–8 kg |
-| Battery | 2S 7.4 V 2,000 mAh (park fleet: XT60-converted, 3:1 pool) |
-| Stock runtime | ~40 min per charge (comfortably covers one 20-min Shift + 30% buffer) |
-| Attachments | Standard bucket; factory grapple and jackhammer in the case (park: bucket only for rentals; attachments reserved for events) |
-| Wholesale (direct) | **$350–420** |
-| Western retail (2026) | $560–800 |
-| Duty rating | **RD-1** — this is the machine the division is built around |
+| Battery | 2S 7.4 V 2,000 mAh LiPo (park fleet: XT60-converted, 3:1 pool) |
+| Stock runtime | ~40 min per charge — comfortably one 20-min Shift plus the ~30% buffer |
+| Attachments (factory case) | Bucket, wood grapple, jackhammer (park: bucket only for rentals; grapple/hammer reserved for events) |
+| Wholesale (direct, Volume 8 channel) | **$350–420** |
+| Western retail (observed 2026) | $560–800 (typical dealer ~$580; some markets to $860+) |
+| Duty rating | RD-1 — rental, unrestricted (duty codes: Chapter 9.1) |
 
-Fleet count: **6** (fleet canon). Two are positioned at dig faces at any time in normal operations, three in rotation/charge/maintenance, one as event/competition reserve — the deployment logic is Chapter 5.
+**Lead-screw boom actuation.** Open a 1580 actuator and you find the whole rental doctrine in one assembly: a brushed 380/540-class motor, a small reduction gearbox, and a **lead screw** — a threaded steel rod turning inside a bronze/steel nut pinned to the boom linkage. Motor spins, screw turns, nut travels, boom rises. Where a Kabolite meters oil, the Huina meters *rotation*. At each end of travel a **micro-switch** cuts motor power before the mechanical stop. Three actuators (boom, stick, bucket) plus the slew motor and two track motors complete the drivetrain; a slip ring carries power and signal through the continuously rotating turret.
 
-> **Field Note.** The V4's LCD transmitter includes a password lock and a play-timer. We disable both — Shift timing lives in RC WORLD OS, not in the transmitter — but the 23-channel layout is kept factory-standard across all six units so that any transmitter can bind to any excavator after an Artisan swap. Never let transmitter configs drift per-machine; config drift is how a fleet quietly becomes six unique machines.
+Two mechanical properties define the machine's character. First, the lead screw is **self-locking** at these helix angles: bucket load cannot back-drive the screw, so the machine holds a loaded bucket mid-air indefinitely, drawing zero current — a party trick no hydraulic machine can match without a counterbalance valve. Second, motion speed is fixed by screw pitch and motor RPM, so movements are steady and deliberate rather than proportionally fluid. For a rental audience this is a feature: the machine is *predictable*, and predictable machines survive strangers.
 
-### 2.3 The premium showcase: Kabolite hydraulic class
+**Servo and motor layout** (bench card, The Works): boom actuator under the boom root cover; stick actuator inside the stick; bucket actuator on the stick head; slew motor and pinion under the turret deck driving the slew ring; two brushed track motors with steel final drives in the undercarriage; main PCB, sound module, smoke unit and battery bay in the counterweight. The park adds one RCW Heavy-Node inline between receiver and ESC, on JST XH latching connectors for two-minute swaps.
 
-**Kabolite** is Huina's premium hydraulic marque (same Shantou industrial group, entirely different engineering tier). The 2026 lineup, verified July 2026, spans:
+### 2.2 Operating envelope and digging-force expectations
 
-| Model | Type | Scale | Weight | Street/retail (2026) | Notes |
-|---|---|---|---|---|---|
-| K336GC | Hydraulic excavator (CAT 336 GC replica) | 1/16 | ~9.2 kg | ~$1,700–1,900 | Entry hydraulic; 24-ch; 7.4 V 10,000 mAh; the "first real hydraulic" upgrade path |
-| K961 / K963 | Hydraulic excavator / loader | 1/16 | ~8–10 kg | ~$1,750–1,900 | Canon reference tier (digest); K963-100 loader variant new for 2026 |
-| K350 (-200, 3-arm) | Hydraulic excavator | 1/14 | ~18–19 kg | $4,500–5,000 retail; direct-dealer pricing seen as low as ~$3,850 in mid-2026 | Flysky PL18 EV Lite radio, sound/light, 10,000 mAh |
-| K980 | Hydraulic excavator (SY980H replica) | 1/14 | ~20 kg | ~$4,600–5,000 | 2026 addition to the lineup |
-| K988-100S | Hydraulic wheel loader (988K replica) | 1/14 | ~23.5 kg | ~$3,800–5,000 | 3S power, 15–25 kg lift force, 6-ch valve block |
-| **K970 (-100 / -100S / -100S Pro)** | Flagship hydraulic excavator | 1/14 | **31 kg** | **$10,500–12,500 retail** (canon); direct/dealer channels observed $6,500–9,000 for base/100S trims in 2026 | Brushless drive + brushless pump, 18-ch Flysky Paladin touch-screen radio, ~3.5 MPa system with cab pressure gauge, 80 kg track thrust, quick-coupler on 100S |
-| K5701 | Hydraulic dump truck | 1/14 | ~8 kg | ~$670 | Companion hauler for hydraulic demos |
+Honest numbers, from pilot testing and community consensus rather than any laboratory claim:
 
-The park's Phase 1 premium showcase machine is **one K970-class excavator** (fleet canon: "1 premium hydraulic showcase machine, Kabolite class"). It exists for three reasons: it is the **premium supervised experience** ($22 Casual / $38 Operator Shift, always Artisan-supervised, license-gated — Chapter 5.4); it is the **display anchor** that makes the whole division legible ("that's what the real hydraulics feel like"); and it is the **aspirational top rung** of the license ladder — customers grind tonnage on the 1580 fleet partly to earn K970 seat time. A second premium machine (K988-100S loader or K350) is the division's first Phase 2 fleet addition if premium-session occupancy sustains above 70% (Chapter 12).
+- **Dig depth:** ~150–200 mm below track datum before geometry runs out — which sets the pit-floor bench heights in Chapter 10.
+- **Bucket payload:** 150–300 g per pass in the park's washed 0–2 mm sand; 4–6 passes fill a Huina 1582 truck to its ~4 kg working load.
+- **Breakout force at the teeth:** of the order of 2–3 kgf — enough to cut a moist sand face cleanly, not enough to self-injure against the pit's timber edging. The face material spec (Chapter 6.4) is tuned so the machine always *feels* strong.
+- **Cycle time:** a relaxed swing-dig-swing-dump cycle runs 25–35 s for a casual operator, under 20 s for a skilled one — the numbers the 1:3 ratio derivation in Chapter 5.2 is built on.
+- **Travel:** walking speed is deliberately slow (~0.1 m/s class); an excavator walks perhaps 10 m in a whole Shift. Drive current is trivial; actuator current is intermittent 2–8 s bursts. Net pack draw per Shift: 25–40% of 2,000 mAh.
 
-For completeness of the competitive map: **LESU** (Aoue) builds 1/14 hydraulic excavators from roughly $2,000 (compact PC30-class) to $7,000+ (LR960-class), plus hydraulic backhoe loaders (BL71 2-in-1, ~$3,600), skid-steers and specialty loaders; **JDModel** occupies similar territory with hydraulic excavators and wheel loaders in the $2,500–6,000 band. Both are credible alternate sources for the premium tier and for hydraulic spares (pumps, valves, cylinders), and Volume 8 carries them as second-source suppliers. For the *rental* tier, nothing in the LESU/JDModel catalogues competes with Huina 15xx economics — which is precisely the point of the two-tier doctrine.
+> **Field Note.** The V4 transmitter has an LCD with password lock and play-timer. Both are disabled fleet-wide — Shift timing lives in RC WORLD OS, not in the transmitter — but the 23-channel layout stays factory-standard on all six units so any transmitter binds to any excavator after an Artisan swap. Never let transmitter configs drift per machine; config drift is how a fleet quietly becomes six unique machines.
 
-### 2.4 Dump trucks — the circulation fleet: Huina 1582 / 1573
+### 2.3 The premium tier: Kabolite 'Master Operator' experience
+
+**Kabolite** is Huina's premium hydraulic marque (same Shantou industrial group, different engineering universe). Two models matter to this division:
+
+| Parameter | Kabolite K336GC | Kabolite K970 (-100S / -100S Pro) |
+|---|---|---|
+| Prototype | CAT 336 GC replica | Flagship 1/14 hydraulic excavator |
+| Scale / weight | 1/16, ~9.2 kg | 1/14, **31 kg**, 944 × 315 × 334 mm |
+| Drive | Brushless motor, hydraulic pump + planetary travel drives | Brushless drive + brushless pump |
+| Radio | 24-channel 2.4 GHz | 18-ch FlySky Paladin PL18 EV Lite touch-screen |
+| Hydraulics | Entry hydraulic circuit | ~3.5 MPa working pressure, 6–8 MPa limit, cab pressure display, 6-way valve, quick-coupler (Pro adds powered-attachment contacts) |
+| Battery | 7.4 V 10,000 mAh (~40–45 min) | 11.1 V 3S 15,000 mAh |
+| Street price (verified July 2026) | ~$1,400–1,900 (MSRP $1,900) | Dealer/direct $6,500–9,000; Western retail to $10,500–12,500 (canon range) |
+| Park role | Phase 2 candidate: second premium machine / technician trainer | **The Phase 1 premium showcase machine** |
+
+The park's single premium machine is a **K970-class excavator**, and it carries three jobs: it is the **'Master Operator' experience** — a supervised, license-gated, one-on-one session at the premium pad ($22 Casual / $38 Operator, Artisan present throughout); it is the **display anchor** that makes the whole division legible ("that's what the real hydraulics feel like"); and it is the **top rung of the license ladder** — customers grind tonnage on the 1580 fleet partly to earn K970 seat time. The K336GC is the designated second premium machine if Master Operator occupancy sustains above 70% (growth trigger, Chapter 9.5): at ~$1,700 it adds a second supervised seat for a fifth of the flagship's capital, and doubles as the technician-education hydraulic trainer in Chapter 8.
+
+For the competitive map: **LESU** (Aoue) builds 1/14 hydraulic excavators from roughly $2,000 (compact PC30-class) to $7,000+ (LR960-class) plus hydraulic backhoes and skid-steers; **JDModel** occupies the $2,500–6,000 hydraulic band with excavators and wheel loaders. Both are credible second sources for premium machines and hydraulic spares (Volume 8 carries them); neither competes with Huina 15xx economics in the rental tier — which is precisely the point of the two-tier doctrine.
+
+### 2.4 Operator controls tutorial (staff teaching script)
+
+The division teaches the **ISO excavator pattern**, matching the Huina factory layout, and the tutorial below is the standard 90-second station brief every first-timer receives. Artisans deliver it verbatim until it is muscle memory.
+
+1. **Left stick.** Left/right = **slew** (turret swing). Up/down = **stick** (the middle arm): push away to reach out, pull back to curl in. "Push to reach, pull to bring home."
+2. **Right stick.** Up/down = **boom**: pull back to raise, push to lower. Left/right = **bucket**: left curls (fills), right dumps. "Pull up, curl left, dump right."
+3. **Tracks.** Two shoulder controls, one per track, like a tank. Both forward = drive straight. Opposite = pivot. Move the machine only when the marshal light is green.
+4. **The dig cycle.** Boom down, stick out, bucket cut, curl, boom up, slew to the truck, dump *low over the bed* — spilled material is tonnage you don't get paid for.
+5. **The golden rule.** Slow is smooth; smooth scores. Voltage-sag telemetry rewards smooth operators with longer effective allocations (F1-style power doctrine, Volume 9); jerky sticks drain the allocation and dent the smoothness index.
+
+Skill progression from this baseline — two-function blending, grading with the bucket back, trench walls — is packaged into the badge tasks of Chapter 11.5.
+
+---
+
+## 3. Bulldozers & Graders
+
+### 3.1 Fleet dozers: Huina 1554/1569 class
+
+The dozer class is deliberately light: two machines, both 1/16, both cheap, charming and expendable — the entry drug of the whole division, issued mostly to children.
+
+| Parameter | Huina 1554 | Huina 1569 |
+|---|---|---|
+| Scale / build | 1/16, ABS body, ~350 mm | 1/16, semi-metal, heavier blade gear |
+| Functions | 11-function, proportional blade lift/tilt, rear ripper | 8-channel, blade + rear scarifier |
+| Runtime | 40–50 min on 7.4 V pack | ~35–40 min |
+| Street price (2026) | ~$100–130 retail; wholesale $45–70 | ~$110–150 retail; wholesale $60–90 |
+| Duty rating | RD-1 | RD-1 |
+
+Park units receive an Artisan-fitted aluminium blade wear-edge and a metal-gear service pack at first refurbishment (Chapter 12); blade edges on ABS machines are the first thing the Mining Zone's crushed-stone areas eat.
+
+### 3.2 Blade control as a taught skill
+
+Dozer work is one control dimension harder than it looks, and the division teaches it as such: **the blade is a metering device, not a shovel**. The station brief teaches three moves — *carry* (blade just above grade, walking material forward), *cut* (blade 5–10 mm into loose material, short passes), and *back-blade* (reverse with blade floated to dress a surface flat). Children discover within minutes that a full blade stalls the tracks; the machine itself teaches load management, which is exactly the sort of embedded lesson the simulation-of-work format sells.
+
+### 3.3 Haul-road maintenance duty — dozers as track-grooming assets
+
+The dozers are not just toys with jobs; they are **rostered grooming assets**. Between customer waves and at close, Artisans use them for spill-drift back-blading in the dozer boxes and along haul-road shoulders — work that is deliberately performed in public view, because a staff machine visibly working the site reads as authenticity and reliably triggers "what is it doing?" conversations that convert into license-program interest. The heavy grooming (crown re-dressing, berm repair) belongs to the service wheel loader (Chapter 4.3); the dozers handle the fine work between waves. This dual duty is why the PM matrix (Chapter 12.2) gives two RD-1 machines a weekly track-tension check normally reserved for higher-duty assets.
+
+### 3.4 Graders — the honest gap
+
+As of July 2026 **no mass-market grader exists in the Huina rental class**; 1/14 motor graders are boutique hydraulic builds (LESU/JDModel custom territory, typically $3,000–5,000 landed). The division therefore carries no rentable grader, and this volume says so plainly rather than padding the catalogue. Haul-road grading is performed by the service-duty 1583 wheel loader wearing a straight-blade attachment fabricated in The Works for roughly $40 of aluminium (drawing in Volume 7). A display-grade hydraulic grader enters the wish list only in Phase 3, and only after the premium program saturates — it is a want, not a need.
+
+> **Trade Hack.** The loader's fabricated grading blade is drilled to the same pin pattern as its bucket, so blade-for-bucket swaps take under two minutes. Any attachment The Works fabricates for the division must use the standard pin pattern — one machine, many tools, zero adapters. Volume 7 carries the pattern drawing.
+
+---
+
+## 4. Wheel Loaders
+
+### 4.1 Huina 1583 class
+
+| Parameter | Huina 1583 (2026 model) |
+|---|---|
+| Scale / layout | 1/14 articulated wheel loader, die-cast alloy + ABS, ~570 mm long |
+| Channels | 10; proportional bucket; 2.4 GHz, ~30 m range |
+| Capability | Carries up to ~10 kg over the front axle; push force ~1.5 kg; weight ~4.6–5 kg |
+| Battery / runtime | 7.4 V 2,000 mAh, ~40–45 min |
+| Street price (2026) | $285–320 retail; wholesale **$180–220** |
+| Duty rating | RD-2 (rental, license-gated) and SD (one unit reserved for service) |
+
+Fleet count: **3** (canon). Two rentable, one permanently assigned to grooming and hopper-apron duty. The loader is gated behind the second license tier because an articulated machine that can carry 10 kg can genuinely hurt a finger — it is the strongest machine in the rental pool, and the only rental machine whose issue requires either a license tier or a staff spot-check.
+
+### 4.2 The hopper-loading cycle and bucket technique
+
+The loader's core gameplay is the **V-cycle**, taught exactly as real operators run it: approach the stockpile square, bucket flat on the ground; drive in until the wheels just begin to slip; **crowd** (curl) the bucket while lifting slightly — curling while stationary is what fills a bucket, pushing harder is what spins tires; reverse out along one leg of the V; steer to the truck or hopper along the other leg; dump low and centred. Score-relevant technique points, which the telemetry smoothness index and marshal spot-scoring both reward:
+
+- **Fill factor:** a properly crowded bucket carries 300–500 g of sand; a flat-pushed one carries half that and spills on articulation.
+- **The articulation trap:** an articulated frame mid-turn with a raised loaded bucket is the least stable state in the whole rental fleet. The taught rule is *"low and level until lined up"* — bucket below axle height except during the final approach.
+- **Apron discipline:** at the hopper the loader gives way to trucks (trucks are on the billing clock of other customers; the loader isn't).
+
+### 4.3 The service loader
+
+The SD-assigned 1583 — with the fabricated straight blade and a screen bucket — is the zone's groundskeeper: haul-road crown dressing, berm repair to the 60 mm gauge, spill reclaim on the apron, stockpile management, and re-segregation of mixed aggregates (sand back to sand faces, pea gravel back to the coarse faces) during nightly grooming (SOP-CD-004, Chapter 6.6). One machine, roughly 90 minutes of Artisan operation per day, keeps the entire circuit within spec — the cheapest site-maintenance department in the amusement industry.
+
+---
+
+## 5. Dump Trucks & Haul Logistics
+
+### 5.1 The circulation fleet: Huina 1582 / 1573
 
 Eighteen trucks — the largest single machine population in the park — sized by the 1:3 ratio against six excavators. Two models share the pool deliberately:
 
 | Parameter | Huina 1582 | Huina 1573 |
 |---|---|---|
-| Scale / layout | 1/14, Arocs-pattern rigid dump truck | 1/14 rigid dump truck (previous generation) |
-| Construction | Metal cab, metal tipping bed, metal linkage | Metal bed, more ABS in cab/chassis |
+| Scale / layout | 1/14 rigid dump truck, alloy cab, metal tipping bed and linkage | 1/14 rigid dump truck, ABS-dominant, metal bed floor |
 | Channels | 10 (drive, steer, tip, lights, sound) | 10 |
-| Payload (rated) | ~4 kg per load | ~3 kg per load |
-| Dimensions | 450 × 150 × 190 mm | similar footprint |
-| Weight | ~3.6 kg | ~3.2 kg |
-| Battery | 7.4 V Li-ion/LiPo (park: XT60 pool) | 7.4 V |
-| Stock runtime | ~45 min | ~30 min |
-| Wholesale | **$150–200** (canon range covers both) | $120–160 within canon band |
+| Working payload | ~4 kg per load (self-tips at 4 kg; chassis rated well above) | ~3 kg working; self-tips ~4 kg max |
+| Dimensions / weight | ~450 × 150 × 190 mm; ~3.6–7 kg depending on trim | ~450 × 140 × 190 mm; ~3.2–3.6 kg |
+| Battery / runtime | 7.4 V (park: 2S LiPo XT60 pool), ~30–45 min | 7.2 V stock (park-converted to pool standard), ~30 min |
+| Street price (2026) | ~$200–300 retail; wholesale **$150–200** | ~$165 retail; wholesale $120–160 |
 | Duty rating | RD-1 | RD-1 |
 
-Fleet split: **12 × 1582 + 6 × 1573**. The 1573s are the "training haulers" issued to younger children and absorb the roughest treatment; the 1582s are the production fleet whose bed geometry is correctly scaled to receive a Huina 1580 bucket without spillage — the founder's notes flag this load-match explicitly, and it is real: a 1580 bucket pass drops cleanly between the 1582's bed rails with ~15 mm clearance each side, which is what makes clean loading a learnable skill rather than a lottery.
+Fleet split: **12 × 1582 + 6 × 1573**. The 1573s are the training haulers issued to younger children and absorb the roughest treatment; the 1582s are the production fleet whose bed geometry is correctly scaled to receive a 1580 bucket pass — the bucket drops between the bed rails with ~15 mm clearance per side, which is what makes clean loading a learnable skill rather than a lottery.
 
-### 2.5 Wheel loaders — Huina 1583
+### 5.2 The 1:3 ratio, derived
 
-| Parameter | Huina 1583 (2026 model) |
+The canonical **excavator : dump truck = 1 : 3** ratio is elementary queueing arithmetic applied to the physical circuit, and every future fleet decision must survive this derivation. Measured cycle elements (pilot testing on the Chapter 10 geometry, rounded conservative):
+
+| Circuit element | Time |
 |---|---|
-| Scale / layout | 1/14 articulated wheel loader, die-cast metal body |
-| Channels | 10; proportional bucket; 40 m range |
-| Capability | Carries up to ~10 kg over the front axle; pushes ~1.5 kg; 570 mm long, ~8 kg |
-| Battery / runtime | 7.4 V 2,000 mAh, ~40–45 min |
-| Wholesale | **$180–220** |
-| Duty rating | RD-2 (rental, license-gated) **and** SD (one unit reserved as the grooming machine) |
+| Excavator loads one truck (4–6 bucket passes at 25–35 s) | ~2.5–3.0 min |
+| Loaded haul to hopper (~45 m at scale speed, incl. 14° ramp) | ~1.5 min |
+| Queue + tip at hopper + weigh | ~1.0 min |
+| Empty return | ~1.5 min |
+| **Truck away-time per cycle (excluding loading)** | **~4.0 min** |
 
-Fleet count: **3**. Two rentable, one permanently assigned to haul-road dressing and hopper-apron cleanup (Chapter 6.8). The loader is gated behind the second license tier because an articulated machine with a 10 kg carry capability can genuinely hurt a finger — it is the strongest machine in the rental pool.
+An excavator can start loading a new truck every ~3 minutes. Each truck is away ~4 minutes per cycle. Trucks required for continuous face service:
 
-### 2.6 Dozers — Huina 1554/1569 class
+> N = (loading interval + away time) ÷ loading interval = (3 + 4) ÷ 3 ≈ **2.3 → round to 3**
 
-The dozer class is deliberately light. The **Huina 1554** (1/16, ~350 mm, 11 functions, functional blade and rear ripper, ~30–40 min runtime, wholesale $45–70, retail $60–110) and its heavier sibling the **1569** (1/16, 8-ch, scarifier-equipped) are ABS-bodied machines: cheap, charming, and expendable. Fleet count: **2**, duty rating RD-1, issued mostly to children as the entry machine of the whole division. Park units receive an Artisan-fitted aluminum blade wear-edge and metal-gear service pack on first refurbishment (Chapter 4.4). The dozer's operational job is real but modest: back-blading spill drifts in designated push boxes — it is a *toy that does a job*, and it converts four-year-olds into future excavator customers.
+Round *up*, because customers are supposed to be having fun, not hitting takt time: human variance, spillage stops and photo pauses all inflate away-time. With **two** trucks the excavator operator stands idle waiting for a bed — the most expensive boredom in the division, since the excavator seat is the experience most customers came for. With **four** trucks they stack at the face, which reads as congestion and invites bumper-car behaviour. Three keeps every seat busy and every queue short. Fleet-wide: 6 excavators × 3 = **18 trucks**, canon.
 
-### 2.7 Graders and specialty machines — the honest gap
+### 5.3 Worked utilization calculation — payload per Shift
 
-As of July 2026 **no mass-market grader exists in the Huina rental class**; motor graders in 1/14 are boutique hydraulic builds (LESU/JDModel custom territory, typically $3,000–5,000 landed). The division therefore does not carry a rentable grader. Haul-road grading is performed by the SD-assigned 1583 wheel loader with a straight-blade attachment fabricated in The Works (drawing in Volume 7), which does the job for $40 of aluminum. A display-grade hydraulic motor grader is on the Phase 2 wish list as a second premium machine *only if* the K970 premium program saturates first — the grader is a want, not a need, and this volume says so plainly.
+The arithmetic every capacity claim in Chapter 9 hangs from. Assume one **pod** (1 excavator + 3 trucks, four customers) running a casual-pace 20-minute Shift:
 
-### 2.8 Mining fleet composition — master table
+- Truck cycle time = loading (3.0 min) + away (4.0 min) = **7.0 min** → each truck completes **2–3 cycles per Shift** (2.86 theoretical; call it 2.5 with start/stop losses).
+- Payload per cycle ≈ 3.5 kg blended (1582s at ~4 kg, 1573s at ~3 kg).
+- **Per truck per Shift: ~8.5–10.5 kg. Per pod per Shift: ~26–31 kg through the hopper.**
+- Excavator-side check: 2.5 truckloads × 3 trucks = 7.5 loads × ~5 bucket passes = ~38 bucket cycles in 20 min — one pass every ~32 s. Consistent with the observed casual cycle time; the circuit is balanced, with the excavator as the governing resource exactly as a real pit is planned.
+- Skilled-pace ceiling (competition data, Chapter 11.3): ~20 kg in 11 minutes for a two-person team — roughly double casual throughput, which is the headroom that makes timed contests meaningful.
 
-| Class | Model | Scale | Drive type | Count | Wholesale each | Fleet wholesale | Duty |
+Utilization ratio: at casual pace the excavator is loading ~85% of the Shift, each truck is moving ~90% — no seat spends more than a couple of minutes waiting. That number *is* the product; guard it.
+
+### 5.4 Haul-road design standard
+
+The haul roads are the division's civil signature, built like real ones at 1/14:
+
+- **Maximum incline 15° — canonical, and engineering-derived.** Brushed 540-class drive motors hauling a loaded 1582 sustain 14–15° indefinitely; beyond that, stall-current heating climbs steeply and continuous duty burns motors. All built ramps run **14°** (rising 1.0 m over 4.0 m of run) to leave margin under the canon ceiling. Grades are constant-slope — no roller-coaster profiles that shock-load gearboxes — with 300 mm vertical curves top and bottom.
+- **Width for passing.** A 1/14 hauler is ~150 mm wide. Single-lane running width = 3 vehicle widths = 450 mm; the main loop is **two-lane, 900 mm formed width**, so a bogged or dawdling truck never blocks the circuit. Ramps stay two-lane; only the final hopper-apron approach necks to marshalled single-lane.
+- **Berms.** Continuous compacted windrows, **60 mm high** (~40% of truck wheel height; real mines use 50% — ours is slightly under so the recovery crawler can climb them), on every edge with a drop over 100 mm. Berms passively absorb the highest-frequency customer error — drifting off-edge — with zero damage.
+- **Surface.** 40 mm of compacted ≤10 mm crushed stone over geotextile, crowned 2% to shed water inward to the drain. The service loader re-dresses the crown weekly. Dig faces are loose sand; roads are never sand — the full surface-grade map from loose sand to 10 mm crushed stone is Chapter 6.4.
+- **Circulation.** One-way, counter-clockwise. One-way running halves child-driver conflicts and is non-negotiable; painted arrows every 2 m and a give-way line at the apron are part of the nightly grooming checklist.
+
+### 5.5 Payload cycles per Shift — the customer-facing number
+
+Marketing and the app express hauling in honest, physical numbers: a Casual Shift in a 1582 moves **~10 kg through the hopper in 2–3 deliveries**; an Operator Shift (two blocks with a pit-stop battery swap) moves ~20–22 kg in 5–6. Career tonnage accumulates from exactly these weighed deliveries (±20 g load-cell resolution, Chapter 6.5) — no estimates, no inflation. The division's unit of progress is the kilogram, and the hopper is its notary.
+
+> **Field Note.** Resist the temptation to "help" small children by overfilling their trucks at the face. An overloaded 1573 on the 14° ramp is the single most common motor-heat event in the fleet. The excavator brief teaches four passes for a 1573, five for a 1582 — counting passes is load discipline made child-legible.
+
+---
+
+## 6. The Mining Fleet System
+
+### 6.1 Open-pit simulation: how the system reads
+
+The Mining Zone must read, at first sight and from 40 m away, as a *working mine*: benches, haul roads, a headwall, a hopper with a conveyor, controlled dust in the light. This chapter specifies the production system — benches, hopper, material loop, medium management; the civil dimensions and safety architecture around it are Chapter 10.
+
+### 6.2 Bench levels and pit-floor rotation
+
+The pit is cut as a real open-pit in miniature, two benches deep:
+
+- **Upper bench** at −300 mm below site datum; **lower pit floor** at −600 mm, connected by the in-pit ramp. Bench heights match the 1580's ~150–200 mm effective dig depth so a machine on each level always has a workable face below its tracks.
+- **Six dig faces (DF1–DF6)**, each 3 m wide, cut into the bench walls directly below their assigned operator stations, with a marked truck spot beside each. Faces hold a 30–40° angle in the moist-sand spec and are re-cut nightly to the template so every morning presents fresh, diggable material with 150–250 mm of loose won material heaped at the toe — first-minute success for the day's first customers is a designed property, not luck.
+- **Pit-floor rotation.** Faces retreat as customers dig. On a ~2-week cadence the active face set rotates around the pit walls: as DF1–DF3 approach their retreat limit (500 mm from the bench crest guard line), grooming shifts new cuts to the rested wall sections and the loader backfills the worked-out faces from the stockpile. Rotation keeps every face inside its station's sight line, evens wear on the pit geometry, and means the pit *visibly changes* week to week — regulars notice, and noticing is retention.
+
+### 6.3 Central hopper metering
+
+The hopper is scenography, scoring system and traffic anchor in one structure — a functional scale plant, not a prop:
+
+- **Receiving grizzly:** 600 × 600 mm steel bar grate at apron level, 20 mm bar spacing — passes all aggregate grades, stops buckets, phones and hands — over a 0.15 m³ surge bin.
+- **Weighing:** the surge bin hangs on four 50 kg load cells (HX711-class amplifiers into an ESP32 on the park mesh). Every tip is weighed to **±20 g** and credited within ~2 s to the delivering customer via the truck's Heavy-Node identity. This is the tonnage leaderboard's ground truth and the settlement layer for every competition in Chapter 11.
+- **Metering conveyor:** a 2.5 m inclined belt (200 mm belt, geared 24 V motor, variable 0.1–0.3 m/s) lifts weighed material to the stockpile discharge at +1.4 m. Belt speed is the system's metering valve: run slow on quiet days so the stockpile grows theatrically; run fast ahead of grooming so the surge bin is empty at close.
+- **Traffic control:** a stack light (green = accepting, amber = weighing, red = locked out) doubles as apron queue control. Lockout is a captive-key system — the conveyor cannot run while the bin access panel is open (Chapter 10.4).
+
+Build cost ≈ $6,000–9,000 including load cells, conveyor drive and corrugated cladding, fabricated in The Works to Volume 7 drawings.
+
+### 6.4 Aggregate grades — the designed medium
+
+The dig medium is a material system, not "sand." Three grades in mapped areas, spanning the canonical range from loose sand to 10 mm crushed stone, each selected on the tension between diggability at 1/14 breakout forces, dust, and drainage:
+
+| Material | Spec | Where | Why |
+|---|---|---|---|
+| Washed coarse sand | 0–2 mm, <3% fines, kept slightly moist | Dig faces DF1–DF4, dozer boxes, tillage fields (Ch. 7) | Best bucket penetration and heap behaviour; washed spec kills airborne dust; holds a 35° face overnight |
+| Pea gravel | 5–8 mm rounded | DF5–DF6 ("hard rock" faces), hopper surge bed | Satisfying rattle-and-pour physics for skilled operators; free-draining; too coarse to blow as dust |
+| Crushed stone | ≤10 mm angular, compacted | Haul roads, ramps, aprons — structure, never dig medium | Interlocks under compaction into a firm running surface; the canon ceiling grade |
+
+Total initial fill ≈ 55 m³ (sand 30, pea 10, crushed 15), ≈ $2,200–3,500 delivered in most markets — among the cheapest attraction surfaces per square metre in the industry, and (unlike track asphalt) infinitely repairable with a loader.
+
+### 6.5 The material recirculation loop
+
+The zone's material cycle is **closed and visibly honest** — nothing is trucked in or out after commissioning:
+
+1. Customers dig sand/pea from the faces and haul it to the hopper.
+2. The hopper weighs it and the conveyor lifts it onto the **conical stockpile** — the zone's growing "product" landmark.
+3. When the stockpile passes its 0.5 m³ mark, the service loader reclaims it and carries it back to the worked-out faces per the material map (sand to sand faces, pea to pea faces — the screen bucket re-segregates any mixing).
+4. Nightly grooming re-cuts the replenished faces to template.
+
+One loop, roughly 1.5 t of material in perpetual rotation, driven entirely by customer labour plus ~30 minutes of loader time per day. Spillage is the loop's only leak: drifts on the apron and haul loop are reclaimed nightly to their source areas so the grade map stays true.
+
+### 6.6 Dust and moisture management of the medium
+
+Moisture is a tool, and the sand faces run best at **4–6% moisture** — dark, cohesive, dust-free, holding clean vertical cuts like real ground. Controls, in order of importance:
+
+1. **Washed aggregate spec** (<3% fines) — the structural fix; dust you never buy is dust you never breathe.
+2. **Nightly misting pass** to 4–6% (dark and cohesive, no standing water), verified each morning by the opening test: *a face must hold a bucket-cut without slumping*. Bone-dry sand is the mark of lazy grooming — it digs worse, scores worse and coats every machine in fines.
+3. **Hopper misting ring** — a hose-end ring on the surge bin, because tipping is the dustiest event in the zone.
+4. **Hard rule:** the compressed-air blow-down gun lives in The Works, never in the zone. Blowing a machine down in the pit just relocates fines into the next machine's bearings.
+
+**SOP-CD-004 — Mining Zone Nightly Re-Grooming**
+**SOP ID:** SOP-CD-004 · **Rev:** 1.0 · **Owner:** Construction Division Lead · **PPE:** gloves, safety glasses, dust mask during dry raking · **Tools:** SD loader + blade/screen bucket, landscape rake, misting hose, face-cut template board, torque driver · **Frequency:** nightly at close, 40–55 min, 2 staff
+
+1. Confirm zone clear; close marshal gate; hopper stack light to red; apply conveyor captive-key lockout.
+2. Sweep the pit for foreign objects (dropped items, track pins, bucket teeth); log any fleet hardware found against the day's machine roster.
+3. Loader pass 1: reclaim spill drifts from apron and haul loop to their source material areas (screen bucket where grades have mixed).
+4. Loader pass 2: re-dress haul-road crown; repair berms to the 60 mm gauge board; refresh one-way arrows if scuffed.
+5. Re-cut all six faces to template: 30–40° face angle, 150–250 mm loose toe heap; advance the face-rotation plan if any face is at its retreat limit.
+6. Reclaim stockpile above the 0.5 m³ mark back to faces per the material map.
+7. Misting pass on all sand areas to 4–6% moisture.
+8. Hopper: empty and brush the surge bin; verify load-cell zero (±50 g); torque-check grizzly bolts (weekly, logged).
+9. Rake operator rim and spectator terrace; empty station bins; walk the drainage sump and clear debris.
+10. Log completion in RC WORLD OS grooming register with photos of DF1–DF6; lockout key stays pocketed until the morning opening checklist releases it.
+
+---
+
+## 7. The Agriculture Zone
+
+### 7.1 Concept
+
+The Agriculture Zone is the Mining Zone's calmer sibling: **1,500 m² (50 m × 30 m)** modelled on a commercial tobacco/maize operation per the founder's notes — *fields, not gardens*. Where mining sells production, agriculture sells **husbandry**: plowing a straight furrow, discing a field to even tilth, threading a tandem trailer between crop rows without shedding the load. It is the division's best fit for younger children, its best photographic contrast (green rows against the pit's ochre), and home of the park's most distinctive seasonal event, the Harvest Campaign.
+
+### 7.2 The tractor fleet: Double E E351 class
+
+| Parameter | Double E E351 (E351-003), park-spec |
+|---|---|
+| Scale / build | 1/16, ABS body, ~375 × 170 × 210 mm, ~1.1 kg stock |
+| Drive | Rear-wheel drive stock; park units upgraded to 4WD-motor spec where available, high-torque gearing |
+| Radio | 2.4 GHz, proportional drive/steer; horn, engine sound, lights; controls compatible powered accessories via rear data socket |
+| Battery | Stock 4.8 V 300 mAh NiCd — **replaced fleet-wide** with 2S-compatible park packs and XT60 during prep (the single most important prep step; stock packs would die mid-Shift) |
+| Street price (2026) | $50–90 retail; **park landed cost $80–120** each including battery conversion, standard hitch, Heavy-Node fitment |
+| Duty rating | RD-1 (tandem trailers RD-2) |
+
+Fleet count: **12** (canon). Why the E351 wins the seat: it is the only widely available 1/16 RC tractor with a powered-accessory ecosystem (tipping trailer, tedder) at a toy-grade price, and its market saturation means bodies, wheels and gearboxes are perpetually cheap. The German alternative — **Siku Control** (Fendt/John Deere/Claas, €99–172 retail, superb detail) — runs at 1:32 scale in its RC line, too small for outdoor field work and incompatible with the park's 1/16 implement library; it is noted for the retail shop (Volume 8), not the fleet.
+
+### 7.3 The implement library
+
+Tractors are the platform; implements are the content. Every tractor is fitted at The Works with the park-standard **pin hitch** (3 mm clevis pin on a 20 mm plate) so every implement fits every tractor. The library (~20 pieces, $15–60 each wholesale, several shop-fabricated to Volume 7 drawings):
+
+| Implement | Qty | Function | Gameplay |
+|---|---|---|---|
+| Single/dual-bottom plow | 4 | Cuts real furrows in tillage fields | Straightness scored against chalk line |
+| Disc harrow | 3 | Breaks furrows to tilth | Coverage scoring (photo overlay) |
+| Tipping trailer (single-axle) | 5 | Haulage to the barn | Load/deliver cycles, weighed |
+| Tandem trailer set | 2 | Advanced haulage (canon: tandem trailers) | RD-2, license-gated; a jackknife is a retrieval event |
+| Water bowser | 2 | Fills at the irrigation valve, wets fields | Staff grooming + campaign use |
+| Bale/crop flatbed | 2 | Carries crop tokens | Harvest Campaign core |
+| Front blade (loader-arm fit) | 2 | Lane dressing | Staff grooming + skill badge task |
+| Rake/tedder (Double E powered accessory) | 2 | Row dressing, campaign theatre | Powered via tractor data socket |
+
+### 7.4 Field grid layout
+
+The zone is a grid of **eight field cells, each 9 m × 5.5 m**, separated by 600 mm compacted access lanes, with the barn/silo complex on the east edge:
+
+- **F1–F4 — tillage fields:** 100 mm depth of the same washed 0–2 mm sand as the pit (one aggregate supply chain, deliberate), held at 4–6% moisture, re-groomed flat nightly so morning customers cut first furrows into clean ground.
+- **F5–F6 — row-crop fields:** permanent simulated crop rows at 250 mm spacing. Row materials (durability-tested against 1/16 wheel strikes): UV-stable artificial boxwood strip for "young maize"; bundled natural-look raffia in drilled timber battens for mature tobacco/maize — convincing at spectator distance, replaceable in 1 m sections. Between-row lanes are exactly 1.4 tractor widths: threading them clean is the zone's core skill.
+- **F7–F8 — harvest/haul fields:** where campaigns stage crop tokens.
+- **Irrigation trenches:** 150 mm wide × 80 mm deep formed channels along the grid spines — dry by default, hose-flooded for events — crossed by four single-tractor timber culvert bridges. The trenches are working scenery: a wheel dropped into one is a taught recovery lesson, not a design flaw.
+- **Barn & silo:** a 2.4 m × 1.8 m scale barn with a drive-through **weighbridge bay** (same HX711 load-cell architecture as the mining hopper, 20 kg cells) and a silo tower deliveries are credited against. Same scoring backbone as mining, gentler physics.
+- **Operator line:** six stations along the south edge, built to the same rail/shade/sight-line standard as the mining rim (Chapter 10.3); the whole grid is visible from every station.
+
+### 7.5 Crop-row simulation and task cards
+
+A standard Agriculture Shift issues a tractor plus one implement chosen at booking. The marshal assigns a field cell and a **task card**: *plow F2 north–south*, *disc F3 to full coverage*, *haul six trailer loads from F7 to the barn*. Completion, straightness scores and delivered weights post to the customer profile exactly like mining tonnage. The zone runs 8 concurrent customers comfortably (6 field tasks + 2 haul circuits) against 12 tractors — the same ~33% rotation reserve as the pit.
+
+### 7.6 Seasonal Harvest Campaign events
+
+Twice a year (spring planting, autumn harvest; inverted for southern-hemisphere deployments) the zone runs a two-week **Harvest Campaign**: F5–F8 are dressed with crop tokens — weighted 40 mm "maize bundle" and "tobacco bale" pucks, ~200 g each, RFID-tagged — and every Shift's deliveries accrue to a park-wide campaign total on a public silo-gauge display. Individual contributions earn campaign badges (Volume 9); the finale weekend crowns a Harvest Champion per age class. Token set cost ≈ $400 per campaign; comparable seasonal-event benchmarks reliably show a campaign fortnight doubling zone utilization, making this the cheapest utilization lever in the volume.
+
+> **Field Note.** The Agriculture Zone is the park's birthday-party engine. A tractor is the machine parents trust a six-year-old with unsupervised-feeling (it isn't — geofenced, marshalled, 10 km/h scale speed), and eight children on eight tractors with task cards is a self-running party format. Book parties into agriculture by default; upsell the pit for the second visit.
+
+---
+
+## 8. Hydraulics Deep-Dive
+
+This chapter serves two audiences: the Artisans who maintain the premium tier, and the technician-education program (Volume 7) that uses the K336GC trainer to teach fluid power. Even though only one Phase 1 machine is hydraulic, every heavy-fleet Artisan must understand the system — the K970 is the division's most expensive asset, its most fragile revenue line, and the machine most closely examined by exactly the customers whose opinions travel furthest.
+
+### 8.1 Anatomy of a 1/14 hydraulic system
+
+A scale hydraulic machine is a real hydraulic machine with the decimal point moved. The K970-class circuit contains every element of a full-size excavator's:
+
+1. **Reservoir.** ~200–400 ml of hydraulic oil in the counterweight area, with filler, sight window and coarse suction strainer. Miniature tanks are proportionally *smaller* relative to flow than full-size tanks, so the oil works harder and runs hotter per millilitre — the root cause of half the maintenance schedule below.
+2. **Pump.** A miniature **gear pump** — two hardened steel gears meshing in a machined housing — driven by a **brushless motor** with its own ESC. Gear pumps dominate the scale world: simple, flat efficiency curve, dirt-tolerant relative to piston pumps. Representative aftermarket spec (LESU-class, 2026): housings rated ~10 MPa, flow ~400 ml/min, relief mandatory well below rating. The pump motor is the "engine": the operator hears it load up under digging effort, which is a large part of the sensory magic customers pay premium rates for.
+3. **Relief valve.** Spring-loaded bypass that caps system pressure — the component that decides whether a stalled cylinder is "realistic engine lug" or "burst hose." Set at commissioning, verified at every fluid change (SOP-CD-003).
+4. **Directional valve block.** A bank of miniature spool valves — the K970 runs a **6-way block** — each spool shifted by a micro servo. Proportionality comes from spool position: the servo meters *flow*, so stick finesse translates directly into cylinder speed. This servo-on-spool architecture is why hydraulic machines feel alive.
+5. **Cylinders.** Honed-tube rams with NBR piston seals (often PTFE backup) and rod wipers. Bores in 1/14 run 8–16 mm: a 12 mm bore at 20 bar develops ~23 kgf of rod force — how a 31 kg model genuinely digs compacted ground.
+6. **Hose and hard line.** 3–4 mm OD nylon/polyurethane tube with brass compression or push-fit fittings; braided scale-appearance hose on premium boom sets.
+7. **Instrumentation.** The K970 carries an in-cab display showing pressure, oil temperature and system voltage — the single most useful diagnostic on the machine and the anchor of the weekly health check.
+
+### 8.2 Operating pressures and the two real enemies
+
+Verified factory figures for the K970-100S: **~3.5 MPa (35 bar) working pressure, 6–8 MPa limit pressure**, ~80 kg track thrust, 60 kg-class slew torque. For intuition: 35 bar is about fifteen times road-bicycle tire pressure, delivered through hoses the diameter of spaghetti. Two engineering consequences dominate:
+
+- **Heat, not pressure, is the enemy.** With a healthy relief valve nothing bursts; instead, sustained relief bypass (an operator holding a function against its stop) converts full pump power into oil heat. A 40-minute enthusiastic session can lift tank temperature 20–25 °C over ambient; above ~60 °C viscosity collapses, internal leakage rises and seals age fast. The Master Operator supervision script therefore teaches customers to **feather off at end-of-stroke** — a genuine operator skill that also protects the machine.
+- **Cleanliness is everything.** Pump gears run micron-scale clearances; one grain of the zone's own 0–2 mm sand inside the circuit scores the pump in minutes. This is the engineering core of the premium doctrine: the K970 works the *same dirt* as the rental fleet, but with an Artisan present whose job is partly to keep the filler cap, quick-coupler and rod wipers clean.
+
+### 8.3 Fluid selection
+
+Scale-hydraulic OEMs (Kabolite's own manuals included) standardize on **ISO VG 32 anti-wear hydraulic oil**, stepping to **ISO VG 46** in sustained hot climates (tank temps >55 °C). Absolute prohibitions, posted on the workshop wall: **never brake fluid** (glycol swells NBR seals), **never motor oil** (detergent packages foam and corrode), **never silicone shock oil** (wrong lubricity; wrecks pump gears). RC WORLD stocks VG 32 in 1 L bottles dyed with a trace of red tracer so any drop on a machine or the pit floor is instantly attributable.
+
+> **Trade Hack.** Keep a white ceramic tile in the K970's parking bay and park the machine over it every night. A red-tinged drop on the tile at morning inspection localizes a developing leak *before* the reservoir level moves — the sight glass is a lagging indicator; the tile is a leading one.
+
+### 8.4 Common leak points
+
+Every hydraulic machine leaks eventually; the discipline is making leaks *scheduled events* rather than surprises. The leak hierarchy, in descending frequency across the scale-hydraulics community:
+
+| Leak site | Cause | Fix | Typical interval |
+|---|---|---|---|
+| Cylinder rod seal | Rod wiper wear, dust ingestion | Seal kit ($8–15/cylinder), 30-min bench job | 150–300 run-hours |
+| Hose push-fit fitting | Vibration walk-out, heat cycling | Re-cut tube end, re-seat; replace tube at every 2nd service | 100–200 h |
+| Valve spool O-rings | Heat aging | Spool seal kit | 300–500 h |
+| Pump shaft seal | Normal wear | Pump rebuild/swap ($120–180) | 400–600 h |
+| Tank filler / gauge threads | Over-torque, missing PTFE tape | Re-tape, torque to spec | Commissioning errors only |
+
+Leak doctrine: any visible external leak takes the machine out of service immediately (`fleet_inventory` status → `maintenance`). At 200–400 ml total charge, a "small" leak is a large fraction of the system, and a starved gear pump destroys itself in minutes.
+
+### 8.5 Bleeding procedure and fluid change
+
+**SOP-CD-003 — Hydraulic Fluid Change & Air Bleed (Premium Fleet)**
+**SOP ID:** SOP-CD-003 · **Rev:** 1.0 · **Owner:** Heavy Fleet Artisan Lead · **PPE:** nitrile gloves, safety glasses · **Tools:** dyed ISO VG 32, catch tray, extraction syringe/filler bottle, lint-free wipes, IPA, PTFE tape, torque driver, fresh leak tile · **Frequency:** 100 run-hours or 6 months, and after any contamination event
+
+1. Run the machine 5 minutes at light load to warm the oil and suspend contaminants; park over the catch tray; power off; transmitter secured by the Artisan.
+2. Photograph the in-cab gauge at idle (pressure reference for post-change comparison).
+3. **Clean the filler area before opening** — the filler neck is the contamination gateway; this step is the SOP's soul.
+4. Drain/extract the reservoir into the catch tray. Inspect against the reference vial: darkening = normal aging; milkiness = water ingress (find it — check rod wipers and filler seal); glitter = metal — **stop and escalate** to pump inspection before any refill.
+5. Extend all cylinders fully to push residual oil back to tank; extract again. Do not full-system flush unless contamination was found — over-servicing opens more entry points than it closes.
+6. Clean the suction strainer; replace the breather element if fitted.
+7. Refill to the sight-window line; run the pump at idle 60 s; then **bleed**: cycle every function slowly to both stops, twice, in circuit order (boom → stick → bucket → auxiliary). Spongy or juddering motion = air remaining; repeat the slow cycles and re-top the tank (the purged air's volume is replaced by oil).
+8. Verify idle and relief pressures against the step-2 photo (±10%); investigate any relief drift before release.
+9. Wipe down; new leak tile; dispose of waste oil per the park environmental procedure (Volume 11); log volumes and condition to `maintenance_logs`.
+
+### 8.6 Maintenance schedule — Kabolite-class machines
+
+| Interval | Task |
+|---|---|
+| Every session | Rod wipe-down; visual hose scan; quick-coupler cleaned and capped; park over leak tile |
+| Daily (open) | Reservoir level at sight window; gauge sanity check (idle + relief); cycle all functions gently to stops once |
+| Weekly | Log tank temperature after last session; torque scan on valve block and cylinder clevises; track tension (SOP-CD-001) |
+| Monthly | Oil condition vs reference vial; strainer inspection; servo-linkage wear check on all spools |
+| 100 run-hours / 6 months | Full fluid change + bleed (SOP-CD-003); rod-seal inspection; relief setting verified |
+| Annually | Pump flow test (timed full-stroke vs commissioning baseline; >20% slowdown = pump rebuild); full boom hose-set replacement |
+
+### 8.7 Why hydraulics stay out of the rental fleet — the math
+
+The doctrine, now in numbers rather than principle. Compare one rental-duty year (assume 600 Shifts/year/machine at Year 2 volumes) for a hypothetical hydraulic rental against a 1580:
+
+| Line | Huina 1580 (electromech.) | Hydraulic machine on rental duty |
+|---|---|---|
+| Capital landed | ~$500 | ~$8,000 (K970-class) — or ~$2,000 even for a K336GC |
+| Consumable failure, typical | $1 micro-switch, $6 gear set | $12 seal kit + oil, $150 pump events |
+| Maintenance cost/Shift (observed class data) | $0.50–0.90 | $3–6 conservatively, before pump events |
+| Turnaround between customers | < 5 min (none needed beyond battery logic) | 5–10 min rod-wipe/level/temp check *every session* |
+| Downtime per major failure | 20–45 min (shelf parts) | Days (seal kits, pump parts, oil flush) |
+| Annual maintenance @600 Shifts | ~$400 | ~$2,500–4,000 + one pump event likely |
+| Capital + Year 1 maintenance at risk | ~$900 | ~$11,000+ |
+
+An 18× capital-at-risk gap and a 5–7× maintenance-per-Shift gap, for an experience difference most casual customers cannot articulate past "it sounds cooler." The premium format captures that difference honestly instead: the customer who *can* articulate it pays $22–38 for a supervised session, the Artisan's presence protects the machine, and scarcity does the marketing. This table is the division's constitutional law; any future proposal to rent hydraulic machines unsupervised must first defeat it in writing.
+
+---
+
+## 9. Fleet Planning & Capacity
+
+### 9.1 Canonical fleet table
+
+Duty ratings: **RD-1** rental unrestricted · **RD-2** rental, license-gated · **PD** premium/display, supervised · **SD** service/staff only.
+
+| Class | Model | Scale | Actuation | Count | Wholesale each | Fleet line | Duty |
 |---|---|---|---|---|---|---|---|
 | Excavator | Huina 1580 V4 | 1/14 | Electromechanical (lead-screw) | 6 | $350–420 | ~$2,300 | RD-1 |
 | Dump truck | Huina 1582 | 1/14 | Electromechanical | 12 | $150–200 | ~$2,100 | RD-1 |
 | Dump truck | Huina 1573 | 1/14 | Electromechanical | 6 | $120–160 | ~$850 | RD-1 |
 | Wheel loader | Huina 1583 | 1/14 | Electromechanical | 3 | $180–220 | ~$600 | RD-2 / SD |
 | Dozer | Huina 1554/1569 class | 1/16 | Electromechanical | 2 | $45–90 | ~$150 | RD-1 |
-| Premium showcase | Kabolite K970 class | 1/14 | **Hydraulic** (brushless pump) | 1 | $6,500–9,000 direct ($10.5–12.5k retail) | ~$8,000 | PD |
+| Premium showcase | Kabolite K970 class | 1/14 | **Hydraulic** (brushless pump) | 1 | $6,500–9,000 direct ($10.5–12.5k Western retail) | ~$8,000 | PD |
 | **Mining subtotal** | | | | **30** | | **~$14,000** | |
 | Tractor | Double E E351 class | 1/16 | Electromechanical | 12 | $80–120 | ~$1,200 | RD-1 |
-| Implements | Plows, discs, trailers (Ch. 7.3) | 1/16 | Towed/PTO-less | ~20 pcs | $15–60 | ~$700 | — |
+| Implement library | Plows, discs, trailers, rakes | 1/16 | Towed / data-socket powered | ~20 pcs | $15–60 | ~$700 | — |
 | **Division total** | | | | **42 powered** | | **~$15,900** | |
 
-Spares provisioning on top of this table — one full "ghost machine" of high-turnover parts per six fleet units — is specified in Chapter 10.6 and priced in Volume 8.
+Spares provisioning on top — one "ghost machine" of high-turnover parts per six fleet units — is specified in Chapter 12.4 and priced in Volume 8.
 
-> **Investor Note.** Read the table twice: the single hydraulic showcase machine costs more than the other 29 mining machines combined. That asymmetry *is* the rental doctrine, expressed in dollars. The Kabolite earns premium fees under supervision; the Huina fleet earns volume fees unsupervised and gets rebuilt for $30 in parts when a lead-screw wears. Reversing this — renting hydraulics to walk-ins — is how an operator turns a $14,000 fleet line into a $90,000 one with worse uptime.
+### 9.2 Session capacity per zone per hour
 
----
+Definitions: Shift = 20 min; turnaround (transmitter hand-off, battery decision, staging) budgeted 5 min → **2.4 sellable Shifts/seat/hour**.
 
-## 3. Hydraulic Systems Engineering (Premium Fleet)
-
-This chapter is the Artisan's grounding in how miniature hydraulics actually work, why they are magnificent, and why they are quarantined to the premium tier. Even though only one Phase 1 machine is hydraulic, every heavy-fleet Artisan must understand the system: the K970 is the division's most expensive asset, its most fragile revenue line, and the machine most likely to be examined closely by exactly the customers whose opinion travels furthest.
-
-### 3.1 Anatomy of a 1/14 hydraulic system
-
-A scale hydraulic machine is a real hydraulic machine with the decimal point moved. The K970-class circuit contains every element of a full-size excavator's:
-
-1. **Reservoir (tank).** 150–400 ml of hydraulic oil in the counterweight area, with a filler, a sight window for level checks (the K970 has one), and a coarse suction filter. Miniature tanks are proportionally *smaller* relative to flow than full-size tanks, which means the oil works harder and runs hotter per liter — the root cause of half the maintenance schedule below.
-2. **Pump.** A miniature **gear pump** — two hardened steel gears meshing inside a machined stainless housing — driven by a **brushless motor** with its own ESC. Gear pumps dominate the scale world because they are simple, flat-efficiency-curve devices that tolerate dirt better than piston pumps. Representative spec (LESU Y-1528 class, verified 2026): rated to 10 MPa, flow ~400 ml/min, relief valve mandatory above ~5 MPa. The pump motor is the "engine": the operator hears it load up under digging effort, which is a large part of the sensory magic.
-3. **Relief valve.** Spring-loaded bypass that caps system pressure. This is the component that decides whether a stalled cylinder is "realistic engine lug" or "burst hose." It is set at commissioning and lock-witnessed (SOP-CD-003 sets the check).
-4. **Directional valve block.** A bank of miniature spool valves — one spool per function (boom, stick, bucket, auxiliary/quick-coupler) — each spool shifted by a micro servo. The K970 runs a six-way block; aftermarket blocks run 2–8 ways. Proportionality comes from spool position: the servo meters flow, so stick-input finesse translates directly into cylinder speed. This servo-on-spool architecture is why hydraulic machines *feel* alive: flow, not position, is being commanded.
-5. **Cylinders.** Honed-tube rams with piston seals (typically NBR O-rings + PTFE backup) and rod wipers. Bore sizes in 1/14 run 8–16 mm; a 12 mm bore at 20 bar develops ~23 kgf of rod force — which is how a 31 kg model excavator genuinely digs compacted ground.
-6. **Hose and hard line.** Nylon or polyurethane tube (3–4 mm OD) with brass compression or push-fit fittings; premium builds run scale-appearance braided hose on the boom.
-7. **Gauge.** The K970 carries a factory pressure gauge behind a service door — the single most useful diagnostic instrument on the machine, and the anchor of the weekly health check.
-
-### 3.2 Operating pressures, flow, and what they mean
-
-Typical 1/14 systems idle at low pressure and work between roughly **8 and 30 bar (0.8–3.0 MPa)**, with flagship systems like the K970 running up to ~35 bar (the factory gauge is scaled to 3.5 MPa); component ratings (pump housings, hose) carry headroom to ~100 bar (10 MPa) but relief valves keep working pressure far below that. For intuition: 20 bar is about ten times road-bicycle tire pressure, delivered through hoses the diameter of spaghetti. Two design consequences:
-
-- **Heat is the enemy, not pressure.** At these pressures nothing bursts if the relief valve is healthy; instead, sustained relief-valve bypass (operator holding a function against its stop) converts the entire pump power into oil heat. A 40-minute premium session of enthusiastic digging can raise tank temperature 20–25 °C above ambient. Above ~60 °C oil viscosity collapses, internal leakage rises, seals age fast. The premium-session supervision script therefore includes teaching the customer to *feather off* at end-of-stroke — a genuine operator skill that also protects the machine.
-- **Cleanliness is everything.** The pump gears run micron-scale clearances. One grain of the Mining Zone's own 0–2 mm sand inside the circuit will score the pump in minutes. This is the engineering core of the premium doctrine: the K970 works on the *same dirt* the rental fleet works, but with an Artisan present whose job is partly to keep the filler cap, quick-coupler and rod wipers clean.
-
-### 3.3 Oil selection
-
-Scale hydraulic OEMs and the practitioner consensus (verified 2026) standardize on **ISO VG 32 anti-wear hydraulic oil** (Mobil DTE 25 class or equivalent) as the default: low enough viscosity for miniature gear pumps to prime instantly, high enough for film strength at 30 bar. Operators in sustained hot climates (tank temps >55 °C) step to **ISO VG 46**. Absolute prohibitions, posted on the workshop wall: **never** brake fluid (glycol chemistry swells NBR seals), **never** motor oil (detergent additives foam and corrode), **never** silicone shock oil (wrong lubricity, wrecks pump gears). RC WORLD stocks ISO VG 32 in 1 L bottles, dyed with a trace of red tracer dye so that any leak on the machine or the pit floor is instantly attributable (a Trade Hack borrowed from full-size fleet maintenance).
-
-> **Trade Hack.** Keep a white ceramic tile in the K970's parking bay. The machine parks over it every night. Any red-tinged drop on the tile at morning inspection localizes a developing leak *before* the reservoir level moves — sight-glass level is a lagging indicator; the tile is a leading one.
-
-### 3.4 Leak management
-
-Every hydraulic machine leaks eventually; the discipline is making leaks *scheduled events* rather than surprises. The leak hierarchy, in descending frequency observed across the scale-hydraulics community:
-
-| Leak site | Cause | Fix | Typical interval |
+| Zone | Concurrent customer seats (peak config) | Shifts/hour | Shifts/day (10 h) |
 |---|---|---|---|
-| Cylinder rod seal | Rod wiper wear, dust ingestion | Seal kit (~$8–15/cylinder), 30-min bench job | 150–300 run-hours |
-| Hose push-fit | Vibration walk-out, heat cycling | Re-cut tube end, re-seat; replace tube every 2nd service | 100–200 h |
-| Valve spool O-rings | Heat aging | Spool seal kit | 300–500 h |
-| Pump shaft seal | Normal wear | Pump rebuild or swap (~$120–180) | 400–600 h |
-| Tank filler/gauge threads | Over-torque, missing PTFE tape | Re-tape, torque to spec | Commissioning errors only |
+| Mining — standard | 16 (4 pods: 4 excavators + 12 trucks) + 2 loader/dozer seats = 18 | ~43 | ~430 |
+| Mining — premium pad | 1 (supervised) | max 2, practical 1 (cool-down) | 4–8 offered slots |
+| Agriculture | 8 (6 field tasks + 2 haul circuits) | ~19 | ~190 |
+| **Division ceiling** | **27 seats** | **~62–64** | **~620** |
 
-Leak response doctrine: any visible external leak takes the machine out of service *immediately* (status → `maintenance` in `fleet_inventory`), because at 200–400 ml total volume, a "small" leak is a large fraction of the charge, and running a starved gear pump destroys it in minutes.
+The reserve (2 excavators, 6 trucks, 4 tractors, 1 loader) is not idle capital: it is the 33% rotation pool that absorbs battery swaps, PM slots and defects without a visible hole in the circuit.
 
-### 3.5 Why hydraulics are premium-only: the doctrine in full
+### 9.3 Utilization targets and the worked revenue check
 
-The founder's fleet doctrine — "prioritize electromechanical durability and rapid artisan repair over premium leak-prone hydraulic systems" for the rental fleet — is now defensible in numbers:
+Blended reality against theoretical ceiling, consistent with Volume 10's Year 1 canon (≈$1.28 M park revenue):
 
-1. **Capital at risk per Shift.** A rental 1580 puts ~$500 (landed, prepped) in a stranger's hands; a K970 puts ~$9,000+. At equal damage probability the expected loss per Shift differs by 18×.
-2. **Failure modes are asymmetric.** An abused lead-screw machine strips a $6 gear or kills a $3 micro-switch — a 20-minute Artisan fix. An abused hydraulic machine ingests grit, scores a pump, or cooks its oil — a multi-day, $150–400 event that also takes the park's flagship off display.
-3. **Turnaround time.** Rental machines must flip between customers in under 5 minutes. A hydraulic machine wants a rod-wipe, level glance and temperature check between sessions — exactly what a supervised premium format provides and a walk-up format destroys.
-4. **The premium *is* the scarcity.** Because only one machine in the park is hydraulic, K970 seat time is a sellable aspiration at $22/$38 with an Artisan included — a better margin than renting it cheap and repairing it often.
+- **Year 1 target: ~1.75 paid Shifts/machine/day blended** across the 360-day year (weekday daytime is school time); **Year 2: 3.0** as leagues and memberships build weekday base load.
+- Effective revenue per block at canon pricing ($15 Casual / $26 Operator, Operator ≈ 25% of sales at $13/block): ~$14.50.
+- **Standard fleet (41 machines): 1.75 × $14.50 × 360 ≈ $9,100/machine/year → ~$375,000.** Realistically discounted for the tractor fleet's child-heavy pricing mix: **$330–380k**.
+- **Premium K970:** 3–5 sold sessions/day at $22–38 → $90–150/day → **$35–50k/year** — from one machine, matching roughly a tenth of the whole standard fleet on 2% of its Shift volume.
+- **Events and campaigns** (Chapter 11): $40–60k Year 1.
+- **Division Year 1 total: ≈ $410–470k** — about a third of park revenue, per the Volume 10 model.
 
-### 3.6 Hydraulic maintenance schedule (premium fleet)
+> **Investor Note.** The gap between the ~620-Shift/day ceiling and the ~75-Shift/day Year 1 blended reality is not waste — it is option value. The division can absorb roughly 8× demand growth (leagues, school programs, corporate weekdays) with zero additional fleet capex. Volume 10's upside case is built on filling exactly this gap.
 
-| Interval | Task |
-|---|---|
-| Every session | Rod wipe-down; visual hose scan; quick-coupler cleaned and capped; park over leak tile |
-| Daily (open) | Reservoir level at sight window; gauge sanity check (idle + relief pressure); cycle all functions to stops once, gently |
-| Weekly | Tank temperature log after last session; fastener torque scan on valve block and cylinder clevises; track tension (shared SOP-CD-001) |
-| Monthly | Oil condition check (color/odor against reference vial); filter/strainer inspection; servo-linkage wear check on all spools |
-| 100 run-hours or 6 months | **Full fluid change (SOP-CD-003)**; cylinder rod-seal inspection; relief-valve setting verified against gauge |
-| Annually | Pump flow test (timed cylinder full-stroke vs commissioning baseline; >20% slowdown = pump rebuild); full hose replacement on the boom set |
+### 9.4 Battery logistics — the 3:1 doctrine applied
 
-### 3.7 Upgrade path
+Canon: **3 packs per vehicle minimum** — one in the machine, one charging, one rested and ready; 2S 7.4 V heavy-fleet standard, XT60 connectors (Deans legacy acceptable on acquired stock); LiPo window **3.4–4.2 V/cell** enforced by the Heavy-Node kill-switch; all charging in the bunkered charging room on SkyRC T1000 / ISDT K4-class multi-port balance chargers.
 
-The hydraulic tier grows in a defined ladder, each rung triggered by the KPI dashboard (Chapter 12), never by enthusiasm: (1) K970 attachment set — hydraulic quick-coupler buckets, ripper, grapple — extends the premium session menu for ~$300–600; (2) second premium machine, a **K988-100S wheel loader** (~$3,800–4,600 direct), chosen over a second excavator because a loader-plus-excavator premium duo enables the "master pair" corporate format (Chapter 8.5); (3) K350 or K980 excavator as the third machine and competition flagship; (4) only in Phase 3, a boutique grader or LESU specialty machine for display. Every added hydraulic machine adds ~0.25 FTE of Artisan load — the dashboard prices that in before approving the purchase.
+Division pool: 41 common-pool assets × 3 = **123 packs** (excavators/trucks/loaders/dozers on 2S 2,000–3,000 mAh; tractors on 2S 1,500–2,200 mAh), plus the K970's own pair of 3S 11.1 V 15,000 mAh packs outside the common pool. Every pack carries a QR and a cycle log in RC WORLD OS.
 
----
+Swap cadence from measured duty: excavators draw 25–40% per Shift → swap at every Operator pit stop and every second Casual Shift; trucks draw evenly (continuous driving) → swap every second Shift without exception; tractors ≈ trucks. The 90-second pit-stop swap at the service-spine bench:
 
-## 4. Electromechanical Lead-Screw Machines (Rental Fleet)
-
-### 4.1 The mechanism
-
-Open a Huina 1580's boom actuator and you find the whole rental doctrine in one assembly: a brushed 380/540-class motor, a small reduction gearbox, and a **lead screw** — a threaded steel rod turning inside a bronze or steel nut attached to the boom linkage. Motor spins, screw turns, nut travels, boom rises. Where the Kabolite meters oil, the Huina meters *rotation*. At each end of travel a **micro-switch** (limit switch) cuts motor power so the actuator cannot drive itself past its mechanical stop.
-
-The lead screw is mechanically self-locking at these helix angles: back-driving force from the bucket cannot rotate the screw. This gives lead-screw machines their signature party trick — an excavator holding a loaded bucket mid-air indefinitely, drawing zero current — and their signature limitation: motion speed is fixed by screw pitch and motor RPM, so movements are steady and deliberate rather than proportionally fluid. For a rental audience this is a feature. The machine is *predictable*.
-
-### 4.2 Durability advantages — why this is the rental architecture
-
-- **No fluid, no leaks, no contamination pathway.** The Mining Zone's dust cannot enter a sealed screw tube the way it enters a hydraulic circuit. Actuators run for hundreds of hours with a grease refresh as the only intervention.
-- **Every failure is a discrete, cheap part.** Motors ($4–8), micro-switches ($0.50–1.50), gears ($3–10), screws/nuts ($8–15). The complete drivetrain of a 1580 actuator costs less than one hydraulic seal kit *installation*.
-- **Abuse-tolerant by design.** Stall the bucket against bedrock and the limit switch or the ESC current fold-back intervenes; worst case a nylon gear strips — sacrificially, protecting the metal train. This is the machine equivalent of a shear pin.
-- **Field-repairable in Shift-scale time.** The refurbishment procedure below returns a machine to service in 20–45 minutes. Rental economics live and die on this number.
-
-### 4.3 Common failure modes
-
-Three failure modes account for an estimated 80%+ of rental-fleet defects (the division FMEA in Chapter 10.7 formalizes this):
-
-1. **Micro-switch limit failures.** The switches live at the actuator travel ends and eat a mechanical click every cycle — tens of thousands of cycles per season. Failure presents two ways: *fail-open* (function stops before end of travel — annoying) or *fail-closed/welded* (motor drives past the stop until the gearbox stalls — destructive if not caught). Dust ingress accelerates both. This is the #1 consumable on the heavy fleet; the digest's spares doctrine lists micro-switches at MEDIUM turnover and we stock them by the hundred (Chapter 10.6). Replacement is SOP-CD-002.
-2. **Bushing wear.** Boom, stick and bucket pivots ride on plain bushings. Grit acts as lapping compound; worn bushings present as bucket slop (>2–3 mm play at the teeth), then as misaligned lead-screw side-loading, which then eats the screw nut — a cheap defect cascading into a moderate one. The weekly PM slop-check exists to break that cascade.
-3. **Gearbox stripping.** The reduction stages mix metal and nylon gears. Shock loads (dropped boom, bucket slammed into the pit wall, truck driven off a berm) strip nylon teeth. Symptom: motor audibly spinning, function dead or clicking. The fix is a gear set; the *prevention* is the berm-and-geometry design of the site itself (Chapter 6), which is deliberately shaped so that the highest-energy mistakes customers can make are within the fleet's shock tolerance.
-
-Secondary modes: brushed-motor brush wear (~300–500 h, presents as weak/sparky function), track-pin walk-out on excavators and dozers (daily visual, pins re-staked), steering-servo failures on trucks (the 1582's steering servo is the truck's hardest-worked part), connector fatigue (solved fleet-wide by the XT60 standard and JST XH telemetry connectors), and slip-ring oxidation in the 1580's continuous-rotation slew (annual clean).
-
-### 4.4 Refurbishment procedure — the 45-minute turnaround
-
-Every rental machine cycles through **The Works** for refurbishment either on PM schedule (Chapter 10) or on defect. The standard flow, staged so that one Artisan completes it inside 45 minutes with parts from the ghost-machine bins:
-
-1. Intake: scan asset QR; RC WORLD OS pulls `maintenance_logs` history and open defect notes; photograph as-received condition.
-2. Blow-down (dry compressed air, ≤2 bar, outdoors) — never wet-wash an electromechanical machine; water carries fines *into* screw tubes.
-3. Function test on the bench PSU at 7.4 V: run every actuator end-to-end, listening — a healthy lead screw hums; a dry one squeals; a worn nut knocks.
-4. Open the failed/scheduled actuator only (do not shotgun-open everything; every opening is a dust opportunity). Replace the discrete failed part: switch, gear set, motor, or screw/nut pair.
-5. Re-grease: lithium grease (NLGI 2) on screws and gears — the same continuous-turnover consumable the digest mandates; silicone grease on switch plungers.
-6. Pivot pass: check bushing slop at bucket teeth (<2 mm), re-pin tracks, torque scan.
-7. Electrical pass: XT60 pull-test, wire chafe scan, Heavy-Node JST XH connectors seated and latched, conformal-coating visual on the node.
-8. Close, run 5-minute load test in the workshop dig box (a 1 m² sand tray kept for exactly this), log parts to `maintenance_logs` (parts_used JSONB), status → `active`.
-
-> **Trade Hack.** Keep every actuator's screws in a magnetic parts tray *per actuator*, photographed before disassembly on the intake phone. The 1580 uses four visually similar screw lengths; a long screw in a shallow boss cracks the casting — the single most common self-inflicted workshop injury to these machines.
-
----
-
-## 5. Fleet Planning, Utilization Mathematics & Battery Logistics
-
-### 5.1 The 1:3 ratio, derived
-
-The canonical excavator : dump truck ratio of **1:3** is not a style choice; it is elementary queueing arithmetic applied to the physical circuit, and it must survive every future fleet decision, so here is the derivation.
-
-Measure the Mining Zone cycle (timings from pilot testing on the Chapter 6 geometry, rounded to be conservative):
-
-| Circuit element | Time |
-|---|---|
-| Excavator loads one truck (4–6 bucket passes at ~25–35 s/pass incl. spillage cleanup) | ~2.5–3.0 min |
-| Truck hauls loaded to hopper (~45 m haul at scale speed, incl. ramp) | ~1.5 min |
-| Truck queues + tips at hopper + weighs | ~1.0 min |
-| Truck returns empty | ~1.5 min |
-| **Truck round trip (excluding loading)** | **~4.0 min** |
-
-An excavator can start loading a new truck every ~3 minutes. Each truck is away from the face for ~4 minutes per cycle. Trucks required to keep the face continuously served = (loading interval + away time) / loading interval = (3 + 4)/3 ≈ 2.3 — call it 3 with human variance, spillage stops, and the fact that customers are *supposed* to be having fun, not hitting takt time. Fewer than three and the excavator operator stands idle waiting for a bed to load (the most expensive boredom in the division, since the excavator is the experience customers came for). More than three and trucks stack at the face, which reads as congestion and invites bumper-car behavior. **Three circulating trucks per active excavator keeps every seat busy.**
-
-Fleet-wide: 6 excavators × 3 = 18 trucks. In practice the division runs **4 active pods** (4 excavators + 12 trucks = 16 simultaneous customers) at peak, holding 2 excavators and 6 trucks in the swap/charge/maintenance rotation — a 33% reserve that lets the zone absorb a machine failure without a visible hole in the circuit.
-
-### 5.2 Duty cycles
-
-Construction machines are the gentlest duty in the park electrically and the harshest mechanically. An excavator's drive motors idle most of the Shift (the machine walks perhaps 10 m total); its actuator motors run intermittent 2–8 s bursts at modest current. Net battery draw per 20-minute Shift: typically 25–40% of a 2,000 mAh 2S pack — which is exactly why the canonical Shift returns the machine with ~30% buffer intact and why one pack safely covers consecutive Shifts *only* on paper: doctrine says swap at every Operator Shift pit stop and at every second Casual Shift, keeping every issued machine inside the LiPo window of **3.4–4.2 V/cell** with margin. Dump trucks draw more evenly (continuous driving) and get swapped every second Shift without exception. The telemetry kill-switch (PWM intercept) enforces the floor: under 3.4 V/cell the node throttles to 20% and orders the machine to the pit; this protects packs from the one failure customers cannot see coming.
-
-### 5.3 Utilization mathematics — the worked example
-
-The honest arithmetic every fleet decision hangs from. Definitions: operating day 10:00–20:00 (10 h); Shift = 20 min; turnaround (transmitter hand-off, battery decision, stage machine) budgeted 5 min.
-
-- **Design capacity per machine:** 60/(20+5) = 2.4 sellable Shifts/hour → **24 Shifts/machine/day**.
-- **Peak-day reality (weekend/holiday):** the 4-pod circuit (16 customer seats) sustained across the 6 busiest hours plus half-loaded shoulders ≈ 15–18 sold Shifts/machine — i.e., peak days genuinely approach capacity, which is why the reserve pod matters.
-- **Blended annual reality:** weekday daytime is school time; the honest planning number, consistent with the park-wide Year 1 model (Volume 10: ≈$1.28 M total revenue across all streams), is a **blended average of ~1.5–2.0 paid Shifts/machine/day across the 360-day year** for the standard fleet, rising toward 3+ in Year 2 as memberships and leagues build weekday base load.
-
-Revenue per machine per day at canon pricing (**$15 Casual / $26 Operator standard; $22/$38 premium**), taking Operator Shifts as ~25% of sales (2 blocks at $26 = $13/block):
-
-| Scenario | Paid blocks/day | Effective $/block | Revenue/machine/day | Standard fleet (29 machines)/yr |
-|---|---|---|---|---|
-| Year 1 blended base | 1.75 | $14.50 | **$25** | ~$264,000 |
-| Year 2 target | 3.0 | $14.50 | $44 | ~$455,000 |
-| Peak day (capacity check) | 16 | $14.50 | $232 | — (not annualizable) |
-
-The premium K970 runs a different model: max 8 supervised sessions/day (each needs Artisan time and a cool-down), realistically 3–5 sold at $22–38 → **$90–150/day**, ~$35–50k/year from one machine — roughly matching the *entire* rest of the fleet's per-unit revenue on 2% of the fleet's maintenance staffing but 50% of its capital. Add Agriculture (12 tractors at child-heavy, party-heavy utilization ≈ $15–20/machine/day blended ≈ $70–85k/yr) and division events (Chapter 8, budgeted $40–60k Year 1), and the **Construction Division Year 1 revenue target is ≈ $410–470k** — roughly a third of park revenue, consistent with Volume 10's model. Machine-level payback is almost embarrassing: a $500 landed Huina 1580 at even the Year 1 blended $25/day returns its capital in under a month of operation; the division's real capital risk is civil works, not fleet.
-
-> **Investor Note.** The gap between 24 Shifts/day capacity and ~2 blended is not waste — it is *option value*. It means the division can absorb 10× demand growth (leagues, school programs, corporate weekdays) with zero additional fleet capex. Volume 10's upside case is built on filling exactly this gap.
-
-### 5.4 Premium session protocol (K970)
-
-Premium Shifts are bookable only at listed times (4–8 slots/day), require the second license tier (Volume 9), and always run one-on-one with an Artisan at a dedicated premium pad beside the main pit (Chapter 6.5). The Artisan runs a 3-minute machine orientation (pump start, gauge, function tour), supervises hands-on, and closes with the maintenance micro-ritual (rod wipe, level glance) *performed in front of the customer* — the ritual is part of the product; premium customers are buying membership in the machine's care, not just stick time.
-
-### 5.5 Battery logistics — the 3:1 swap engine
-
-Canon: **3 batteries per vehicle minimum — one in the machine, one charging, one rested and ready**; 2S 7.4 V (heavy fleet standard) with **XT60** connectors (Deans legacy acceptable on acquired stock); charging only in the bunkered charging room (cinderblock/sandbag construction, Volume 11) on SkyRC T1000/ISDT K4-class multi-port balance chargers.
-
-Division pack pool: 42 powered assets × 3 = **126 packs minimum** (excavator/truck/loader/dozer 2S 2,000–3,000 mAh; tractors 2S 1,500–2,200 mAh; the K970 runs its own 3S 11.1 V 10,000–15,000 mAh pair outside the common pool). Every pack carries a QR and a cycle log in RC WORLD OS.
-
-**Swap workflow (the pit-stop, 90 seconds):** machine arrives at the swap bench inside the service spine (Chapter 6.6) → Artisan checks pack voltage on the go/no-go meter → pulls pack, racks it in the *outbound* crate (never straight onto a charger warm) → fits a *rested* pack from the ready rack (rested ≥ 30 min post-charge) → XT60 firm-click check, hatch closed, machine re-staged. Outbound crates travel to the bunker on the hour; charged packs return to the ready rack tagged with charge-completion time. The three-state discipline (in-machine / charging / rested) is what makes the 20-minute Shift billing safely independent of battery state — no customer ever receives a machine below the buffer line, and no pack ever fast-cycles hot.
-
-**Checklist — battery bench, per swap:**
-
-- [ ] Inbound pack voltage read and logged (flag if any cell < 3.5 V — machine was over-run, investigate)
+- [ ] Inbound pack voltage read and logged (any cell < 3.5 V → machine was over-run; investigate before reissue)
 - [ ] Pack body inspected: no puffing, no dented corners, XT60 pins bright
-- [ ] Outbound pack rested ≥ 30 min and ≥ 4.15 V/cell balanced
-- [ ] Battery hatch latched; wiring clear of pinch line
-- [ ] Swap logged to pack QR + machine asset tag in RC WORLD OS
+- [ ] Outbound pack rested ≥ 30 min post-charge and ≥ 4.15 V/cell balanced
+- [ ] Battery hatch latched; wiring clear of the pinch line
+- [ ] Swap logged against pack QR + machine asset tag in RC WORLD OS
+
+### 9.5 Growth triggers for adding machines
+
+Fleet additions are triggered by the dashboard, never by enthusiasm. Each trigger must hold for a rolling month:
+
+| Trigger | Threshold | Action |
+|---|---|---|
+| Standard-fleet blended utilization | > 4.5 paid Shifts/machine/day | Add one pod (1 × 1580 + 3 × 1582) — **always in ratio**; never add excavators or trucks alone |
+| Peak-day queue abandonment | > 10% of mining queue walks | Same as above, or extend hours first (cheaper) |
+| Premium occupancy | > 70% of offered K970 slots sold | Add second premium machine (K336GC or K988-100S loader, ~$1,700–4,600); budget +0.25 FTE Artisan |
+| Agriculture party bookings | > 80% weekend slot occupancy | Add 4 tractors + implement set (~$500 total) |
+| League demand | Waitlist > 4 teams | Add evening league night before adding machines |
+| Any addition | — | Pack pool grows 3:1 with the machine, same purchase order, no exceptions |
 
 ---
 
-## 6. Mining Zone: Site & Circuit Design
+## 10. Site & Track Design for Construction Play
 
-### 6.1 Design intent
+### 10.1 Zone dimensions and layout
 
-The Mining Zone must read, at first sight and from 40 m away, as a *working mine*: benches, haul roads, a headwall, a hopper with a conveyor, dust in the light. Every design decision below serves three masters in fixed priority order: (1) customer sight lines and separation (safety), (2) circuit throughput (the 1:3 logistics), (3) scenography. Where they conflict, that is the order.
+**Mining Zone: 60 m × 40 m (2,400 m²)**, long axis east–west, sited per the Volume 11 master plan with the site's 2–4% natural grade falling to the southwest corner (drainage exploits this). Coordinates in metres from the southwest corner (x east, y north):
 
-### 6.2 CAD-style layout (text description)
+- **Operator Rim (y = 36–40, full width):** elevated customer terrace, Section 10.3.
+- **Main Pit (x = 4–44, y = 8–32):** two benches (−300 mm and −600 mm), six dig faces DF1–DF6 under their stations, in-pit ramp.
+- **Haul loop (~110 m lap):** faces → south wall → main ramp (x = 44–54, −600 mm → +400 mm over 4.0 m run = 14°) → hopper apron → return ramp (north side, 14°) → faces. All per the Chapter 5.4 standard.
+- **Central Processing Hopper (x = 50–56, y = 18–26):** tipping apron west, conveyor discharging east to the stockpile.
+- **Premium Pad (x = 50–58, y = 30–38):** the K970's fenced 8 × 8 m dig cell with hardstand, leak tile and a rail-side viewing edge — the showcase digs where everyone can watch.
+- **Service Spine (y = 0–6, full width):** staff-only strip behind a 1.1 m fence — swap bench, staging racks, SD loader bay, tool locker, and the single marshal gate at x = 30.
+- **Dozer Push Boxes (x = 8–16, y = 8–12):** two 4 × 4 m sand cells inside the pit but fenced from the haul loop, so the youngest operators never enter traffic.
 
-Overall envelope: **60 m × 40 m (2,400 m²)**, long axis east–west, sited per the Volume 11 master plan with the 2–4% natural grade falling to the southwest corner (drainage exploits this). Coordinates below are meters from the southwest corner (x east, y north).
+**Agriculture Zone: 50 m × 30 m (1,500 m²)** adjacent, per the Chapter 7.4 grid, sharing the service spine's swap bench.
 
-- **Operator Rim (y = 36–40, full width):** the elevated customer edge. A continuous compacted-gravel terrace 4 m deep, raised 600 mm above pit-floor datum, faced with timber sleepers. Twelve numbered **operator stations** at 4 m centers (x = 6 to 50), each: 1.2 m standing rail (42 mm galvanized pipe), transmitter shelf, shade sail coverage (4 m × 4 m HDPE sails, 3.2 m posts), and a sight line to its assigned dig face at a viewing angle of 15–25° downward — steep enough to see into the truck beds (judging fill is the skill), shallow enough to read machine attitude at 20 m.
-- **Main Pit (x = 4–44, y = 8–32):** the excavation. Two benches: upper bench at −300 mm datum, lower pit floor at −600 mm, connected by the in-pit ramp. Six **dig faces** (DF1–DF6) cut into the north wall of the benches directly below their operator stations, each face 3 m wide with a truck spot marked beside it. Faces are re-cut nightly (Section 6.9) so every morning presents fresh, diggable material at a 30–40° face angle.
-- **Haul Road Loop (perimeter of pit, ~110 m lap):** engineered per Section 6.4, running from the faces along the south wall, up the **main ramp** (x = 44–54, rising −600 mm → +400 mm over 4.0 m of run — a 14° grade, inside the 15° canon limit with margin) to the hopper apron, and back down the **return ramp** on the north side (same 14°).
-- **Central Processing Hopper (x = 50–56, y = 18–26):** the zone's landmark, Section 6.5, with its tipping apron facing west and its conveyor discharging east onto the stockpile at x = 57.
-- **Premium Pad (x = 50–58, y = 30–38):** the K970's own fenced 8 m × 8 m dig cell with a dedicated hardstand, leak tile, and a rail-side viewing edge — the showcase digs where everyone can watch.
-- **Service Spine (y = 0–6, full width):** staff-only strip behind a 1.1 m fence: swap bench, machine staging racks, the SD wheel loader's parking bay, tool locker, and the marshal gate at x = 30 (the only customer-adjacent opening, interlocked per Chapter 11).
-- **Dozer Push Boxes (x = 8–16, y = 8–12):** two 4 m × 4 m sand cells for the RD-1 dozers, inside the pit but fenced from the haul loop so the youngest operators cannot enter traffic.
+### 10.2 Pit depths safe for retrieval
 
-### 6.3 Aggregate specification — what the pit is made of
+Maximum excavation depth is **600 mm below datum** — set not by the machines (a 1580 bottoms out at ~200 mm below its own tracks) but by **retrieval**: the 1/10 recovery crawler must be able to reach, rig and winch any casualty, and its practical climb limit against the pit's 30–40° faces bounds the geometry. Design rules:
 
-The dig medium is a designed material system, not "sand." Three graded materials in mapped areas, selected on the tension between **diggability** (bucket penetration at 1/14 breakout forces), **dust** (the enemy of bearings, lungs and cameras), and **drainage** (the zone must reopen 2 hours after rain):
+- No point on the pit floor may be more than 600 mm below an adjacent surface reachable by the recovery crawler at ≤ 35°.
+- Bench crests carry a 500 mm guard line: faces are never cut closer than this to the crest, preventing undercuts that could slump onto a machine below.
+- The in-pit ramp always connects both bench levels to the haul loop — no machine can ever be geometrically stranded.
+- Nothing in the zone requires a human to step below datum during operating hours; every retrieval is machine-performed (Section 10.5) or, at day's end, an Artisan task behind a closed gate.
 
-| Material | Spec | Where | Why |
+### 10.3 Operator stations and sight lines
+
+Twelve numbered stations at 4 m centres along the rim — a designed workplace, not a fence gap:
+
+- Standing rail at 1.1–1.2 m (comfortable forearm rest for adults; chest rail for children on the fold-down 250 mm step — the under-8-with-guardian pairing the station is dimensioned for).
+- Transmitter shelf angled 15°; station number and assigned-face placard; QR opening that station's live telemetry card in the customer app.
+- Shade sails over every station (4 × 4 m HDPE, 3.2 m posts): transmitter LCDs and summer dwell both demand it.
+- **Sight-line rule (non-negotiable):** every operator must see their machine *and the entire haul-road segment their trucks use*, unaided, from their station, at a 15–25° downward viewing angle — steep enough to see into truck beds (judging fill is the skill), shallow enough to read machine attitude at 20 m. No station may operate into the hopper's visual shadow; this constraint fixed the hopper at the east end.
+
+### 10.4 Netting, barriers and separation
+
+Customers operate from the rim and the field line, full stop; pit floor, haul loop and field grid are machine space. Three enforcement layers:
+
+1. **Physical.** Rails and fences per above; the single interlocked marshal gate; the hopper's captive-key lockout — one key, two mutually exclusive locks, so the conveyor cannot run while the bin access panel is open, and cleaning and running are mechanically impossible to combine. Unlike the Aviation Division, no overhead netting is required — nothing in this division leaves the ground; barriers are waist-height and sight-friendly. Low mesh (300 mm) along the rim toe catches the one projectile the zone produces: spilled aggregate kicked by a track.
+2. **Procedural.** Toolbox Talk induction, marshal authority, and the Retrieval Protocol replacing every "can I just grab it" impulse.
+3. **Technical.** Geofence on every Heavy-Node: a machine crossing the customer line is PWM-killed before it reaches a shoe; under-voltage (<3.4 V/cell) throttles to 20% and orders the machine to the pit.
+
+**Spectator viewing:** a 2 m-deep lean-rail terrace behind the operator line, deliberately generous — construction is the park's best spectator product, and a loaded 1/14 truck climbing the ramp at golden hour is its single best marketing image. The premium pad's viewing edge doubles as the crowd magnet during Master Operator sessions.
+
+> **Safety Warning.** The most dangerous object in this division is not the 31 kg K970 — it is a *charging LiPo*. All charging occurs in the bunkered charging room without exception; no pack charges unattended anywhere in the zone, workshop bench included. The 3.4–4.2 V/cell window and the battery-bench checklist are safety controls first and asset controls second.
+
+### 10.5 Retrieval, ergonomics and the marshal gate
+
+A dead machine triggers its Heavy-Node's **85 dB localized buzzer**. The customer surrenders their transmitter at the marshal gate and receives the controls of the division's permanently staged **1/10 winch-equipped recovery crawler**; under marshal guidance they drive out, rig the winch (Artisan-supervised hook-up — customers never pass the gate), and tow the casualty to the service spine. Shift clock pauses during recovery; a fresh machine is issued; the *Tow-Truck Hero* badge posts on first completion. Pilot feedback is unambiguous: a meaningful share of children try to get recovered on purpose. The friction point is the feature.
+
+Ergonomics addendum from pilot testing: transmitters hang on station lanyard hooks (dropped-transmitter rate fell to ~zero), the rim surface is compacted gravel rather than pavers (standing comfort over a full Operator Shift), and stations 1–2 nearest the gate are reserved for accessibility — wheelchair-height rail section and a widened terrace bay.
+
+---
+
+## 11. Earthmoving Competitions & Skill Programs
+
+### 11.1 Why competition matters here
+
+Racing has a century of borrowed formats; earthmoving has none — RC WORLD gets to *invent* its competitive canon, and owning formats means owning the community that plays them. Competition also solves the division's weekday problem: leagues and corporate bookings are scheduled demand aimed exactly at the utilization gap in Chapter 9.3. Every format below runs on standard rental machines (the parity doctrine borrowed from Motorsport: skill decides, not hardware) and scores automatically through the hopper load cells, RFID tokens and Heavy-Node telemetry — no manual judging beyond a marshal's penalty flag.
+
+### 11.2 Precision digging challenges
+
+- **Golf-Ball Pickup (the signature event).** Six golf balls on 60 mm tees in a 2 m arc around a 1580. Score = balls placed unbroken into a bucket-width target box; time is tiebreaker only. Championship variant swaps balls for eggs — boiled for juniors, raw for finals night. Theatrical, photogenic, and a genuine multi-channel finesse test.
+- **Bucket Curling.** Push a 500 g puck along a 3 m painted lane with the bucket; nearest-to-rings scores 5/3/1; team relay format.
+- **Trench & Backfill.** Cut a 400 mm trench to a depth template, place the "pipe" (300 mm dowel, grapple attachment), backfill and dress flat. Judged on template fit plus surface flatness under a straightedge. The trade-skill event — real operators enter this one.
+
+### 11.3 Timed load-and-haul contests
+
+One excavator + one truck per two-person team (or solo iron-man with transmitter hand-offs). Move **20 kg net through the hopper** from a marked face; the clock stops at the twentieth weighed kilogram. Spillage is not swept — it is simply tonnage you no longer have. Course-record pace from pilot testing: ~11 minutes (versus ~26–31 kg per *four-person pod* per casual Shift — the skill headroom is the sport). Variants: uphill-only routing, loader class (1583 direct to hopper), and Phase 3 night format under work lights.
+
+### 11.4 'Site foreman' team scenarios — corporate events
+
+The premium B2B product (from **$1,400 / 2 h / 20 pax**, canon): the group becomes a contractor. A brief is issued — *deliver 60 kg to the hopper, cut and backfill one trench, zero safety flags* — and roles are assigned: operators, logistics planner, and a **site foreman** holding the marshal tablet's read-only dashboard. The debrief hands every participant their personal telemetry card. Add-ons: K970 demo with the Artisan ($150), catered boardroom Toolbox Talk, branded hi-vis. The format sells because it is a genuine operations-management exercise wearing a toy's clothes — the 1:3 queueing logic of Chapter 5 becomes the customer's problem for two hours, and mixed-seniority groups reliably discover their best operator is the intern.
+
+### 11.5 Skill-badge tasks (feeding Volume 9)
+
+The division contributes a defined badge set to the park-wide RC WORLD License ladder; each badge is a machine-verified task, not a marshal's opinion:
+
+| Badge | Task | Verification |
+|---|---|---|
+| First Furrow | Plow one field pass within 100 mm of the chalk line | Marshal photo overlay |
+| Clean Loader | 10 truckloads with < 10% spillage | Hopper weight vs bucket-pass count |
+| Ramp Master | 100 loaded ramp climbs without a retrieval | Heavy-Node geofence + retrieval log |
+| Steady Hands | Golf-Ball Pickup: 6/6 in under 5 min | Event scoring |
+| Tow-Truck Hero | Complete one supervised retrieval | Protocol log |
+| Harvest Hand | 50 kg delivered in one Harvest Campaign | Weighbridge ledger |
+| Master Operator | K970 assessment session passed | Artisan sign-off (tier 3 license) |
+
+License gating (division view): tier 1 (post-Toolbox-Talk) unlocks RD-1 machines; tier 2 (tonnage + the Clean Loader practical) unlocks the 1583, tandem trailers and league entry; tier 3 plus a booked assessment unlocks premium K970 sessions. Full tier/badge matrix: Volume 9, Chapter 3.
+
+League structure mirrors the park ladder: **Open evenings** (casual, monthly) → **Division League** (8-week season, tier 2; teams of four running 45-minute campaign sessions, aggregate-tonnage table, playoff weekend; $120/team/season against ~$60 of Shift value consumed — margin-accretive by design) → **RC WORLD Championship** (annual, invitational), to which the division contributes three disciplines: Precision, Load-and-Haul, and the Team Campaign final.
+
+---
+
+## 12. Maintenance & Reliability
+
+### 12.1 Division doctrine
+
+One sentence governs everything: **electromechanical machines are maintained by scheduled replacement of cheap discrete parts; the hydraulic machine is maintained by condition monitoring and cleanliness (Chapter 8.6).** All work logs to `maintenance_logs` (vehicle, mechanic, parts_used JSONB, description, date_resolved); predictive flags fire from `fleet_inventory.total_hours_run`, which increments on live PWM activity only — a machine that sat staged all day accrues nothing. Park-wide workshop standards, tooling and training live in Volume 7; this chapter is the division-specific layer.
+
+### 12.2 Daily / weekly / monthly PM matrix
+
+| Task | 1580 excavator | 1582/1573 truck | 1583 loader | 1554/69 dozer | E351 tractor |
+|---|---|---|---|---|---|
+| Visual + function test, connector check | Daily | Daily | Daily | Daily | Daily |
+| Blow-down (in The Works), track/tire debris pick | Daily | Daily | Daily | Daily | Daily |
+| Track tension (SOP-CD-001) | Weekly | — | — | Weekly | — |
+| Steering/articulation linkage & servo check | — | Weekly | Weekly | — | Weekly |
+| Pivot-bushing slop gauge (< 2 mm at teeth/blade) | Weekly | — | Weekly | Weekly | — |
+| Lead-screw lubrication (SOP-CD-005) | Monthly / 40 h | — | Monthly (lift arms) | Monthly | — |
+| Micro-switch test bank (all limits) | Monthly | Monthly (tip limit) | Monthly | Monthly | — |
+| Gearbox open-inspect, gear wear | Quarterly / 120 h | Quarterly | Quarterly | Quarterly | Quarterly |
+| Motor brush / current-draw baseline | Quarterly | Quarterly | Quarterly | Quarterly | Quarterly |
+| Slip-ring clean (continuous slew) | Annual | — | — | — | — |
+| Full refurbishment pass (§12.6) | 150 h or defect | 200 h | 150 h | 100 h | 200 h |
+
+K970 follows the Chapter 8.6 schedule; battery pool audits run weekly by pack QR rotation, fleet-wide.
+
+### 12.3 Sand ingress management
+
+Sand is the division's business model and its universal solvent of machinery. The ingress-control stack, cheapest layer first:
+
+1. **Material spec** — washed <3% fines aggregate and 4–6% face moisture (Chapter 6.6) prevent most airborne fines at source.
+2. **Grease discipline** — printed in red on every bench card: *nothing gets grease that touches sand directly.* Exposed pivots get oil-pen film only; grease on an open pivot is grinding paste by lunchtime. Grease belongs inside screw tubes, gearboxes and sealed ports.
+3. **Dry blow-down only, in The Works** (≤ 2 bar, outdoors) — never wet-wash an electromechanical machine; water carries fines *into* screw tubes and switch bodies.
+4. **Bearing quarantine** — any wheel or idler bearing with grit-crunch is binned, never cleaned and re-oiled; a $0.60 bearing is not worth a $60 axle.
+5. **Connector hygiene** — XT60s and JST XH latches wiped at every swap; the refurbishment electrical pass pull-tests every connector.
+
+### 12.4 Spares stocking and reorder points
+
+The division's shelf in The Works, sized so no single failure becomes downtime (par levels for the 42-machine fleet; suppliers and pricing in Volume 8, with 4–8 week China-direct lead times already priced into the reorder points):
+
+| Part | Par stock | Reorder at | Turnover |
 |---|---|---|---|
-| Washed coarse sand | 0–2 mm, <3% fines, slightly moist | Dig faces DF1–DF4, dozer boxes | Best bucket penetration and heap behavior; washed spec kills airborne dust; holds a 35° face overnight |
-| Pea gravel | 5–8 mm rounded | DF5–DF6 ("hard rock" faces), hopper surge bed | Satisfying rattle-and-pour physics for skilled operators; free-draining; too coarse to blow |
-| Crushed stone | ≤10 mm angular, compacted | Haul roads, ramps, aprons (structure, not dig medium) | Interlocks under compaction into a firm running surface; the canonical "loose sand to 10 mm crushed stone" ceiling |
-
-Materials are deliberately *not* mixed: sand migrating into the pea-gravel faces (and vice versa) is re-segregated during nightly grooming with the loader's screen bucket. Total initial fill ≈ 55 m³ (sand 30, pea 10, crushed 15), ≈ $2,200–3,500 delivered in most markets — one of the cheapest square meters of attraction surface in the industry.
-
-> **Field Note.** Moisture is a tool. The sand faces run best at 4–6% moisture — dark, cohesive, dust-free, holding clean vertical cuts like real ground. The nightly grooming procedure includes a misting pass, and the morning checklist verifies "face holds a bucket-cut without slumping." Bone-dry sand is the mark of a lazy operator; it digs worse and coats every machine in fines.
-
-### 6.4 Haul road engineering
-
-The haul roads are the division's civil signature and are built like real ones, scaled:
-
-- **Width:** a 1/14 rigid hauler (Huina 1582) is ~150 mm wide. Single-lane running width = 3 vehicle widths = **450 mm**; the main loop is two-lane, **900 mm formed width**, plus berms.
-- **Berms:** continuous windrows of compacted crushed stone, **60 mm high** (≈ 40% of truck wheel height — the real-world mine standard is half wheel height; ours is slightly under to keep them climbable by the recovery crawler), on every edge with a drop >100 mm. Berms are the passive barrier that keeps a mis-driven truck on the road; they absorb the highest-frequency customer error (drifting off-edge) with zero damage.
-- **Grade:** **maximum 15° (≈27%)** — canonical, and derived from the fleet's continuous-duty limit: brushed 540-class drive motors on a loaded 1582 sustain 14–15° indefinitely, but stall-current heating rises steeply beyond; the canon exists to prevent continuous motor burnout, and the built ramps run 14° to leave margin. Grades are constant-slope (no roller-coaster profiles that shock-load gearboxes) with 300 mm vertical curves at top and bottom.
-- **Surface:** 40 mm compacted crushed stone over geotextile, crowned 2% to shed water to the inside drain. The loader re-dresses the crown weekly.
-- **Intersections:** the loop is one-way (counter-clockwise); the only two-way segment is the hopper apron, marshaled by painted give-way lines. One-way circulation halves the child-driver conflict rate and is non-negotiable.
-
-### 6.5 The central processing hopper
-
-The hopper is scenography, scoring system and traffic anchor in one structure — a functional scale plant, not a prop:
-
-- **Receiving bin:** 600 mm × 600 mm steel grizzly opening at apron level, with 20 mm bar spacing (passes all aggregate, stops buckets, phones and hands), over a 0.15 m³ surge bin.
-- **Weighing:** the surge bin hangs on four **50 kg load cells** (HX711-class amplifiers into an ESP32 on the park mesh). Every tip is weighed to ±20 g and credited within 2 s to the delivering customer via the machine's Heavy-Node identity — this is the tonnage leaderboard's ground truth (Chapter 9.2).
-- **Conveyor:** a 2.5 m inclined belt conveyor (200 mm belt, geared 24 V motor, variable 0.1–0.3 m/s) lifts weighed material from the surge bin to the **stockpile tower** discharge at +1.4 m, building a real conical stockpile that the SD loader periodically reclaims back to the faces — the zone's material cycle is closed and visibly honest.
-- **Lockout:** the conveyor and bin carry a captive-key lockout (Chapter 11.3); the grizzly is the only customer-machine-accessible interface and is fenced to be reachable by trucks, not by people.
-- **Scenography:** corrugated cladding, warning livery, stack light (green = accepting loads, amber = weighing, red = locked out) — the stack light doubles as genuine traffic control for the apron queue.
-
-Build cost: ≈ $6,000–9,000 including load cells, conveyor drive and cladding, fabricated in The Works to Volume 7 drawings.
-
-### 6.6 Operator stations, sight lines and spectating
-
-Each of the twelve rim stations is a designed workplace: rail height 1.1–1.2 m (comfortable forearm rest for adults, chest rail for children on the fold-down 250 mm step), transmitter shelf angled 15°, station number and assigned-face placard, and a QR that opens that station's live telemetry card in the customer app. Shade sails cover all stations (transmitter LCDs and summer dwell time both demand it). Behind the operator line, a 2 m spectator terrace with lean rails — construction is the park's best spectator product and the terrace is deliberately generous. Sight-line rule from the safety review: every operator must see their machine *and* the whole segment of haul road their trucks use, unaided, from their station; no station may require operating a machine behind the hopper's visual shadow — this constraint fixed the hopper's position at the east end.
-
-### 6.7 Drainage and dust control
-
-Water is managed in three layers: (1) the pit floor slopes 1.5% to a gravel-filled sump at the SW corner (the natural low point) with a 100 mm drain line to the park's swale network (Volume 11); (2) haul-road crowns shed to a perimeter French drain; (3) the operator rim and service spine are self-draining compacted gravel. Reopening target after a 20 mm rain event: **2 hours** (pea and crushed areas immediately; sand faces after one grooming pass). Dust control: washed aggregate spec (the main measure), 4–6% face moisture maintained by the misting pass, a hose-end misting ring on the hopper surge bin (tipping is the dustiest event), and a hard rule that the blow-down gun lives in The Works, never in the zone.
-
-### 6.8 The service loader and daily dressing
-
-The SD-assigned Huina 1583 (with fabricated straight blade and screen bucket) is the zone's groundskeeper, operated by Artisans between customer waves: crown dressing, berm repair, spill-drift recovery on the apron, stockpile reclaim. It is deliberately *visible* doing this work — a staff machine working the site reads as authenticity, and customers routinely ask to be taught what it is doing, which is a license-program conversion moment.
-
-### 6.9 Nightly re-grooming
-
-**SOP-CD-004 — Mining Zone Nightly Re-Grooming**
-**SOP ID:** SOP-CD-004 · **Revision:** 1.0 · **Owner:** Construction Division Lead · **PPE:** gloves, safety glasses, dust mask during dry raking · **Tools:** SD loader + blade/screen bucket, landscape rake, misting hose, face-cut template board, torque driver (hopper grizzly bolts) · **Frequency:** nightly at close, 40–55 min, 2 staff
-
-1. Confirm zone clear of customers; close marshal gate; set hopper stack light to red and apply conveyor lockout (captive key to pocket).
-2. Sweep the pit for foreign objects (dropped items, track pins, bucket teeth); log any fleet hardware found against the day's machine roster.
-3. Loader pass 1: reclaim spill drifts from apron and haul loop back to their source material areas (sand to sand, pea to pea — use the screen bucket where materials have mixed).
-4. Loader pass 2: re-dress haul-road crown and repair berms to the 60 mm gauge board.
-5. Re-cut all six dig faces to the template: 30–40° face angle, 150–250 mm of loose won material heaped at the toe of each face (tomorrow's first customers must succeed in their first minute).
-6. Reclaim stockpile overflow: if the conveyor stockpile exceeds the 0.5 m³ mark, loader-carry material back to faces per the material map.
-7. Misting pass on all sand areas to 4–6% moisture (dark, cohesive, no standing water).
-8. Hopper: empty and brush the surge bin, verify load-cell zero (±50 g) on the maintenance screen, torque-check grizzly bolts weekly (log).
-9. Rake operator rim and spectator terrace; empty station bins.
-10. Walk the drainage sump and French-drain outlets; clear debris.
-11. Log completion in RC WORLD OS grooming register with photos of faces DF1–DF6; release lockout only on next morning's opening checklist.
-
-**Checklist — Mining Zone morning opening (marshal, 15 min):**
-
-- [ ] Grooming register signed off from previous night; faces DF1–DF6 hold a clean bucket-cut without slumping
-- [ ] Haul-road walk: crown intact, berms to 60 mm gauge, no washouts, one-way arrows visible
-- [ ] Hopper: lockout released by key holder, load-cell zero verified, stack light green, conveyor test-run 30 s
-- [ ] Operator stations: rails tight, shelves clear, shade sails tensioned, station QRs scanning
-- [ ] Fleet staging: 4 pods staged (4 excavators + 12 trucks), reserve pod status confirmed in RC WORLD OS
-- [ ] All staged machines: track/tire visual, battery ≥ rested-pack spec, Heavy-Node heartbeat live on the admin map
-- [ ] Premium pad: K970 leak tile clean, reservoir level in window, gauge sanity check passed
-- [ ] Recovery crawler charged and staged at the marshal gate; buzzer test on one machine
-- [ ] Weather call logged (wind/dust, rain radar); misting pass if faces have dried overnight
-
----
-
-## 7. Agriculture Zone: Field Grid & Tractor Operations
-
-### 7.1 Concept
-
-The Agriculture Zone is the Mining Zone's calmer sibling: **1,500 m² (50 m × 30 m)** modeled on a commercial tobacco/maize operation per the founder's notes — fields, not gardens. Where mining sells production, agriculture sells *husbandry*: plowing a straight furrow, discing a field to tilth, hauling a tandem-trailer load to the barn without shedding it. It is the division's best fit for younger children, its best photographic contrast (green rows against the pit's ochre), and the home of the park's most distinctive seasonal event, the Harvest Campaign.
-
-### 7.2 Field grid design
-
-The zone is a grid of **eight field cells, each 9 m × 5.5 m**, separated by 600 mm compacted access lanes (tractor roads), with a **barn/silo receiving complex** on the east edge and irrigation trenches as working scenery:
-
-- **Field cells F1–F4 (tillage fields):** 100 mm depth of the same washed 0–2 mm sand as the pit (one aggregate supply chain, deliberate), kept at 4–6% moisture. These are the plowing and discing fields, re-groomed flat every night so morning customers cut first furrows into clean ground.
-- **Field cells F5–F6 (row-crop fields):** permanent simulated crop rows at 250 mm spacing. Row material selection (tested for durability against 1/16 wheel strikes): rows of UV-stable artificial boxwood/turf strip for "young maize", and bundled natural-look plastic raffia in drilled timber battens for mature tobacco/maize — robust, replaceable in 1 m sections, and convincing at spectator distance. Between-row lanes are exactly 1.4 tractor widths: threading them clean is the zone's core skill.
-- **Field cells F7–F8 (harvest/haul fields):** where campaign events stage crop tokens (Section 7.5).
-- **Irrigation trenches:** 150 mm wide × 80 mm deep formed channels along the grid's spines, dry by default, flooded from a hose valve for events; crossed by four timber culvert bridges sized single-tractor.
-- **Barn & silo:** the receiving point — a 2.4 m × 1.8 m scale barn with a drive-through weighbridge bay (same HX711 load-cell architecture as the mining hopper, 20 kg cells) and a silo tower that trailer loads are "delivered" against. All deliveries score to the customer account.
-- **Operator line:** along the south edge, six stations built to the same rail/shade/sight-line standard as the mining rim; the whole grid is visible from every station.
-
-### 7.3 The implement library
-
-Tractors are the platform; implements are the content. The **Double E E351-class 1/16 tractors** (12 units, high-torque 4WD, ~$80–120 wholesale) are fitted at The Works with the park-standard **pin hitch** (3 mm clevis pin on a 20 mm plate) so every implement fits every tractor. The library (~20 pieces, $15–60 each wholesale, several shop-fabricated):
-
-| Implement | Qty | Function | Gameplay |
-|---|---|---|---|
-| Single/dual-bottom plow | 4 | Cuts real furrows in F1–F4 | Straightness scored against chalk line |
-| Disc harrow | 3 | Breaks furrows to tilth | Coverage scoring (photo overlay) |
-| Tipping trailer (single-axle) | 5 | Haulage | Load/deliver cycles to barn |
-| Tandem trailer set | 2 | Advanced haulage (canon: tandem trailers) | License-gated; jackknife = retrieval event |
-| Water bowser | 2 | Fills from irrigation valve, wets fields | Staff + campaign use |
-| Bale/crop flatbed | 2 | Carries crop tokens | Harvest Campaign core |
-| Front blade (fits E351 loader arms) | 2 | Lane dressing | Staff grooming + skill badge |
-
-### 7.4 Tractor operations gameplay
-
-A standard Agriculture Shift issues a tractor plus one implement chosen at booking. The zone marshal assigns a field cell and a task card: *plow F2 north-south*, *disc F3 to full coverage*, *haul six trailer loads from F7 to the barn*. Task completion, straightness scores and delivered weights post to the customer profile exactly like mining tonnage — same telemetry, gentler physics. The zone runs 8 concurrent customers comfortably (6 field tasks + 2 haul circuits) against 12 tractors, holding the same 33% rotation reserve as the pit.
-
-### 7.5 Seasonal Harvest Campaigns
-
-Twice per year (spring planting, autumn harvest — inverted in southern-hemisphere deployments) the zone runs a two-week **Harvest Campaign**: F5–F8 are dressed with crop tokens (weighted 40 mm "maize bundle" and "tobacco bale" pucks, ~200 g each, RFID-tagged), and every Shift's deliveries accrue to a park-wide campaign total with a public silo-gauge display. Individual contributions earn campaign badges (Volume 9); the campaign finale weekend crowns a Harvest Champion per age class and feeds the events calendar (Chapter 8.6). Token cost ≈ $400 per campaign set; the campaign reliably doubles zone utilization for its fortnight in comparable seasonal-event benchmarks, and is the single cheapest utilization lever in this volume.
-
----
-
-## 8. Earthmoving Competitions & Events
-
-### 8.1 Why competition matters here
-
-Racing has a century of borrowed formats; earthmoving has none — which means RC WORLD gets to *invent* its competitive canon, and owning formats is owning the community that plays them. Construction competition also solves the division's weekday problem: leagues and corporate bookings are scheduled demand that fills the utilization gap identified in Chapter 5.3. Every format below runs on standard rental machines (parity doctrine, as in Motorsport: skill decides, not hardware) with scoring through the hopper load cells, RFID tokens and Heavy-Node telemetry — no manual judging beyond a marshal's penalty flag.
-
-### 8.2 Precision events
-
-- **Golf-Ball Pickup (the signature).** Six golf balls on 60 mm tees in a 2 m arc around a 1580. Score = balls placed unbroken into a bucket-width target box; time is tiebreaker only. Championship variant: balls swapped for eggs, boiled for juniors, raw for finals night — theatrical, photogenic, and a genuine multi-channel finesse test.
-- **Bucket Curling.** Push a 500 g puck along a 3 m painted lane with the excavator bucket; nearest-to-target rings score 5/3/1. Team relay format.
-- **Trench & Backfill.** Cut a 400 mm trench to a depth template, lay the "pipe" (a 300 mm dowel, placed by grapple), backfill and dress flat. Judged on template gauge fit + surface flatness under a straightedge. The trade-skill event — real operators enter this one.
-
-### 8.3 Load-and-haul time trials
-
-One excavator + one truck per team of two (or solo iron-man with transmitter hand-offs). Move **20 kg net through the hopper** from a marked face; clock stops at the twentieth weighed kilogram. Spillage is not swept — it is simply tonnage you no longer have. Current course-record pace from pilot testing: ~11 minutes; the leaderboard lives permanently in the app and on the zone display. Variants: uphill-only routing (the 14° ramp both ways), night format under work lights (Phase 3), loader class (1583 direct to hopper).
-
-### 8.4 Team mining campaigns — the league core
-
-The flagship league format, and the reason the hopper has load cells. Teams of four (2 excavator seats rotating, 2 truck seats) run **45-minute campaign sessions**; every kilogram weighed at the hopper credits the team via machine RFID/Heavy-Node identity. The **tonnage leaderboard** is seasonal: an 8-week league, one campaign session per team per week, table on aggregate tonnage with a playoff weekend. Penalties are automated where possible (geofence breach = 60 s machine timeout via the kill-switch's throttle-limit mode; hopper mis-tip logged by the marshal tablet). League fee $120/team/season against ~$60 of Shift value consumed — competition is margin-accretive by design, and an 8-team league fills 32 otherwise-dead weekday-evening machine-hours.
-
-### 8.5 Corporate site-simulation challenges
-
-The premium B2B product (from **$1,400 / 2 h / 20 pax**, canon): the group becomes a contractor. A brief is issued — *deliver 60 kg to the hopper, cut and backfill one trench, keep zero safety flags* — roles are assigned (operators, logistics planner, site foreman with the marshal tablet's read-only dashboard), and the debrief hands each participant their personal telemetry card. Add-ons: K970 demo session with the Artisan ($150), catered Toolbox Talk boardroom brief, branded hi-vis. The format sells because it is a genuine operations-management exercise wearing a toy's clothes — the same 1:3 queueing logic in Chapter 5 becomes the customer's problem for two hours, and mixed-seniority groups discover their best crane-brain is the intern.
-
-### 8.6 Scoring systems and league structure
-
-All scoring runs on three primitives, so every new format is a configuration, not a build: **weight events** (hopper/barn load cells, ±20 g), **token events** (RFID pucks and crop tokens, read at delivery points), and **telemetry events** (zone dwell, geofence penalties, smoothness index from voltage-sag analysis — the F1-style power-management canon applied to digging). League structure mirrors the park-wide three-tier ladder defined in Volume 9: **Open evenings** (casual, monthly, any license) → **Division League** (seasonal, 8 weeks, second license tier) → **RC WORLD Championship events** (annual, cross-division, invitational). Construction contributes three championship disciplines: Precision (8.2), Load-and-Haul (8.3), and the Team Campaign final (8.4).
-
----
-
-## 9. Gamification & Telemetry Interface
-
-### 9.1 Heavy-Node fitment
-
-Every division machine carries an **RCW Heavy-Node** (~40 × 30 mm, ESP32-C3 + ATGM336H GPS, conformal-coated, unit cost < $15 — full hardware spec in the digest and Volume 7): inline PWM intercept between receiver and ESC, battery-voltage divider, park-mesh Wi-Fi. The Heavy-Node form factor exists *for this fleet*: **JST XH (2.5 mm) positive-latch connectors** on all signal lines so an Artisan swaps a node in two minutes during refurbishment without soldering (battery sense leads remain soldered per the hardware doctrine). Nodes power downstream of the machine's main switch — a parked fleet draws nothing overnight.
-
-Construction telemetry earns its keep differently from racing telemetry: speed matters less; **identity, position, voltage and load events** matter more. The node is what binds a hopper weight to a customer, a geofence to a penalty, and a voltage sag to the kill-switch doctrine (<3.4 V/cell → remote throttle to 20% → order to pit).
-
-### 9.2 Tonnage as currency
-
-Every weighed kilogram a customer delivers — mining hopper or agriculture weighbridge — posts to their profile as **career tonnage**, the division's headline progression stat. Tonnage drives license progression (next section), feeds leaderboards (daily, seasonal, all-time), earns **Gears** loyalty points at the park-standard rate, and unlocks cosmetic flair (machine nameplates on the booking screen at 1 t, 5 t, 25 t career milestones). Tonnage is deliberately *additive and unlosable* — construction progression rewards accumulation and care, in contrast to racing's volatile lap-time ladder; the two progressions are designed as complementary personalities of the same RC WORLD License system (see Volume 9, Chapter 3, for the full tier/badge matrix).
-
-### 9.3 Licenses and badges (division view)
-
-The division gates and rewards through the park license ladder: tier 1 (post-Toolbox-Talk) unlocks RD-1 machines; tier 2 (earned via tonnage + a 5-minute practical: load a truck with < 10% spillage) unlocks the 1583 loader, tandem trailers and league entry; tier 3 plus a booked assessment unlocks **premium K970 sessions**. Division-specific badges: *First Furrow*, *Clean Loader* (10 spill-free truckloads), *Ramp Master* (100 loaded ramp climbs without a retrieval), *Night Shift* (Phase 3), *Tow-Truck Hero* (see below). Badge logic runs entirely on telemetry primitives already collected — no marshal data entry.
-
-### 9.4 The Tow-Truck Retrieval Protocol as gameplay
-
-When a machine dies mid-Shift — flat pack, stripped gear, stuck on a berm — the canonical protocol converts the division's worst moment into its most-remembered one: the machine's node fires the **85 dB localized buzzer**; the customer surrenders their transmitter at the marshal gate and receives the controls of a **1/10 winch-equipped recovery crawler**; under marshal guidance they drive out, rig the winch (Artisan-supervised hook-up at the machine — customers never step past the gate), and tow their casualty to the service spine, then receive a fresh machine with the Shift clock paused during recovery. The protocol closes the safety loop (customers never walk onto live circuits — canon), earns the *Tow-Truck Hero* badge on first completion, and pilot feedback is unambiguous: a meaningful share of children *try* to get recovered. The division holds one of the park's four recovery crawlers permanently at the marshal gate.
-
----
-
-## 10. Maintenance Program
-
-### 10.1 Philosophy
-
-The division's maintenance doctrine in one sentence: **electromechanical machines are maintained by replacement of cheap discrete parts on schedule; the hydraulic machine is maintained by condition monitoring and cleanliness.** Everything below implements that sentence. All work is logged to `maintenance_logs` (vehicle, mechanic, parts_used JSONB, description, date_resolved); predictive flags fire from `fleet_inventory.total_hours_run` per the RC WORLD OS admin doctrine.
-
-### 10.2 Preventive maintenance matrix
-
-| Task | 1580 excavator | 1582/1573 truck | 1583 loader | 1554/69 dozer | E351 tractor | K970 (adds Ch. 3.6) |
-|---|---|---|---|---|---|---|
-| Visual + function test, connector check | Daily | Daily | Daily | Daily | Daily | Every session |
-| Blow-down, track/tire debris pick | Daily | Daily | Daily | Daily | Daily | Daily |
-| Track tension check (SOP-CD-001) | Weekly | — | — | Weekly | — | Weekly |
-| Steering linkage & servo check | — | Weekly | Weekly (articulation) | — | Weekly | — |
-| Pivot-bushing slop gauge (<2 mm at teeth/blade) | Weekly | — | Weekly | Weekly | — | Weekly (pins) |
-| Lead-screw lubrication (SOP-CD-005, §10.4) | Monthly / 40 h | — | Monthly (lift arms) | Monthly | — | n/a |
-| Gearbox open-inspect, gear wear | Quarterly / 120 h | Quarterly | Quarterly | Quarterly | Quarterly | Annual (drive/slew) |
-| Motor brush / current-draw baseline | Quarterly | Quarterly | Quarterly | Quarterly | Quarterly | Annual (brushless: bearing feel) |
-| Micro-switch test bank (all limits) | Monthly | Monthly (tip limit) | Monthly | Monthly | — | — |
-| Slip-ring clean (continuous slew) | Annual | — | — | — | — | — |
-| Full refurbishment pass (§4.4) | 150 h or on defect | 200 h | 150 h | 100 h | 200 h | OEM service protocol |
-| Battery pack pool audit | Weekly (shared, by pack QR rotation) | | | | | own 3S pair, weekly |
-
-Run-hours come from telemetry, not guesswork — `total_hours_run` increments on live PWM activity, so a machine that sat staged all day accrues nothing.
-
-### 10.3 SOP-CD-001 — Track Tension Check & Adjustment (tracked fleet)
-
-**SOP ID:** SOP-CD-001 · **Revision:** 1.0 · **Owner:** Heavy Fleet Artisan Lead · **PPE:** none beyond shop standard · **Tools:** 3 mm steel rule, hex driver set, lithium grease, torque driver (0.6 N·m) · **Frequency:** weekly per tracked machine, or after any thrown track
+| Micro-switches (KW11-class limit switches) | 200 | 80 | Medium-high — the #1 heavy-fleet consumable |
+| Excavator track pins + pads | 300 / 40 | 120 / 15 | Continuous (canon consumable) |
+| Gear sets, nylon + metal, per actuator model | 12 each type | 5 | High — nylon stocked for its sacrificial role |
+| Lead screw + nut pairs (1580 boom/stick/bucket) | 6 each | 2 | Medium |
+| Brushed 380/540/550 motors | 15 | 6 | Medium |
+| Steering servos 15/25 kg digital | 10 | 4 | High (trucks + tractors) |
+| Brushed ESCs, fleet standard | 6 | 2 | Medium |
+| XT60 pairs / JST XH housings + pins | 100 / 200 | 40 / 80 | Continuous |
+| 2S LiPo packs (pool attrition ~15%/yr) | 12 | 4 | Continuous |
+| Lithium grease (NLGI 2), Loctite blue, IPA | 4 / 6 / 4 units | 1 / 2 / 1 | Continuous |
+| Hydraulic seal kits (K970 full set) | 2 sets | 1 | Low — long lead, never zero |
+| ISO VG 32 oil (dyed) | 4 L | 1 L | Low |
+| Tractor hitch pins / trailer axles | 30 / 6 | 10 / 2 | Medium (party-day attrition) |
+
+RC WORLD OS decrements stock from `parts_used` logging and fires reorder alerts automatically at the levels above.
+
+### 12.5 Key procedures
+
+**SOP-CD-001 — Track Tension Check & Adjustment (tracked fleet)**
+**SOP ID:** SOP-CD-001 · **Rev:** 1.0 · **Owner:** Heavy Fleet Artisan Lead · **PPE:** shop standard · **Tools:** 3 mm steel rule, hex drivers, lithium grease, torque driver (0.6 N·m) · **Frequency:** weekly per tracked machine, or after any thrown track
 
 1. Bench the machine, power off, bucket/blade grounded.
-2. Clean track run with a stiff brush; pick embedded stones from between pads (the #1 cause of false tension readings and pad wear).
-3. Measure sag at mid-span between idler and sprocket, pressing with one finger (~10 N): specification **3–5 mm** on 1580/1583-class, 2–4 mm on 1/16 dozers.
-4. Out of spec: slacken idler-yoke lock screws, adjust tension screw quarter-turn at a time, re-measure. Never tension to drum-tight — over-tension multiplies drive-motor current ~15–20% and eats sprocket bushings; the telemetry current baseline will betray you at the quarterly check.
-5. Check track-pin staking along both runs; re-stake any proud pin (track pins are a CONTINUOUS-turnover consumable — bin any pin that walks twice).
-6. Torque idler lock screws to 0.6 N·m; grease idler axle port (one shot).
-7. Run 60 s figure-eight in the workshop dig box; confirm no track walk-off in tight turns.
-8. Log measured sag before/after to `maintenance_logs`.
+2. Brush the track runs; pick embedded stones from between pads (the #1 cause of false tension readings and pad wear).
+3. Measure mid-span sag under one-finger pressure (~10 N): spec **3–5 mm** on 1580/1583-class, 2–4 mm on 1/16 dozers.
+4. Adjust the idler-yoke tension screw a quarter-turn at a time. Never tension drum-tight — over-tension raises drive current 15–20% and eats sprocket bushings; the quarterly current baseline will betray you.
+5. Check pin staking both runs; re-stake proud pins; bin any pin that walks twice.
+6. Torque idler lock screws 0.6 N·m; one grease shot to the idler axle port.
+7. Run a 60 s figure-eight in the workshop dig box; confirm no walk-off in tight turns; log sag before/after.
 
-### 10.4 SOP-CD-005 — Lead-Screw Lubrication
+**SOP-CD-005 — Lead-Screw Lubrication**
+**SOP ID:** SOP-CD-005 · **Rev:** 1.0 · **Owner:** Heavy Fleet Artisan Lead · **PPE:** nitrile gloves · **Tools:** lithium grease (NLGI 2), brush, lint-free wipes, IPA, bench PSU · **Frequency:** monthly or 40 run-hours per actuator
 
-**SOP ID:** SOP-CD-005 · **Revision:** 1.0 · **Owner:** Heavy Fleet Artisan Lead · **PPE:** nitrile gloves · **Tools:** lithium grease (NLGI 2), grease brush, lint-free wipes, isopropyl alcohol, bench PSU · **Frequency:** monthly or 40 run-hours per lead-screw actuator
+1. Open the actuator access cover (boom, stick, bucket in turn on the 1580; lift arms on the 1583; blade screw on dozers).
+2. Run to full extension on bench power; wipe the exposed screw with IPA and *read the wipe*: gray paste = normal wear; glitter = nut shedding — replace the screw/nut pair now, not mid-season.
+3. Brush a rice-grain bead of grease along the full thread. Do not pack the tube — excess grease is a dust magnet; thin film, full coverage.
+4. Cycle full travel three times; verify both limit switches click and cut at the ends.
+5. Wipe squeeze-out, close, log.
 
-1. Open the actuator access cover (boom, stick, bucket in turn on the 1580; lift arms on 1583; blade screw on dozers).
-2. Run the actuator to full extension on bench power; wipe the exposed screw with IPA wipe — inspect the wipe: gray paste = normal wear; glitter = nut shedding, replace nut pair now rather than mid-season.
-3. Brush a rice-grain bead of lithium grease along the full thread; do not pack the tube (excess grease is a dust magnet — thin film, full coverage).
-4. Cycle full travel 3× to distribute; verify both limit switches click and cut at the ends.
-5. Wipe squeeze-out, close cover, log.
+**SOP-CD-002 — Boom Micro-Switch Replacement**
+**SOP ID:** SOP-CD-002 · **Rev:** 1.0 · **Owner:** Heavy Fleet Artisan Lead · **PPE:** safety glasses · **Tools:** soldering iron, solder, heat-shrink, flush cutters, multimeter, replacement KW11-class switch · **Frequency:** on defect or monthly test-bank failure
 
-### 10.5 SOP-CD-002 — Micro-Switch Replacement (limit switches)
-
-**SOP ID:** SOP-CD-002 · **Revision:** 1.0 · **Owner:** Heavy Fleet Artisan Lead · **PPE:** safety glasses (spring-loaded parts) · **Tools:** soldering iron + 60/40 or SAC solder, heat-shrink, flush cutters, multimeter (continuity), replacement switch (park-standard KW11-3Z-class, stocked ×200) · **Frequency:** on defect or monthly test-bank failure
-
-1. Diagnose first: with the actuator cover open, actuate the suspect switch by hand under continuity meter — confirm fail-open (no click-through) or fail-closed (welded) before touching solder. If the switch tests good, the fault is the actuator crush-stop misadjusted; fix that instead.
-2. Photograph wire routing. Note the switch's lever type (plain / roller) and throw direction — Huina uses both orientations in one machine.
+1. **Diagnose first.** Actuate the suspect switch by hand under a continuity meter — confirm fail-open (no click-through) or fail-closed (welded contacts) before touching solder. If the switch tests good, the fault is a misadjusted crush-stop; fix that instead.
+2. Photograph the wire routing; note lever type (plain/roller) and throw direction — Huina uses both orientations in one machine.
 3. Desolder or cut back to bright copper; strip 3 mm; slide heat-shrink on *now* (the step everyone forgets).
 4. Solder the new switch NO/NC/COM exactly per photo; shrink the joints.
-5. Set the mechanical trip point: switch must click **1–2 mm before** the hard mechanical stop of the travel — this margin is the whole point of the switch; verify by hand-cranking the screw to the stop.
-6. Bench-run five full cycles; confirm clean cut-off both ends with no motor stall audible.
-7. Log switch position (e.g. "boom, upper limit") in parts_used — position-level data is what lets the FMEA table below stay honest.
+5. Set the trip point: the switch must click **1–2 mm before** the hard mechanical stop — that margin is the entire purpose of the switch. Verify by hand-cranking the screw to the stop.
+6. Bench-run five full cycles; clean cut-off both ends, no stall audible.
+7. Log the switch position ("boom, upper limit") in parts_used — position-level data keeps the FMEA below honest.
 
-### 10.6 Spare parts stocking & reorder points
+**Gearbox servicing** (quarterly open-inspect): photograph gear train before touching; check nylon gears for tooth-root cracks under magnification (they crack before they strip); re-grease metal meshes sparingly; verify output-shaft end-float < 0.5 mm; replace any gear showing polished wear-through of the molding line. A stripped-gear symptom in the field — motor audibly spinning, function dead — is a 20-minute gear-set swap from shelf stock.
 
-The division's shelf in The Works, sized to keep any single failure from becoming downtime (par levels assume the 42-machine fleet; Volume 8 carries suppliers and pricing):
+### 12.6 The 45-minute refurbishment turnaround
 
-| Part | Par stock | Reorder at | Turnover | Notes |
-|---|---|---|---|---|
-| Micro-switches (KW11-class) | 200 | 80 | Medium-high | #1 heavy-fleet consumable |
-| Excavator track pins + pads | 300 pins / 40 pads | 120 / 15 | Continuous | Canon consumable |
-| Nylon + metal gear sets (per actuator model) | 12 sets each type | 5 | High | Stock both: nylon for RD-1 sacrificial role |
-| Lead screw + nut pairs (1580 boom/stick/bucket) | 6 each | 2 | Medium | |
-| Brushed 380/540/550 motors | 15 | 6 | Medium | Canon spares line |
-| Steering servos 15/25 kg digital | 10 | 4 | High | Trucks + tractors |
-| ESCs (brushed, fleet-standard) | 6 | 2 | Medium | |
-| XT60 pairs, JST XH housings/pins | 100 / 200 | 40 / 80 | Continuous | |
-| 2S LiPo packs (pool replenishment) | 12 | 4 | Continuous | Pool attrition ~15%/yr |
-| Lithium grease, Loctite blue, IPA | 4 / 6 / 4 units | 1 / 2 / 1 | Continuous | Canon consumables |
-| Hydraulic: cylinder seal kits (K970 set) | 2 full sets | 1 | Low | Long lead — never zero |
-| Hydraulic: ISO VG 32 oil (dyed) | 4 L | 1 L | Low | |
-| Hydraulic: hose/tube + fittings kit | 1 kit | open | Low | |
-| Tractor hitch pins, trailer axles | 30 / 6 | 10 / 2 | Medium | Party-day attrition |
+Every rental machine cycles through The Works on PM schedule or defect. Staged so one Artisan finishes inside 45 minutes from ghost-machine bins: intake scan and photo → dry blow-down → bench function test at 7.4 V (a healthy lead screw hums, a dry one squeals, a worn nut knocks) → open *only* the failed/scheduled actuator (every opening is a dust opportunity) → replace the discrete part → re-grease → pivot/track/torque pass → electrical pass (XT60 pull test, chafe scan, JST XH latches, conformal-coating visual on the Heavy-Node) → 5-minute load test in the workshop dig box → log and release to `active`.
 
-Reorder discipline: RC WORLD OS decrements stock from `parts_used` logging; reorder alerts fire automatically at the levels above with the 4–8 week China-direct lead time already priced in (Volume 8, Chapter 5).
+> **Trade Hack.** Keep each actuator's screws in their own magnetic tray, photographed before disassembly. The 1580 uses four visually similar screw lengths, and a long screw in a shallow boss cracks the casting — the single most common self-inflicted workshop injury to these machines.
 
-### 10.7 FMEA-lite: excavator and dump truck
+### 12.7 FMEA — excavators and dump trucks
 
 Scored 1–5 (severity × occurrence × detection difficulty = RPN; act on RPN ≥ 27):
 
 | Machine | Failure mode | Effect | S | O | D | RPN | Mitigation |
 |---|---|---|---|---|---|---|---|
-| 1580 | Limit switch fail-closed (welded) | Gearbox stall, possible gear strip mid-Shift | 3 | 4 | 3 | 36 | Monthly test bank (§10.2); ESC current fold-back; SOP-CD-002 |
-| 1580 | Lead-screw nut wear | Boom droop under load, function slop | 2 | 3 | 2 | 12 | SOP-CD-005 wipe-inspect; nut pairs on shelf |
-| 1580 | Gearbox nylon gear strip (shock) | Function dead, Shift refund | 3 | 3 | 1 | 9 | Site geometry limits drop energy; 20-min gear-set swap |
-| 1580 | Track thrown in pivot turn | Machine immobile in pit → retrieval event | 2 | 3 | 1 | 6 | SOP-CD-001 tension spec; retrieval is gameplay, not crisis |
-| 1580 | Slip-ring oxidation | Intermittent slew/electrics | 3 | 2 | 4 | 24 | Annual clean; symptom triage card in The Works |
-| 1580 | Pack over-discharge (customer runs hidden) | LiPo damage, fire risk in storage | 4 | 2 | 2 | 16 | Node kill-switch at 3.4 V/cell (canon); bench inbound check |
+| 1580 | Limit switch fail-closed (welded) | Gearbox stall, possible gear strip mid-Shift | 3 | 4 | 3 | **36** | Monthly test bank; ESC current fold-back; SOP-CD-002 |
+| 1580 | Slip-ring oxidation | Intermittent slew/electrics, hard to reproduce | 3 | 2 | 4 | 24 | Annual clean; symptom triage card in The Works |
+| 1580 | Lead-screw nut wear | Boom droop under load, slop | 2 | 3 | 2 | 12 | SOP-CD-005 wipe-read; nut pairs on shelf |
+| 1580 | Nylon gear strip (shock load) | Function dead, Shift refund | 3 | 3 | 1 | 9 | Site geometry caps drop energy; 20-min gear swap |
+| 1580 | Thrown track in pivot turn | Machine immobile → retrieval event | 2 | 3 | 1 | 6 | SOP-CD-001 tension spec; retrieval is gameplay |
+| 1580 | Pack over-discharge (hidden by customer) | LiPo damage; storage fire risk | 4 | 2 | 2 | 16 | Node kill at 3.4 V/cell (canon); inbound bench check |
 | 1582/73 | Steering servo failure | Truck uncontrollable → circuit blockage | 3 | 4 | 2 | 24 | Weekly linkage check; servo par stock; marshal pulls to shoulder |
-| 1582/73 | Tip-linkage bent (overload + slam) | Bed won't seat, spillage all lap | 2 | 3 | 2 | 12 | 4 kg load discipline via bucket-pass counting; straighten/replace linkage |
+| 1582/73 | XT60/wiring chafe at bed pivot | Intermittent power; phantom "dead battery" | 2 | 3 | 4 | 24 | Refurb electrical pass targets this loom explicitly |
+| 1582/73 | Wheel bearing seizure (fines) | Dragging wheel, motor heat | 2 | 3 | 3 | 18 | Daily blow-down; bearing quarantine rule |
+| 1582/73 | Tip-linkage bent (overload + slam) | Bed won't seat; spillage all lap | 2 | 3 | 2 | 12 | Bucket-pass-count load discipline; linkage on shelf |
 | 1582/73 | Drive gearbox strip (berm jump) | Truck dead on ramp | 3 | 3 | 1 | 9 | Berm geometry caps launch energy; gear sets on shelf |
-| 1582/73 | XT60/wiring chafe at bed pivot | Intermittent power, phantom "dead battery" | 2 | 3 | 4 | 24 | Refurb electrical pass (§4.4 step 7) targets this loom explicitly |
-| 1582/73 | Wheel bearing seizure (fines ingress) | Dragging wheel, motor heat | 2 | 3 | 3 | 18 | Daily blow-down; bearing swap at refurb |
 
-### 10.8 Grease points and service diagram (text description)
-
-The laminated bench card for the 1580 (equivalents exist per model) describes a side-elevation outline with eleven numbered points: (1–3) boom, stick, bucket lead-screw tubes — lithium grease, monthly; (4–6) boom-base, stick and bucket pivot bushings — oil pen, weekly; (7) slew-ring gear rim — grease film, quarterly; (8–9) left/right idler axles — grease port, weekly with SOP-CD-001; (10) sprocket bushings — quarterly at gearbox inspection; (11) door/hatch hinges — dry PTFE, as needed. Rule on the card, printed red: *nothing gets grease that touches sand directly* — exposed pivots get oil-pen film only, because grease on an open pivot is grinding paste by lunchtime.
+The two highest-RPN items — welded limit switches and steering servos — are exactly the two parts stocked deepest in Section 12.4. That is not a coincidence; it is the FMEA doing its job. Escalation, tooling standards, technician training and the cross-park failure database live in **Volume 7** (see especially its workshop layout and rebuild-training chapters), which treats this chapter's SOPs as division-local instances of the park-wide system.
 
 ---
 
-## 11. Safety
+## Volume summary & cross-references
 
-### 11.1 Hazard picture
+The Construction Division is RC WORLD's signature: a working 1/14 open-pit mine and a 1/16 commercial farm, run as a genuine production system. Its engineering constitution is the two-tier fleet — 29 rugged, lead-screw Huina earthmovers and 12 Double E tractors earning volume fees at $15–26 per 20-minute Shift, plus one Kabolite K970-class hydraulic flagship earning supervised premium fees at $22–38 — bound together by the 1:3 excavator-to-truck ratio (derived, Chapter 5.2), 15°-max haul roads built at 14°, a closed material-recirculation loop metered through a load-cell hopper, and a maintenance program built on discrete-part replacement, lithium grease, and micro-switches stocked by the hundred. Division fleet capex is ~$16k wholesale; the civil works and hopper are the real build cost; Year 1 division revenue target is ≈$410–470k inside the park's $1.28 M canon, with roughly 8× demand headroom on the existing fleet.
 
-The Construction Division's honest hazard list is short but real: **pinch points** (bucket linkages, articulation joints, the 1583's 10 kg-capable loader arms, tipping beds), **the hopper's conveyor and surge bin**, **LiPo handling**, and **people walking where machines run**. Nothing in the rental fleet can seriously injure a supervised customer at operator-station distance — the entire safety architecture exists to *keep* everyone at that distance.
+*Scope note (living document):* Volume 3 references a crawler-program "adventure annex" under this volume (Track C, the 16-machine crawler park). That annex is deferred to Revision 1.1 of this volume; until then the crawler fleet is governed by the canon fleet table (Volume 1) and the Track C specification in Volume 3.
 
-### 11.2 Separation doctrine
-
-Customers operate from the rim and field-line stations, full stop. The pit floor, haul loop and field grid are machine space. The three enforcement layers: physical (rails, fences, the single interlocked marshal gate), procedural (Toolbox Talk module, marshal authority, the Tow-Truck Retrieval Protocol replacing every "can I just grab it" impulse), and technical (geofence on every Heavy-Node: a machine that crosses the customer line gets PWM-killed before it reaches a shoe). Children under 8 operate with a guardian at the station — the station step and dual-shelf design assumes this pairing.
-
-### 11.3 Hopper lockout
-
-The hopper is the division's only powered fixed plant and carries the division's only formal lockout: a captive-key system where the conveyor cannot run unless the key sits in the control station, and the surge-bin access panel cannot open unless that same key is *removed* and inserted in the panel lock. One key, two mutually exclusive locks — cleaning and running are mechanically impossible to combine. Applied nightly in SOP-CD-004, released on the morning checklist, audited weekly.
-
-### 11.4 Premium session supervision
-
-K970 sessions are 1:1 Artisan-supervised at the premium pad — the machine that can genuinely hurt (31 kg, 20+ bar, real breakout force) is never customer-operated without a professional beside the transmitter and the pad fence between machine and audience.
-
-**Checklist — premium hydraulic session (Artisan, per session):**
-
-- [ ] Customer license tier 3 verified; supervised-session waiver acknowledged in app
-- [ ] Pad fence gates latched; spectators behind the rail line
-- [ ] Reservoir level in sight window; gauge idle + relief reading normal; leak tile clean
-- [ ] Function tour delivered (pump start, feathering at stops, temperature awareness)
-- [ ] Artisan holds the bind-plug/kill authority for the full session
-- [ ] Post-session: rod wipe, level glance, temperature log — performed with the customer watching
-- [ ] Session + condition notes logged to `maintenance_logs`
-
-> **Safety Warning.** The most dangerous machine in the division is not the K970 — it is a *charging LiPo*. All charging occurs in the bunkered charging room without exception; no pack charges unattended in the zone, the workshop bench included. The battery-bench checklist and the 3.4–4.2 V/cell window are safety controls first and asset controls second.
-
-### 11.5 SOP-CD-003 — Hydraulic Fluid Change (Premium Fleet)
-
-**SOP ID:** SOP-CD-003 · **Revision:** 1.0 · **Owner:** Heavy Fleet Artisan Lead · **PPE:** nitrile gloves, safety glasses · **Tools:** ISO VG 32 oil (dyed park stock), catch tray, syringe/filler bottle, lint-free wipes, IPA, thread tape, torque driver, white tile · **Frequency:** 100 run-hours or 6 months, and on any contamination event
-
-1. Run the machine 5 minutes at light load to warm and suspend contaminants; park over the catch tray; power off, transmitter secured.
-2. Photograph gauge readings warm (idle pressure reference for post-change comparison).
-3. Clean the tank filler area *before* opening — the filler neck is the contamination gateway; this step is the SOP's soul.
-4. Drain the reservoir via drain port or extraction syringe into the catch tray. Inspect the drained oil against the reference vial: darkening = normal aging; milkiness = water ingress (find it — check rod wipers and filler seal); glitter = metal, stop and escalate to pump inspection before refill.
-5. Extend all cylinders fully to push residual oil back to tank; extract again. Do not attempt full-system flush unless contamination was found — over-servicing opens more entry points than it closes.
-6. Inspect and clean the suction strainer; replace tank breather element if fitted.
-7. Refill with fresh dyed ISO VG 32 to the sight-window line; run pump at idle 60 s; cycle every function slowly to stops twice to purge air (spongy motion = air remaining; repeat).
-8. Top to line; verify idle and relief pressures against step 2 photo (±10%); investigate any relief-pressure drift before release.
-9. Wipe down, new leak tile under the parking bay, dispose of waste oil per the park's environmental procedure (Volume 11), log volumes and condition notes.
-
----
-
-## 12. KPIs & Division Dashboard
-
-The division reports weekly on one screen in RC WORLD OS. Targets are Year 1 steady-state; the finance model behind them is Volume 10.
-
-| KPI | Definition | Year 1 target | Red line |
-|---|---|---|---|
-| Paid Shifts / machine / day (standard fleet) | Sold blocks ÷ fleet-days available | ≥ 1.75 blended | < 1.2 rolling month |
-| Division revenue / week | All Shifts + premium + events + campaigns | ≈ $8,000 | < $5,500 |
-| Premium session occupancy | Sold ÷ offered K970 slots | ≥ 55% | < 35% (or > 70% → trigger 2nd premium machine review) |
-| Fleet availability at open | Machines `active` ÷ fleet | ≥ 90% (38/42) | < 80% |
-| Mean turnaround (defect → active) | From `maintenance_logs` | ≤ 24 h rental fleet | > 72 h any machine |
-| Maintenance cost / Shift | Parts + consumables ÷ paid Shifts | ≤ $0.90 | > $1.50 |
-| Retrieval events / 100 Shifts | Tow-truck deployments | 3–6 (some is *good* — it's gameplay) | > 10 (fleet health) or < 1 (check buzzer/logging) |
-| Tonnage / week through hopper | Load-cell total | growth trend | flat 4 weeks with rising Shifts (scoring fault) |
-| League + campaign participation | Active team-seats + campaign players | 60+ by Month 9 | — |
-| Safety flags / week | Geofence kills + marshal flags | trend only | any customer-contact incident = immediate review |
-| Battery pool health | Packs in service ÷ pool; avg internal-resistance drift | ≥ 92% | < 85% |
-
----
-
-## 13. Volume Summary & Cross-References
-
-The Construction Division is RC WORLD's signature: a working 1/14 open-pit mine and a 1/16 farm, run as a real production system. Its engineering doctrine is a two-tier fleet — 29 cheap, rugged, lead-screw Huina machines earning volume revenue at $15–26 per 20-minute Shift, and one Kabolite K970-class hydraulic flagship earning premium supervised fees at $22–38 — bound together by the 1:3 excavator-to-truck ratio, 15°-max haul roads, a load-cell hopper that turns digging into scores, and a maintenance program built on discrete-part replacement, lithium grease, and micro-switches by the hundred. Division fleet capex is ~$16k wholesale; civil works and the hopper are the real build; Year 1 division revenue target is ≈ $410–470k inside the park's $1.28 M canon.
-
-Cross-references: park-wide fleet and phasing canon — **Volume 1**; competitive landscape for construction RC and diorama suppliers — **Volume 2**; the Motorsport parity doctrine this division's competition rules borrow — **Volume 3**; The Works, custom fabrication (hopper, blades, hitches), RCW Node hardware detail and build tutorials — **Volume 7**; suppliers, wholesale channels, spares pricing and reorder mechanics — **Volume 8**; licenses, badges, Gears, Toolbox Talk and the full progression matrix — **Volume 9, Chapter 3**; division financials, sensitivity and the utilization upside case — **Volume 10**; site master plan, drainage network, charging bunker and fencing standards — **Volume 11**; franchising the Mining Zone as the flagship differentiator — **Volume 12**.
-
+**Cross-references:** park-wide fleet, phasing and capex canon — **Volume 1**. Competitive landscape and Chinese diorama/miniature-equipment suppliers — **Volume 2**. The Motorsport parity doctrine this division's competition rules borrow — **Volume 3**. The Works: fabrication drawings (hopper, grading blade, pin hitch), RCW Heavy-Node hardware, rebuild training and the hydraulic technician curriculum — **Volume 7** (which should honour this volume's SOP numbering CD-001…CD-005). Suppliers, wholesale channels, spares pricing and the 4–8 week reorder mechanics — **Volume 8** (LESU and JDModel carried as second-source hydraulic suppliers; Siku Control as retail stock, not fleet). Licenses, badges, Gears, Toolbox Talk and the tier matrix this division's gates plug into — **Volume 9, Chapter 3**. Division financials and the utilization upside case — **Volume 10**. Site master plan, drainage, charging bunker and fencing standards — **Volume 11**. Franchising the Mining Zone as the flagship differentiator — **Volume 12**.

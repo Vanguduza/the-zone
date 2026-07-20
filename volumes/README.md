@@ -19,8 +19,9 @@ standalone markdown file, written to `style-guide.md` and consistent with
 | 10 | `volume-10-finance.md` | Finance | 15,000 | ~45 |
 | 11 | `volume-11-architecture-park-design.md` | Architecture & Park Design | 18,000 | ~54 |
 | 12 | `volume-12-franchise-manual.md` | Franchise Manual | 13,000 | ~39 |
+| 13 | `volume-13-it-iot-erp.md` | IT, IoT & ERP Systems (RC WORLD OS) | 16,000 | ~48 |
 
-Combined target ≈ 180,000 words ≈ **400–450 finished pages** (at ~400 words/page, tables and
+Combined target ≈ 196,000 words ≈ **440–490 finished pages** (at ~400 words/page, tables and
 checklists set denser).
 
 ## Build
