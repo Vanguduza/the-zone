@@ -1,6 +1,6 @@
 # Volume 7 — Engineering & Workshop Manual
 
-**RC WORLD — Master Development Plan** · Volume 7 of 12
+**RC WORLD — Master Development Plan** · Volume 7 of 13
 **Revision:** 1.0 · **Date:** July 2026 · **Status:** Living document — bump revision on material change
 
 **Purpose of this volume.** This is the technician's handbook for **The Works**, RC WORLD's central engineering and workshop facility, and the single most operationally load-bearing document in the master plan. Roughly 150 powered assets take the field in Phase 1, each crashed, over-driven and rained on by strangers up to a dozen times a day; the difference between a park that feels like a precision motorsport operation and a park that feels like a broken toy bin is entirely decided at the workbench. This volume specifies the workshop itself (floor plan, benches, ESD, air, ventilation), the tools at three investment tiers, the craft standards every Artisan is trained and audited against, a compendium of RC trade hacks, the full library of Standard Operating Procedures, the preventive-maintenance matrices driven by RC WORLD OS telemetry, repair scheduling mathematics, inventory management, FMEA-based failure analysis, the battery and charging rooms operated under the park's LiPo doctrine (3.4–4.2 V/cell operating window, 3:1 battery ratio, bunkered charging), the QC lane, a complete tutorial on building custom RC cars — required reading by founder's brief — and the bench-side of the RCW Node telemetry program. A competent RC hobbyist hired as a trainee Artisan should be able to reach productive competence from this volume plus supervised bench time.
@@ -33,28 +33,36 @@
 
 The Works is sized and organized like a small vehicle dealership's service department, because that is functionally what it is: a fleet of revenue-earning vehicles arrives broken and must leave billable. Three principles govern the layout:
 
-1. **Flow, not rooms.** A vehicle enters at intake, moves through triage, repair, QC and back to the fleet staging shelf in one direction. No vehicle ever moves "backwards" past the QC lane without a new job ticket. One-way flow is what makes the RC WORLD OS status ENUM (`active` / `maintenance` / `charging`) trustworthy — the physical position of a vehicle always matches its database status.
+1. **Flow, not rooms.** A vehicle enters at intake, moves through triage, repair, QC and back to the fleet staging shelf in one direction. No vehicle ever moves "backwards" past the QC lane without a new job ticket. One-way flow is what makes the RC WORLD OS fleet status trustworthy — the physical position of a vehicle always matches its database state (a seven-state machine: available → bound → on_track → pit → maintenance → charging → retired; see Volume 13 §6.3).
 2. **Segregation of energy.** Batteries are the park's dominant fire risk and are physically segregated: a **Battery Room** for storage and logging (Chapter 10) and a separate bunkered **Charging Room** (Chapter 11), both isolated from the main workshop by masonry. No LiPo is ever charged at a repair bench.
-3. **Visibility as theatre.** The Works has a public-facing glazed wall along the pit lane. Customers watching an Artisan rebuild a differential is free marketing, reinforces the "miniaturized industrial complex" brand, and — usefully — keeps bench discipline honest. The glazing is specified in Volume 11; this volume only requires that the wrenching bays face it.
+3. **Visibility as theatre.** The Works has a public-facing **guest viewing window (6.0 × 1.5 m)** along the pit lane. Customers watching an Artisan rebuild a differential is free marketing, reinforces the "miniaturized industrial complex" brand, and — usefully — keeps bench discipline honest. The glazing is specified in Volume 11, Chapter 6; this volume only requires that the wrenching bays face it.
 
 ### 1.2 Floor plan and zone schedule
 
-Phase 1 allocates The Works approximately **180 m² (≈1,940 ft²)** of enclosed space plus the external charging bunker. Zone allocation:
+Volume 11 (Chapter 6), the geometry authority, fixes The Works at **450 m² GFA (≈4,840 ft²)**. Inside that envelope, this volume's working layout is a **~180 m² wrenching/electronics core** — the zones an Artisan moves between hourly — wrapped by the larger support rooms whose dimensions Volume 11 owns. Core allocation:
 
-| Zone | Area | Function | Key requirement |
+| Core zone (~180 m² total) | Area | Function | Key requirement |
 |---|---|---|---|
-| Intake & triage | 15 m² | Receiving shelf, triage bench, wash-down sink, air-blow station | Door direct to pit lane; RC WORLD OS kiosk terminal |
-| Wrenching bays (×4) | 40 m² | Mechanical repair benches, one Artisan each | 1.8 m benches, tool shadow boards, parts trays |
-| Electronics bench (×2) | 18 m² | Soldering, ESC/servo work, RCW Node assembly & flashing | ESD-protected area, fume extraction |
-| Machining corner | 15 m² | Lathe, drill press, grinder, rotary tool, vice work | Separated by partition; chip containment; eye-wash |
-| 3D printing & jig shelf | 6 m² | 2 printers, filament drybox, jig library | Ventilated enclosure exhaust |
-| Parts store | 25 m² | Bin shelving, kanban racks, consumables cabinet | Adjacent to wrenching bays; single controlled entry |
-| Battery Room | 12 m² | Storage-charge LiPo racks, IR/logging bench | Masonry separation, fire cabinet (Chapter 10) |
-| Charging Room (bunker) | 14 m² | Charger banks, sand floor trays, thermal watch | External cinderblock/sandbag bunker (Chapter 11) |
-| QC lane | 20 m² | Rolling-road bench, scales, radio range check, test strip to door | Direct exit to a 25 m fenced test strip |
-| Circulation, lockers, docs | 15 m² | Artisan lockers, manual library, whiteboard, coffee | — |
+| Intake & triage | 20 m² | Receiving shelf, triage bench, wash-down sink, air-blow station | Door to the intake yard off the pit lane; RC WORLD OS kiosk terminal |
+| Wrenching bays (×4) | 48 m² | Mechanical repair benches, one Artisan each | 1.8 m benches, tool shadow boards, parts trays; face the viewing window |
+| Electronics bench (×2) | 24 m² | Soldering, ESC/servo work, RCW Node assembly & flashing | ESD-protected area, fume extraction |
+| Machining corner | 18 m² | Lathe, drill press, grinder, rotary tool, vice work | Separated by partition; chip containment; eye-wash |
+| 3D printing & jig shelf | 8 m² | 2 printers, filament drybox, jig library | Ventilated enclosure exhaust |
+| Paint & gluing booth corner | 12 m² | Spray booth, body prep, batch tire gluing | Ducted extraction (§1.7) |
+| Fleet staging shelves | 20 m² | QC-passed vehicles awaiting return to service | Adjacent to QC lane exit |
+| Circulation, lockers, docs | 30 m² | Artisan lockers, manual library, whiteboard, coffee | — |
 
-The four wrenching bays are the capacity constraint of the whole park (see the loading math in Chapter 7); the building shell should allow expansion to six bays in Phase 2 without moving walls — specify this to the architect (Volume 11).
+Support rooms inside the 450 m² GFA, per Volume 11 Chapter 6:
+
+| Support room | Area | Key requirement |
+|---|---|---|
+| Parts store | 45 m² | Bin shelving, kanban racks, consumables cabinet; adjacent to wrenching bays; single controlled entry |
+| Battery Room | 24 m² | Storage-charge LiPo racks, IR/logging bench; masonry separation (Chapter 10) |
+| Charging Room (bunker) | 30 m² internal (6.0 × 5.0 m) | **Inside the building**: filled-cell CMU, blast venting, FD90 door (Chapter 11) |
+| QC lane | 35 m² | Rolling-road bench, scales, radio range check; direct exit to a 25 m fenced test strip |
+| Intake yard access, plant, ancillary + wall/GFA allowance | ≈136 m² | Balance of the 450 m² GFA — Volume 11 carries the dimensioned plan |
+
+The four wrenching bays are the capacity constraint of the whole park (see the loading math in Chapter 7); Volume 11's 450 m² shell reserves core floor area for a Phase 2 expansion to six bays without structural change.
 
 ### 1.3 Bench specification
 
@@ -115,8 +123,8 @@ The machining corner adds a shop-vac with cyclone separator for chips and grindi
 
 Hand Volume 11's designer this checklist:
 
-- [ ] 180 m² enclosed, one-way flow intake → QC, glazed wall to pit lane at wrenching bays
-- [ ] Masonry-separated Battery Room (12 m²) and external bunkered Charging Room (14 m²)
+- [ ] 450 m² GFA per Volume 11 Chapter 6, one-way flow intake → QC around a ~180 m² wrenching/electronics core; guest viewing window (6.0 × 1.5 m) to the pit lane at the wrenching bays; intake yard access
+- [ ] Masonry-separated Battery Room (24 m²) and internal bunkered Charging Room (30 m² internal, 6.0 × 5.0 m: filled-cell CMU, blast venting, FD90 door)
 - [ ] 3-phase power to machining corner and Charging Room; 20+ double outlets distributed
 - [ ] Dedicated circuits: charging banks (Chapter 11 load calc), compressor, extraction
 - [ ] Ducted extraction: solder arm (electronics), spray booth (paint corner), printer enclosure
@@ -241,7 +249,7 @@ Add 5.0 mm and 8.0 mm nut drivers for the construction and crawler heavy hardwar
 | Rolling-road / dyno bench (QC) | Custom-built rollers + brake, or SkyRC chassis dyno if available locally | $150–500 | Post-repair load test without track time (Chapter 12) |
 | Fleet trolleys ×3 | 3-shelf workshop trolleys | $180–300 | Moving 6–8 vehicles between pit lane and The Works |
 
-> **Investor Note.** Total Phase 1 tooling — six Artisan kits, shared benches, capital equipment, charging infrastructure — lands at **$28,000–38,000** including the charger bank costed in Chapter 11. This is under 2% of Phase 1 capex and is the least discretionary line in the budget: every dollar of fleet availability flows through these benches.
+> **Investor Note.** Total Phase 1 tooling — five Artisan kits (4 Artisans + Workshop Lead) plus one uncommitted float kit as training/loaner stock, shared benches, capital equipment, charging infrastructure — lands at **$28,000–38,000** including the charger bank costed in Chapter 11. This is under 2% of Phase 1 capex and is the least discretionary line in the budget: every dollar of fleet availability flows through these benches.
 
 ### 2.6 What we deliberately do not buy in Phase 1
 
@@ -318,7 +326,7 @@ The cardinal rule: **a servo is centered electronically before the horn goes on,
 3. Install, connect linkage, then set end points (EPA) on the transmitter/receiver so the servo **never stalls against a mechanical stop** — a stalled 25 kg servo draws amps until something (gear teeth, BEC, wiring) gives.
 4. Steering servos on the rental fleet get a **servo saver** verified at every service: compress by hand; if it doesn't give before the servo does, re-shim or replace the spring.
 
-Construction fleet note: boom/bucket functions on the lead-screw machines use limit micro-switches, not servo EPA — test both limits under no load before buttoning up (SOP-WS-012).
+Construction fleet note: boom/bucket functions on the lead-screw machines use limit micro-switches, not servo EPA — test both limits under no load before buttoning up (SOP-WS-011).
 
 ### 3.7 Wiring craft
 
@@ -707,7 +715,7 @@ The repair queue is a Kanban board in the artisan interface (Volume 13): columns
 
 - A ticket cannot enter *On Bench* without an Artisan and a bay assigned; a bay holds one active ticket.
 - *Waiting Parts* auto-links to the inventory module; when the bin scan or PO receipt lands, the ticket bounces back to *Queued* at the head of its class.
-- Vehicles in *QC* block their asset from booking until sign-off (the `status` ENUM stays `maintenance`).
+- Vehicles in *QC* block their asset from booking until sign-off (the fleet state stays `maintenance`; Volume 13 §6.3).
 - The board's aging alarm turns any B ticket amber at 18 h and red at 24 h (SLA), and pushes a notification to the Workshop Lead.
 
 The physical mirror: queue shelving at intake is labelled by class and the shelf tag holds the tote + ticket. Physical position and board column are reconciled at end-of-day (SOP-WS-015).
@@ -852,7 +860,7 @@ FMEA outputs and ticket Paretos flow into Volume 8's purchasing decisions in two
 
 ### 10.1 Role and stock
 
-The Battery Room is the *storekeeping* half of the LiPo estate: storage racks, logging bench, quarantine shelf. Charging happens next door in the bunker (Chapter 11); the two rooms share a pass-through hatch and nothing else. Stock under the 3:1 doctrine: ~150 vehicles × 3 = **≈450 packs** (2S and 3S, XT60), each with a laser-etched or heat-stamped pack ID linked to a battery record in RC WORLD OS (chemistry, capacity, C-rating, purchase date, cycle count, IR history).
+The Battery Room — **24 m², geometry per Volume 11 Chapter 6** — is the *storekeeping* half of the LiPo estate: storage racks, logging bench, quarantine shelf. Charging happens next door in the bunker (Chapter 11); the two rooms share a pass-through hatch and nothing else. Stock under the 3:1 doctrine: ~150 vehicles × 3 = **≈450 packs** (2S and 3S, XT60), each with a laser-etched or heat-stamped pack ID linked to a battery record in RC WORLD OS (chemistry, capacity, C-rating, purchase date, cycle count, IR history).
 
 ### 10.2 State-of-charge storekeeping
 
@@ -873,7 +881,7 @@ Every charge event logs pack ID, cycles, per-cell voltages, and **internal resis
 | Capacity vs label (annual discharge test) | >85% | 75–85% | <75% |
 | Cycle count | — | 150 | 200–250 typical economic life |
 
-Retirement is triggered by **any** retire condition, not consensus. Retired packs are logged, physically marked (corner cut off the shrink label), storage-discharged, then routed to disposal (§10.5). Expected replacement tempo at 230 cycles/day across a 450-pack pool: each pack averages ~0.5 cycles/day → ~200 cycles ≈ 13 months; plan **~35–40% pool replacement per year** in the Volume 10 opex line.
+Retirement is triggered by **any** retire condition, not consensus. Retired packs are logged, physically marked (corner cut off the shrink label), storage-discharged, then routed to disposal (§10.5). Replacement tempo follows Volume 10's throughput-derived model, which is canonical: **57,720 pack-cycles/year** across the ~450-pack pool ≈ **128 cycles per pack per year (~0.35 cycles/day)** — not every Shift consumes a full charge cycle (~30% buffer returned; multi-block Operator Shifts). Against the conservative 200-cycle retire trigger (economic band 200–250 cycles, or earlier on the IR thresholds above), a pack reaches retirement in roughly 19 months of cycling, bounded by a **~2-year calendar horizon**; plan **≈40–50% pool replacement per year** in the Volume 10 opex line.
 
 ### 10.4 Physical inspection and quarantine
 
@@ -910,10 +918,10 @@ The classic hobbyist advice — "soak the pack in salt water for a few days, the
 
 ### 11.1 Bunker design per doctrine
 
-The charging room is the park's engineered fire cell, built per the original blueprint's doctrine: **cinderblock construction, sandbag-supplemented**, sited against the external wall of The Works with the pass-through hatch to the Battery Room:
+The charging room is the park's engineered fire cell, built per the original blueprint's doctrine and dimensioned by Volume 11, Chapter 6: **30 m² internal (6.0 × 5.0 m), inside the building**, in **filled-cell CMU (cinderblock) construction, sandbag-supplemented**, with blast venting to the exterior wall, an **FD90 fire-rated self-closing door**, and the pass-through hatch to the Battery Room:
 
-- Cinderblock (CMU) walls on three sides plus the building's masonry wall; blockwork to ceiling; sandbags stacked to 1.2 m against the interior face of the working wall as spall/heat mass behind the charge racks.
-- Ventilation: high-level passive vent + low-level intake to outside (thermal-runaway gas is hot and voluminous; the room must vent *outwards*), no recirculation into the workshop HVAC.
+- Filled-cell CMU walls on all sides, blockwork to ceiling; sandbags stacked to 1.2 m against the interior face of the working wall as spall/heat mass behind the charge racks.
+- Ventilation: engineered blast/pressure vents through the exterior wall, high-level relief + low-level intake (thermal-runaway gas is hot and voluminous; the room must vent *outwards*), no recirculation into the workshop HVAC.
 - Charge racks: steel shelving; every charging pack sits **inside a LiPo-safe bag or open sand tray / ammo box**; 100 mm sand-filled steel trays under each shelf level catch and smother a dropping burning pack.
 - Floor: bare concrete; a 20 L dry-sand bucket per rack bay plus a long-handled scoop; nothing combustible in the room — no cardboard, no spare shrink, no curtains on the hatch.
 - Electrical: dedicated circuits (below), emergency power-off (EPO) mushroom button at the door cutting all charger outlets, smoke/heat detection + thermal camera on the racks with RC WORLD OS alerting, door signage: occupancy rules and the fire card (§11.6).
@@ -973,7 +981,7 @@ Posted on the door as the **Fire Card**:
 
 - **Never water on a burning LiPo pack.** Water conducts and spreads burning electrolyte; a lithium-*polymer* (Li-ion chemistry) fire is self-oxidizing during runaway — you cannot smother the reaction, only contain it and let it burn out.
 - **Class D extinguishers are for lithium-*metal* fires** (machining swarf, primary lithium cells) — they are *not* the tool for LiPo packs and we do not stock one for the charging room; this is a common and expensive misunderstanding.
-- **The correct response to a pack in runaway:** hit the EPO; if safely reachable with the scoop, move the tray/bag to the concrete apron outside the vent door (never bare hands); **bury in dry sand** from the rack buckets; withdraw; let it complete; ventilate. The bunker's whole design assumes the pack finishes burning where it sits.
+- **The correct response to a pack in runaway:** hit the EPO; if safely reachable with the scoop, lower the tray/bag to the concrete floor clear of the racks (never bare hands); **bury in dry sand** from the rack buckets; close the FD90 door behind you; let it complete; ventilate via the blast vents. The bunker's whole design assumes the pack finishes burning where it sits.
 - The Class ABC extinguisher outside the door exists for **secondary fires** (packaging, wiring, adjacent materials) — never as the primary response to the pack itself.
 - Any thermal event, including a pack that merely vented, triggers the incident report, quarantine of every pack that shared the rack shelf, and a review of the charge log within 24 h.
 - Quarterly drill: full walkthrough with a dummy pack, timed; the marshal team's park-wide emergency procedures are in Volume 1's safety annex.
@@ -984,7 +992,7 @@ Posted on the door as the **Fire Card**:
 
 ### 12.1 Pre-rental QC lane (fleet staging gate)
 
-Every vehicle passes the QC lane between `maintenance` and `active` — after any repair, PM, or overnight if flagged. The lane checklist (2–4 min, printed + kiosk):
+Every vehicle passes the QC lane between `maintenance` and `available` — after any repair, PM, or overnight if flagged. The lane checklist (2–4 min, printed + kiosk):
 
 - [ ] Visual: shell, mounts, tires, no missing fasteners on the visible plane
 - [ ] Rollers: throttle response clean at 25/50/100%, no drivetrain noise signature, brake/reverse per class profile
@@ -994,7 +1002,7 @@ Every vehicle passes the QC lane between `maintenance` and `active` — after an
 - [ ] Current draw at free-run vs platform table (±20% band) — the cheapest hidden-fault detector in the building
 - [ ] Construction: full function sweep, limit stops, current trace within band
 - [ ] Battery bay: retention, connector condition
-- [ ] Sign-off scan → status `active`, vehicle to staging shelf
+- [ ] Sign-off scan → state `available`, vehicle to staging shelf
 
 ### 12.2 Post-repair road test protocol
 
@@ -1194,7 +1202,7 @@ The flashing/test jig (3D-printed cradle + pogo pins onto the programming pads, 
 
 ## 15. Volume Summary & Cross-References
 
-The Works is where RC WORLD's economics are physically defended. This volume specified the facility (180 m², one-way flow, segregated battery and bunkered charging rooms, ESD-protected electronics benches, task-graded lighting, treated compressed air, extracted soldering and paint stations); the tooling in three tiers (~$420–600 per Artisan, $4.5–6.5 k shared bench, $6–9 k capital including lathe, comm lathe and two 3D printers — $28–38 k all-in with charging infrastructure); the craft standards every repair is audited against (screw mapping, torque tables, blue-not-red threadlock, paper-strip gear mesh, servo centering, strain-relieved wiring, solder-joint criteria); a 30-entry trade-hacks compendium; seventeen SOPs from intake to end-of-day shutdown; a cycle-based PM system driven by RC WORLD OS odometers with family matrices and a lubrication chart; repair workflow math showing ~11 bench-hours/day at 230 Shifts/day and a 4-Artisan + Lead roster; min/max inventory with two-bin kanban and a $12–16.5 k consumables budget; FMEA tables for the touring car, excavator and LiPo pack with one open action (redundant current-limit stop for boom lead-screws); battery storekeeping at 3.80–3.85 V/cell with IR-based retirement and correct (non-salt-water) disposal; the charging bunker with a 24-channel charger bank, settings tables, restricted parallel-charging rules and the dry-sand-never-water fire doctrine; the QC lane and calibration schedule; the full custom-build tutorial with the 144010 park-spec conversion and the scratch-built recovery crawler; and the RCW Node bench program from incoming QC to firmware flash.
+The Works is where RC WORLD's economics are physically defended. This volume specified the facility (450 m² GFA per Volume 11 Chapter 6, organized around a ~180 m² wrenching/electronics core with one-way flow, a 24 m² battery room and a 30 m² internal charging bunker, ESD-protected electronics benches, task-graded lighting, treated compressed air, extracted soldering and paint stations); the tooling in three tiers (~$420–600 per Artisan, $4.5–6.5 k shared bench, $6–9 k capital including lathe, comm lathe and two 3D printers — $28–38 k all-in with charging infrastructure); the craft standards every repair is audited against (screw mapping, torque tables, blue-not-red threadlock, paper-strip gear mesh, servo centering, strain-relieved wiring, solder-joint criteria); a 30-entry trade-hacks compendium; seventeen SOPs from intake to end-of-day shutdown; a cycle-based PM system driven by RC WORLD OS odometers with family matrices and a lubrication chart; repair workflow math showing ~11 bench-hours/day at 230 Shifts/day and a 4-Artisan + Lead roster; min/max inventory with two-bin kanban and a $12–16.5 k consumables budget; FMEA tables for the touring car, excavator and LiPo pack with one open action (redundant current-limit stop for boom lead-screws); battery storekeeping at 3.80–3.85 V/cell with IR-based retirement and correct (non-salt-water) disposal; the charging bunker with a 24-channel charger bank, settings tables, restricted parallel-charging rules and the dry-sand-never-water fire doctrine; the QC lane and calibration schedule; the full custom-build tutorial with the 144010 park-spec conversion and the scratch-built recovery crawler; and the RCW Node bench program from incoming QC to firmware flash.
 
 **Cross-references.**
 
@@ -1203,9 +1211,9 @@ The Works is where RC WORLD's economics are physically defended. This volume spe
 - **Volumes 5 & 6** — aviation and marine PM annexes (flight-hours and flex-shaft regimes) that run on this volume's PM engine.
 - **Volume 8** — supplier register, landed-cost purchasing, kanban requisition handling and the platform-selection gate fed by Chapter 9's FMEA data.
 - **Volume 9** — Tow-Truck Retrieval Protocol experience design served by the §13.10 recovery crawler; Academy curriculum seeded by Chapter 13.
-- **Volume 10** — the opex lines this volume quantifies: Artisan roster, parts per 100 Shifts, ~35–40%/year battery pool replacement, tooling capex.
-- **Volume 11** — architectural execution of Chapter 1's services checklist, bunker construction, and electrical schedules.
-- **Volume 13** — RC WORLD OS modules this volume consumes: fleet status ENUM, `maintenance_logs`, PM engine, repair Kanban, battery records, Node firmware pipeline and kill-switch chain.
+- **Volume 10** — the opex lines this volume quantifies: Artisan roster, parts per 100 Shifts, ≈40–50%/year battery pool replacement (from the canonical 57,720 pack-cycles/year model), tooling capex.
+- **Volume 11 (Chapter 6)** — geometry authority for The Works (450 m² GFA, battery room 24 m², charging bunker 30 m² internal); architectural execution of Chapter 1's services checklist, bunker construction, and electrical schedules.
+- **Volume 13** — RC WORLD OS modules this volume consumes: the seven-state fleet status machine (§6.3), `maintenance_logs`, PM engine, repair Kanban, battery records, Node firmware pipeline and kill-switch chain.
 
 
 

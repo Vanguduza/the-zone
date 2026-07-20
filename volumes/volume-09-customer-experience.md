@@ -2,12 +2,12 @@
 
 | | |
 |---|---|
-| **Document** | RC WORLD — Master Development Plan, Volume 9 of 12 |
+| **Document** | RC WORLD — Master Development Plan, Volume 9 of 13 |
 | **Title** | Customer Experience & Loyalty |
 | **Revision** | 1.0 — July 2026 |
 | **Status** | Living document — bump revision on material change |
 
-**Purpose of this volume.** This volume is the design authority for everything a customer sees, feels, earns and keeps at RC WORLD. It defines the experience philosophy (immersion-as-product, friction-to-gameplay conversion), the end-to-end customer journey with owners and KPIs per touchpoint, and — as its core chapter — the complete **RC WORLD License** tiered progression system the founder's brief mandates: XP earning rules, six license tiers with numeric thresholds and equipment unlock gates, division endorsements, a catalogue of 50 named achievement badges with telemetry triggers, the Gears loyalty economy, leaderboards and season structure with a two-track Season Pass, the three canonical membership tiers, and the corporate, birthday, school and university product lines built on top of them. It closes with the customer-facing mobile app walkthrough and the service standards and recovery doctrine. Volumes 3–6 gate equipment and score events against the tiers defined here; Volume 13 builds the software that runs them. If a number in this volume and a division volume ever disagree, this volume is the source of truth for licenses, badges, Gears and memberships.
+**Purpose of this volume.** This volume is the design authority for everything a customer sees, feels, earns and keeps at RC WORLD. It defines the experience philosophy (immersion-as-product, friction-to-gameplay conversion), the end-to-end customer journey with owners and KPIs per touchpoint, and — as its core chapter — the complete **RC WORLD License** tiered progression system the founder's brief mandates: XP earning rules, six license tiers with numeric thresholds and equipment unlock gates, division endorsements, a catalogue of 60 named achievement badges with telemetry triggers, the Gears loyalty economy, leaderboards and season structure with a two-track Season Pass, the three canonical membership tiers, and the corporate, birthday, school and university product lines built on top of them. It closes with the customer-facing mobile app walkthrough and the service standards and recovery doctrine. Volumes 3–6 gate equipment and score events against the tiers defined here; Volume 13 builds the software that runs them. If a number in this volume and a division volume ever disagree, this volume is the source of truth for licenses, badges, Gears and memberships.
 
 **Intended readers.** The General Manager and front-of-house team (all chapters); the marketing lead (Chapters 2, 5–9); the RC WORLD OS product team (Chapters 3–5, 10 — build detail in Volume 13); division leads whose equipment is license-gated (Chapter 3); the sales lead for corporate and education products (Chapters 7–9); investors assessing retention economics (Chapters 1, 3, 5, 6).
 
@@ -41,7 +41,7 @@ The industrial frame is not set dressing; it is the load-bearing structure of th
 - **Scores are production numbers.** Lap times, career tonnage, mission completions and smoothness indices are the customer's professional record, displayed the way a real site displays safety days and output boards.
 - **Progression is vocational.** You do not "level up" at RC WORLD; you get *licensed on equipment* — and the license genuinely unlocks machines the unlicensed cannot touch (Chapter 3).
 
-> **Investor Note.** The industrial frame is retention economics wearing a costume. Industry analysts (2025–2026) consistently find that competitive-socializing venues (karting, TopGolf-class formats) out-earn passive attractions on repeat visitation because scoring converts visitors into competitors. RC WORLD's frame goes one step further: it converts competitors into *careerists*. A customer three badges short of their Operator license has an unfinished identity, and unfinished identities re-book. The 90-day second-visit KPI (≥25%, set in Volume 2's risk register) is owned by this volume's mechanics.
+> **Investor Note.** The industrial frame is retention economics wearing a costume. Industry analysts (2025–2026) consistently find that competitive-socializing venues (karting, TopGolf-class formats) out-earn passive attractions on repeat visitation because scoring converts visitors into competitors. RC WORLD's frame goes one step further: it converts competitors into *careerists*. A customer three badges short of their Operator license has an unfinished identity, and unfinished identities re-book. The 90-day second-visit KPI (operating target ≥22% Year 1, building to ≥28% by Year 3 — Volume 10 §10.4) is owned by this volume's mechanics.
 
 ### 1.2 The three audiences of every moment
 
@@ -100,8 +100,8 @@ Each touchpoint has a single accountable owner and one primary KPI reviewed mont
 | 9 | **Pit stop theatre** (Operator Shifts) | At minute 20, car called to pit; Artisan swap staged front-of-house: fresh pack, tire glance, "you're clear" send-off | Pit-lane Artisan | Swap time (≤90 s) |
 | 10 | Results & badges | Session summary in-app within 60 s: laps/tonnage/mission score, smoothness index, XP, Gears, any badge pops (with sound, on the big screen if gold-class); highlight clip attached | OS product team | Summary open rate (≥80%) |
 | 11 | Retail & F&B | Exit route passes retail counter and kiosk; badge pins, park merch, starter RC kits; Gears burnable here | Retail/F&B lead | Attach rate — % of visits with F&B or retail spend (≥45%) |
-| 12 | **Re-booking hook** | Before the customer leaves Wi-Fi range: "next unlock" screen (XP to next tier, one suggested badge), one-tap re-book with off-peak discount | Marketing lead | 90-day second-visit rate (≥25%) |
-| 13 | Post-visit | NPS ping at +24 h; highlight clip share prompts; win-back ladder if dormant (Chapter 6.5) | Marketing lead | NPS (≥60) |
+| 12 | **Re-booking hook** | Before the customer leaves Wi-Fi range: "next unlock" screen (XP to next tier, one suggested badge), one-tap re-book with off-peak discount | Marketing lead | 90-day second-visit rate (≥22% Y1 / ≥28% Y3, Volume 10 §10.4) |
+| 13 | Post-visit | NPS ping at +24 h; highlight clip share prompts; win-back ladder if dormant (Chapter 6.5) | Marketing lead | NPS (≥55 Y1, ≥60 by Y3) |
 
 ### 2.3 Designing the two "wow" windows
 
@@ -184,8 +184,8 @@ Each endorsement has three grades — **Basic → Advanced → Master** — earn
 |---|---|---|---|---|
 | Motorsport | Track-craft check: 10 clean laps, pit-lane entry, flag signals | Sub-110% of class reference lap; race-start procedure; 1 sprint podium | Sub-105% reference lap; league season completed; drift or formula check | Volume 3, Ch. 13 |
 | Construction | Load-cycle check: 10 weighed loads, no spillage penalty; haul-road rules | 1 t career tonnage; loader check; Precision event finish | 5 t tonnage; hydraulic orientation; Team Campaign season | Volume 4, Ch. 8–9 |
-| Aviation | = **Cadet** stage (buddy-box solo circuit) | = **Pilot** stage (solo box, landing check) | = **FPV Racer / Instructor** stages | Volume 5, Flight Academy |
-| Marine | = **M1 Helm** (Discover Sail or harbour basics) | = **M2 Skipper** (sail course / tug-and-barge check) | = **M3 Racer** (race clinic, flagship + regatta scoring) | Volume 6, Ch. 5 |
+| Aviation | = **Ground Wings + Bronze Wings** (ground school, buddy-box, solo checkride) | = **Silver Wings** (solo currency, aerobatics sign-off) | = **Gold Wings + one type rating** (Type: Jet / Type: FPV / Type: Heli) | Volume 5, §9.3 |
+| Marine | = **Deckhand + Coxswain** (clean harbour Shift; precision docking, barge push) | = **Tug Master** *or* **Race Skipper** (two-tug assist / speed-pond license) | = **Sail Grade 3** *or* **Submariner** (B-rig weather sailing / precision hover) | Volume 6, Ch. 8 §8.4 |
 
 ### 3.6 Equipment unlock gates
 
@@ -198,7 +198,7 @@ The unlock table below is the canonical park-wide gate list. Division volumes re
 | Drift, short-course, wheel loader, dozer, fast-electric boats | $15 | Apprentice | Division Basic | Standard |
 | Premium crawlers (TRX-4 class), premium tractors + implement library | $22 | Operator | Division Basic | Standard |
 | **Premium hydraulics** (Kabolite K961/K963 class supervised Shifts) | $22/$38 | Operator | Construction Advanced | One-on-one Artisan |
-| **FPV** (drone racing, FPV crawler cams) | $22 | Operator | Aviation Advanced (FPV module) | Spotter required |
+| **FPV** (drone racing, FPV crawler cams) | $22 | Operator | Aviation **Type: FPV** rating (Ground Wings prerequisite — Volume 5 §9.3) | Spotter required |
 | Flagship hydraulic showcase (K970-class seat time) | event-priced | Foreman | Construction Master | One-on-one Artisan, listed slots |
 | Formula RC / drag events; **jet-class and scale-heli aircraft** (Phase 2+) | event-priced | Foreman | Division Master | Event marshals / instructor |
 | Recovery crawlers (outside a retrieval event, i.e. recreational towing Shifts) | $15 | Apprentice | — | Standard |
@@ -276,9 +276,9 @@ Badges are the granular texture of progression: the license answers "what rank a
 | E11 | **Crawler Scout** | Bronze | Entry crawler: Trail C bridge section clean. T: geofence |
 | E12 | **Summit Club** | Silver | Premium crawler: full Trail C including water hazard, no tow. T |
 | E13 | **Tug Ticket** | Bronze | Harbour tug basics check. M |
-| E14 | **Sail Trim** | Bronze | = Marine *Helm* stage (Volume 6). M |
+| E14 | **Sail Trim** | Bronze | = Marine *Sail Grade 1* task (Volume 6 §8.4). M |
 | E15 | **Submarine Qualified** | Silver | Sub Hunt mission scored ≥50%. T: mission console |
-| E16 | **Wings** | Silver | = Aviation *Pilot* stage solo check. M: instructor |
+| E16 | **Wings** | Silver | = *Bronze Wings* solo checkride (Volume 5 §9.3–9.4). M: instructor |
 | E17 | **FPV Cleared** | Silver | FPV module + first clean FPV heat. T+M |
 | E18 | **Heavy Ticket** | Gold | Premium hydraulic orientation + supervised Shift complete (Kabolite class). M: Artisan |
 
@@ -412,7 +412,7 @@ A committed customer completing ~2 visits/month with events finishes the free tr
 
 ### 5.6 Mechanics dashboard
 
-The GM reviews one funnel monthly: actives → % with a streak ≥3 → % Apprentice+ → % Operator+ → % on paid Season Pass → 90-day repeat rate. Targets by end of Year 1: 40% streak≥3, 55% Apprentice+, 18% Operator+, 12% paid pass, 25% repeat. Any mechanic that doesn't move this funnel within two seasons is retired — gamification is subject to the same utilization discipline as the fleet.
+The GM reviews one funnel monthly: actives → % with a streak ≥3 → % Apprentice+ → % Operator+ → % on paid Season Pass → 90-day repeat rate. Targets by end of Year 1: 40% streak≥3, 55% Apprentice+, 18% Operator+, 12% paid pass, 22% repeat (rising to 28% by Year 3 per Volume 10 §10.4). Any mechanic that doesn't move this funnel within two seasons is retired — gamification is subject to the same utilization discipline as the fleet.
 
 > **Field Note.** Resist the temptation to add currencies. Every gamified venue that decays into a "points, stars, tickets, crowns and crystals" bazaar trains customers to value nothing. RC WORLD runs exactly three numbers — XP (career), Gears (wallet), Track Points (season) — each derived from real behaviour, each spent on a different axis, and the third derived from the first. That is the entire economy. Hold the line.
 
@@ -644,7 +644,7 @@ Session-clock pause during retrieval is the load-bearing detail: it makes the "n
 
 ### 11.5 Measurement: NPS and CSAT
 
-- **NPS**: single-question push at +24 h post-visit (25 Gears for answering); target ≥60 by Month 12; detractors (<7) trigger a service-desk callback task within 48 h.
+- **NPS**: single-question push at +24 h post-visit (25 Gears for answering); target ≥55 by operating Month 12, building to ≥60 by Year 3; detractors (<7) trigger a service-desk callback task within 48 h.
 - **CSAT micro-pulses**: one-tap ratings embedded at three moments only — post-Shift summary, post-party (to the booking parent), post-corporate (to the organizer). Never more; survey fatigue is a real cost.
 - Both post to the GM dashboard alongside the journey KPIs (Section 2.2), reviewed weekly; any touchpoint two weeks below target gets a named owner and a dated fix.
 
@@ -669,13 +669,13 @@ RC WORLD's customer experience is one machine with many faces. The industrial fr
 **Cross-references**
 
 - **Volume 1** — Executive Master Plan: phasing of party rooms, classrooms and event centre; retention economics in the investment case.
-- **Volume 2** — Market Research: the competitive lessons (score everything, feed the spectators, sell the next visit) this volume operationalizes; the 90-day second-visit KPI's origin in the risk register.
+- **Volume 2** — Market Research: the competitive lessons (score everything, feed the spectators, sell the next visit) this volume operationalizes.
 - **Volume 3** — Motorsport Division: parity doctrine and reference laps behind the Pace Index; transmitter tier profiles; race formats, leagues and timing systems feeding XP and boards.
 - **Volume 4** — Construction Division: career tonnage, hopper load-cell scoring, Harvest Campaigns, hydraulic premium-experience supervision — all gated per Section 3.6 (which supersedes earlier "tier 2/3" phrasing).
-- **Volume 5** — Aviation Division: Flight Academy stages mapped to the Aviation endorsement (Cadet/Pilot/FPV Racer/Instructor); FPV and jet-class gates.
-- **Volume 6** — Marine Division: M1–M3 sailing ladder mapped to the Marine endorsement; mission scoring and retrieval Gears.
+- **Volume 5** — Aviation Division: the Wings ladder (§9.3: Ground → Bronze → Silver → Gold Wings, plus Type: Jet / Type: FPV / Type: Heli ratings) mapped to the Aviation endorsement grades; FPV and jet-class gates; checkride and currency rules.
+- **Volume 6** — Marine Division: the marine badge-task ladder (Ch. 8 §8.4: Deckhand, Coxswain, Tug Master, Race Skipper, Sail Grade 1–3, Submariner) mapped to the Marine endorsement grades; mission scoring and retrieval Gears.
 - **Volume 7** — Engineering & Workshop Manual: fleet-readiness and safety SOPs that the refund table and breakdown protocol depend on; The Works bench-hour supervision.
-- **Volume 10** — Finance: Gears redemption-cost guardrail (≤4% of gross revenue), membership and deferred-revenue modelling, top-up and party P&L lines, discount stacking cap.
+- **Volume 10** — Finance: Gears redemption-cost guardrail (≤4% of gross revenue), membership and deferred-revenue modelling, top-up and party P&L lines, discount stacking cap; home of the 90-day second-visit KPI (§10.4: ≥22% Year 1 / ≥28% Year 3, Phase 2 gate floor ≥20%).
 - **Volume 11** — Architecture & Park Design: party room, accessibility build specs, leaderboard screen placement, retail exit line.
 - **Volume 12** — Franchise Manual: license/badge/Gears canon as a mandatory franchise standard — customer careers must be portable across RC WORLD sites.
 - **Volume 13** — RC WORLD OS: the technical build of everything here — XP/Gears/Track Point ledgers, badge trigger pipeline, queue top-up logic, CRM churn states, leaderboard framework, app screens on Kotlin Multiplatform for Android and iOS.

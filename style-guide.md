@@ -78,8 +78,35 @@ one coherent book and never contradict each other on facts, names, or numbers.
 ### Financial headline canon (Volume 10 is the source of truth)
 - Year 1 revenue ≈ **$1.28 M**; Year 3 ≈ $2.6 M; Year 5 ≈ $3.4 M (base case).
 - Steady-state EBITDA margin ≈ 24–28% from Year 3.
-- Break-even ≈ Month 16–19 (monthly operating break-even), full payback Year 4–5 base case.
-- Funding ask: **$2.6 M** (Phase 1 capex + working capital + contingency), staged tranches.
+- Break-even ≈ operating Month 16–19 (monthly operating break-even), full payback Year 4–5 base case.
+- Funding ask: **$2.6 M** = $1,850 K Phase 1 capex (pre-opening and 10% contingency capitalized
+  inside it) + $130 K working capital + $350 K operating funding through break-even + $90 K
+  corporate/legal + $180 K unallocated reserve. Tranches: $1.2 M at close / $850 K ≈ operating
+  Month −5 / $550 K at opening (Volume 10, Chapter 3 gates).
+- Base-case investor outcome ≈ **1.6–2.0× MOIC** over a five-year hold; ambitious case ≈ 2.2–2.9×.
+- Second-visit KPI (90-day): operating target ≥22% Year 1 / ≥28% Year 3 (home: Volume 10 §10.4);
+  Phase 2 gate floor ≥20%. Fleet availability: operating target ≥92% (Y1) / ≥94% (Y3); gate floor ≥90%.
+- Year 1 establishment ≈ **18.5 FTE** plus casuals (Volume 10, Chapter 5).
+
+### Month-numbering convention
+- **Project frame** for build phasing: Phase 1 = project Months 0–12 (park opens at project
+  Month 12), Phase 2 = project Months 13–30, Phase 3 = project Months 31–60.
+- **Operating frame** for all financial statements and division opening schedules: operating
+  Month 1 (M1) = the opening month. Break-even Month 16–19, aviation staged opening Months 16–24
+  (sim lab M16, fixed-wing M19–20, full program M23–24), marine opening Months 20–24 are all
+  OPERATING months. When ambiguity is possible, label the frame explicitly.
+
+### Built-form canon (Volume 11 is the source of truth for geometry)
+- Aviation cage: **60 × 40 m footprint, 15 m clear flight ceiling**, 16–17 m masts, 25 mm
+  knotless HDPE mesh; 12 × 8 m Whoop Arcade (13 mm mesh); two helipads 1.5 × 1.5 m at 1.0 m.
+- Marine: two hydraulically independent ponds — harbour 30 × 18 m + speed 60 × 25 m,
+  400–600 mm working depth, 6 × 4 m submarine bay at 1.5 m (sole exception); civil ≈ $212 K
+  inside Volume 10's $231 K marine line.
+- The Works: **450 m² GFA** (workshop core ~180 m², battery room 24 m², charging bunker 30 m²
+  internal, parts store, QC lane, viewing window). Entry pavilion 490 m² (retail 120 m²).
+  Restaurant 380 m², 120 + 60 covers. Parking 88 bays Phase 1 → 132 + 4 bus.
+- Aviation Phase 2 allocation ≈ $364 K (enclosure $190 K, civil $85 K, sim lab $45 K, fleet $32 K,
+  timing/AV $12 K) — Volume 10 carries this within the $1.15 M Phase 2 envelope.
 
 ### Operating doctrine (from source PDFs — must be honoured everywhere)
 - Excavator : dump truck ratio **1:3**.

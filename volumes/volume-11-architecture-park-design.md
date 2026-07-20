@@ -100,7 +100,7 @@ The following checklist is the go/no-go filter for the reference site and for ev
 
 ### 2.1 Allocation: 48,000 m² fully accounted
 
-The master plan allocates every square meter of the 4.8 ha reference site. Areas are *precinct* areas — the zone plus its own internal service edge and immediate spectator edge; park-wide guest circulation and landscape are carried as their own lines. Guest circulation is **13% of the developed area**, inside the 12–15% band that keeps peak-day flows one-way capable (Chapter 9).
+The master plan allocates every square meter of the 4.8 ha reference site. Areas are *precinct* areas — the zone plus its own internal service edge and immediate spectator edge; park-wide guest circulation and landscape are carried as their own lines. Dedicated guest circulation (lines 10 + 16) is **≈ 12% of the developed area** (site less land bank), inside the 12–15% band that keeps peak-day flows one-way capable once each precinct's own spectator edge is counted (Chapter 9).
 
 | # | Precinct | Phase | Area (m²) | % of site | Key internal dimension |
 |---|---|---|---|---|---|
@@ -116,11 +116,11 @@ The master plan allocates every square meter of the 4.8 ha reference site. Areas
 | 10 | Guest circulation & viewing terraces (Ph. 1) | 1 | 4,300 | 9.0% | 3 m main spine (Ch. 9) |
 | 11 | Landscape berms, swales & detention (Ph. 1) | 1 | 3,650 | 7.6% | SW detention basin (Ch. 11) |
 | | **Phase 1 subtotal** | | **29,000** | **60.4%** | |
-| 12 | Aviation precinct (cage + apron + promenade) | 2 | 3,400 | 7.1% | Cage 60 × 40 × 15 m (Vol. 5 canon) |
-| 13 | Marine precinct (basins + marina + plant) | 2 | 2,300 | 4.8% | Main basin 40 × 25 m (Vol. 6 canon) |
+| 12 | Aviation precinct (cage + Whoop Arcade + promenade) | 2 | 3,400 | 7.1% | Cage 60 × 40 × 15 m (Vol. 5 canon) |
+| 13 | Marine precinct (pond pair + marina + plant) | 2 | 3,200 | 6.7% | Harbour 30 × 18 m + speed 60 × 25 m (Vol. 6 canon) |
 | 14 | Restaurant & terrace | 2 | 800 | 1.7% | 120 covers + 60 terrace (Ch. 8) |
 | 15 | Grandstand & events lawn | 2 | 2,600 | 5.4% | 200-seat grandstand (Ch. 9) |
-| 16 | Phase 2 circulation & landscape extension | 2 | 1,900 | 4.0% | — |
+| 16 | Phase 2 circulation & landscape extension | 2 | 1,000 | 2.1% | — |
 | | **Phase 2 subtotal** | | **11,000** | **22.9%** | |
 | 17 | Indoor arena, RC Academy & corporate centre | 3 | 2,600 | 5.4% | Arena 40 × 25 m clear-span (Ch. 14) |
 | 18 | Phase 3 plant & lighting infrastructure | 3 | 200 | 0.4% | — |
@@ -128,7 +128,7 @@ The master plan allocates every square meter of the 4.8 ha reference site. Areas
 | | **Phase 3 + reserve subtotal** | | **8,000** | **16.7%** | |
 | | **Total** | | **48,000** | **100%** | |
 
-Two ratios matter for review discipline. **Attraction : support** — precincts 3–9 and 12–13 (the paid experiences) total 18,950 m², 39.5% of site; if value-engineering ever pushes this below ~35% the park has become a car park with hobbies attached. **Hard : soft** — sealed and roofed surfaces total ≈ 31% of site at Phase 3 build-out, which the stormwater strategy (Chapter 11) is sized for; any increase re-opens the detention calculation.
+Two ratios matter for review discipline. **Attraction : support** — precincts 3–9 and 12–13 (the paid experiences) total 19,850 m², 41.4% of site; if value-engineering ever pushes this below ~35% the park has become a car park with hobbies attached. **Hard : soft** — sealed and roofed surfaces total ≈ 31% of site at Phase 3 build-out, which the stormwater strategy (Chapter 11) is sized for; any increase re-opens the detention calculation.
 
 ### 2.2 Adjacency logic
 
@@ -136,9 +136,9 @@ The plan is an argument, and each adjacency is a clause of it:
 
 - **Mining borders The Works** (precincts 7 and 9 share an edge) because the Construction Division has the park's heaviest assets, the highest per-Shift maintenance event rate (Volume 4), and the only bulk-material logistics: aggregate top-ups, hopper maintenance and the nightly face re-cut all run from The Works' yard through a single staff gate. The mining hopper sits at the zone's east end (fixed in Volume 4 by the sight-line rule) — which is exactly the Works-facing end, so the conveyor and weighbridge electronics are a 20 m walk from the electronics bench.
 - **The Works sits on the eastern service spine**, front door facing the guest path (the viewing window, Chapter 6, makes Artisan work a spectacle), back door facing the service road, so parts deliveries and fleet movements never cross a guest route.
-- **The Airfield is peripheral and downwind: the northeast corner.** Three independent reasons converge. (1) *Risk geometry* — although the cage makes flyaway physically contained (Volume 5), defense in depth wants maximum distance between flight operations and both the entry crowds and the public road. (2) *Noise* — EDF and prop noise is the park's loudest continuous source; with the prevailing southwesterly of the reference wind rose, the northeast corner exports noise away from the entry, the restaurant and the frontage neighbours. (3) *Structure* — the 16–17 m poles (Volume 5 canon) want the longest possible setback from the boundary the planning authority cares about, which is the road frontage. The cage's long axis runs E–W, within the ±20° of prevailing wind that Volume 5 requires.
-- **Marine and Agriculture are the calm band**, west-center, adjacent to each other: the two quietest, most family-skewed zones share the gentlest part of the noise gradient, the events lawn, and the afternoon shade of the western berm. The pond sits in the wind shadow engineered by that berm (Volume 6 makes wind shelter a revenue item).
-- **Track A fronts the social heart.** The asphalt track is the park's most legible spectacle, so it sits center-east where the pit lane, grandstand and (Phase 2) restaurant terrace all overlook it. The drag straight aligns with the grandstand's axis.
+- **The Airfield is peripheral and downwind: the northeast corner.** Three independent reasons converge. (1) *Risk geometry* — although the cage makes flyaway physically contained (Volume 5), defense in depth wants maximum distance between flight operations and both the entry crowds and the public road. (2) *Noise* — EDF and prop noise is the park's loudest continuous source; with the prevailing southwesterly of the reference wind rose, the northeast corner exports noise away from the entry, the restaurant and the frontage neighbours. (3) *Structure* — the 16–17 m poles (Volume 5 canon) want the longest possible setback from the boundary the planning authority cares about, which is the road frontage. The cage's long axis runs E–W, within ±20° of the prevailing wind — this volume's siting tolerance on Volume 5's requirement that the runway and circuit work into wind.
+- **Marine and Agriculture are the calm band**, west-center, adjacent to each other: the two quietest, most family-skewed zones share the gentlest part of the noise gradient, the events lawn, and the afternoon shade of the western berm. The harbour pond sits in the wind shadow engineered by that berm plus its own shelter belt (Volume 6 makes wind shelter a revenue item), while the sail area's windward shore is deliberately kept low and open (Volume 6, §4.2 and §6.6 doctrine); the speed pond's long axis is set across the prevailing wind to cut fetch, and the restaurant sits between the harbour and the spine so its terrace overlooks the working port (Volume 6's siting requirement) with Track A's straight in the second sight line.
+- **Track A fronts the social heart.** The asphalt track is the park's most legible spectacle, so it sits center-east where the pit lane and grandstand overlook it, and the (Phase 2) restaurant's second, east-facing terrace front catches its straight. The drag straight aligns with the grandstand's axis.
 - **Track B and Track C occupy the northwest**, between Agriculture and Mining: dirt with dirt. Their dust sources sit downwind of the guest core on the prevailing wind and their service needs share the northern staff route.
 - **Entry, parking and the Phase 3 arena hold the south frontage.** Everything a visitor does before paying — parking, drop-off, ticketing — stays south of the guest gateway; the arena (Phase 3) also fronts south so corporate-event traffic never enters the park proper.
 
@@ -151,7 +151,7 @@ Sound is planned as a south-to-north crescendo. At the frontage: car doors and c
 | Phase | Occupies | Construction access | Guest impact |
 |---|---|---|---|
 | **Phase 1 (Months 0–12)** | Precincts 1–11: entry + parking core (88 car bays), Tracks A/B/C, pit lane + charging, Mining, Agriculture, The Works, Phase 1 circulation and berms. Utilities trunk routes laid full-length with stubs at Phase 2/3 boundaries. | Full site is a construction site | — |
-| **Phase 2 (Months 13–30)** | Precincts 12–16: airfield cage, marine basins, restaurant, grandstand + events lawn, parking extension (+44 bays). | NE and W-center parcels, fenced; heavy deliveries (poles, liner, precast) via the eastern service road out of guest hours | Zero closure of Phase 1 zones; crane lifts for airfield poles scheduled on closed days |
+| **Phase 2 (Months 13–30)** | Precincts 12–16: airfield cage + Whoop Arcade, marine pond pair, restaurant, grandstand + events lawn, parking extension (+44 bays). | NE and W-center parcels, fenced; heavy deliveries (poles, liner, precast) via the eastern service road out of guest hours | Zero closure of Phase 1 zones; crane lifts for airfield poles scheduled on closed days |
 | **Phase 3 (Months 31–60)** | Precincts 17–18: indoor arena + academy + corporate centre (SE), night-racing lighting retrofit on Tracks A/B, franchise-pilot support space. | SE parcel direct from frontage — never enters the park | Lighting works at night behind track closures |
 
 The phase lines were drawn so that each later phase is a *parcel*, not a scatter: one construction fence, one gate, one insurance boundary. Phase 1 tenders should price the Phase 2 duct and drainage stubs as provisional sums — they cost hundreds now and tens of thousands if retro-trenched through a live park.
@@ -181,19 +181,19 @@ Scale: 1 character ≈ 3 m horizontal. North is up. Road frontage at bottom (sou
     │ │   TRACK B    │ │    MINING ZONE    │ │ THE │  ║  AIRFIELD CAGE     ║           │
     │ │  dirt rally  │ │     60 × 40 m     │ │WORKS│  ║  60 × 40 × 15 m    ║ s         │
     │ │  ~160 m line │ │  [hopper: E end]■ │ │ 450 │  ║  ▬▬▬ runway 30×4 ▬ ║ e         │ 150
-    │ └──────────────┘ └───═══walkway═══───┘ │ m²  │  ║  ◘ helipads  FPV◙  ║ r         │
+    │ └──────────────┘ └───═══walkway═══───┘ │ m²  │  ║  ◙FPV   helipads◘  ║ r         │
     │ ┌──────────┐      ═ elevated  over ═   └──┬──┘  ╚══ promenade ═══════╝ v         │
     │ │ TRACK C  │        mining  +2.4 m        yard                        i          │
     │ │ crawler  │ ┌────────────┐  ┌──────────────────────┐  ┌──────────┐  c           │
     │ │ 40×30 m  │ │AGRICULTURE │  │      TRACK A         │  │ EVENTS   │  e           │ 100
     │ └──────────┘ │  50 × 30 m │  │  asphalt ~180 m line │  │ LAWN     │               │
     │ ┌──────────┐ │ 8 cells +  │  │  drag straight ≥55 m │  │ (Ph.2)   │  r           │
-    │ │  MARINE  │ │ barn/silo  │  └──────────────────────┘  └──────────┘  o           │
-    │ │ 40×25 m  │ └────────────┘   ▤ grandstand (Ph.2)  ▥ pit lane +      a           │
-    │ │ + 8×6 sub│    ┌─────────┐   ┌────────────┐        charging stn     d           │ 50
+    │ │ MARINE:  │ │ barn/silo  │  └──────────────────────┘  └──────────┘  o           │
+    │ │ spd 60×25│ └────────────┘   ▤ grandstand (Ph.2)  ▥ pit lane +      a           │
+    │ │ hbr 30×18│    ┌─────────┐   ┌────────────┐        charging stn     d           │ 50
     │ └──────────┘    │RESTAUR. │   │   ENTRY    │   ┌───────────────────┐              │
     │  ◊ detention    │ (Ph.2)  │   │  PAVILION  │   │  INDOOR ARENA +   │              │
-    │    basin SW     │ terrace─┼──▶│  490 m²    │   │  ACADEMY (Ph.3)   │              │
+    │    basin SW ◀───┤terrace  ┼──▶│  490 m²    │   │  ACADEMY (Ph.3)   │              │
     │ ┌───────────────┴───────┐ │   │  + plaza   │   └───────────────────┘              │
     │ │  PARKING 132 + 4 bus  │ │   └─────┬──────┘      land bank ▒▒▒▒▒▒                │
     │ └───────────────────────┘ │    drop-off loop                                      │
@@ -201,7 +201,7 @@ Scale: 1 character ≈ 3 m horizontal. North is up. Road frontage at bottom (sou
    ══════════════════════ PUBLIC ROAD (frontage) ═════ guest gate ═════ service gate ════
 ```
 
-**Legend:** `╔═╗` netted airfield cage · `▬` runway · `◘` helipads · `◙` FPV volume · `■` mining hopper · `═══` elevated walkway · `▤` grandstand · `▥` pit lane · `◊` stormwater detention · `~` landscape berm · `▒` land bank · `Ph.2/Ph.3` phase-2/3 parcels · east edge `service road` runs frontage → The Works → airfield, fenced from guests.
+**Legend:** `╔═╗` netted airfield cage (helipads `◘` east, FPV gate course `◙` west, Whoop Arcade sub-enclosure beside cage) · `▬` runway · `■` mining hopper · `═══` elevated walkway · `▤` grandstand · `▥` pit lane · `◊` stormwater detention · `~` landscape berm · `▒` land bank · `Ph.2/Ph.3` phase-2/3 parcels · MARINE = speed pond 60 × 25 m + harbour pond 30 × 18 m with 6 × 4 m submarine bay (Vol. 6) · east edge `service road` runs frontage → The Works → airfield, fenced from guests.
 
 > **Field Note** — Walk the plan as a family of four before approving it: park (2 min), tickets and Toolbox Talk check (5), first machine visible within 60 seconds of the gateway (the pond or Track A — by design), lunch overlooking Track A, mining in the afternoon shade, exit through retail. If any future revision breaks the "first machine in 60 seconds" rule, the revision is wrong.
 
@@ -403,22 +403,23 @@ Both divisions are Phase 2 builds on parcels reserved, graded and utility-stubbe
 
 ### 5.1 Airfield envelope and siting
 
-The canonical enclosure (Volume 5, Section 2.1 — the numbers every volume quotes): **flight cage 60 × 40 m footprint, 15 m clear flight ceiling, ≈ 36,000 m³ enclosed volume**, long axis aligned within ±20° of the prevailing wind, sited in the northeast quadrant per the adjacency logic of Chapter 2.2. The aviation *precinct* (allocation table line 12) is 3,400 m²: the 2,400 m² cage plus the southern spectator promenade (60 × 6 m), the pilot-access vestibule aprons, the pole maintenance strip (2 m clear around the full perimeter — scissor-lift access to every pole, non-negotiable), and the flight-line container store.
+The canonical enclosure (Volume 5, Chapter 1 — the numbers every volume quotes): **flight cage 60 × 40 m footprint, 15 m clear flight ceiling, ≈ 36,000 m³ enclosed volume**, long axis aligned within ±20° of the prevailing wind (this volume's siting tolerance on Volume 5's into-wind circuit requirement), sited in the northeast quadrant per the adjacency logic of Chapter 2.2. The aviation *precinct* (allocation table line 12) is 3,400 m²: the 2,400 m² cage, the **12 × 8 m Whoop Arcade** fine-mesh sub-enclosure beside it (Volume 5, Chapter 6 — its own sealed airspace, framed-panel construction), the southern spectator promenade (60 × 6 m) with its standoff rail 2 m outside the netting (Volume 5's spectator rule: a slowed aircraft can still deform the mesh inward ~0.5 m), the pilot-access vestibule aprons, the mast maintenance strip (2 m clear around the full perimeter — scissor-lift access to every mast, non-negotiable), and the flight-line container store.
 
 **Siting inputs the architect must fix before Phase 2 documents:** the 12-month wind rose (commissioned at Phase 1 if not already available — Volume 5 requires it and this volume's site checklist demands it), a geotechnical confirmation at each pole position, and the aviation-obstacle check for 17 m structures **[verify locally]**.
 
 ### 5.2 Net engineering
 
-Volume 5, Section 2.2 fixes the netting specification (knotted UHMWPE #18-class or equivalent nylon, **45–48 mm mesh** walls and roof, ≥ 1.8 kN per-mesh break strength, black, UV-stabilized; 25 mm secondary skirt net at the spectator panel; ground edge sealed to < 50 mm gap). This volume adds the structure that carries it:
+Volume 5, Chapter 8 fixes the netting specification: main cage in **25 mm (1") knotless HDPE square mesh**, twine **≥ 2.0 mm high-tenacity, UV-stabilised**, with breaking strength verified by supplier certificate against the design cases Volume 5 states (a 5" racing quad at 130 km/h and a 70 mm EDF at 140 km/h); the **Whoop Arcade in 13 mm fine mesh** as framed panels; netting hung with breakaway margin — it absorbs strikes by deflecting, never drum-tight; ground seal **zero gap ≥ 25 mm anywhere**. This volume adds the structure that carries it:
 
 | Element | Specification |
 |---|---|
-| Poles | Tapered galvanized steel, **16–17 m** above ground, at **10–12 m centres** (18–20 poles — Volume 5 canon); base plate on reinforced concrete pad foundations, typically ~1.5 × 1.5 × 1.5 m in granular soils — final sizing by the structural engineer from site wind data and soil report **[verify locally]** |
-| Roof structure | Tensioned catenary cable grid, 8–10 mm galvanized or Dyneema-core, ≤ 12 m spacing, crowned +1 m at centre (Volume 5) for sag control and rain shedding; roof net in laced panels ≈ 12 × 12 m (Volume 5 Trade Hack — panel replacement, not sheet replacement) |
-| Tension system | Each perimeter cable terminated with a galvanized turnbuckle (M16 class) and a marked witness gauge; walls laced to border ropes (≥ 10 mm braided) top and bottom; **design pretension set by the net engineer so that no net face can deflect onto a flight path under working wind** — deflection check at 5 m buffer line |
-| Ground seal | Bottom border rope buried 150 mm or threaded through ballast pipe full perimeter; gaps > 50 mm are a defect (Volume 5: a quad that fits under the net is not contained) |
-| Access | Two personnel vestibules ≥ 2 × 2 m (double-door net airlocks) and one 3 m double-gated vehicle gate (Volume 5); vestibule doors interlocked — both never open together during flight status |
-| Inspection regime | Structural: annual pole/cable/termination inspection by the engineer; nets: Volume 5's repair standard (hand-lace ≤ 3 mesh squares; panel-replace beyond) |
+| Masts | Tapered galvanized steel, **16–17 m** above ground, at **10–12 m centres** (18–20 masts); base plate on reinforced concrete pad foundations, typically ~1.5 × 1.5 × 1.5 m in granular soils — final sizing by the structural engineer from site wind data and soil report **[verify locally]** |
+| Roof structure | Tensioned catenary cable grid, 8–10 mm galvanized or Dyneema-core, ≤ 12 m spacing, crowned +1 m at centre for sag control and rain shedding; roof net in laced panels ≈ 12 × 12 m so a prop-strike hole means dropping and re-lacing one panel from a scissor lift, not a crane-and-crew replacement |
+| Tension system | Each perimeter cable terminated with a galvanized turnbuckle (M16 class) and a marked witness gauge; walls laced to border ropes (≥ 10 mm braided) top and bottom; **pretension set by the net engineer to preserve Volume 5's breakaway-margin doctrine while keeping working-wind deflection clear of the 5 m flight-path buffer** |
+| Ground seal | Bottom border rope buried 150 mm or threaded through ballast pipe full perimeter; any gap ≥ 25 mm is a defect (Volume 5: a whoop that fits under the net is not contained) |
+| Access | Two personnel airlocks (double-door vestibules, sized ≥ 2 × 2 m by this volume) — outer door closed before inner opens — and one 3 m double-gated vehicle gate openable only when airspace is cold (Volume 5 door doctrine) |
+| Whoop Arcade structure | 12 × 8 m framed-panel enclosure on a galvanized steel frame at 3 m height, 13 mm mesh, single vestibule, fully sealed at grade |
+| Inspection regime | Structural: annual mast/cable/termination inspection by the engineer; nets: Volume 5's daily walkdown and monthly detailed inspection schedule, with mast bolts torque-checked monthly |
 
 > **Safety Warning** — The cage is a life-safety structure with a 15–25 year design life and it fails in storms, not in operation. The structural engineer's wind analysis must model the net **iced and fouled** (leaves, snow band per climate) as a load case, and the operations manual must include a drop-or-derig wind threshold for named storms **[verify locally]** for the local wind code. A net specified only for sunny-day containment is under-specified by roughly a factor of three.
 
@@ -426,55 +427,60 @@ Volume 5, Section 2.2 fixes the netting specification (knotted UHMWPE #18-class 
 
 | Element | Specification |
 |---|---|
-| Runway | **30 × 4 m** (canon), machine-floated concrete 120 mm on 150 mm base, or fine asphalt equivalent; centreline and threshold markings in traffic paint; crossfall 1.5% to the north edge drain; surface tolerance 3 mm / 3 m |
-| Overruns | 5 m mown-turf at each threshold (Volume 5 — also the EDF belly-landing strip); turf on 100 mm rootzone over free-draining base |
-| Apron | 12 × 8 m concrete pad at the runway's south-east, linking the vehicle gate, the pilot boxes and the helipad edge |
-| Helipads | **Two, 1.2 × 1.2 m at 0.8 m height** (Volume 5 canon), steel frame, anti-slip deck, on the apron's east edge |
-| Pilot boxes | Four, in line along the runway's south side, 3 m back from pavement (Volume 5); 2.0 × 1.5 m each, 1.1 m rail, transmitter shelf per §4.1 ergonomics; the cage wall's **2 m overhead net apron** projects over the boxes so no aircraft can descend on a pilot |
-| FPV race volume | Sector B per Volume 5: eastern ≈ 30 × 15 m, curtain-netted to 8 m on messenger cables, repositionable |
-| Flight-line store | 20 ft container inside the cage at the vehicle gate: aircraft racking, field-repair bench, no battery charging (all charging in the bunker or the marine/aviation charging annex per doctrine) |
+| Runway | **30 m paved** (canon) at 4 m width (this volume's construction dimension), machine-floated concrete 120 mm on 150 mm base, or fine asphalt equivalent; runs along the cage's long axis; centreline and threshold markings in traffic paint; crossfall 1.5% to the north edge drain; surface tolerance 3 mm / 3 m |
+| Overruns & margins | **15 m paved overrun** plus mown-grass margins inside the net (Volume 5); grass on 100 mm rootzone over free-draining base |
+| Apron | 12 × 8 m concrete pad at the runway's south-east, linking the vehicle gate, the pilot boxes and the helipad edge; fixed-wing arming happens here facing the runway (Volume 5 flight-line doctrine) |
+| Helipads | **Two, 1.5 × 1.5 m platforms at 1.0 m height** (Volume 5 canon), steel frame, rubber-surfaced deck, railed on the spectator side, on the cage's **eastern edge** serving the 15 × 15 m heli hover box (Volume 5, §5.3) |
+| Pilot boxes | Four, numbered, in line along the runway's south side, 3 m back from pavement (this volume's setback); 2.0 × 1.5 m each, 1.1 m rail, transmitter shelf per §4.1 ergonomics; a **2 m overhead net apron** projects from the cage wall over the boxes so no aircraft can descend on a pilot; the painted flight line per Volume 5, Chapter 8 runs along their front edge |
+| Drone-racing course | **Western half of the cage** (Volume 5): reconfigurable air-gate and flag course in MultiGP/DRL grammar, gates on movable ballasted bases — no fixed structure, so the volume reverts to general flight between race slots |
+| Flight-line store | 20 ft container inside the cage at the vehicle gate: aircraft racking, field-repair bench, steel ammo-box caddies for the day's packs; no charging except the Arcade desk's supervised 1S board per Volume 5 — all pack charging happens in the Phase 1 charging bunker, extended with aviation shelving in Phase 2 |
 
-### 5.4 Marine basins
+### 5.4 Marine ponds
 
-Volume 6 fixes the waterspace: **main basin ~40 × 25 m (1,000 m² water), 600 mm perimeter shelf grading to 800 mm central channel, ≈ 630–650 m³**; within it the **harbour basin (Zone H) 14 × 25 m** boomed off from the open-water/fast-electric area; plus the separate **8 × 6 m submarine basin at 800 mm (≈ 38 m³)**. In this volume's terms these are the **pond pair**: the *harbour pond* (Zone H, dead-slow scale operations, quay-walled) and the *speed pond* (the remaining 26 × 25 m open-water area, fast-electric and sail) sharing one liner and one plant system, with the clear-water submarine basin as an annex. **Maximum depth 800 mm everywhere, forever** — Volume 6 states it as a safety specification and this volume repeats it as a hold-point on the excavation drawings.
+Volume 6, Chapter 6 fixes the waterspace as a **pond pair — two hydraulically independent ponds sharing one plant room**: the **harbour pond, 30 × 18 m (540 m² water)**, a rectangular quay-walled basin at 400–500 mm general depth; and the **speed pond, 60 × 25 m (1,500 m² water)**, a rounded-rectangle "stadium" plan at a uniform 500–600 mm. The division's depth doctrine is a **400–600 mm working band across both ponds** — deep enough that keels, rudders and water pickups never ground, shallow enough that a staff member in waders can walk every square metre. The **sole engineered exception is the submarine bay: 6 × 4 m at 1.5 m deep**, a cast-concrete box baffled off the harbour pond, carrying the acrylic viewing window (~1,200 × 600 × 40 mm marine-grade cast panel per Volume 6, set at child-eye height and shaded by the quay canopy). This volume repeats all three depth figures as hold-points on the excavation drawings.
 
-**Section through the main basin (E–W at the harbour):**
+**Section through the harbour pond (windward edge to quay, showing the submarine bay):**
 
 ```
-  guest side                                                     marina side
-  1.1 m fence   spectator quay (canopy 12×4 m)      boom         launch beach
-  ─────┐  ┌──────────────┐                           ┆    ┌────~ ~ ~──────
-       │  │ quay wall ▓  │ +150 coping               ┆    │ beach 1:5
-  ═════╪══╡ timber-faced ╞═══ waterline ═════════════┆════╪═════════════
-       │  │ concrete, D- │  −600 shelf (2 m wide)    ┆    │
-       │  │ fender at WL │ ─────┐                    ┆    │
-       │  └──────────────┘      └──── −800 central channel ────┘
-       │   ZONE H (harbour pond) ┆  open water (speed pond)
-       └── 60-mil EPDM liner + ≥300 g/m² geotextile, anchor trench at rim ──
+ windward side                                                       guest side
+ shelter belt   marina hut /                 baffle    SUB BAY      1.1 m balustrade
+ (2.5–3 m)      landing stage (gated)        wall      6 × 4 m      + quay canopy
+  ♣♣♣ ┌────────┐                              ┃                    ┌─────
+  ♣♣♣ │        │╔═ waterline ════════════════╗┃╔══════════════════╗│ quay wall ▓
+      │  stage │║  −400…−500 general depth   ║┃║                  ║│ block, rendered,
+      └───┬────┘║        (working band)      ║┃║   −1,500 deep    ║│ timber-capped
+          │     ╚═══╗ silt sump at drain ╔═══╝┃║                  ◙│◁ acrylic window
+          │         ╚════════════════════╝    ┃╚══════════════════╝│  1,200×600×40
+          └── EPDM liner on ≥300 g/m² geotextile, dressed up behind walls;
+              sub bay = cast concrete box, tanked, FLANGED to the EPDM (clamped,
+              sealed detail by the liner supplier's approved installer)
 ```
 
 | Element | Specification (Volume 6 governs; construction notes here) |
 |---|---|
-| Liner system | 60-mil (1.5 mm) EPDM membrane on ≥ 300 g/m² non-woven geotextile, laps 150 mm, carried into a perimeter anchor trench; no chlorine ever (Volume 6 water doctrine) |
-| Quay walls | Zone H east and north: vertical timber-faced concrete, coping +150 mm above waterline, continuous rubber D-fender at waterline, berth markings 1–4 (gameplay per Volume 6) |
-| Edge profile elsewhere | 2 m-wide 600 mm shelf, corners radiused 2 m with a skimmer per downwind corner (Volume 6 Trade Hack) |
-| Floor finishes | 40 mm washed pea gravel over sacrificial geotextile in harbour and beach traffic areas; bare liner in the fast-electric zone (Volume 6) |
-| Launch beach & rescue dock | 1:5 grade beach, staff-controlled; both are the only rail-gap edges in the precinct |
-| Precinct barrier | 1.1 m fence with self-closing self-latching gates around the whole pond precinct; quay handrails with kick-plate except beach/rescue dock (Volume 6 barrier plan) **[verify locally]** against local pool/pond barrier law |
-| Wind shelter | The western landscape berm (3 m) plus a 2 m evergreen hedge band give the basin its sheltered operating window (Volume 6: shelter is revenue protection) |
+| Liner system | **EPDM membrane basins with concrete structures standing inside them** (Volume 6's hybrid doctrine); ≥ 300 g/m² non-woven geotextile under every square metre, carried up behind walls; ~2,600 m² liner total incl. walls/overlap; order as few, huge factory panels (Volume 6 Trade Hack: field seams are the only young failure); no chlorine ever |
+| Quay walls (harbour) | Hollow concrete block on strip footings, rendered, built *inside* the liner line with the liner dressed up behind; timber capping; fendered berths (gameplay per Volume 6) |
+| Submarine bay | Cast-concrete box, cementitious tanking, mechanically flanged to the EPDM with a clamped sealed detail — **the one specialist joint in the build, executed by the liner supplier's approved installer**; acrylic window framed aquarium-style; baffle wall hydraulically separates the bay so barge traffic cannot stir sediment into it |
+| Speed-pond edges | Concrete edge beam + rip-rap over liner on the straights (wake energy breaks on rock, not soil — Volume 6); **cobble wave beach at the downwind end** where wind and wake energy both arrive; turn buoys ≥ 4 m off the banks |
+| Pond floors | Harbour floor laser-screeded ±20 mm, falling to a silt sump with bottom drain at the deepest corner; cut/fill balanced into the site's 2–4% grade |
+| Landing stages | Supervised, staff-controlled, **self-closing gates** (Volume 6 barrier rule); boats armed only on the stand, facing open water |
+| Public barrier | **1.1 m post-and-rail balustrade with mesh infill wherever the public can approach water deeper than 300 mm** (Volume 6's absolute rule), broken only at the supervised landing stages and the viewing-window bay **[verify locally]** against local pool/pond barrier law |
+| Wind & siting | Speed-pond long axis set **across the prevailing wind** (fetch control); harbour pond sheltered by the marina hut, quay canopy and a 2.5–3 m evergreen shelter belt on the windward side; the **sail area's windward shore stays low and open** (sail needs wind); restaurant terrace overlooks the harbour (all Volume 6 siting requirements, resolved in this master plan) |
+| Capex | Pond complex civil work **≈ $212,000** (Volume 6, §6.9 breakdown; carried in Volume 10's Phase 2 envelope) |
 
 ### 5.5 Marine plant room
 
-A 20 ft high-cube container adjacent to the marina building, on a 100 mm bunded slab:
+One shared plant room between the two ponds (Volume 6) — a 20 ft high-cube container beside the marina hut on a 100 mm bunded slab — serving two hydraulically separate loops:
 
 | Item | Specification |
 |---|---|
-| Circulation | Pump set sized to **Q = 15 m³/h** (Volume 6: 48 h turnover + skimmer draw), duty/standby pair |
-| Filtration | Mechanical (sieve/bead) + UV clarifier line per Volume 6, Chapter 2; backwash discharges to the sewer connection, not the swales **[verify locally]** |
-| Pipework | 3 skimmer suction lines + 2 floor returns cast under the quay ring at construction; isolation valves inside the container |
-| Top-up | Metered mains top-up with air-gap break tank (backflow prevention **[verify locally]**) |
+| Harbour loop | Turnover every 4 h → duty flow **62.5 m³/h**; Volume 6's worked sizing: ≈ 5.9 m total dynamic head → **1.5 kW low-head pump, preferably 2 × 0.75 kW for redundancy** and half-flow night/winter economy |
+| Speed-pond loop | Turnover every 8 h → **≈ 100 m³/h**, sized by the same method; shares the plant room, never the water |
+| Filtration | Drum/bead mechanical filters both loops; **UV clarifier loop on the harbour pond** (the viewing-bay water passes the UV bank every cycle — clarity is the submarine product); total pump connected load ≈ 1.2–1.8 kW (Volume 6); backwash discharges to sewer, not the swales **[verify locally]** |
+| Intakes | Floating-weir skimmers: **4 on the harbour pond, 6 on the speed pond**, plus one bottom drain per silt sump; isolation valves inside the container |
+| Top-up | Metered mains top-up through an air-gap break tank (backflow prevention **[verify locally]**); summer evaporation budget 100–150 mm/month across both ponds ≈ 25–30 m³ (Volume 6) |
 | Electrical | Fed from the marine sub-board; pumps on the essential-services bus (Chapter 12) so circulation survives a park power event |
-| Access | Double doors to a 2 m hard apron; sump and strainer serviceable by one Artisan without entering the water |
+| Access | Double doors to a 2 m hard apron; sumps and strainers serviceable by one Artisan without entering the water |
 
 ---
 
@@ -529,7 +535,7 @@ The bunker implements the canonical battery doctrine (bunkered charging; 3:1 bat
 | Detection & suppression | Smoke + heat detection zoned to the park panel; no water sprinkler over lithium — Class D/ABC extinguishers at door plus a sand/vermiculite quench bin and lifting tongs; ventilation ≥ 6 air changes/hour extracting at high level **[verify locally]** |
 | Monitoring | Temperature and smoke telemetry into RC WORLD OS; charger fleet on networked monitoring; CCTV inside (Chapter 13) |
 
-> **Safety Warning** — The bunker's safety case rests on three assumptions that operations must never erode: (1) charging happens **only** in the bunker and the Chapter 7 customer charging station — never at pit bays, never in the battery room; (2) packs outside the 3.4–4.2 V/cell window or with any physical damage are quarantined in the sand bin, not racked; (3) the blow-out panels' exclusion strip stays fenced and empty — it is not storage. All three appear on the daily close-down checklist (Volume 7).
+> **Safety Warning** — The bunker's safety case rests on three assumptions that operations must never erode: (1) charging happens **only** in the bunker and the Chapter 7 customer charging station — never at pit bays, never in the battery room; the sole documented exception is Volume 5's supervised 1S whoop board at the Arcade desk (max 6 packs, fireproof mat, staff eyes); (2) packs outside the 3.4–4.2 V/cell window or with any physical damage are quarantined in the sand bin, not racked; (3) the blow-out panels' exclusion strip stays fenced and empty — it is not storage. All three appear on the daily close-down checklist (Volume 7).
 
 ### 6.3 MEP requirements
 
@@ -604,7 +610,7 @@ The plaza (part of precinct 1) carries the corten RC WORLD gateway totem, the pa
 
 ### 8.2 Restaurant (Phase 2)
 
-A 380 m² GFA pavilion with its long glazed side and terrace overlooking Track A's T5 sweeper and main straight — the table with a view of the racing is the product.
+A 380 m² GFA pavilion sited between the harbour pond and the guest spine, with a dual-aspect terrace: the primary, west-facing front **overlooks the working harbour** — Volume 6's fixed siting requirement, because the terrace converts the port's continuous slow spectacle (tugs, barges, the fire-boat shows) directly into F&B dwell — while the east front catches Track A's T5 sweeper and main straight across the spine. The table with a view of a working machine is the product on both fronts.
 
 | Element | Specification |
 |---|---|
@@ -633,8 +639,8 @@ Roughly one companion watches for every driver on-station (Volume 2's visit-grou
 | Grandstand at Track A | 2 | **200 seated** | 5 tiers × 40; steel frame, timber seats, 400 mm row rise / 800 mm going (C-value sight-line check over a standing child at the rail — RC spectating looks *down*, so generous rise matters more than at a stadium); full shade canopy; front row +1.2 m above track datum behind the two-stage barrier; accessible platform for 6 wheelchairs + companions at tier 1 **[verify locally]** |
 | Elevated mining walkway | 1 | 60 standing | **1.8 m wide × 30 m long at +2.4 m** above pit datum, crossing the Mining Zone's west end; steel structure, mesh balustrade **1.3 m** with kick-plate (elevated = taller rail), anti-drop mesh to 100 mm aperture full height — nothing droppable reaches the pit; ramped access 1:14 both ends; the park's signature photo spot, looking down the haul-road loop to the hopper |
 | Viewing mounds (berm tops) | 1 | ~150 standing total | The Chapter 11 berms double as terraced viewing: sleeper-edged terraces cut into the south faces at Track B and the airfield promenade |
-| Spectator terraces | 1 | continuous | The 2 m terrace behind mining's operator line (Volume 4), Track C boardwalk widenings, pond spectator quay (Volume 6: 12 × 4 m canopy, 30 spectators) |
-| Airfield promenade | 2 | 80 standing | 60 × 6 m along the cage's south face, fine-mesh spectator panel + 25 mm skirt net (Volume 5), lean rail, interpretive graphics |
+| Spectator terraces | 1 | continuous | The 2 m terrace behind mining's operator line (Volume 4), Track C boardwalk widenings, the harbour's canopied quay and viewing-window bay (Volume 6) with the restaurant terrace above them |
+| Airfield promenade | 2 | 80 standing | 60 × 6 m along the cage's south face, viewing through the 25 mm mesh (no openable panels on public faces — Volume 5), standoff lean rail 2 m outside the netting, interpretive graphics, FPV repeater screens set at the rail so crowds gather at the screens, not against the net |
 
 ### 9.2 Circulation network
 
@@ -702,7 +708,7 @@ The park's earthworks balance goes into perimeter berms — spoil from the pond,
 | Berm | Location | Profile | Functions |
 |---|---|---|---|
 | North berm | Full northern boundary, ~180 m | h = 3.0 m, crest 2 m wide, guest face 1:3, boundary face 1:2 | Acoustic screen for the loud band (mining, Track B, airfield); wind shelter; terraced viewing on the south face at Track B |
-| West berm | West boundary at the pond, ~90 m | h = 3.0 m + 2 m evergreen hedge on crest | The marine wind shelter Volume 6 prices as revenue; afternoon shade for Agriculture |
+| West berm | West boundary at the ponds, ~90 m | h = 3.0 m at the harbour end, tapering to ≤ 1 m with low planting along the sail area's windward shore; 2.5–3 m evergreen shelter belt windward of the harbour only | The harbour wind shelter Volume 6 prices as revenue — solid at the harbour, deliberately low and open where the sail fleet needs clean wind (Volume 6, §4.2/§6.6); afternoon shade for Agriculture |
 | Frontage berm | South, broken at gates | h = 1.5 m, planted | Visual dress to the road; keeps the cage and gateway visible above it by design |
 
 Acoustic performance to be verified by the consultant against the Chapter 2.3 targets **[verify locally]**; as a planning rule of thumb a 3 m berm breaking line-of-sight yields ~5–8 dB attenuation at the boundary — the gradient plan does the rest.
@@ -713,7 +719,7 @@ Three rules govern species selection (local ecologist adapts the list **[verify 
 
 ### 11.3 Dust suppression
 
-Dust is the operating cost of a dirt park: Track B's watering ring (§3.2), mining's nightly wet-grooming (Volume 4), the northern service road dressed in crusher fines with a calcium-chloride/lignin binder refreshed each season, and hose points at 40 m spacing on the irrigation main. Wind-blown dust from the loose zones is intercepted by the berm-and-hedge line before it reaches the pond (skimmer load) or the airfield (runway grip). The morning "hose-and-broom reset" (design tenet 4, §1.2) is a designed capability: every zone has a washdown point, falls, and a silt trap.
+Dust is the operating cost of a dirt park: Track B's watering ring (§3.2), mining's nightly wet-grooming (Volume 4), the northern service road dressed in crusher fines with a calcium-chloride/lignin binder refreshed each season, and hose points at 40 m spacing on the irrigation main. Wind-blown dust from the loose zones is intercepted by the berm-and-hedge line before it reaches the ponds (skimmer load and viewing-bay clarity) or the airfield (runway grip). The morning "hose-and-broom reset" (design tenet 4, §1.2) is a designed capability: every zone has a washdown point, falls, and a silt trap.
 
 ### 11.4 Stormwater and drainage strategy
 
@@ -777,7 +783,7 @@ The Phase 1 connection is sized for Phase 2 (≈ 140 kVA demand); the Phase 3 st
 ### 12.3 Water
 
 - **Mains:** municipal potable connection at the frontage; meter + backflow prevention **[verify locally]**; potable distribution to pavilion, Works, restaurant, first-aid, hose-union points.
-- **Pond top-up:** metered branch with air-gap break tank at the marine plant room (§5.5); budget evaporation + splash losses ≈ 1–2% of volume/week in summer (≈ 7–13 m³/week) — the meter reading is a Volume 6 weekly checklist item.
+- **Pond top-up:** metered branch with air-gap break tank at the marine plant room (§5.5); budget summer evaporation of 100–150 mm/month across both ponds ≈ 25–30 m³/month (Volume 6) plus splash losses — the meter reading is a Volume 6 checklist item.
 - **Irrigation & dust suppression:** a dedicated non-potable ring main (fed from mains in Phase 1; a rainwater-harvest tank at The Works' roof is the Phase 2 upgrade) serving Track B's watering ring, the hose points at 40 m spacing, hedge drip lines and the turf overruns.
 - **Sewer:** pavilion, Works and restaurant to the municipal sewer (or approved on-site treatment — site-selection item); kitchen via grease interceptor; workshop intake sink via silt/oil interceptor; pond backwash to sewer, never to the swales **[verify locally]**.
 
@@ -822,13 +828,13 @@ Draw pits at ≤ 50 m spacing and every change of direction; every duct proved a
 |---|---|
 | Site perimeter | 1.8 m galvanized weldmesh (358-class anti-climb on the road frontage and service gates), concealed in the berm/hedge line where it crosses guest views |
 | Zone edges (guest/live separation) | The 1.1 m rail-and-kick-plate family (§1.1); mesh infill ≤ 100 mm aperture wherever small children queue |
-| Pond precinct | 1.1 m with self-closing self-latching gates (Volume 6 canon) **[verify locally]** |
+| Pond barrier line | 1.1 m post-and-rail balustrade with mesh infill wherever the public can approach water deeper than 300 mm; self-closing gates at the supervised landing stages (Volume 6 canon) **[verify locally]** |
 | Charging rooms, plant, bunker strips | 2.0 m mesh enclosures, locked, signed |
 | Construction phase lines | 2.0 m temporary hoarding, graphics-wrapped (the hoarding sells Phase 2) |
 
 ### 13.2 CCTV coverage logic
 
-Coverage is designed by *incident question*, not camera count — every location where the operation would ask "what happened?" gets a view: all POS and cash handling; both charging rooms (interior, thermal watchpoint per §7.4); every zone's operating surface (the same masts as the Wi-Fi APs — one pole family carries AP + camera + PA horn); all gates and interlocks; the pond waterline (two views, full surface); the car park and drop-off; The Works' intake (asset chain-of-custody). Phase 1 ≈ 32 cameras, PoE, recorded 30 days at the comms room NVR (essential bus), with RC WORLD OS integration limited to event bookmarks (a kill-switch trigger or gate alarm bookmarks the relevant streams). Privacy signage and retention per local law **[verify locally]**.
+Coverage is designed by *incident question*, not camera count — every location where the operation would ask "what happened?" gets a view: all POS and cash handling; both charging rooms (interior, thermal watchpoint per §7.4); every zone's operating surface (the same masts as the Wi-Fi APs — one pole family carries AP + camera + PA horn); all gates and interlocks; both pond waterlines (full surface coverage); the car park and drop-off; The Works' intake (asset chain-of-custody). Phase 1 ≈ 32 cameras, PoE, recorded 30 days at the comms room NVR (essential bus), with RC WORLD OS integration limited to event bookmarks (a kill-switch trigger or gate alarm bookmarks the relevant streams). Privacy signage and retention per local law **[verify locally]**.
 
 | Coverage group | Cameras (Ph. 1) | View standard |
 |---|---|---|
@@ -839,7 +845,7 @@ Coverage is designed by *incident question*, not camera count — every location
 | Car park, drop-off, plaza | 5 | Observe + plate capture at both vehicle gates |
 | The Works intake & yard | 2 | Recognize (asset chain-of-custody) |
 
-Phase 2 adds ≈ 10 (pond waterline ×2, marina, cage interior ×2, promenade, restaurant, grandstand, events lawn, extension parking); Phase 3 the arena interior set. One deliberate omission: no camera is pointed at the rostrum drivers' faces at eye level — telemetry already records what their vehicles did, and the park photographs its guests for joy (Volume 9's media program), not surveillance.
+Phase 2 adds ≈ 11 (harbour pond + submarine bay window ×2, speed pond ×2, marina hut, cage interior ×2, promenade, restaurant, grandstand, events lawn, extension parking); Phase 3 the arena interior set. One deliberate omission: no camera is pointed at the rostrum drivers' faces at eye level — telemetry already records what their vehicles did, and the park photographs its guests for joy (Volume 9's media program), not surveillance.
 
 ### 13.3 Access control tied to RC WORLD OS roles
 
@@ -859,7 +865,7 @@ Physical access mirrors the OS role model (canon: executive, finance, HR, operat
 - **First-aid points:** the pavilion first-aid room (§8.1, ambulance-accessible) plus wall stations (AED, trauma kit, burn kit) at the pit theatre, The Works and — Phase 2 — the marina. Burn kits acknowledge the LiPo risk profile.
 - **Assembly points:** two — the events lawn (north assembly) and the car-park head (south assembly), signed from every zone; choice of two means no route past a plausible incident (fire at The Works blocks neither).
 - **PA:** zone horns on the AP/CCTV poles, addressable by zone from the duty office and the OS duty console; the all-park evacuation tone is generator-backed.
-- **Lightning protection:** the airfield's 17 m poles are the site's air terminals whether planned or not — so plan it: the cage poles are bonded and earthed as a lightning protection system by the electrical designer **[verify locally]**, the flight program's storm rules (Volume 5) close the cage well before risk, and the same weather trigger closes the pond (Volume 6) and clears the mining rim's sail line. A site lightning-risk assessment is a Phase 2 design deliverable.
+- **Lightning protection:** the airfield's 17 m poles are the site's air terminals whether planned or not — so plan it: the cage poles are bonded and earthed as a lightning protection system by the electrical designer **[verify locally]**, the flight program's storm rules (Volume 5) close the cage well before risk, and the same weather trigger closes both ponds (Volume 6's 30/30 water-clear protocol) and clears the mining rim's sail line. A site lightning-risk assessment is a Phase 2 design deliverable.
 - **Fire zones and extinguisher schedule:** the site is zoned to the detection panel as: Z1 pavilion/retail, Z2 The Works, **Z2B bunker**, Z3 pit/charging, Z4 restaurant (Ph. 2), Z5 arena (Ph. 3), plus external plant nodes. Extinguisher family **[verify locally — types/spacing are code items]**: ABC dry powder at all plant and vehicles; CO₂ at electrical boards and comms; wet chemical at kitchens; **Class D capability + sand quench bins at both charging rooms and the battery room**; travel distance to an extinguisher ≤ 20 m back-of-house.
 
 > **Safety Warning** — The interlock chain (OS zone status → gate release → marshal badge) is only as safe as its failure mode. Specify every live-zone gate **fail-secure for entry, fail-safe for exit**: a network or power failure must never trap a person inside a zone, and must never release public entry into one. This requirement is written on the door-hardware schedule, tested at commissioning, and re-tested quarterly (Volume 7 maintenance matrix).
@@ -886,7 +892,7 @@ Two parcels (allocation line 19, 5,200 m² total) are held in low-cost landscape
 
 ### 14.3 Second-site learnings
 
-Everything this volume fixes — the adjacency logic, the noise gradient, zone envelopes, the room schedules, the load schedule — is the *reference design* that Volume 12 turns into a franchise kit-of-parts: which dimensions are doctrine (haul-road 15°, pond 800 mm, cage envelope, bunker construction, sight-line rules), which are climate-adaptable (shade ratios, indoor-hybrid variants for Gulf and monsoon markets flagged in Volume 2), and which are free (track layout within the geometric rules, palette species, building expression). As-built deviations from this volume at the reference site must be logged in the drawing register *with reasons* — the second site inherits the reasons, not just the drawings. See Volume 12, Chapter 3.
+Everything this volume fixes — the adjacency logic, the noise gradient, zone envelopes, the room schedules, the load schedule — is the *reference design* that Volume 12 turns into a franchise kit-of-parts: which dimensions are doctrine (haul-road 15°, the 400–600 mm pond working band with the 1.5 m submarine-bay exception, cage envelope, bunker construction, sight-line rules), which are climate-adaptable (shade ratios, indoor-hybrid variants for Gulf and monsoon markets flagged in Volume 2), and which are free (track layout within the geometric rules, palette species, building expression). As-built deviations from this volume at the reference site must be logged in the drawing register *with reasons* — the second site inherits the reasons, not just the drawings. See Volume 12, Chapter 3.
 
 ---
 
@@ -894,12 +900,12 @@ Everything this volume fixes — the adjacency logic, the noise gradient, zone e
 
 - [ ] Topographic + geotechnical surveys reconciled with the Chapter 2 allocation plan; setting-out grid issued.
 - [ ] All **[verify locally]** items dispositioned in a code-compliance register signed by the local engineer of record.
-- [ ] Hold-point dimensions verified on setting-out: haul-road grades ≤ 15° (built 14°), lane widths (agriculture 600 mm), pond depth ≤ 800 mm, cage envelope 60 × 40 × 15 m, jump landing ratio ≥ 5:1, rail heights 1.1 m / 1.3 m elevated.
+- [ ] Hold-point dimensions verified on setting-out: haul-road grades ≤ 15° (built 14°), lane widths (agriculture 600 mm), pond depths in the 400–600 mm working band with the 6 × 4 m submarine bay at 1.5 m as the sole exception (Vol. 6), cage envelope 60 × 40 × 15 m, jump landing ratio ≥ 5:1, rail heights 1.1 m / 1.3 m elevated.
 - [ ] Cast-in items confirmed before pours: timing-loop conduits (Tracks A/B, arena grid), lighting pole bases and ducts, pond pipework, hopper holding-down bolts, duct ring with Phase 2/3 stubs.
 - [ ] Charging bunker + charging station: construction per §6.2/§7.2 witnessed (filled CMU, blow-out panels, FD90 doors, EPO, contactor timing tested).
 - [ ] Interlock chain commissioned: every live-zone gate tested fail-secure-in/fail-safe-out with OS zone status; results in the O&M file.
 - [ ] Wi-Fi survey at machine height (0.3 m) shows ≥ −65 dBm on 100% of operating surfaces; kill-switch latency test passed park-wide.
-- [ ] Net installation certified by the net engineer: pretension witness gauges recorded, ground-seal gap ≤ 50 mm full perimeter, panel lacing per spec.
+- [ ] Net installation certified by the net engineer: pretension witness gauges recorded with breakaway margin preserved, ground seal at **zero gap ≥ 25 mm** full perimeter (Vol. 5), panel lacing per spec, mesh supplier certificates on file (25 mm main cage / 13 mm Arcade).
 - [ ] Rostrum and operator-station sight-line checks signed (every position sees its full envelope; Track A checked bidirectionally).
 - [ ] Drainage proved: hose-test every zone to its silt trap; detention basin outlet at consented rate.
 - [ ] As-built drawings, O&M manuals, and the deviations-with-reasons register lodged (feeds §14.3 and Volume 12).
@@ -909,7 +915,7 @@ Everything this volume fixes — the adjacency logic, the noise gradient, zone e
 
 ## Volume summary & cross-references
 
-Volume 11 converts RC WORLD's operating doctrine into buildable geometry on the canonical 4.8 ha reference site. Its fixed decisions: a fully allocated **48,000 m² master plan** (Phase 1 60.4%, Phase 2 22.9%, Phase 3 + land bank 16.7%) organized by a south-to-north noise gradient with Mining beside The Works and the airfield peripheral-downwind; an **industrial-authentic** materials and naming language governed by the sight-line doctrine (*see everything, touch nothing live*, 1.1 m rail family, interlocked gates); **Track A** at ~180 m/3.5–4.5 m with a 58 m straight, 15 mm kerbs and two-stage barriers; **Track B** at ~160 m with 5:1 landing-ratio tabletops and 400 mm berms; a ten-feature **Track C** with 120 mm water-depth limits; the Volume 4 mining/agriculture geometry carried into civil detail (300 mm benches, 14° ramps, 4.0 m station pitch at 1.1 m rails); the Volume 5 cage (60 × 40 × 15 m) and Volume 6 basins (40 × 25 m at ≤ 800 mm) given their structures, liners and plant; a **450 m² Works** with a doctrine-compliant 30 m² charging bunker and a 490 m² entry pavilion with 120 m² retail; a worked charging-load method (≈ 3.5 kVA customer station, ≈ 9 kVA bunker); a site load schedule reaching ≈ 207 kVA demand at Phase 3; a 12-AP telemetry-grade Wi-Fi plan; and role-keyed access control that makes RC WORLD OS's permissions physical.
+Volume 11 converts RC WORLD's operating doctrine into buildable geometry on the canonical 4.8 ha reference site. Its fixed decisions: a fully allocated **48,000 m² master plan** (Phase 1 60.4%, Phase 2 22.9%, Phase 3 + land bank 16.7%) organized by a south-to-north noise gradient with Mining beside The Works and the airfield peripheral-downwind; an **industrial-authentic** materials and naming language governed by the sight-line doctrine (*see everything, touch nothing live*, 1.1 m rail family, interlocked gates); **Track A** at ~180 m/3.5–4.5 m with a 58 m straight, 15 mm kerbs and two-stage barriers; **Track B** at ~160 m with 5:1 landing-ratio tabletops and 400 mm berms; a ten-feature **Track C** with 120 mm water-depth limits; the Volume 4 mining/agriculture geometry carried into civil detail (300 mm benches, 14° ramps, 4.0 m station pitch at 1.1 m rails); the Volume 5 cage (60 × 40 × 15 m, 25 mm knotless HDPE mesh with the 13 mm Whoop Arcade beside it) and the Volume 6 pond pair (harbour 30 × 18 m + speed 60 × 25 m at 400–600 mm, with the 6 × 4 m submarine bay at 1.5 m as the sole depth exception, ≈ $212 k civil work) given their structures, liners and plant; a **450 m² Works** with a doctrine-compliant 30 m² charging bunker and a 490 m² entry pavilion with 120 m² retail; a worked charging-load method (≈ 3.5 kVA customer station, ≈ 9 kVA bunker); a site load schedule reaching ≈ 207 kVA demand at Phase 3; a 12-AP telemetry-grade Wi-Fi plan; and role-keyed access control that makes RC WORLD OS's permissions physical.
 
 **Cross-references.** Volume 1 carries the master-plan summary for investors. Volume 2 supplies the demand model behind capacity, parking and catchment (Chapters 7) and the diorama-supplier channel behind zone dressing (Chapter 4). Volume 3 governs everything on wheels on Tracks A/B and the racing program this geometry serves (its Sections 9.6/10.4 are closed out by Chapter 3 here). Volume 4 is source of truth for Mining and Agriculture internals restated in Chapter 4. Volume 5 owns the cage rationale and netting spec built in Chapter 5; Volume 6 owns the waterspace doctrine behind §5.4–5.5. Volume 7 operates The Works designed in Chapter 6 and owns the maintenance regimes this fabric assumes. Volume 8 procures the materials, nets, chargers and dressing packages. Volume 9 programs the guest journey through Chapters 8–9's spaces. Volume 10 carries the capex these drawings imply and the phasing economics of Chapter 2.4. Volume 12 inherits the reference design per §14.3. Volume 13 specifies RC WORLD OS, whose zone statuses, roles and telemetry this volume wires into gates, screens and the essential bus.
 

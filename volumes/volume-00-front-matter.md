@@ -70,7 +70,7 @@ Read **Volume 1** in full — it is the whole business in one volume, including 
 
 ### 3.2 Lenders and grant bodies
 
-Start with Volume 1, Chapters 6–9 (ask, phases, financial overview, risk summary), then **Volume 10** for debt-service coverage and break-even (canonically Month 16–19 monthly operating break-even), then **Volume 11 (Architecture & Park Design)** for the fixed-asset base and **Volume 1, Chapter 9** plus the per-volume risk registers for the risk picture. The staged-tranche structure in Volume 1, Chapter 6 is written to map onto milestone-based drawdowns.
+Start with Volume 1, Chapters 6–9 (ask, phases, financial overview, risk summary), then **Volume 10** for debt-service coverage and break-even (canonically operating Month 16–19 monthly operating break-even, where operating Month 1 = the opening month), then **Volume 11 (Architecture & Park Design)** for the fixed-asset base and **Volume 1, Chapter 9** plus the per-volume risk registers for the risk picture. The staged-tranche structure in Volume 1, Chapter 6 is written to map onto milestone-based drawdowns.
 
 ### 3.3 Architects, engineers, and contractors
 
@@ -137,7 +137,7 @@ The plan is a living document. Suppliers change models, prices drift, and phase 
 
 **Volume 9 — Customer Experience & Loyalty.** The customer journey end to end: Toolbox Talk induction, Shift booking and queueing, the tiered **RC WORLD License** driver-progression program, badges and skill mastery, **Gears** loyalty currency, memberships (Apprentice/Operator/Foreman), season passes, parties and corporate events, and service-recovery standards.
 
-**Volume 10 — Finance.** The source of truth for all financial figures: full five-year P&L, cash flow and balance sheet, capex schedules per phase, unit economics, sensitivity and scenario analysis, break-even (Month 16–19), funding structure for the $2.6 M ask, investor returns, and local-adaptation methodology.
+**Volume 10 — Finance.** The source of truth for all financial figures: full five-year P&L, cash flow and balance sheet, capex schedules per phase, unit economics, sensitivity and scenario analysis, break-even (operating Month 16–19), funding structure for the $2.6 M ask, investor returns, and local-adaptation methodology.
 
 **Volume 11 — Architecture & Park Design.** The physical park on 4.8 ha (~12 acres): master site plan and CAD-style layout concepts, zone-by-zone civil and landscape specification, buildings (entry pavilion, The Works, charging bunker, restaurant, indoor arena), utilities and drainage, circulation and sightlines, accessibility, and the phased construction sequence.
 
@@ -168,7 +168,7 @@ The plan is a living document. Suppliers change models, prices drift, and phase 
 | **Battery doctrine** | 2S/3S LiPo, XT60 standard (Deans legacy acceptable), 3:1 battery-to-vehicle ratio, 3.4–4.2 V/cell operating window. |
 | **1:3 ratio** | Canonical excavator-to-dump-truck fleet ratio in the Mining Zone. |
 | **Rental vs premium fleet** | Rental construction machines are electromechanical (lead-screw); hydraulic machines (Kabolite class) are reserved for premium supervised experiences and display. |
-| **Phase 1 / 2 / 3** | "Core Park" (Months 0–12); "Full Park" (Months 13–30); "Destination & Beyond" (Months 31–60). |
+| **Phase 1 / 2 / 3** | "Core Park" (project Months 0–12); "Full Park" (project Months 13–30); "Destination & Beyond" (project Months 31–60). Build phasing uses *project* months (park opens at project Month 12); financials and division opening schedules use *operating* months (M1 = opening month). |
 
 ## 7. Volume Summary & Cross-References
 

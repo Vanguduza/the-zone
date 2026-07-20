@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Document** | RC WORLD — Master Development Plan, Volume 6 of 12 |
+| **Document** | RC WORLD — Master Development Plan, Volume 6 of 13 |
 | **Title** | Marine Division |
 | **Revision** | 1.0 — July 2026 |
 | **Status** | Planning baseline — Phase 2 build (Months 13–30) |
@@ -34,7 +34,7 @@ Every RC WORLD division is built on the same founding thesis: a **miniaturized i
 
 The two waterspaces are deliberately opposite in character. The harbour is slow, precise and narrative — the marine equivalent of the Mining Zone. The speed pond is loud (by water standards), fast and competitive — the marine equivalent of Track B. Between them, a sail fleet and a small submarine bay complete a division that covers the full emotional register of watercraft: work, speed, silence and mystery.
 
-> **Investor Note** — The Marine Division is a **Phase 2 addition** (Months 13–30, "Full Park"), funded inside the Phase 2 capex envelope of ≈ $1.15 M alongside the Aviation Division, restaurant, expanded retail and grandstand (canon: Volume 1 and Volume 10). Its ~24 vessels are the cheapest powered fleet in the park — roughly $9,500 in hulls, under $13,500 with batteries and first-year spares (Chapter 9) — but the ponds are the real asset: a ≈ $210,000 civil work with a 25–40-year liner life that anchors the Phase 2 F&B precinct, extends average visit length, and captures family, senior and photographer demographics the land divisions under-serve.
+> **Investor Note** — The Marine Division is a **Phase 2 addition** (Months 13–30, "Full Park"), funded inside the Phase 2 capex envelope of ≈ $1.15 M alongside the Aviation Division, restaurant, expanded retail and grandstand (canon: Volume 1 and Volume 10). Its ~24 vessels are the cheapest powered fleet in the park — roughly $9,500 in hulls, under $13,500 with batteries and first-year spares (Chapter 9) — but the ponds are the real asset: a ≈ $212,000 civil work with a 25–40-year liner life that anchors the Phase 2 F&B precinct, extends average visit length, and captures family, senior and photographer demographics the land divisions under-serve.
 
 ### 1.2 Why marine broadens demographics
 
@@ -659,7 +659,7 @@ The Marine Division converts a ≈ $212,000 two-pond civil work and a ≈ $11,60
 - **Volume 7** — park-wide workshop doctrine under this volume's marine regime (SOP M-20, flex-shaft schedule, conformal coating); barge-building and Arkmodel/Billing kit builds as Artisan winter projects.
 - **Volume 8** — marine procurement: Horizon/Pro Boat dealer terms, Joysway class-legal DF65 supply, Arkmodel direct, legacy 75/40 MHz radio sourcing and regional frequency legality.
 - **Volume 9** — marine badge ladder (§8.4) feeding the RC WORLD License; senior and schools programs.
-- **Volume 10** — consolidated Phase 2 capex (pond complex ≈ $212 k) and the division's revenue contribution in the park model.
+- **Volume 10** — consolidated Phase 2 capex (pond complex ≈ $212 k civil inside Volume 10's $231 k marine division line) and the division's revenue contribution in the park model.
 - **Volume 11** — pond siting beside the restaurant terrace; prevailing-wind orientation, shelter belts and fetch; barrier and path integration.
 - **Volume 12** — winterization and cold-climate pond annex for franchise sites.
 - **Volume 13** — Node fleet-coverage tables must record the submarine exception; harbour-master console, mission scoring, berth board and geofence-as-harbour-limits as RC WORLD OS modules.

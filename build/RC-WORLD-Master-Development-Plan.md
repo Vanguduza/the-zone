@@ -70,7 +70,7 @@ Read **Volume 1** in full — it is the whole business in one volume, including 
 
 ### 3.2 Lenders and grant bodies
 
-Start with Volume 1, Chapters 6–9 (ask, phases, financial overview, risk summary), then **Volume 10** for debt-service coverage and break-even (canonically Month 16–19 monthly operating break-even), then **Volume 11 (Architecture & Park Design)** for the fixed-asset base and **Volume 1, Chapter 9** plus the per-volume risk registers for the risk picture. The staged-tranche structure in Volume 1, Chapter 6 is written to map onto milestone-based drawdowns.
+Start with Volume 1, Chapters 6–9 (ask, phases, financial overview, risk summary), then **Volume 10** for debt-service coverage and break-even (canonically operating Month 16–19 monthly operating break-even, where operating Month 1 = the opening month), then **Volume 11 (Architecture & Park Design)** for the fixed-asset base and **Volume 1, Chapter 9** plus the per-volume risk registers for the risk picture. The staged-tranche structure in Volume 1, Chapter 6 is written to map onto milestone-based drawdowns.
 
 ### 3.3 Architects, engineers, and contractors
 
@@ -137,7 +137,7 @@ The plan is a living document. Suppliers change models, prices drift, and phase 
 
 **Volume 9 — Customer Experience & Loyalty.** The customer journey end to end: Toolbox Talk induction, Shift booking and queueing, the tiered **RC WORLD License** driver-progression program, badges and skill mastery, **Gears** loyalty currency, memberships (Apprentice/Operator/Foreman), season passes, parties and corporate events, and service-recovery standards.
 
-**Volume 10 — Finance.** The source of truth for all financial figures: full five-year P&L, cash flow and balance sheet, capex schedules per phase, unit economics, sensitivity and scenario analysis, break-even (Month 16–19), funding structure for the $2.6 M ask, investor returns, and local-adaptation methodology.
+**Volume 10 — Finance.** The source of truth for all financial figures: full five-year P&L, cash flow and balance sheet, capex schedules per phase, unit economics, sensitivity and scenario analysis, break-even (operating Month 16–19), funding structure for the $2.6 M ask, investor returns, and local-adaptation methodology.
 
 **Volume 11 — Architecture & Park Design.** The physical park on 4.8 ha (~12 acres): master site plan and CAD-style layout concepts, zone-by-zone civil and landscape specification, buildings (entry pavilion, The Works, charging bunker, restaurant, indoor arena), utilities and drainage, circulation and sightlines, accessibility, and the phased construction sequence.
 
@@ -168,7 +168,7 @@ The plan is a living document. Suppliers change models, prices drift, and phase 
 | **Battery doctrine** | 2S/3S LiPo, XT60 standard (Deans legacy acceptable), 3:1 battery-to-vehicle ratio, 3.4–4.2 V/cell operating window. |
 | **1:3 ratio** | Canonical excavator-to-dump-truck fleet ratio in the Mining Zone. |
 | **Rental vs premium fleet** | Rental construction machines are electromechanical (lead-screw); hydraulic machines (Kabolite class) are reserved for premium supervised experiences and display. |
-| **Phase 1 / 2 / 3** | "Core Park" (Months 0–12); "Full Park" (Months 13–30); "Destination & Beyond" (Months 31–60). |
+| **Phase 1 / 2 / 3** | "Core Park" (project Months 0–12); "Full Park" (project Months 13–30); "Destination & Beyond" (project Months 31–60). Build phasing uses *project* months (park opens at project Month 12); financials and division opening schedules use *operating* months (M1 = opening month). |
 
 ## 7. Volume Summary & Cross-References
 
@@ -221,11 +221,11 @@ The business runs on a high-utilization thesis: commercial-grade, modifiable RC 
 
 ### 1.4 The ask and the plan
 
-RC WORLD seeks **$2.6 M** — Phase 1 capital expenditure of ≈$1.85 M plus working capital and contingency — released in three milestone-gated tranches (Chapter 6). Phase 1 ("Core Park", Months 0–12) opens the Motorsport and Construction Divisions, The Works, and the entry pavilion. Phase 2 ("Full Park", Months 13–30, capex ≈$1.15 M) adds the Aviation and Marine Divisions, a full restaurant, and grandstand viewing, funded substantially from operating cash flow. Phase 3 ("Destination & Beyond", Months 31–60, capex ≈$0.9 M) adds an indoor all-weather arena, the RC Academy, a corporate event centre, night racing, and the franchise pilot. Five-year total capex ≈**$3.9 M** (Volume 10).
+RC WORLD seeks **$2.6 M** — Phase 1 capital expenditure of $1,850 K (pre-opening costs and a 10% contingency capitalized inside it) plus working capital, operating funding through break-even, corporate costs, and a board-controlled reserve — released in three milestone-gated tranches: $1.2 M at close, $850 K about five months before opening, $550 K at opening (Chapter 6). Phase 1 ("Core Park", Months 0–12) opens the Motorsport and Construction Divisions, The Works, and the entry pavilion. Phase 2 ("Full Park", Months 13–30, capex ≈$1.15 M) adds the Aviation and Marine Divisions, a full restaurant, and grandstand viewing, funded substantially from operating cash flow. Phase 3 ("Destination & Beyond", Months 31–60, capex ≈$0.9 M) adds an indoor all-weather arena, the RC Academy, a corporate event centre, night racing, and the franchise pilot. Five-year total capex ≈**$3.9 M** (Volume 10).
 
 ### 1.5 The returns
 
-Base case (Volume 10 is the source of truth): Year 1 revenue ≈**$1.28 M**, growing to ≈$2.6 M in Year 3 and ≈$3.4 M in Year 5, with steady-state EBITDA margins of **24–28% from Year 3**. Monthly operating break-even is reached in **Month 16–19**; full payback of invested capital arrives in **Year 4–5**. The modeled base-case equity outcome is a multiple of roughly 2.3–2.8× over a five-year hold, with upside carried by the franchise system and second-site options rather than by aggressive single-site assumptions (Chapter 6.4). Exit routes include trade sale to a location-based-entertainment operator, sale of the franchisor entity, secondary sale to growth capital, and structured founder buyback.
+Base case (Volume 10 is the source of truth): Year 1 revenue ≈**$1.28 M**, growing to ≈$2.6 M in Year 3 and ≈$3.4 M in Year 5, with steady-state EBITDA margins of **24–28% from Year 3**. Monthly operating break-even is reached in **operating Month 16–19** (operating Month 1 = the opening month); full payback of invested capital arrives in **Year 4–5**. The modeled base-case investor outcome is ≈**1.6–2.0× MOIC** over a five-year hold — a high-single to low-double-digit IRR — with the ambitious case at ≈2.2–2.9× and the franchise and second-site options as further upside carried at zero (Chapter 6.4). Exit routes include trade sale to a location-based-entertainment operator, sale of the franchisor entity, secondary sale to growth capital, and structured founder buyback.
 
 > **Investor Note.** The plan's conservatism is structural, not rhetorical. Revenue is modeled from bottom-up Shift capacity and catchment capture, not top-down market share; the fleet doctrine deliberately excludes fragile premium hardware from rental duty; the ask covers Phase 1 fully so that Phases 2–3 are options exercised with evidence, not obligations. The single largest risk is the Year-1 demand ramp, and Chapter 9 addresses it first.
 
@@ -237,11 +237,12 @@ Base case (Volume 10 is the source of truth): Year 1 revenue ≈**$1.28 M**, gro
 | Divisions | Motorsport; Construction (Mining & Agriculture); Aviation (Ph 2); Marine (Ph 2) | Volumes 3–6 |
 | Fleet at opening | ~150 powered assets, all telemetry-equipped | Section 5.3; Volume 8 |
 | Billing unit | 20-minute Shift; Casual $15/$22, Operator $26/$38 | Section 4.2; Volume 9 |
-| Funding ask | $2.6 M, three milestone-gated tranches | Chapter 6 |
+| Funding ask | $2.6 M, three milestone-gated tranches ($1.2 M / $850 K / $550 K) | Chapter 6 |
 | Capex | Ph 1 ≈$1.85 M; Ph 2 ≈$1.15 M; Ph 3 ≈$0.9 M; 5-yr ≈$3.9 M | Volume 10 |
 | Revenue | ≈$1.28 M (Y1) → ≈$2.6 M (Y3) → ≈$3.4 M (Y5) | Chapter 8; Volume 10 |
 | Margin | 24–28% EBITDA from Year 3 | Volume 10 |
-| Break-even / payback | Month 16–19 / Year 4–5 | Volume 10 |
+| Break-even / payback | operating Month 16–19 / Year 4–5 (base: Month ~53) | Volume 10 |
+| Investor outcome | base ≈1.6–2.0× MOIC; ambitious ≈2.2–2.9× | Chapter 6; Volume 10, §7.5 |
 | Technology | RCW Node (<$15/unit) + RC WORLD OS (Supabase + Kotlin, Android & iOS) | Volume 13 |
 | Expansion | Arena, Academy, night racing (Ph 3); franchise pilot; second site option | Chapter 10; Volume 12 |
 
@@ -264,7 +265,7 @@ Four structural differences separate this park from every hobby-adjacent venue t
 1. **Systems, not stations.** Zones are interdependent production circuits, not isolated activity stations. Excavators need trucks; trucks need haul roads; the hopper needs both. This creates cooperative multiplayer gameplay no single-machine rental can offer — and it is why the canonical fleet arithmetic (1:3 excavator-to-truck ratio) is an experience-design decision as much as a logistics one.
 2. **Instrumentation, not supervision.** Every vehicle carries an RCW Node. Telemetry meters the Shift, scores the driving, enforces the geofence, protects the battery, and feeds the leaderboard. The park knows where every asset is, what state its battery is in, and who is driving it, in real time. Competitors would need to build this; we manufacture it for under $15 per vehicle.
 3. **Progression, not admission.** The RC WORLD License program means customers hold *status* with the park — levels, endorsements, badges, Gears balances — that appreciates with every visit and is worthless anywhere else. The venue business becomes a membership business (Volume 9).
-4. **An engineering company underneath.** The Works is not a repair corner; it is a production workshop with maintenance matrices, FMEA-driven spares inventory, and rebuild procedures (Volume 7) that keep fleet availability above 90% at hobby-grade capital cost. The moat is not any single machine — it is the operating system, in both senses, that keeps 150 machines earning.
+4. **An engineering company underneath.** The Works is not a repair corner; it is a production workshop with maintenance matrices, FMEA-driven spares inventory, and rebuild procedures (Volume 7) that keep fleet availability at the ≥92% operating target (Volume 10 KPI dashboard) at hobby-grade capital cost. The moat is not any single machine — it is the operating system, in both senses, that keeps 150 machines earning.
 
 The contrast, side by side:
 
@@ -364,16 +365,16 @@ The atomic unit of the business is one vehicle operating for one hour — three 
 | Revenue potential | 3 Casual Shifts × $15 | $45.00 |
 | Battery amortization | ~$18–25 LiPo pack, ~200–300 cycles, 3 packs/hr | ≈ $0.25 |
 | Maintenance & parts | Fleet-average consumption of tires, gears, arms, servos (Volume 7 failure data) | ≈ $1.80–3.00 |
-| Vehicle depreciation | $60–90 wholesale over a ~500–800-Shift service life, rebuilt twice | ≈ $0.35–0.50 |
+| Vehicle depreciation | $60–90 wholesale plus hardening, over a 1,200-Shift service life with two rebuilds (Volume 3) | ≈ $0.35–0.50 |
 | Charging energy | 3 × ~25 Wh at commercial tariff | < $0.05 |
 | Direct labor share | Artisan + marshal time allocated across concurrent vehicles | ≈ $3.50–5.00 |
 | **Direct margin** | at full utilization | **≈ $36–39 (80–87%)** |
 
 The construction classes run the same arithmetic with different shapes. A standard rental excavator ($350–420 wholesale, $22 premium Casual Shift) earns $66 per vehicle-hour potential against even lower drivetrain wear — lead-screw machines working soil at walking pace shed almost no consumables — but adds a share of the Mining Zone's supervision labor. The single hydraulic showcase machine sits outside rental arithmetic entirely: it earns through supervised premium experiences and display value, and its economics are evaluated as marketing spend with revenue offset, not as fleet (Volume 4, Chapter 3).
 
-Two honest caveats govern the reading of this table. First, *no fleet runs at full utilization*: park-wide effective utilization of theoretical Shift capacity is modeled in single digits for Year 1 (weekend peaks of 40–60% on popular classes, long weekday troughs), which is why fixed costs — rent, salaries, insurance, marketing — dominate the P&L and why break-even arrives in Month 16–19 rather than Month 3. Second, premium classes invert some lines: a $22 premium Shift on a hydraulic showcase machine carries higher supervision labor and maintenance, which is exactly why doctrine confines hydraulics to supervised premium duty. The strategic point survives both caveats: **every incremental Shift above the fixed-cost floor is ~80% margin**, so the entire management system — pricing, gamification, events, memberships, marketing — is aimed at filling troughs.
+Two honest caveats govern the reading of this table. First, *no fleet runs at full utilization*: park-wide effective utilization of theoretical Shift capacity is modeled in single digits for Year 1 (weekend peaks of 40–60% on popular classes, long weekday troughs), which is why fixed costs — rent, salaries, insurance, marketing — dominate the P&L and why break-even arrives in operating Month 16–19 rather than Month 3. Second, premium classes invert some lines: a $22 premium Shift on a hydraulic showcase machine carries higher supervision labor and maintenance, which is exactly why doctrine confines hydraulics to supervised premium duty. The strategic point survives both caveats: **every incremental Shift above the fixed-cost floor is ~80% margin**, so the entire management system — pricing, gamification, events, memberships, marketing — is aimed at filling troughs.
 
-> **Investor Note.** The model's leverage is visible in one sentence: the Year-1 revenue line averages ≈$3,500 per calendar day — the equivalent of roughly 230 Casual Shifts at the standard anchor price, before any contribution from events, memberships, F&B, or retail is counted — against a theoretical Phase 1 Shift capacity more than an order of magnitude higher. The base case does not require the park to be busy; it requires it to be *found*. Sensitivities on capture rate and per-capita spend are in Volume 10, Chapter 7.
+> **Investor Note.** The model's leverage is visible in one sentence: the Year-1 revenue line averages ≈$3,500 per calendar day — the equivalent of roughly 230 Casual Shifts at the standard anchor price, before any contribution from events, memberships, F&B, or retail is counted — against a theoretical Phase 1 Shift capacity more than an order of magnitude higher. The base case does not require the park to be busy; it requires it to be *found*. Sensitivities on capture rate and per-capita spend are in Volume 10, Chapter 9.
 
 ### 4.4 Gamified mechanics as retention drivers
 
@@ -386,7 +387,7 @@ Location-based entertainment lives or dies on repeat visitation, and RC WORLD's 
 - **The Tow-Truck Retrieval Protocol** — the signature conversion of friction into gameplay. A breakdown triggers an 85 dB locator buzzer; the customer hands in their transmitter and pilots a 1/10 winch-equipped recovery crawler to rescue their own vehicle, then receives a fresh machine. The park's worst moment becomes its most-shared one.
 - **F1-style power management.** Telemetry reads voltage sag in real time; aggressive throttle drains the allocation faster and smooth drivers are rewarded — a skill layer that deepens with every visit and directly protects battery life. The mechanics that retain customers are the same mechanics that protect assets.
 
-Because every mechanic runs through RC WORLD OS, retention is *measured*, not asserted: the system attributes each return visit to the mechanics that plausibly drove it (an expiring Gears balance, a badge one criterion from completion, a season reset, a league fixture) and reports the 90-day repeat rate and License progression velocity on the management dashboard (Section 8.5). The gamification layer is therefore a tunable system with a feedback loop — under-performing mechanics get redesigned mid-season, not post-mortemed annually. Volume 9 specifies each mechanic's rules; Volume 13 specifies the instrumentation.
+Because every mechanic runs through RC WORLD OS, retention is *measured*, not asserted: the system attributes each return visit to the mechanics that plausibly drove it (an expiring Gears balance, a near-complete badge, a season reset, a league fixture) and reports the 90-day second-visit rate and License progression velocity on the management dashboard (Section 8.5). The gamification layer is a tunable system with a feedback loop — under-performing mechanics get redesigned mid-season, not post-mortemed annually. Volume 9 specifies the rules; Volume 13 the instrumentation.
 
 ### 4.5 Pricing architecture
 
@@ -400,7 +401,7 @@ An outdoor venue's enemy is the empty Tuesday, and the model addresses troughs s
 
 ### 4.7 Cost structure in brief
 
-The Year-1 cost structure (detail: Volume 10, Chapter 4) is dominated by people (≈35–40% of revenue at maturity: a core team of roughly 14 FTE plus casuals — General Manager, division leads, Artisans, marshals, front-of-house), then lease and utilities, then marketing (front-loaded in Years 1–2), then fleet maintenance and parts (remarkably small — single-digit percent of revenue — because the fleet doctrine was designed backwards from this line), then insurance, payments, and platform costs. The capex line the customer never sees — civil works, netting, ponds, buildings — is what the funding ask actually buys; the machines themselves are ~12% of Phase 1 capex and are effectively a consumable.
+The Year-1 cost structure (detail: Volume 10, Chapter 5) is dominated by people (≈35–40% of revenue at maturity: roughly 18–19 FTE — 18.5 in the Volume 10 payroll model — plus casuals: General Manager, division leads, Artisans, marshals, front-of-house), then lease and utilities, then marketing (front-loaded in Years 1–2), then fleet maintenance and parts (remarkably small — single-digit percent of revenue — because the fleet doctrine was designed backwards from this line), then insurance, payments, and platform costs. The capex the customer never sees — civil works, netting, ponds, buildings — is what the funding ask actually buys; the machines themselves are ~4% of Phase 1 capex ($80 K for the entire ~150-asset fleet, batteries and spares included) — a consumable in the fullest sense.
 
 Labor deserves the extra sentence because it is the largest line and the most commonly mismanaged in venue businesses. The staffing model (Volume 9 for front-of-house, Volume 7 for The Works) is built on cross-training: every marshal completes Artisan basic training, every Artisan can run a division's customer operation, and RC WORLD OS's role-based interfaces mean a staff member switching roles switches apps, not systems. Because telemetry supervises what human eyes once had to — battery states, geofences, session clocks — the park's staff-to-concurrent-customer ratio is materially better than attraction-industry norms, and the staff the park does employ spend their time on the two things software cannot do: hospitality and wrenching.
 
@@ -474,7 +475,7 @@ The demand model (Volume 2, Chapter 7) segments the catchment into five customer
 | Corporate & organized groups | Construction (team formats), full-park events | Weekday utilization; highest per-booking value; repeat annual bookings |
 | Schools & education | Agriculture, Academy (Ph 3) | Weekday daytime; prepaid programs; long-cycle but highly durable revenue |
 
-Division revenue contributions shift by phase: in Year 1, Motorsport and Construction carry effectively all Shift revenue in roughly comparable shares — Motorsport on throughput, Construction on premium pricing and dwell; by Year 3, Aviation and Marine add breadth (each modeled to cover direct costs quickly but neither assumed to match the anchors), while F&B, events, and memberships grow their combined share of total revenue materially. The full mix model, by month and by division, is Volume 10, Chapter 2 — and the honest summary is that the two Phase 1 anchor divisions must succeed for the park to succeed; everything after them is diversification, not rescue.
+Division revenue contributions shift by phase: in Year 1, Motorsport and Construction carry effectively all Shift revenue in roughly comparable shares — Motorsport on throughput, Construction on premium pricing and dwell; by Year 3, Aviation and Marine add breadth (each modeled to cover direct costs quickly but neither assumed to match the anchors), while F&B, events, and memberships grow their combined share of total revenue materially. The full mix model, by month and by division, is Volume 10, Chapter 4 — and the honest summary is that the two Phase 1 anchor divisions must succeed for the park to succeed; everything after them is diversification, not rescue.
 
 ### 5.7 Operating calendar
 
@@ -488,48 +489,52 @@ Safety at RC WORLD is layered so that no single failure — human or technical �
 
 ### 6.1 The ask
 
-RC WORLD seeks **$2.6 M** to fund Phase 1 in full — construction, fleet, technology, pre-opening costs, working capital through the ramp to monthly operating break-even, and contingency. The structure below is the reference structure for negotiation; final instruments (equity, convertible, or blended with an asset-backed debt component against buildings and civil works) are settled in term sheets with Volume 10 as the modeling basis.
+RC WORLD seeks **$2.6 M** to fund Phase 1 in full and carry the business to sustained monthly break-even without a further raise. The structure below follows Volume 10, Chapter 3 exactly; final instruments (equity, convertible, or blended with asset-backed debt) are settled in term sheets with Volume 10 as the modeling basis.
 
 | Component | Amount | Notes |
 |---|---|---|
-| Phase 1 capital expenditure | ≈ $1.85 M | Detail in Section 6.2 and Volume 10, Chapter 3 |
-| Pre-opening operating costs | ≈ $0.25 M | Hiring and training ahead of opening, marketing launch, insurance, professional fees |
-| Working capital reserve | ≈ $0.30 M | Funds the operating gap between opening and monthly break-even (Month 16–19) |
-| Contingency | ≈ $0.20 M | ~11% of Phase 1 capex; drawn only against the change-control process in Volume 11 |
-| **Total** | **$2.6 M** | Staged in three tranches (Section 6.3) |
+| Phase 1 capital expenditure | $1,850 K | Section 6.2 and Volume 10, Chapter 2. Pre-opening (≈$162 K) and 10% contingency (≈$168 K) are capitalized **inside** this figure |
+| Working capital at opening | $130 K | Opening stock, consumables float, deposits, till/wallet float |
+| Operating funding through break-even | $350 K | Funds the operating trough to break-even (operating Month 16–19) plus sustaining capex, with margin for a slow ramp |
+| Corporate, legal & transaction costs | $90 K | Entity setup, raise legals, audit/tax setup, pre-opening corporate overhead |
+| Unallocated reserve | $180 K | Board-controlled; released only against Volume 10's downside triggers |
+| **Total** | **$2.6 M** | Three tranches (Section 6.3). The four non-capex lines sum to the $750 K opening cash position in Volume 10's monthly model |
 
-Phases 2 and 3 (≈$1.15 M and ≈$0.9 M) are planned to be funded substantially from operating cash flow, with optional top-up financing only if the board elects to accelerate. The $2.6 M ask therefore buys the *whole plan's option value*, not just Phase 1: no further mandatory capital calls are modeled in the base case.
+Phases 2 and 3 (≈$1.15 M and ≈$0.9 M) are funded from operating cash flow, with an optional $600 K equipment-and-fit-out facility for Phase 2 (Volume 10, §3.5). The $2.6 M ask therefore buys the *whole plan's option value*, not just Phase 1: no further mandatory capital calls are modeled in the base case.
 
 ### 6.2 Use of funds (Phase 1 capex, ≈$1.85 M)
 
-| Category | ≈ Allocation | ≈ Amount | What it buys |
+| Category | Amount | % | What it buys |
 |---|---|---|---|
-| Civil works & landscaping | 30% | $555 K | Earthworks, mining pit and haul roads, agriculture grid, track bases (A/B/C), drainage, paths, fencing |
-| Buildings | 24% | $445 K | Entry pavilion with F&B kiosk and retail counter, The Works, charging bunker, pit lane, operator stations, sanitary facilities |
-| Track & zone fit-out | 12% | $220 K | Track surfaces and barriers, hopper and weighing systems, bridges and water features (Track C), theming |
-| Fleet & batteries | 12% | $220 K | ~150 powered assets per Section 5.3 wholesale + spares packages + battery inventory at 3:1 + chargers |
-| Technology | 9% | $165 K | RCW Node production run, Wi-Fi mesh, RC WORLD OS v1 development completion, timing systems, POS hardware |
-| Utilities & site services | 7% | $130 K | Power reticulation and bunker supply, water, comms backbone, lighting (operational, not night-race grade) |
-| Professional fees & permits | 6% | $115 K | Design, engineering, planning and safety compliance, legal |
-| **Total Phase 1** | **100%** | **≈ $1.85 M** | Reconciled line-by-line in Volume 10, Chapter 3 |
+| Site works & earthworks | $455 K | 24.6% | Bulk earthworks, Mining Zone pit and haul roads (≤15°), Agriculture grid, drainage, roads/parking, fencing, survey and design |
+| Track & operating surfaces | $172 K | 9.3% | Track A asphalt; Track B dirt, jumps and berms; Track C stone/bridges/water; pit lane surfaces |
+| Buildings | $418 K | 22.6% | Entry pavilion (reception, briefing room, F&B kiosk, retail), The Works, fire-rated charging bunker |
+| Fleet acquisition | $80 K | 4.3% | All ~150 powered assets landed, 450 batteries (3:1), chargers, transmitters, ~90-day spares |
+| RCW Node telemetry program | $25 K | 1.4% | Production run and fleet-wide fitment |
+| Wi-Fi mesh & IT infrastructure | $87 K | 4.7% | Outdoor mesh, timing systems, POS hardware, comms backbone |
+| RC WORLD OS v1 development | $165 K | 8.9% | Bookings, wallet, telemetry, fleet management, POS, finance core |
+| FF&E, workshop equipment & theming | $118 K | 6.4% | Workshop tooling, furniture, zone theming |
+| Pre-opening (capitalized) | $162 K | 8.8% | Hiring and training, launch marketing, licences |
+| Contingency @ 10.0% | $168 K | 9.1% | Drawn only against Volume 11's change-control process |
+| **Total Phase 1** | **$1,850 K** | **100%** | Derived line-by-line in Volume 10, Chapter 2 |
 
-Two allocation facts deserve an investor's attention. First, roughly two-thirds of capex is *civil and buildings* — decade-life assets with residual value largely independent of the operating concept. Second, the fleet itself is only ~12%: the machines are close to a consumable, and the plan treats them that way (rebuild cycles, spares depth, wholesale replacement pricing in Volume 8). The risk profile of the capital is closer to a small leisure-property development than to a technology venture.
+Two allocation facts deserve an investor's attention. First, well over half of capex — earthworks, surfaces, and buildings, ≈$1,045 K — is *built environment*: 10–20-year assets with residual value largely independent of the operating concept. Second, the entire powered fleet is **4.3%**: $80 K buys all ~150 vehicles *including* their 450 batteries, radios, and ninety days of spares — less than half the cost of the software that manages them. That inversion is the whole point: the moat is the built environment, the telemetry, and the operating system; the machines customers crash are a consumable replaced from operating cash flow (Volume 8), and no plausible fleet-cost shock can move the capital plan by even two percent. The capital's risk profile is closer to a small leisure-property development than to a technology venture.
 
-Equally important is what the money does *not* buy. It buys no land (leased, per canon — the capital works the operating business, not a property position). It funds no speculative technology development: the RCW Node is a completed design built from commodity components, and RC WORLD OS v1 must be feature-complete in staging before the first dollar draws. It carries no Phase 2 or Phase 3 commitment — those are funded from operations and gated on evidence. And it pays no founder liquidity: the raise is entirely primary capital deployed into the asset.
+Equally important is what the money does *not* buy. It buys no land (leased, per canon — the capital works the operating business, not a property position). It funds no speculative technology: the RCW Node is a completed design on commodity components, and the RC WORLD OS line completes a specified v1 whose end-to-end beta must be demonstrated before the second tranche releases. It carries no Phase 2 or 3 commitment — those are funded from operations and gated on evidence. And it pays no founder liquidity: the raise is entirely primary capital deployed into the asset.
 
 ### 6.3 Staged tranches
 
-Capital is drawn in three milestone-gated tranches. Gates are objective and evidence-based; the tranche mechanics protect investors from the two classic venue-development failures (construction overrun before opening, and demand shortfall after it) by ensuring the majority of capital deploys only against verified progress.
+Capital is drawn in three milestone-gated tranches per Volume 10, §3.2, so investors never fund the next stage of risk before the previous one has been retired. Gates are objective and verifiable in a site visit plus an RC WORLD OS data pull; Volume 10 carries the full gate definitions and remediation ladder.
 
-| Tranche | Amount | Released at | Gate criteria (all must be met) |
-|---|---|---|---|
-| T1 | $1.0 M | Closing | Site lease executed (with contingent planning approval); fixed-price or GMP civil contract signed; RC WORLD OS v1 feature-complete in staging; fleet purchase orders priced and validated per Volume 8 |
-| T2 | $1.0 M | ~Month 4–6 | Civil works ≥50% complete against schedule; buildings under roof; RCW Node production batch passed QA (Volume 13 test protocol); cumulative spend within 10% of budget |
-| T3 | $0.6 M | ~Month 8–10 | Practical completion of Phase 1 zones; occupancy/safety certification; staff hired and trained; soft-opening data from ≥2 weekends showing systems (booking→Shift→telemetry→billing) functioning end-to-end |
+| Tranche | Amount | Released at | Milestone gate (all must be true — Volume 10, §3.2) | Risk retired |
+|---|---|---|---|---|
+| T1 | $1.2 M | At close (project Month 0, ~12 months before opening) | Lease executed; planning permits granted; civil tender within budget; GM contracted | Site & permitting |
+| T2 | $850 K | ≈ operating Month −5 (~project Month 7) | Buildings weathertight; Tracks A/B/C substantially complete; ≥80% of fleet landed and commissioned; RC WORLD OS beta end-to-end (booking → telemetry → kill-switch demo); opening date fixed | Construction & technology |
+| T3 | $550 K | Opening month (operating M1) | Soft opening complete; safety sign-off (Volume 7 audit); first 1,000 paid Shifts sold; insurance in force | Launch |
 
-Drawdown mechanics are conventional and specified in the subscription documents: gate evidence is compiled by management, independently verified (quantity surveyor for construction milestones; OS-generated data exports for operating evidence), and put to the board; a gate that fails triggers a cure period with a corrective plan rather than automatic termination, but no capital moves until the board passes the gate. Undrawn tranches sit in escrow-equivalent instruments, not in the operating account.
+Drawdown mechanics are conventional and specified in the subscription documents: gate evidence is compiled by management, independently verified (quantity surveyor for construction; OS data exports for operations), and put to the board; a failed gate pauses the tranche and triggers Volume 10's pre-agreed remediation ladder (descope, re-tender, or — worst case — orderly wind-down with land improvements as residual value). Undrawn tranches sit in escrow-equivalent instruments, not in the operating account.
 
-> **Investor Note.** The gates are deliberately harsher than convention: T3 requires *operating evidence*, not just construction completion. If soft-opening data disappoints, T3 funds the corrective actions with investors' eyes open — pricing changes, marketing reallocation, zone rebalancing — rather than being consumed by momentum.
+> **Investor Note.** The gates are deliberately harsher than convention: T3 releases only at opening, after the soft opening is complete and the first 1,000 paid Shifts have been *sold* — demand evidence, not just construction completion. If presales disappoint, T3 funds the corrective actions with investors' eyes open rather than being consumed by momentum.
 
 ### 6.4 Investor returns summary
 
@@ -537,41 +542,41 @@ Volume 10 carries the full model; the headline shape at the base case is:
 
 - **Revenue:** ≈$1.28 M (Y1) → ≈$2.6 M (Y3) → ≈$3.4 M (Y5), driven by phase openings, membership growth, and events.
 - **Profitability:** steady-state EBITDA margin 24–28% from Year 3, implying ≈$620–730 K EBITDA in Year 3 and ≈$820–950 K in Year 5.
-- **Break-even and payback:** monthly operating break-even Month 16–19; full payback of invested capital Year 4–5.
-- **Modeled equity outcome:** at conventional location-based-entertainment exit multiples applied to Year-5 EBITDA, the base case supports an equity multiple of ≈2.3–2.8× over a five-year hold before any value from franchising. The franchise system (Volume 12), second-site expansion (Chapter 10), and the RC WORLD OS platform are unmodeled upside carried at zero in the base case.
-- **Downside architecture:** the tranche gates cap construction risk; the asset base is dominated by long-life civil works; and the fleet doctrine means the largest operating asset class is cheap, liquid, and replaceable.
+- **Break-even and payback:** monthly operating break-even operating Month 16–19; full payback Year 4–5 (base model: Month ~53 on Phase 1 capital).
+- **Modeled investor outcome:** at the exit multiples used in Volume 10 (§7.5), the base case supports ≈**1.6–2.0× MOIC** over a five-year hold — a high-single to low-double-digit IRR. The **ambitious case reaches ≈2.2–2.9×**, stated explicitly as upside, not as the plan. The franchise system (Volume 12), second site (Chapter 10), the RC WORLD OS platform, and Year-4+ dividend capacity are further upside carried at zero.
+- **Downside architecture:** the tranche gates cap construction risk; the asset base is dominated by long-life civil works; the fleet — the asset class customers actually consume — is 4.3% of capex; and Volume 10's conservative case still returns ≈0.9–1.1×, because the assets, cash, and a functioning business retain value.
 
-A stylized worked example makes the multiple concrete (illustrative; Volume 10, Chapter 8 carries the full analysis with ranges and the assumptions behind each line):
+A stylized worked example makes the multiple concrete (illustrative; Volume 10, §7.5 carries the full analysis):
 
 | Line | Base-case illustration |
 |---|---|
-| Year-5 EBITDA | ≈ $0.82–0.95 M (24–28% of ≈$3.4 M) |
-| Exit multiple (mid-market attractions transactions) | ≈ 5–7× EBITDA |
-| Enterprise value at exit | ≈ $4.5–6.3 M |
-| Less: net debt at exit | minimal in base case (no assumed refinancing) |
-| Plus: distributions during hold | from free cash flow, Years 3–5 |
-| Indicative equity outcome on $2.6 M | ≈ 2.3–2.8× over five years |
-| Excluded upside | franchise royalties, second site, platform licensing, Academy licensing — all carried at zero |
+| Year-5 EBITDA (base) | ≈ $930 K (27.4% of ≈$3.4 M) |
+| Exit multiple (single-site LBE/FEC transactions, industry ranges 2024–2026) | ≈ 6.5–8.5× EBITDA |
+| Equity value at exit (incl. closing cash, facility repaid) | ≈ $6.3–8.1 M |
+| Investor share (65%, Structure A cap table — Volume 10, §3.4) | ≈ $4.1–5.3 M |
+| **Base-case outcome on $2.6 M** | **≈ 1.6–2.0× MOIC; ≈8–12% IRR** |
+| Ambitious case (explicit upside, not the base) | ≈ 2.2–2.9× MOIC; ≈14–19% IRR |
+| Excluded upside | franchise royalties, second site, platform and Academy licensing, Year-4+ dividends — all carried at zero |
 
-The returns architecture deserves one paragraph of plain speech. This is not a venture-scale bet priced on a power-law outcome; it is a cash-generating leisure asset with a franchise option attached. The base case pays investors back from operations inside the hold period, values the exit on EBITDA multiples that mid-market attractions transactions actually clear, and carries every scaling option — franchising, second site, platform licensing — at zero. Investors who want the upside case should read Volume 12 alongside Volume 2's market analysis and price the option themselves; the plan deliberately refuses to sell it as the base case.
+The returns architecture in plain speech: the base case is an infrastructure-flavored return — real assets, self-funding expansion, capped follow-on exposure, dividend capacity from Year 4 — whose risk-reward shape, not its midpoint, is the attraction: the conservative case still returns most of the capital, while the ambitious case and the franchise option carry the venture-like upside. Investors seeking more than a ~20% IRR should read Volume 12 and price the franchise program into their thesis; the plan refuses to sell it as the base case.
 
 ### 6.5 Exit options
 
 1. **Trade sale** to a location-based-entertainment or attractions operator seeking a differentiated format — the most probable route; the park sells as a proven unit with a replication manual (this document).
 2. **Sale of the franchisor entity** once the Phase 3 pilot validates the package: recurring royalty streams command higher multiples than single-site EBITDA.
 3. **Secondary sale** to growth capital funding multi-site rollout, allowing early investors to exit at the format-proof point.
-4. **Structured founder buyback** from free cash flow — the model's cash generation from Year 3 makes a negotiated multi-year buyback feasible if no external exit is preferred.
+4. **Structured founder buyback** from free cash flow — the model's dividend capacity from Year 4 (post-facility amortization) makes a negotiated multi-year buyback feasible if no external exit is preferred.
 5. **Hold for yield** — at steady state the park is a cash-yielding asset; investors preferring distributions over exit are accommodated in the shareholder agreement.
 
 ### 6.6 Governance and investor protections
 
-The investment package includes: a board with investor representation proportional to the round; the tranche-gate reviews of Section 6.3 conducted as formal board decisions with independent verification of gate evidence (quantity surveyor sign-off on construction milestones; the soft-opening data pulled directly from RC WORLD OS, not from management summaries); monthly reporting on the KPI set defined in Volume 10, Chapter 9, generated by the ERP's reporting layer rather than assembled by hand; standard reserved matters (budget approval, capex beyond plan, senior hires, related-party transactions, any change to canonical doctrine with financial effect); and information rights extending to read-only RC WORLD OS dashboard access — an unusual grant made possible by the role-based access architecture (Volume 13), and offered deliberately: a business built on telemetry should be diligenced and monitored through it.
+The investment package includes: a board with investor representation proportional to the round; the tranche-gate reviews of Section 6.3 conducted as formal board decisions with independently verified gate evidence (quantity surveyor sign-off on construction; presales and soft-opening data pulled directly from RC WORLD OS); monthly reporting on the KPI set of Volume 10, §10.4, generated by the ERP's reporting layer rather than assembled by hand; standard reserved matters (budget approval, capex beyond plan, senior hires, related-party transactions, any change to canonical doctrine with financial effect); and information rights extending to read-only RC WORLD OS dashboard access — offered deliberately: a business built on telemetry should be diligenced and monitored through it (Volume 13).
 
 ## 7. Development Phases
 
-The park is built in three phases over sixty months. Each phase is a complete, self-supporting park state — no phase depends on the next to justify itself — and each phase-to-phase transition is governed by explicit gating criteria reviewed by the board. Detailed schedules, contractor packages, and construction sequencing: Volume 11, Chapter 9; capex line detail: Volume 10, Chapter 3.
+The park is built in three phases over sixty months. Each phase is a complete, self-supporting park state — no phase depends on the next to justify itself — and each transition is governed by explicit gating criteria reviewed by the board. Detailed schedules and construction sequencing: Volume 11, Chapter 9; capex line detail: Volume 10, Chapter 2. Month numbering follows the canonical two-frame convention: **build phasing in project months** (the park opens at project Month 12); **financials and division opening schedules in operating months** (operating Month 1 = the opening month). Each table below labels its frame.
 
-### 7.1 Phase 1 — "Core Park" (Months 0–12, capex ≈$1.85 M)
+### 7.1 Phase 1 — "Core Park" (project Months 0–12, capex ≈$1.85 M)
 
 **Scope.** The two anchor divisions and everything needed to run them: the Motorsport Division (Tracks A, B, C and the Crawler Park), the Construction Division (Mining Zone and Agriculture Zone), The Works, the pit lane, the charging bunker, and the entry pavilion with F&B kiosk and small retail counter. Technology: park-wide Wi-Fi mesh, RCW Node fleet fitment, and **RC WORLD OS v1** (bookings, wallet, telemetry, fleet management, POS, finance core).
 
@@ -579,20 +584,20 @@ The park is built in three phases over sixty months. Each phase is a complete, s
 
 **Milestones.**
 
-| Month | Milestone |
+| Project month | Milestone |
 |---|---|
-| 0–1 | Financial close (T1); lease and planning finalized; civil contract mobilized |
+| 0–1 | Financial close (T1: $1.2 M, gates per Section 6.3); civil contract mobilized |
 | 2–6 | Earthworks and civil construction; buildings up; fleet and spares POs placed and received; RCW Node production batch |
-| 4–6 | T2 gate review |
-| 6–9 | Zone fit-out; track surfacing; hopper and timing systems; OS v1 live in production; staff hiring and training (Toolbox Talk content, SOPs from Volumes 3, 4, 7) |
-| 8–10 | T3 gate review; soft opening (≥2 weekends, invited + limited public) |
-| 10–12 | Grand opening; marketing launch; first membership cohort; first corporate events |
+| ~7 | T2 gate review ($850 K, ≈ operating Month −5, gates per Section 6.3) |
+| 7–10 | Zone fit-out; track surfacing; hopper and timing systems; OS v1 hardened in production; staff hiring and training (Toolbox Talk content, SOPs from Volumes 3, 4, 7) |
+| 10–11 | Soft opening (≥2 weekends, invited + limited public); membership and Shift presales push |
+| 12 | T3 gate review at opening ($550 K, gates per Section 6.3); grand opening — operating Month 1 begins |
 
-**Phase 1 exit criteria** (must be met before Phase 2 capital is committed): three consecutive months of revenue at ≥70% of the Volume 10 monthly base case; fleet availability ≥90%; safety record clean of notifiable incidents; membership base ≥400; NPS or equivalent satisfaction metric at target; and updated Phase 2 costings within 10% of plan.
+**Phase 1 exit criteria** (the Phase 2 gate; must be met before Phase 2 capital is committed): revenue ≥80% of the Volume 10 plan for three consecutive months; 90-day second-visit rate ≥20% (gate floor); fleet availability ≥90% (gate floor; operating target ≥92%); membership base ≥400; safety record clean of notifiable incidents.
 
-The twelve-month Phase 1 schedule is aggressive but honest about why it is achievable: the construction scope is civil works and simple single-story buildings, not complex structures; the fleet is bought, not developed; the technology's invention risk was retired before closing (OS v1 feature-complete is a T1 condition, and the RCW Node is a finished design on commodity parts); and the long-lead items — freight, netting (Phase 2 anyway), and permits — are either outside Phase 1 or started before Month 0. The schedule's real exposure is weather during earthworks and contractor performance, both priced into the contingency and the fixed-price contract structure.
+The twelve-month Phase 1 schedule is aggressive but achievable: the construction scope is civil works and simple single-story buildings; the fleet is bought, not developed; technology invention risk is retired early (the RCW Node is a finished design on commodity parts, and RC WORLD OS must demonstrate its end-to-end beta at the T2 gate); and the long-lead items — freight, netting (Phase 2 anyway), and permits — are either outside Phase 1 or resolved before close (permits are a T1 condition). The real exposure is weather during earthworks and contractor performance, both priced into the contingency and the fixed-price contract structure.
 
-### 7.2 Phase 2 — "Full Park" (Months 13–30, capex ≈$1.15 M)
+### 7.2 Phase 2 — "Full Park" (project Months 13–30, capex ≈$1.15 M)
 
 **Scope.** The Aviation Division (netted airfield: 30 m paved runway, elevated helipads, full high-tensile enclosure; ~20 aircraft), the Marine Division (pond complex; ~24 vessels), the full restaurant replacing kiosk-only F&B, expanded retail, grandstand viewing on the motorsport complex, and the events lawn. RC WORLD OS v2 adds the modules the new divisions need (flight-line management, vessel telemetry adaptations) plus the CRM and events depth (Volume 13 roadmap).
 
@@ -600,42 +605,44 @@ The twelve-month Phase 1 schedule is aggressive but honest about why it is achie
 
 **Milestones.**
 
-| Month | Milestone |
+| Operating month (M1 = opening) | Milestone |
 |---|---|
-| 13–15 | Phase 2 gate review passed; pond and airfield civil works commence (designed for zero disruption to operating zones — construction access is segregated, Volume 11) |
-| 16–22 | Netting erection; runway paving; pond lining, filtration and edge treatment; restaurant fit-out |
-| 20–24 | Aviation and marine fleets commissioned; flight-line and pond SOPs live; staff cross-training |
-| 24 | Aviation Division opens; restaurant opens |
-| 26–30 | Marine Division opens; grandstand and events lawn complete; first full-park event season |
+| M2–M12 | Phase 2 design, permitting, and procurement run alongside Year-1 trading; no construction commitment before the gate |
+| ≈M12–13 | Phase 2 gate review on Year-1 actuals (criteria in §7.1); optional $600 K facility arranged (Volume 10, §3.5); pond and airfield civil works commence (segregated access, zero disruption to operating zones — Volume 11) |
+| M13–19 | Netting erection; runway paving; pond lining and filtration; restaurant fit-out; fleets commissioned; flight-line and pond SOPs live; staff cross-training |
+| M16 | Aviation staged opening begins: simulator lab (Volume 5 staging plan) |
+| M19–20 | Aviation fixed-wing program opens; restaurant opens |
+| M20–24 | Marine Division opens progressively (Volume 6); grandstand and events lawn complete |
+| M23–24 | Aviation full program (FPV, heli, drone racing) live; first full-park event season |
 
 **Phase 2 exit criteria:** aviation and marine divisions each covering their direct operating costs within two quarters of opening; park-wide revenue tracking the Volume 10 Year-3 trajectory; restaurant gross margin at industry-normal levels; no material erosion of Phase 1 division performance (cannibalization check).
 
 > **Investor Note.** Phase 2's cash-flow funding is a plan, not a covenant. If Phase 1 outperforms, the board may accelerate Phase 2 with a small facility against the completed asset base rather than waiting for retained earnings; if Phase 1 underperforms, Phase 2 is deferred at near-zero sunk cost, because no Phase 2 commitment is contracted before the gate. The sequencing is designed so that the decision to spend the second million is always made with a year of real trading data in hand.
 
-### 7.3 Phase 3 — "Destination & Beyond" (Months 31–60, capex ≈$0.9 M)
+### 7.3 Phase 3 — "Destination & Beyond" (project Months 31–60, capex ≈$0.9 M)
 
 **Scope.** The indoor all-weather arena (year-round revenue floor, small-scale racing and crawler courses under roof); the **RC Academy** classrooms (structured curriculum, school programs, holiday camps — the education engine at full power); the corporate event centre; night-racing lighting on Tracks A and B; and the **franchise pilot** — the first RC WORLD site operated under license, using Volume 12 and the multi-site architecture of RC WORLD OS.
 
 **Why this scope.** Phase 3 attacks the two structural constraints of an outdoor single-site business — weather and geography. The arena and lighting extend the operating calendar into evenings and winters; the Academy converts the License program into accredited education revenue; the franchise pilot converts the operating manual you are reading into a licensable product.
 
-**Milestones and exit criteria.** Arena and Academy open by ≈Month 40; night racing live by ≈Month 36; franchise pilot site selected by ≈Month 40, opened by ≈Month 54 against the Volume 12 package. Phase 3 "exit" is the five-year review: base-case cumulative financial performance per Volume 10, a validated franchise unit, and a board decision on the expansion paths in Chapter 10.
+**Milestones and exit criteria** (project months): arena and Academy open by ≈Month 40; night racing live by ≈Month 36; franchise pilot site selected by ≈Month 40, opened by ≈Month 54 against the Volume 12 package. Each Phase 3 element must clear a ≥25% ROIC hurdle on incremental EBITDA at the operating Month-30 review (Volume 10, §10.2). Phase 3 "exit" is the five-year review: cumulative performance per Volume 10, a validated franchise unit, and a board decision on the expansion paths in Chapter 10.
 
 > **Investor Note.** The phase structure is an option ladder, not a treadmill. Each gate is a genuine decision point at which the board can accelerate, hold, or re-scope with current evidence. The base-case financials assume all three phases proceed on schedule; the downside case in Volume 10 shows Phase 1 standing alone as a viable, cash-generating business — smaller, but solvent.
 
 ### 7.4 Phase gates at a glance
 
-| Gate | Timing | Capital at stake | Decision evidence | Decision maker |
+| Gate | Timing | Capital at stake | Decision evidence (summary — full definitions in Volume 10) | Decision maker |
 |---|---|---|---|---|
-| T1 → T2 | ~Month 4–6 | $1.0 M | Construction progress vs schedule and budget; buildings under roof; RCW Node batch QA | Board, on QS-verified data |
-| T2 → T3 | ~Month 8–10 | $0.6 M | Practical completion; certification; trained staff; end-to-end soft-opening evidence from OS data | Board |
-| Phase 1 → 2 | ~Month 13–15 | ≈ $1.15 M (cash flow) | 3 months revenue ≥70% of base case; availability ≥90%; ≥400 members; clean safety record; Phase 2 costings within 10% | Board |
-| Phase 2 → 3 | ~Month 31+ | ≈ $0.9 M (cash flow) | New divisions covering direct costs; Year-3 revenue trajectory on track; no anchor-division erosion | Board |
+| T1 → T2 | ≈ operating Month −5 (~project Month 7) | $850 K | T2 gate per Section 6.3 (Volume 10, §3.2) | Board, on QS-verified data |
+| T2 → T3 | Opening month (operating M1 / project Month 12) | $550 K | T3 gate per Section 6.3 (Volume 10, §3.2) | Board |
+| Phase 1 → 2 | ≈ operating Month 12–13 | ≈ $1.15 M (cash flow + optional $600 K facility) | Revenue ≥80% of the Volume 10 plan for three consecutive months; 90-day second-visit rate ≥20% (gate floor); fleet availability ≥90% (gate floor; operating target ≥92%); membership base ≥400; safety record clean of notifiable incidents | Board |
+| Phase 2 → 3 | Operating Month-30 review | ≈ $0.9 M (cash flow) | New divisions covering direct costs; Year-3 trajectory on track; no anchor-division erosion; ≥25% ROIC hurdle per element (Volume 10, §10.2) | Board |
 
 Two construction principles apply across all phases and are binding on Volume 11's contractor packages: **no phase's construction may degrade an operating zone's revenue** (segregated construction access, dust and noise controls, and scheduling around peak trading are contractual requirements, not requests); and **every structure is designed for its next phase** (the entry pavilion's services are sized for the Phase 2 restaurant; conduit runs anticipate Phase 3 lighting; the pond's edge design anticipates the grandstand sightline). Retrofitting is the most expensive construction there is, and the master plan exists to avoid buying anything twice.
 
 ### 7.5 The pre-opening critical path
 
-Within Phase 1, four workstreams must converge in Month 8–10, and the schedule risk lives in their interaction rather than in any one of them. **Civil and buildings** is the longest pole and the least compressible; it is contracted fixed-price with milestone payments aligned to the tranche gates. **Fleet and spares** is the shortest but has ocean freight in it: purchase orders per Volume 8 are placed by Month 2 so that vehicles arrive in Month 4–5, leaving time for RCW Node fitment, QA, and the assembly of the 3-deep spares wall before staff training needs working machines. **Technology** runs parallel: OS v1 is feature-complete before closing (a T1 condition), so pre-opening technology work is deployment, mesh commissioning, and load testing on real hardware — integration, not invention. **People** starts hiring at Month 5, trains against the volumes from Month 7, and runs the soft opening as its graduation exercise. The soft opening is the deliberate collision point where all four streams meet under low stakes: two-plus weekends of invited and limited-public operation generating the end-to-end evidence (booking → Shift → telemetry → billing → maintenance log) that the T3 gate requires. Grand opening follows only when the soft-opening punch list is closed — an opening delayed two weeks costs less than a launch that teaches the catchment the park isn't ready.
+Within Phase 1 (all months here are project months), four workstreams must converge in Months 10–12, and the schedule risk lives in their interaction rather than in any one of them. **Civil and buildings** is the longest pole and the least compressible; it is contracted fixed-price with milestone payments aligned to the tranche gates. **Fleet and spares** is the shortest but has ocean freight in it: purchase orders per Volume 8 are placed by Month 2 so that vehicles arrive in Month 4–5, leaving time for RCW Node fitment, QA, and the 3-deep spares wall before staff training needs working machines — ≥80% of the fleet landed is itself a T2 condition. **Technology** must demonstrate the RC WORLD OS end-to-end beta at the T2 gate, roughly five months before opening, so the final stretch is hardening, mesh commissioning, and load testing — integration, not invention. **People** starts hiring at Month 5, trains against the volumes from Month 7, and runs the soft opening as its graduation exercise. The soft opening and presales push are the deliberate collision point where all four streams meet under low stakes, generating the evidence the T3 gate requires — soft opening complete, safety sign-off, and the first 1,000 paid Shifts sold. Grand opening follows only when the punch list is closed — an opening delayed two weeks costs less than a launch that teaches the catchment the park isn't ready.
 
 ## 8. Financial Overview
 
@@ -645,17 +652,17 @@ This chapter carries only the canonical headline figures. **Volume 10 is the sou
 
 | Year | Revenue | EBITDA margin | Commentary |
 |---|---|---|---|
-| Y1 | ≈ $1.28 M | negative → approaching break-even | Partial-year ramp from grand opening; marketing-heavy; monthly operating break-even reached Month 16–19 (i.e., during Y2) |
+| Y1 | ≈ $1.28 M | negative → approaching break-even | First operating year; marketing-heavy; monthly break-even reached operating Month 16–19 (i.e., during Y2) |
 | Y2 | between Y1 and Y3 on the ramp | low single-digit → low-teens | First full year of Phase 1 at maturity; Phase 2 construction in background; membership base compounding |
 | Y3 | ≈ $2.6 M | ≈ 24–28% (steady state reached) | Full Park operating (aviation, marine, restaurant, events lawn); events and membership engines mature |
 | Y4 | between Y3 and Y5 | 24–28% | Arena and Academy revenue begins; night racing extends the calendar |
 | Y5 | ≈ $3.4 M | 24–28% | Destination state; franchise pilot revenue begins (royalties modeled at zero in base case) |
 
-A note on how these figures were built, because method matters more than the numbers. The model is assembled bottom-up in Volume 10: Shift capacity per zone per operating day, shaped by the calendar in Section 5.7; capture and repeat-visit rates benchmarked against family-entertainment norms rather than against the plan's own gamification ambitions; per-visitor F&B and retail capture at modest venue-typical rates; membership growth as a conversion funnel from visitation, not an independent assumption; and events revenue built from a bookings calendar, not a percentage of the total. Where a judgment call had two defensible answers, the model takes the lower. The interim years (Y2, Y4) are shown as ranges on the ramp deliberately — publishing false-precision midpoints for transition years invites anchoring on figures that phase timing will inevitably move; Volume 10 carries the monthly model.
+A note on how these figures were built, because method matters more than the numbers. The model is assembled bottom-up in Volume 10: Shift capacity per zone per operating day, shaped by the calendar in Section 5.7; capture and repeat-visit rates benchmarked against family-entertainment norms rather than the plan's own gamification ambitions; per-visitor F&B and retail capture at modest venue-typical rates; membership growth as a conversion funnel from visitation; and events revenue built from a bookings calendar, not a percentage of the total. Where a judgment call had two defensible answers, the model takes the lower. The interim years (Y2, Y4) are shown as ranges on the ramp deliberately — false-precision midpoints for transition years invite anchoring on figures that phase timing will inevitably move; Volume 10 carries the monthly model.
 
 ### 8.2 Break-even and payback
 
-Monthly operating break-even — the month in which recurring revenue covers all cash operating costs — is modeled at **Month 16–19**. The working-capital reserve in the funding ask (Section 6.1) is sized to carry the business through the top of that range with margin. Full payback of invested capital occurs in **Year 4–5** in the base case. The sensitivity drivers, in order of impact: Year-1 demand capture, average revenue per visitor, and the Phase 2 opening date; Volume 10, Chapter 7 quantifies each.
+Monthly operating break-even — the month from which monthly EBITDA is positive and stays positive — is modeled at **operating Month 16–19** (base model: Month 16). The ask carries the business through the top of that range with margin: the four non-capex components of Section 6.1 place **$750 K of cash at opening**, and the monthly model never breaches the **$250 K minimum-cash policy floor** (Volume 10, §6.4). Full payback occurs in **Year 4–5** — the base model crosses at **Month ~53** on Phase 1 capital; the ambitious case pulls payback into Year 4. The sensitivity drivers, in order of impact: Year-1 demand capture, average revenue per visitor, and the Phase 2 opening date; Volume 10, Chapter 9 quantifies each.
 
 ### 8.3 What makes the margin
 
@@ -663,20 +670,20 @@ Steady-state EBITDA of 24–28% is a *structural* outcome of decisions documente
 
 ### 8.4 Funding recap
 
-$2.6 M ask; three tranches gated per Section 6.3; Phases 2–3 funded substantially from operating cash flow; five-year total capex ≈$3.9 M. Debt capacity against the completed Phase 1 asset base exists as a refinancing option from Year 2 and is analyzed, but not assumed, in Volume 10, Chapter 8.
+$2.6 M ask; three tranches ($1.2 M / $850 K / $550 K) gated per Section 6.3; Phases 2–3 funded from operating cash flow, with Phase 2 backed by an optional $600 K equipment-and-fit-out facility analyzed, but not required, in Volume 10, §3.5; five-year total capex ≈$3.9 M.
 
 ### 8.5 The numbers management actually runs on
 
-The P&L is a lagging indicator; the park is managed on leading indicators that RC WORLD OS computes continuously and reports monthly to the board (definitions and targets: Volume 10, Chapter 9):
+The P&L is a lagging indicator; the park is managed on leading indicators that RC WORLD OS computes continuously and reports monthly to the board (definitions and targets: Volume 10, §10.4):
 
 | KPI | Why it leads the P&L |
 |---|---|
 | Paid Shifts per operating day (by division and class) | The direct revenue driver; the trough-filling scoreboard |
 | Effective fleet utilization (paid Shifts ÷ available Shift capacity) | Measures whether demand shaping (Section 4.6) is working |
-| Fleet availability % | Below 90%, revenue is being lost to the workshop; triggers Volume 7 escalation |
+| Fleet availability % | Gate floor ≥90%; operating target ≥92% Y1, ≥94% Y3 (Volume 10 KPI dashboard). Below target, revenue is lost to the workshop; triggers Volume 7 escalation |
 | Average revenue per visitor (Shift + F&B + retail) | The dwell-monetization health check |
 | Member count, churn, and included-Shift redemption rate | The recurring-revenue base and its true cost |
-| Repeat-visit rate at 90 days; License progression velocity | The retention machinery's output — the number the whole gamification layer exists to move |
+| 90-day second-visit rate; License progression velocity | The retention machinery's output. Operating target ≥22% Y1 rising to ≥28% Y3; Phase 2 gate floor ≥20% |
 | Battery packs retired per 1,000 Shifts; maintenance cost per Shift | The doctrine-compliance meters; drift here predicts margin erosion quarters early |
 | Marketing cost per first visit | Acquisition efficiency; front-loaded spend must show declining unit cost through Year 2 |
 
@@ -684,7 +691,7 @@ The P&L is a lagging indicator; the park is managed on leading indicators that R
 
 ### 8.6 Sensitivity headlines
 
-Volume 10, Chapter 7 carries the full sensitivity and scenario analysis; the shape of it belongs here. The model is **most sensitive to Year-1 demand capture**: a ramp 25% below base pushes break-even toward the far end of the Month 16–19 band and consumes most of the working-capital reserve — which is what the reserve is for — while a ramp 25% above base pulls payback into Year 3–4. It is **moderately sensitive to average revenue per visitor** (the F&B and retail capture assumptions are deliberately modest, so the risk here is asymmetric to the upside) and to the **Phase 2 opening date** (a six-month slip defers, but does not destroy, the Year-3 revenue step). It is **notably insensitive** to the variables outsiders usually worry about: fleet cost inflation (the fleet is ~12% of capex and wholesale prices have been deflating for a decade), battery costs (a rounding error at doctrine-compliant cycle counts), and energy prices. The downside scenario — Phase 1 standing alone, Phases 2–3 never built — models as a smaller but solvent business, which is the fact that most distinguishes this plan from typical attraction developments whose economics only work at full build-out.
+Volume 10, Chapter 9 carries the full sensitivity and scenario analysis; the shape of it belongs here. The model is **most sensitive to Year-1 demand capture**: a ramp 25% below base pushes break-even toward the far end of the operating Month 16–19 band and consumes much of the operating funding and reserve (which is what they exist for), while the ambitious case pulls Phase-1 payback to Month ~44 (Year 4). It is **moderately sensitive to average revenue per visitor** (the F&B and retail capture assumptions are deliberately modest, so the risk is asymmetric to the upside) and to the **Phase 2 opening date** (a six-month slip defers, but does not destroy, the Year-3 revenue step). It is **notably insensitive** to the variables outsiders usually worry about: fleet cost inflation (the fleet is 4.3% of capex and wholesale prices have been deflating for a decade), battery costs, and energy prices. The downside scenario — Phase 1 standing alone, Phases 2–3 never built — models as a smaller but solvent business, which most distinguishes this plan from attraction developments whose economics only work at full build-out.
 
 ## 9. Risk Summary
 
@@ -692,21 +699,21 @@ Volume 10, Chapter 7 carries the full sensitivity and scenario analysis; the sha
 
 The full risk registers — division-level operational risks, construction risks, market risks, technology FMEAs — live in the specialist volumes (Volume 2 Chapter 9; Volumes 3–6 per division; Volume 7 for engineering FMEA; Volume 10 for financial sensitivities; Volume 11 for construction; Volume 13 for technology and data). The table below is the board-level top ten: the risks that could materially impair the investment case, with owner and mitigation. Scoring: likelihood × impact on a 1–5 scale, assessed July 2026, reviewed quarterly.
 
-One methodological note before the table: mitigation and insurance are treated as different instruments for different layers. Mitigation reduces likelihood or impact through design and procedure and is the primary defense for every risk below; insurance transfers the residual financial tail (public liability, property, business interruption, directors' cover — program specified in Volume 10) and is never accepted as a substitute for a design fix. A risk "mitigated" only by an insurance policy would fail this plan's standard.
+One methodological note: mitigation and insurance are different instruments for different layers. Mitigation reduces likelihood or impact through design and procedure and is the primary defense for every risk below; insurance transfers the residual financial tail (program specified in Volume 10) and is never accepted as a substitute for a design fix. A risk "mitigated" only by an insurance policy would fail this plan's standard.
 
 ### 9.2 Top-10 risk register
 
 | # | Risk | L | I | Score | Mitigation | Owner |
 |---|---|---|---|---|---|---|
-| 1 | Year-1 demand ramp slower than modeled | 3 | 5 | 15 | Working-capital reserve sized to Month 19; T3 gate requires soft-opening evidence before final capital deploys; pre-opening membership sales; marketing plan front-loaded with measurable channels (Vol 2, Vol 9); pricing flexibility retained | Founder/GM |
-| 2 | Construction cost overrun or delay (Phase 1) | 3 | 4 | 12 | Fixed-price/GMP civil contract at T1; ~11% contingency; staged tranches; standard buildings, no bespoke structures in Phase 1 (Vol 11) | Project Director |
+| 1 | Year-1 demand ramp slower than modeled | 3 | 5 | 15 | $750 K non-capex funding at opening incl. $180 K board-controlled reserve (Vol 10, §3.1); T3 releases only against presales evidence; front-loaded, measurable marketing (Vol 2, Vol 9); pricing flexibility; cost-flex ladder (Vol 10, §6.5) | Founder/GM |
+| 2 | Construction cost overrun or delay (Phase 1) | 3 | 4 | 12 | Fixed-price/GMP civil contract at T1; 10% contingency capitalized inside Phase 1 capex; staged tranches; standard buildings, no bespoke structures in Phase 1 (Vol 11) | Project Director |
 | 3 | Serious safety incident (LiPo fire; spectator injury) | 2 | 5 | 10 | Bunkered charging is doctrine; 3.4–4.2 V/cell telemetry enforcement with automatic kill; customers never on live fields (Tow-Truck Retrieval Protocol); netted airfield; marshaling and emergency SOPs in every division volume; insurance program (Vol 10) | GM / Safety Officer |
-| 4 | Fleet availability below 90% (maintenance overwhelm) | 3 | 3 | 9 | 3-deep high-turnover spares inventory (Vol 8); preventive-maintenance matrices and predictive flags from runtime telemetry (Vol 7); electromechanical rental doctrine excludes leak-prone hydraulics; Artisan rebuild training | Works Lead |
+| 4 | Fleet availability below the ≥90% gate floor (maintenance overwhelm; operating target ≥92%) | 3 | 3 | 9 | 3-deep high-turnover spares inventory (Vol 8); preventive-maintenance matrices and predictive flags from runtime telemetry (Vol 7); electromechanical rental doctrine excludes leak-prone hydraulics; Artisan rebuild training | Works Lead |
 | 5 | Novelty decay — repeat visitation below model | 2 | 4 | 8 | The entire gamification architecture (License, badges, Gears, seasons, leaderboards — Vol 9); events calendar; membership economics; Phase 2/3 refresh cadence | GM / Marketing |
 | 6 | Supply-chain disruption (China wholesale channel) | 2 | 4 | 8 | Multi-supplier substitution matrix per asset class (Vol 8); 3-deep spares buffer; standardized batteries/connectors make fleets cross-compatible; no single-source dependencies in doctrine | Procurement Lead |
-| 7 | RC WORLD OS delivery risk (v1 late or unstable) | 2 | 4 | 8 | v1 feature-complete in staging is a T1 gate condition; Supabase + Kotlin stack is proven commodity infrastructure; manual-operations fallback procedures documented (Vol 13); scope discipline — v1 ships bookings/telemetry/POS core only | CTO |
+| 7 | RC WORLD OS delivery risk (v1 late or unstable) | 2 | 4 | 8 | End-to-end beta is a T2 gate condition five months before opening; Supabase + Kotlin stack is proven commodity infrastructure; manual-operations fallbacks documented (Vol 13); scope discipline — v1 ships bookings/telemetry/POS core only | CTO |
 | 8 | Weather dependence of outdoor revenue | 4 | 2 | 8 | Season-shaped staffing and marketing; construction division is the most weather-tolerant anchor; Phase 2 restaurant and Phase 3 indoor arena progressively de-risk the calendar; weather-triggered rebooking automation in OS | GM |
-| 9 | Regulatory/permitting friction (planning, aviation netting, noise) | 2 | 4 | 8 | Contingent planning approval before T1 closes; fully netted airfield designed to model-aircraft containment standards (Vol 5); electric-only fleet keeps noise profile low; early authority engagement documented in Vol 11 | Project Director |
+| 9 | Regulatory/permitting friction (planning, aviation netting, noise) | 2 | 4 | 8 | Planning permits granted is a T1 closing condition — no capital draws before permits; fully netted airfield designed to model-aircraft containment standards (Vol 5); electric-only fleet keeps noise profile low; early authority engagement documented in Vol 11 | Project Director |
 | 10 | Key-person concentration (founder) | 3 | 3 | 9 | This Master Development Plan is itself the mitigation — the operating knowledge is documented to franchise-manual depth; GM and division leads hired in Phase 1; board oversight via tranche gates | Board |
 
 > **Investor Note.** Note what is *absent* from the top ten: competitive response. Volume 2's analysis concludes that the format's defensibility rests on the combination of civil works, proprietary telemetry, the ERP, and this documentation — a package a copycat needs years and comparable capital to assemble, by which time the License-holding customer base and the brand are entrenched. Competition appears in the Volume 2 register, ranked below the risks above.
@@ -715,7 +722,7 @@ One methodological note before the table: mitigation and insurance are treated a
 
 Risk governance is continuous, not annual: the register above is reviewed quarterly by the board; each specialist register is reviewed monthly by its owning manager; and the safety-relevant subset (risks 3, 8, 9) is standing business at every management meeting, with incident and near-miss data flowing from RC WORLD OS's logging into the review. A risk whose score rises two consecutive quarters is escalated to the board with a revised mitigation plan regardless of its absolute rank.
 
-Finally, the risks the plan consciously *accepts*, because pretending otherwise would be dishonest: the concept is unproven at this scope anywhere in the world — the mitigations reduce the cost of being wrong, but no benchmark park exists to point to, and the soft-opening evidence gate is the plan's answer; the founder's thesis about gamified retention could underdeliver, in which case the park falls back to benchmark repeat-visit economics (which the base case already assumes); and a leased site means lease-renewal exposure in the long term, accepted in exchange for keeping $1M+ of land capital out of the ask, and managed through option periods negotiated at signing (Volume 11, Chapter 2).
+Finally, the risks the plan consciously *accepts*: the concept is unproven at this scope anywhere in the world — the mitigations reduce the cost of being wrong, but no benchmark park exists, and the presales-gated T3 is the plan's answer; the gamified-retention thesis could underdeliver, in which case the park falls back to benchmark repeat-visit economics (which the base case already assumes); and a leased site means long-term lease-renewal exposure, accepted in exchange for keeping $1M+ of land capital out of the ask and managed through option periods negotiated at signing (Volume 11, Chapter 2).
 
 ## 10. Expansion Roadmap
 
@@ -750,20 +757,20 @@ Two disciplines govern the pipeline. First, **sponsorship follows audience**: se
 
 | Period | Expansion action | Funding source | Decision gate |
 |---|---|---|---|
-| Y1 (Mo 0–12) | Build and open Core Park | T1–T3 tranches | Section 6.3 gates |
-| Y2 (Mo 13–24) | Aviation + restaurant open; first full events calendar | Operating cash flow | Phase 1 exit criteria (7.1) |
-| Y2–3 (Mo 25–30) | Marine, grandstand, events lawn complete | Operating cash flow | Phase 2 milestones (7.2) |
-| Y3 (Mo 31–40) | Night racing; arena and Academy build; franchise pilot site selection | Operating cash flow | Phase 2 exit criteria |
-| Y4 (Mo 41–54) | Arena + Academy at full operation; franchise pilot opens; second-site feasibility | Cash flow; franchisee capital | Board review vs Vol 10 base case |
-| Y5 (Mo 55–60) | Franchise system decision; second-site decision; exit-readiness review | — | Five-year review (7.3) |
+| Build year (project Mo 0–12) | Build and open Core Park (opening = operating M1) | T1–T3 tranches | Section 6.3 gates |
+| Operating Y1 (M1–12) | Core Park trading ramp; Phase 2 design, permits, procurement; first full events calendar | Operating revenue | Phase 2 gate (≈M12–13, §7.1 criteria) |
+| Operating Y2 (M13–24) | Phase 2 build; aviation staged opening M16–24; restaurant M19–20; marine M20–24; grandstand and events lawn | Cash flow + optional $600 K facility (Vol 10, §3.5) | Phase 2 milestones (7.2) |
+| Operating Y3 (M25–36) | Full Park at maturity; night racing; arena and Academy build; franchise pilot site selection | Operating cash flow | Month-30 review; ≥25% ROIC per element |
+| Operating Y4 (M37–48) | Arena + Academy at full operation; franchise pilot opens; second-site feasibility | Cash flow; franchisee capital | Board review vs Vol 10 base case |
+| Operating Y5 (M49–60) | Franchise system decision; second-site decision; exit-readiness review | — | Five-year review (7.3) |
 
 ### 10.7 The five-year horizon, stated plainly
 
-By Month 60, the base case delivers: one destination park at ≈$3.4 M revenue and 24–28% EBITDA margin; an operating manual proven deep enough to franchise; one franchised site open; a telemetry and ERP platform with standalone value; and a credentialed customer community whose status lives in the RC WORLD system. That is the asset the exit options in Section 6.5 price.
+By project Month 60, the base case delivers: one destination park at ≈$3.4 M revenue and 24–28% EBITDA margin; an operating manual proven deep enough to franchise; one franchised site open; a telemetry and ERP platform with standalone value; and a credentialed customer community whose status lives in the RC WORLD system. That is the asset the exit options in Section 6.5 price.
 
 ## Volume summary & cross-references
 
-This volume compressed the entire Master Development Plan into its investment logic: a miniaturized industrial complex on 4.8 ha, ~150 telemetry-equipped vehicles billed in 20-minute Shifts, nine stacked revenue engines on a high-utilization thesis, a $2.6 M staged ask buying Phase 1 outright and the option ladder to a $3.9 M five-year build-out, headline economics of ≈$1.28 M → $3.4 M revenue with 24–28% steady-state EBITDA margins, break-even in Month 16–19, and expansion into franchise, education, and platform revenue.
+This volume compressed the entire Master Development Plan into its investment logic: a miniaturized industrial complex on 4.8 ha, ~150 telemetry-equipped vehicles billed in 20-minute Shifts, nine stacked revenue engines on a high-utilization thesis, a $2.6 M staged ask buying Phase 1 outright and the option ladder to a $3.9 M five-year build-out, headline economics of ≈$1.28 M → $3.4 M revenue with 24–28% steady-state EBITDA margins, break-even in operating Month 16–19, a base-case investor outcome of ≈1.6–2.0× MOIC, and expansion into franchise, education, and platform revenue.
 
 Where to go deeper: market and competition — **Volume 2**; the divisions this volume summarized in Chapter 5 — **Volumes 3–6**; the engineering and maintenance doctrine behind the margin claims — **Volume 7**; supply chain and fleet purchasing — **Volume 8**; the customer journey, License program, and retention mechanics — **Volume 9**; every financial figure at full resolution (the source of truth) — **Volume 10**; site, buildings, and construction — **Volume 11**; the franchise package — **Volume 12**; RCW Node hardware and RC WORLD OS — **Volume 13**. Canonical numbers cited here originate in `style-guide.md` and may not be varied by any volume.
 
@@ -1434,7 +1441,7 @@ Competitor research (Chapter 8) verified the format emerging independently in Ja
 
 # Volume 3 — RC Motorsport Division
 
-**RC WORLD — Master Development Plan** · Volume 3 of 12
+**RC WORLD — Master Development Plan** · Volume 3 of 13
 **Revision 1.0 — July 2026** · Status: Living document — bump revision on material change
 
 **Purpose of this volume.** This volume is the complete engineering and operating specification for the RC WORLD Motorsport Division: the Phase 1 fleet of **64 racing cars** across seven vehicle classes, the three-track Speed & Off-Road Hub (Tracks A and B in Motorsport scope; Track C belongs to the crawler program in Volume 4's adventure annex), and the race-operations business built on top of them. It codifies the division's founding doctrine — **standardized chassis, personalities created through tuning, races decided by driver skill, lap-time parity within 2–3% across every car in a class** — and turns that doctrine into working engineering: platform selection, parts commonality, fleet blueprinting and balancing procedures, ESC programming tables, suspension setup sheets, gearing mathematics, corner-weighting procedure, rental-hardening specifications, RCW Node integration, Shift turnaround workflow, and race-day operations. A competent race engineer hired into RC WORLD should be able to run this division from this volume plus the workshop practices in Volume 7.
@@ -1511,22 +1518,22 @@ The canonical Phase 1 motorsport fleet is **64 cars**, allocated as follows. The
 
 | # | Class | Scale | Fleet | Platform (primary) | Track | Speed (rental cap / capability) | Skill gate |
 |---|---|---|---|---|---|---|---|
-| 1 | Entry / Academy | 1/14 | 10 | MJX Hyper Go 14301/14210-class; LDRC entry scale | A (+ B paddock loop) | 30 km/h / ~55 km/h | Toolbox Talk only (age 8+) |
-| 2 | Touring / GT | 1/10 | 14 | Shaft-drive 4WD touring (TT-02 Type-S / Carten T410 class) | A | 40 km/h / ~55 km/h | Rookie license |
-| 3 | Drift | 1/10 | 12 | MST RMX 2.5 S+ (RWD) | A drift annex | 25 km/h / ~35 km/h | Rookie license |
-| 4 | Buggy / Rally | 1/14 | 12 | WLtoys 144010-class, upgraded | B | 50 km/h / ~75 km/h | Standard tier |
-| 5 | Short-Course | 1/10 | 8 | 2WD/4WD SCT (Slash-class; ZD Racing value alternative) | B | 40 km/h / ~55 km/h | Standard tier |
-| 6 | Formula RC | 1/10 | 4 | F104/TRF103-class pan car, 21.5T spec | A | 45 km/h / ~55 km/h | Licensed tier + supervision |
-| 7 | Drag | 1/10 | 4 | Touring-derived no-prep drag conversion | A straight (40.2 m strip) | event only / 100+ km/h | Any tier (staged launch); Licensed for free-brake passes |
+| 1 | Entry / Academy | 1/14 | 10 | MJX Hyper Go 14301/14210-class; LDRC entry scale | A (+ B paddock loop) | 30 km/h / ~55 km/h | Learner (age 8+, Toolbox Talk) |
+| 2 | Touring / GT | 1/10 | 14 | Shaft-drive 4WD touring (TT-02 Type-S / Carten T410 class) | A | 40 km/h / ~55 km/h | Apprentice |
+| 3 | Drift | 1/10 | 12 | MST RMX 2.5 S+ (RWD) | A drift annex | 25 km/h / ~35 km/h | Apprentice |
+| 4 | Buggy / Rally | 1/14 | 12 | WLtoys 144010-class, upgraded | B | 50 km/h / ~75 km/h | Apprentice |
+| 5 | Short-Course | 1/10 | 8 | 2WD/4WD SCT (Slash-class; ZD Racing value alternative) | B | 40 km/h / ~55 km/h | Apprentice |
+| 6 | Formula RC | 1/10 | 4 | F104/TRF103-class pan car, 21.5T spec | A | 45 km/h / ~55 km/h | Foreman + Motorsport Master endorsement (supervised) |
+| 7 | Drag | 1/10 | 4 | Touring-derived no-prep drag conversion | A straight (40.2 m strip) | event only / 100+ km/h | Any license (staged launch); Foreman + endorsement for free-brake passes |
 | | **Total** | | **64** | | | | |
 
-Skill gates map to the RC WORLD License ladder (Volume 9) and are enforced twice: the OS refuses a transmitter pairing above the customer's tier (Section 12.1), and the tier's locked transmitter profile caps EPA and throttle curve regardless. Electronics stack per class — motor, ESC, battery — is consolidated in Section 3.3; per-class detail follows below.
+Skill gates use the RC WORLD License tiers (Learner → Apprentice → Operator → Foreman → Site Manager → Legend — Volume 9), enforced twice: the OS refuses a transmitter pairing above the customer's license tier (Section 12.1), and each tier maps to a locked **transmitter profile** — Rookie (Learner/Apprentice), Standard (Operator), Licensed (Foreman+), per Volume 9 §3.6 — that caps EPA and throttle curve regardless. Electronics stack per class is consolidated in Section 3.3; per-class detail follows.
 
 Classes 6 and 7 (8 cars combined) are **special-event classes**: they do not run walk-up Shifts but anchor scheduled events, exhibitions, and top-tier license experiences (Chapter 11).
 
 ### 2.2 Class 1 — Entry / Academy (1/14, 10 cars)
 
-**Role.** The first rung: walk-up customers, children 8+, birthday parties, the Rookie license test bed. Everything about this class minimizes the cost of a mistake — kinetic energy at 30 km/h in a 1.4 kg car is about 49 J, roughly a tenth of a 1/10 buggy at speed.
+**Role.** The first rung: walk-up customers, children 8+, birthday parties, the Learner license test bed. Everything about this class minimizes the cost of a mistake — kinetic energy at 30 km/h in a 1.4 kg car is about 49 J, roughly a tenth of a 1/10 buggy at speed.
 
 **Hardware.** The MJX Hyper Go 1/14 family is the reference platform: metal chassis, 4WD, oil-filled shocks, 2845/2852-class brushless motor with 45 A independent ESC, 2S LiPo. The 14301/14302 rally-pattern cars suit Track A duty; the 14210 truck variant tolerates paddock abuse. Manufacturer speed claims reach 55 km/h on 2S; RC WORLD caps the class at ~30 km/h via throttle EPA and ESC profile (Chapter 5). LDRC's entry-scale line is the secondary source for licensed-body variety (supplier detail in Volume 8). Wholesale cost per car including spares kit: $90–140.
 
@@ -1750,7 +1757,7 @@ Class spread **1.4% — pass, inside target**. Bench time: ~2.5 Artisan-hours fo
 
 The weekly audit is the calibrated measurement; the RCW Node makes the other six days observable too. Every customer lap generates a telemetry lap record tagged with car ID, driver license tier, battery pack ID, and ambient. Raw customer lap times are useless for parity directly — driver skill variance swamps car variance — but two derived statistics are not:
 
-- **Per-car best-decile drift.** RC WORLD OS tracks each car's 90th-percentile-best lap by *Licensed-tier* drivers over a rolling 14 days, normalized to the class's same-day median. A car drifting >1% slow over a week is flagged for the bench before the weekly audit would catch it. The Licensed-tier filter matters: good drivers find a car's real pace; novices find their own.
+- **Per-car best-decile drift.** RC WORLD OS tracks each car's 90th-percentile-best lap by *Foreman-and-above* drivers over a rolling 14 days, normalized to the class's same-day median. A car drifting >1% slow over a week is flagged for the bench before the weekly audit would catch it. The filter matters: good drivers find a car's real pace; novices find their own.
 - **Straight-line sector consistency.** The Node's speed trace over the main-straight geofence sector is driver-insensitive at full throttle. A car whose trap-speed distribution shifts down 2%+ against class peers has a powertrain problem regardless of what its lap times say.
 
 Both statistics render on the fleet dashboard (Chapter 14) as per-car sparklines. They do not replace the audit — telemetry cannot control for tires, traffic, or track state the way a reference driver can — but they turn the weekly snapshot into a continuous control loop, and they usually name the guilty subsystem before the car reaches the bench.
@@ -1832,14 +1839,14 @@ Each personality must re-pass the parity audit as configured (the reference driv
 
 ### 5.4 Throttle curves at the transmitter
 
-Punch shapes *how fast* the ESC delivers current; the transmitter's throttle curve shapes *how much* throttle a given trigger position requests in the first place. The two are tuned together, and the curve lives in the locked transmitter tier profiles (Section 12.1), which is why it belongs to fleet configuration rather than per-car setup. Fleet curves, expressed as output % at 25/50/75/100% trigger travel:
+Punch shapes *how fast* the ESC delivers current; the transmitter's throttle curve shapes *how much* throttle a given trigger position requests. The two are tuned together, and the curve lives in the locked transmitter profiles (Section 12.1; license-tier mapping Volume 9 §3.6), which is why it belongs to fleet configuration rather than per-car setup. Fleet curves, as output % at 25/50/75/100% trigger travel:
 
-| Tier profile | 25% | 50% | 75% | 100% | Character |
+| Transmitter profile (Volume 9 §3.6) | 25% | 50% | 75% | 100% | Character |
 |---|---|---|---|---|---|
-| Rookie (expo −30%, EPA 60%) | 10% | 25% | 42% | 60% | Long, gentle lower band; a nervous full pull still lands at the class rental cap |
-| Standard (expo −15%, EPA 80%) | 16% | 36% | 58% | 80% | Progressive but honest; the default customer feel |
-| Licensed (linear, EPA 100%) | 25% | 50% | 75% | 100% | Verbatim input inside class gearing caps |
-| Drift all tiers (expo −20%) | 14% | 33% | 56% | tier EPA | Widens the partial-throttle band where wheelspeed control lives |
+| Rookie — Learner/Apprentice (expo −30%, EPA 60%) | 10% | 25% | 42% | 60% | Long, gentle lower band; a nervous full pull still lands at the class rental cap |
+| Standard — Operator (expo −15%, EPA 80%) | 16% | 36% | 58% | 80% | Progressive but honest; the default customer feel |
+| Licensed — Foreman+ (linear, EPA 100%) | 25% | 50% | 75% | 100% | Verbatim input inside class gearing caps |
+| Drift all profiles (expo −20%) | 14% | 33% | 56% | profile EPA | Widens the partial-throttle band where wheelspeed control lives |
 
 Design logic: negative expo flattens the curve through the first half of trigger travel — where novices actually drive — so small hand movements make small speed changes, while the top of the band is reachable deliberately rather than accidentally. Drift keeps moderate expo at every tier because partial-throttle modulation *is* the class skill. Brake-side curves stay linear on all profiles (nobody should meet a nonlinear brake in an emergency), with authority set by the ESC's max-brake-force parameter. Curve revisions are fleet-configuration changes: Motorsport Lead sign-off, OS config log entry, and a spot parity re-run.
 
@@ -2159,7 +2166,7 @@ Formula is run as a strict spec class — the point is precision, not developmen
 
 ### 11.2 Formula event formats
 
-- **Formula Experience** (weekly, license-gated at Operator tier): 30-minute guided session — briefing, 2 practice Shifts' worth of track time, 8-minute sprint with grid and podium. Priced as a premium experience, not a Shift.
+- **Formula Experience** (weekly; gated at Foreman + Motorsport Master endorsement, instructor-supervised): 30-minute guided session — briefing, 2 practice Shifts' worth of track time, 8-minute sprint with grid and podium. Priced as a premium experience, not a Shift.
 - **Formula Cup** (monthly): qualifying + two 8-minute finals, grid of 8 (4 fleet cars double-stinted across two semis), championship points into the annual calendar (Section 13.6).
 
 ### 11.3 Energy-allocation racing (the power-management format)
@@ -2198,7 +2205,7 @@ The transmitter is the customer's entire interface with the division, and it is 
 
 - **One transmitter model park-wide for surface vehicles** (4-channel 2.4 GHz surface radio with model memory, EPA, dual rate, physical menu lockout — procurement spec in Volume 8). One model means one Toolbox Talk diagram, one battery type, one spare pool.
 - **Menu lockout is physical and procedural:** menu access disabled on customer units (button combination set and taped internally where supported; units audited weekly). Customers get steering wheel, throttle trigger, and nothing else that changes state.
-- **Rate limiting by license tier is a transmitter profile, not a car change.** Steering EPA and throttle EPA/curve are pre-programmed per tier: Rookie (steering 75%, throttle 60%, softened center), Standard (90/80), Licensed (100/100 within class caps). The transmitter binds to the car at the counter by QR scan (RC WORLD OS pairs `asset_tag` to transmitter ID and writes the session to the queue roster) and refuses a pairing whose tier exceeds the customer's license.
+- **Rate limiting by license tier is a transmitter profile, not a car change.** Steering EPA and throttle EPA/curve are pre-programmed per transmitter profile (Volume 9 §3.6): Rookie for Learner/Apprentice (steering 75%, throttle 60%, softened center), Standard for Operator (90/80), Licensed for Foreman+ (100/100 within class caps). The transmitter binds to the car at the counter by QR scan (RC WORLD OS pairs `asset_tag` to transmitter ID and writes the session to the queue roster) and refuses a pairing whose profile exceeds the customer's license tier.
 - **The RCW Node is the enforcement backstop.** Whatever the transmitter commands, the Micro-Node's PWM intercept enforces the park-side rules: under-voltage throttle-back at 3.4 V/cell, geofence kill at track boundaries, remote kill from the director's console, and telemetry streaming to RC WORLD OS over the Wi-Fi mesh. Transmitter EPA shapes the *experience*; the Node guarantees the *limits*. Gyro-stability aids, where a class uses them (drift gyro; optional steering assist on entry class), are configured on the car and license-gated the same way.
 
 ### 12.2 The hardening pass (car induction)
@@ -2224,7 +2231,7 @@ Bodies absorb the first hit, so bodies are engineered as consumables with a serv
 
 ### 12.4 Asset tagging and telemetry integration
 
-Every car carries three identities that must always agree: the **physical asset tag** (laser-etched QR + human-readable ID, e.g. `MS-T-04`, on chassis and body), the **RCW Node MAC** (the telemetry identity in `fleet_inventory`), and the **timing transponder ID** (Section 13.3). RC WORLD OS is the master record: status ENUM (active/maintenance/charging), total Shifts run, motor/ESC/tire sub-asset histories, last parity result, last profile write. The Node makes the car self-reporting: voltage and position land in `live_telemetry`, lap crossings corroborate the timing system, and the maintenance module opens flags on runtime thresholds (Volume 7; KPI hooks in Chapter 14).
+Every car carries three identities that must always agree: the **physical asset tag** (laser-etched QR + human-readable ID, e.g. `MS-T-04`, on chassis and body), the **RCW Node MAC** (the telemetry identity in `fleet_inventory`), and the **timing transponder ID** (Section 13.3). RC WORLD OS is the master record: lifecycle status (seven states: available → bound → on_track → pit → maintenance → charging → retired; see Volume 13 §6.3), total Shifts run, motor/ESC/tire sub-asset histories, last parity result, last profile write. The Node makes the car self-reporting: voltage and position land in `live_telemetry`, lap crossings corroborate the timing system, and the maintenance module opens flags on runtime thresholds (Volume 7; KPI hooks in Chapter 14).
 
 ### 12.5 The Shift turnaround
 
@@ -2303,7 +2310,7 @@ Class B/C events feed the MTBF KPI (Chapter 14); Class A does not. A car with th
 
 The division runs four customer-facing competition formats, tiered to the license ladder:
 
-- **Sprint races** (daily, walk-up): 6–8 minute heats inside a standard Shift slot, grid formed from the queue, class-locked. Results post to the leaderboard and earn Gears — any Standard-tier customer's Shift can become a race.
+- **Sprint races** (daily, walk-up): 6–8 minute heats inside a standard Shift slot, grid formed from the queue, class-locked. Results post to the leaderboard and earn Gears — any Apprentice-or-higher customer's Shift can become a race.
 - **Endurance events** (monthly): 30–60 minute team races (2–3 drivers per car) with mandatory pit windows for the Artisan battery swap. Endurance sells memberships: it requires teammates.
 - **Ladder leagues** (six-week seasons): weekly heats, points, promotion/relegation between Rookie/Clubman/Pro divisions per class — the retention backbone (Volume 9 ties standing to license tier and Gears multipliers).
 - **Special-event formats:** Formula Cup and drag brackets (Chapter 11), drift competitions judged on line/angle/style (three-judge club format), and the seasonal championship (Section 13.6).
@@ -2410,7 +2417,7 @@ The Motorsport Division converts a standardized 64-car fleet into the park's hig
 
 # Volume 4 — RC Construction Division
 
-**RC WORLD — Master Development Plan** · Volume 4 of 12
+**RC WORLD — Master Development Plan** · Volume 4 of 13
 **Revision:** 1.0 — July 2026 · **Status:** Living document — bump revision on material change
 
 **Purpose of this volume.** This is the handbook of the RC WORLD Construction Division: the Mining Zone and the Agriculture Zone that open with Phase 1 as one of the park's two anchor attractions. It specifies every machine class the division operates — from the Huina 1580 rental excavators to the single Kabolite-class hydraulic flagship — with anatomy, operating envelopes, verified 2026 market pricing and duty ratings; it derives the 1:3 excavator-to-dump-truck logistics ratio with worked queueing arithmetic; it engineers the haul roads, the open-pit material recirculation loop, the agricultural field grid, and the operator stations customers stand at; it defines the competition formats that convert earthmoving into repeat revenue; and it closes with the division-specific maintenance program, preventive-maintenance matrix and FMEA table that keep forty-two machines in daily public service. It is written to be handed out chapter by chapter: the civil contractor gets Chapters 5, 6 and 10, the Artisans get Chapters 2, 8 and 12, the events team gets Chapter 11, and the investor reads all of it.
@@ -3194,7 +3201,7 @@ The Construction Division is RC WORLD's signature: a working 1/14 open-pit mine 
 
 | | |
 |---|---|
-| **Document** | RC WORLD — Master Development Plan, Volume 5 of 12 |
+| **Document** | RC WORLD — Master Development Plan, Volume 5 of 13 |
 | **Title** | Aviation Division |
 | **Revision** | 1.0 — July 2026 |
 | **Status** | Planning baseline — Phase 2 build (Months 13–30) |
@@ -3225,7 +3232,7 @@ The Construction Division is RC WORLD's signature: a working 1/14 open-pit mine 
 
 Every RC WORLD division before this one operates vehicles bound to the ground. A runaway buggy is stopped by a barrier; a mis-driven excavator simply stalls against a berm. Failure is two-dimensional and contained by default. Aviation removes that default. A model aircraft that departs controlled flight can leave the property, descend onto a spectator, or — in the worst historical pattern of the hobby — "fly away" beyond radio range and land where nobody intended. The Aviation Division's founding decision, recorded in the original Omni-Zone blueprint and carried unchanged into this plan, is therefore **total containment**: the entire airfield — 30 m paved runway, taxiways, elevated helipads, pilot boxes and racing course — is enclosed in high-tensile netting on all sides *and overhead*, forming a single continuous flight cage. Nothing that flies at RC WORLD can physically exit the enclosure.
 
-The reference enclosure (final structural design in Volume 11, Chapter 9) is a **70 m × 45 m footprint with an 18 m apex height**, carried on galvanised steel masts with tensioned perimeter cables — the same engineering family as golf driving-range and baseball-field barrier netting, a mature industry with established suppliers, load tables and inspection norms. The 30 m runway runs along the long axis with 15 m of paved overrun and grass margins inside the net; two elevated helipads (1.0 m platforms) sit on the eastern edge; the drone-racing gate course occupies the western half and is reconfigurable; a smaller 13 mm fine-mesh **Whoop Arcade** sub-enclosure sits beside the main cage for micro-drone flying that does not consume main-airspace capacity (Chapter 6). Spectators view through the net from a standoff rail and from the Phase 2 grandstand sightline (Volume 11).
+The reference enclosure (final structural design in Volume 11, Chapter 5) is a **60 m × 40 m footprint with a 15 m clear flight ceiling** under a crowned roof net carried on 16–17 m galvanised steel masts with tensioned perimeter cables — the same engineering family as golf driving-range and baseball-field barrier netting, a mature industry with established suppliers, load tables and inspection norms. The 30 m runway runs along the long axis with 15 m of paved overrun and grass margins inside the net; two elevated helipads (1.0 m platforms) sit on the eastern edge; the drone-racing gate course occupies the western half and is reconfigurable; a smaller 13 mm fine-mesh **Whoop Arcade** sub-enclosure sits beside the main cage for micro-drone flying that does not consume main-airspace capacity (Chapter 6). Spectators view through the net from a standoff rail and from the Phase 2 grandstand sightline (Volume 11).
 
 The cage is not merely a safety device — it is the product. Full-size aviation is defined by the discipline the sky imposes; the RC WORLD cage lets us impose that discipline deliberately, in a space small enough that a first-time visitor can be flying a stabilised trainer within one visit, and structured enough that a hobbyist can earn jet and FPV type ratings over a season.
 
@@ -3259,7 +3266,7 @@ The Aviation Division is deliberately sequenced into **Phase 2 (Months 13–30, 
 | Parameter | Value |
 |---|---|
 | Opens | Phase 2, staged Months 16–24 (sim lab first) |
-| Enclosure | ~70 × 45 m footprint, 18 m apex, high-tensile knotless netting, fully roofed |
+| Enclosure | 60 × 40 m footprint, 15 m clear flight ceiling (16–17 m masts), high-tensile knotless netting, fully roofed |
 | Runway | 30 m paved, with 15 m overrun; two elevated helipads |
 | Fleet | ~20 powered aircraft: 8 fixed-wing, 2 EDF jets, 4 helicopters, 7 FPV multirotors (Chapter 10) |
 | Disciplines | Fixed wing, jets, helicopters, FPV freestyle/cinewhoop, drone racing |
@@ -3346,7 +3353,7 @@ Both are EPO foam and repairable at the bench, but a jet crash is an order of ma
 
 ### 3.2 Energy management — the jet discipline
 
-Jets are hard for one reason: **energy**. A trainer flies at 8 m/s and stops flying gently; a 70 mm EDF approaches at 20+ m/s, carries three times the kinetic energy per kilogram, and — critically — has *no propwash over the tail*, so control authority collapses with airspeed. Inside a 70 m cage this compresses further: the pilot has perhaps four seconds of straight line before the far net. Jet operations therefore run under their own rules:
+Jets are hard for one reason: **energy**. A trainer flies at 8 m/s and stops flying gently; a 70 mm EDF approaches at 20+ m/s, carries three times the kinetic energy per kilogram, and — critically — has *no propwash over the tail*, so control authority collapses with airspeed. Inside a 60 m cage this compresses further: the pilot has perhaps three seconds of straight line before the far net. Jet operations therefore run under their own rules:
 
 - **Racetrack pattern only** — continuous oval at the 12–18 m band, no hovering discipline sharing the airspace, no student traffic aloft (jets get exclusive airspace slots, Chapter 8.2).
 - **Throttle is a planning tool, not a reflex.** The syllabus teaches energy budgeting: power set on downwind, speed bled progressively, approach flown on a stabilised glidepath with power carried to the flare. Chopping throttle on final in an EDF is the canonical beginner crash.
@@ -3414,7 +3421,7 @@ Control links (2.4 GHz frequency-hopping) coexist essentially without management
 | 7 | R8 | 5,917 MHz | Race heat slot 7 (verify legal in-country) |
 | 8 | Digital (O4-class, auto-managed) | 5.8 GHz DFS | Cinewhoop rentals — digital system self-coordinates |
 
-Rules of the plan: maximum **7 simultaneous analog pilots** (R5 at 5,806 MHz is skipped as an interference guard for the digital system, and top-of-band channels must be verified against local spectrum law — several RaceBand channels are not legal in all jurisdictions; verify locally and amend the plan); **25 mW transmit power** standard (the MultiGP norm — sufficient inside a 70 m cage and the key to clean multi-pilot video); no video transmitter is powered up anywhere on site except at the FPV pit with a channel token physically in hand. Channel tokens are numbered tags hanging at the controller's desk — an old club trick that makes spectrum occupancy visible at a glance.
+Rules of the plan: maximum **7 simultaneous analog pilots** (R5 at 5,806 MHz is skipped as an interference guard for the digital system, and top-of-band channels must be verified against local spectrum law — several RaceBand channels are not legal in all jurisdictions; verify locally and amend the plan); **25 mW transmit power** standard (the MultiGP norm — sufficient inside a 60 m cage and the key to clean multi-pilot video); no video transmitter is powered up anywhere on site except at the FPV pit with a channel token physically in hand. Channel tokens are numbered tags hanging at the controller's desk — an old club trick that makes spectrum occupancy visible at a glance.
 
 > **Trade Hack.** Smoke-stop every analog channel dispute with a $60 handheld 5.8 GHz spectrum scanner at the controller desk. When a pilot swears they are on R3 and the screen shows energy on R4, the argument is over in five seconds. Log recurring offenders' equipment — a mis-programmed VTX that "sticks" a channel is a maintenance ticket, not a discipline issue.
 
@@ -3834,7 +3841,7 @@ The Aviation Lead reports the following on the RC WORLD OS division dashboard (p
 
 ## 11. Volume Summary & Cross-References
 
-The Aviation Division converts the most dangerous branch of the RC hobby into a walk-in leisure product through one structural decision and three doctrines. The decision is **total containment**: a 70 × 45 m, 18 m-apex high-tensile netted cage around the 30 m runway and helipads, which moves flying out of national-airspace regimes (FAA Part 107/TRUST and EASA open category treated strictly as reference frameworks — local written confirmation is a Month 13 gating task) and into the insurable world of certified structures. The doctrines: **one airspace, one controller**, with a published compatibility matrix and exclusive slots for jets and racing; **simulator-first training**, with a six-station lab (RealFlight, Liftoff, Velocidrone) opening three months before the cage and gating every high-risk discipline; and **earned progression**, the RC WORLD Wings ladder from ground school through buddy-box to solo and type ratings, enforced automatically by RC WORLD OS. The ~21-airframe fleet pairs SAFE-equipped Western trainers with Chinese-sourced equivalents, positions EDF jets as supervised spectacle, helicopters as the prestige discipline, and FPV — cinewhoop, freestyle, Tiny Whoop and a MultiGP-pattern racing league — as the division's growth engine. At premium-tier pricing with instruction margins layered on ~42 peak Shifts/hour across cage, Arcade and sim lab, the division earns its ≈ $364 k share of Phase 2 capex while giving the park its strongest aspirational brand asset.
+The Aviation Division converts the most dangerous branch of the RC hobby into a walk-in leisure product through one structural decision and three doctrines. The decision is **total containment**: a 60 × 40 m high-tensile netted cage with a 15 m clear flight ceiling around the 30 m runway and helipads, which moves flying out of national-airspace regimes (FAA Part 107/TRUST and EASA open category treated strictly as reference frameworks — local written confirmation is a Month 13 gating task) and into the insurable world of certified structures. The doctrines: **one airspace, one controller**, with a published compatibility matrix and exclusive slots for jets and racing; **simulator-first training**, with a six-station lab (RealFlight, Liftoff, Velocidrone) opening three months before the cage and gating every high-risk discipline; and **earned progression**, the RC WORLD Wings ladder from ground school through buddy-box to solo and type ratings, enforced automatically by RC WORLD OS. The ~21-airframe fleet pairs SAFE-equipped Western trainers with Chinese-sourced equivalents, positions EDF jets as supervised spectacle, helicopters as the prestige discipline, and FPV — cinewhoop, freestyle, Tiny Whoop and a MultiGP-pattern racing league — as the division's growth engine. At premium-tier pricing with instruction margins layered on ~42 peak Shifts/hour across cage, Arcade and sim lab, the division earns its ≈ $364 k share of Phase 2 capex while giving the park its strongest aspirational brand asset.
 
 **Cross-references:**
 
@@ -3855,7 +3862,7 @@ The Aviation Division converts the most dangerous branch of the RC hobby into a 
 
 | | |
 |---|---|
-| **Document** | RC WORLD — Master Development Plan, Volume 6 of 12 |
+| **Document** | RC WORLD — Master Development Plan, Volume 6 of 13 |
 | **Title** | Marine Division |
 | **Revision** | 1.0 — July 2026 |
 | **Status** | Planning baseline — Phase 2 build (Months 13–30) |
@@ -3887,7 +3894,7 @@ Every RC WORLD division is built on the same founding thesis: a **miniaturized i
 
 The two waterspaces are deliberately opposite in character. The harbour is slow, precise and narrative — the marine equivalent of the Mining Zone. The speed pond is loud (by water standards), fast and competitive — the marine equivalent of Track B. Between them, a sail fleet and a small submarine bay complete a division that covers the full emotional register of watercraft: work, speed, silence and mystery.
 
-> **Investor Note** — The Marine Division is a **Phase 2 addition** (Months 13–30, "Full Park"), funded inside the Phase 2 capex envelope of ≈ $1.15 M alongside the Aviation Division, restaurant, expanded retail and grandstand (canon: Volume 1 and Volume 10). Its ~24 vessels are the cheapest powered fleet in the park — roughly $9,500 in hulls, under $13,500 with batteries and first-year spares (Chapter 9) — but the ponds are the real asset: a ≈ $210,000 civil work with a 25–40-year liner life that anchors the Phase 2 F&B precinct, extends average visit length, and captures family, senior and photographer demographics the land divisions under-serve.
+> **Investor Note** — The Marine Division is a **Phase 2 addition** (Months 13–30, "Full Park"), funded inside the Phase 2 capex envelope of ≈ $1.15 M alongside the Aviation Division, restaurant, expanded retail and grandstand (canon: Volume 1 and Volume 10). Its ~24 vessels are the cheapest powered fleet in the park — roughly $9,500 in hulls, under $13,500 with batteries and first-year spares (Chapter 9) — but the ponds are the real asset: a ≈ $212,000 civil work with a 25–40-year liner life that anchors the Phase 2 F&B precinct, extends average visit length, and captures family, senior and photographer demographics the land divisions under-serve.
 
 ### 1.2 Why marine broadens demographics
 
@@ -4512,7 +4519,7 @@ The Marine Division converts a ≈ $212,000 two-pond civil work and a ≈ $11,60
 - **Volume 7** — park-wide workshop doctrine under this volume's marine regime (SOP M-20, flex-shaft schedule, conformal coating); barge-building and Arkmodel/Billing kit builds as Artisan winter projects.
 - **Volume 8** — marine procurement: Horizon/Pro Boat dealer terms, Joysway class-legal DF65 supply, Arkmodel direct, legacy 75/40 MHz radio sourcing and regional frequency legality.
 - **Volume 9** — marine badge ladder (§8.4) feeding the RC WORLD License; senior and schools programs.
-- **Volume 10** — consolidated Phase 2 capex (pond complex ≈ $212 k) and the division's revenue contribution in the park model.
+- **Volume 10** — consolidated Phase 2 capex (pond complex ≈ $212 k civil inside Volume 10's $231 k marine division line) and the division's revenue contribution in the park model.
 - **Volume 11** — pond siting beside the restaurant terrace; prevailing-wind orientation, shelter belts and fetch; barrier and path integration.
 - **Volume 12** — winterization and cold-climate pond annex for franchise sites.
 - **Volume 13** — Node fleet-coverage tables must record the submarine exception; harbour-master console, mission scoring, berth board and geofence-as-harbour-limits as RC WORLD OS modules.
@@ -4524,7 +4531,7 @@ The Marine Division converts a ≈ $212,000 two-pond civil work and a ≈ $11,60
 
 # Volume 7 — Engineering & Workshop Manual
 
-**RC WORLD — Master Development Plan** · Volume 7 of 12
+**RC WORLD — Master Development Plan** · Volume 7 of 13
 **Revision:** 1.0 · **Date:** July 2026 · **Status:** Living document — bump revision on material change
 
 **Purpose of this volume.** This is the technician's handbook for **The Works**, RC WORLD's central engineering and workshop facility, and the single most operationally load-bearing document in the master plan. Roughly 150 powered assets take the field in Phase 1, each crashed, over-driven and rained on by strangers up to a dozen times a day; the difference between a park that feels like a precision motorsport operation and a park that feels like a broken toy bin is entirely decided at the workbench. This volume specifies the workshop itself (floor plan, benches, ESD, air, ventilation), the tools at three investment tiers, the craft standards every Artisan is trained and audited against, a compendium of RC trade hacks, the full library of Standard Operating Procedures, the preventive-maintenance matrices driven by RC WORLD OS telemetry, repair scheduling mathematics, inventory management, FMEA-based failure analysis, the battery and charging rooms operated under the park's LiPo doctrine (3.4–4.2 V/cell operating window, 3:1 battery ratio, bunkered charging), the QC lane, a complete tutorial on building custom RC cars — required reading by founder's brief — and the bench-side of the RCW Node telemetry program. A competent RC hobbyist hired as a trainee Artisan should be able to reach productive competence from this volume plus supervised bench time.
@@ -4557,28 +4564,36 @@ The Marine Division converts a ≈ $212,000 two-pond civil work and a ≈ $11,60
 
 The Works is sized and organized like a small vehicle dealership's service department, because that is functionally what it is: a fleet of revenue-earning vehicles arrives broken and must leave billable. Three principles govern the layout:
 
-1. **Flow, not rooms.** A vehicle enters at intake, moves through triage, repair, QC and back to the fleet staging shelf in one direction. No vehicle ever moves "backwards" past the QC lane without a new job ticket. One-way flow is what makes the RC WORLD OS status ENUM (`active` / `maintenance` / `charging`) trustworthy — the physical position of a vehicle always matches its database status.
+1. **Flow, not rooms.** A vehicle enters at intake, moves through triage, repair, QC and back to the fleet staging shelf in one direction. No vehicle ever moves "backwards" past the QC lane without a new job ticket. One-way flow is what makes the RC WORLD OS fleet status trustworthy — the physical position of a vehicle always matches its database state (a seven-state machine: available → bound → on_track → pit → maintenance → charging → retired; see Volume 13 §6.3).
 2. **Segregation of energy.** Batteries are the park's dominant fire risk and are physically segregated: a **Battery Room** for storage and logging (Chapter 10) and a separate bunkered **Charging Room** (Chapter 11), both isolated from the main workshop by masonry. No LiPo is ever charged at a repair bench.
-3. **Visibility as theatre.** The Works has a public-facing glazed wall along the pit lane. Customers watching an Artisan rebuild a differential is free marketing, reinforces the "miniaturized industrial complex" brand, and — usefully — keeps bench discipline honest. The glazing is specified in Volume 11; this volume only requires that the wrenching bays face it.
+3. **Visibility as theatre.** The Works has a public-facing **guest viewing window (6.0 × 1.5 m)** along the pit lane. Customers watching an Artisan rebuild a differential is free marketing, reinforces the "miniaturized industrial complex" brand, and — usefully — keeps bench discipline honest. The glazing is specified in Volume 11, Chapter 6; this volume only requires that the wrenching bays face it.
 
 ### 1.2 Floor plan and zone schedule
 
-Phase 1 allocates The Works approximately **180 m² (≈1,940 ft²)** of enclosed space plus the external charging bunker. Zone allocation:
+Volume 11 (Chapter 6), the geometry authority, fixes The Works at **450 m² GFA (≈4,840 ft²)**. Inside that envelope, this volume's working layout is a **~180 m² wrenching/electronics core** — the zones an Artisan moves between hourly — wrapped by the larger support rooms whose dimensions Volume 11 owns. Core allocation:
 
-| Zone | Area | Function | Key requirement |
+| Core zone (~180 m² total) | Area | Function | Key requirement |
 |---|---|---|---|
-| Intake & triage | 15 m² | Receiving shelf, triage bench, wash-down sink, air-blow station | Door direct to pit lane; RC WORLD OS kiosk terminal |
-| Wrenching bays (×4) | 40 m² | Mechanical repair benches, one Artisan each | 1.8 m benches, tool shadow boards, parts trays |
-| Electronics bench (×2) | 18 m² | Soldering, ESC/servo work, RCW Node assembly & flashing | ESD-protected area, fume extraction |
-| Machining corner | 15 m² | Lathe, drill press, grinder, rotary tool, vice work | Separated by partition; chip containment; eye-wash |
-| 3D printing & jig shelf | 6 m² | 2 printers, filament drybox, jig library | Ventilated enclosure exhaust |
-| Parts store | 25 m² | Bin shelving, kanban racks, consumables cabinet | Adjacent to wrenching bays; single controlled entry |
-| Battery Room | 12 m² | Storage-charge LiPo racks, IR/logging bench | Masonry separation, fire cabinet (Chapter 10) |
-| Charging Room (bunker) | 14 m² | Charger banks, sand floor trays, thermal watch | External cinderblock/sandbag bunker (Chapter 11) |
-| QC lane | 20 m² | Rolling-road bench, scales, radio range check, test strip to door | Direct exit to a 25 m fenced test strip |
-| Circulation, lockers, docs | 15 m² | Artisan lockers, manual library, whiteboard, coffee | — |
+| Intake & triage | 20 m² | Receiving shelf, triage bench, wash-down sink, air-blow station | Door to the intake yard off the pit lane; RC WORLD OS kiosk terminal |
+| Wrenching bays (×4) | 48 m² | Mechanical repair benches, one Artisan each | 1.8 m benches, tool shadow boards, parts trays; face the viewing window |
+| Electronics bench (×2) | 24 m² | Soldering, ESC/servo work, RCW Node assembly & flashing | ESD-protected area, fume extraction |
+| Machining corner | 18 m² | Lathe, drill press, grinder, rotary tool, vice work | Separated by partition; chip containment; eye-wash |
+| 3D printing & jig shelf | 8 m² | 2 printers, filament drybox, jig library | Ventilated enclosure exhaust |
+| Paint & gluing booth corner | 12 m² | Spray booth, body prep, batch tire gluing | Ducted extraction (§1.7) |
+| Fleet staging shelves | 20 m² | QC-passed vehicles awaiting return to service | Adjacent to QC lane exit |
+| Circulation, lockers, docs | 30 m² | Artisan lockers, manual library, whiteboard, coffee | — |
 
-The four wrenching bays are the capacity constraint of the whole park (see the loading math in Chapter 7); the building shell should allow expansion to six bays in Phase 2 without moving walls — specify this to the architect (Volume 11).
+Support rooms inside the 450 m² GFA, per Volume 11 Chapter 6:
+
+| Support room | Area | Key requirement |
+|---|---|---|
+| Parts store | 45 m² | Bin shelving, kanban racks, consumables cabinet; adjacent to wrenching bays; single controlled entry |
+| Battery Room | 24 m² | Storage-charge LiPo racks, IR/logging bench; masonry separation (Chapter 10) |
+| Charging Room (bunker) | 30 m² internal (6.0 × 5.0 m) | **Inside the building**: filled-cell CMU, blast venting, FD90 door (Chapter 11) |
+| QC lane | 35 m² | Rolling-road bench, scales, radio range check; direct exit to a 25 m fenced test strip |
+| Intake yard access, plant, ancillary + wall/GFA allowance | ≈136 m² | Balance of the 450 m² GFA — Volume 11 carries the dimensioned plan |
+
+The four wrenching bays are the capacity constraint of the whole park (see the loading math in Chapter 7); Volume 11's 450 m² shell reserves core floor area for a Phase 2 expansion to six bays without structural change.
 
 ### 1.3 Bench specification
 
@@ -4639,8 +4654,8 @@ The machining corner adds a shop-vac with cyclone separator for chips and grindi
 
 Hand Volume 11's designer this checklist:
 
-- [ ] 180 m² enclosed, one-way flow intake → QC, glazed wall to pit lane at wrenching bays
-- [ ] Masonry-separated Battery Room (12 m²) and external bunkered Charging Room (14 m²)
+- [ ] 450 m² GFA per Volume 11 Chapter 6, one-way flow intake → QC around a ~180 m² wrenching/electronics core; guest viewing window (6.0 × 1.5 m) to the pit lane at the wrenching bays; intake yard access
+- [ ] Masonry-separated Battery Room (24 m²) and internal bunkered Charging Room (30 m² internal, 6.0 × 5.0 m: filled-cell CMU, blast venting, FD90 door)
 - [ ] 3-phase power to machining corner and Charging Room; 20+ double outlets distributed
 - [ ] Dedicated circuits: charging banks (Chapter 11 load calc), compressor, extraction
 - [ ] Ducted extraction: solder arm (electronics), spray booth (paint corner), printer enclosure
@@ -4765,7 +4780,7 @@ Add 5.0 mm and 8.0 mm nut drivers for the construction and crawler heavy hardwar
 | Rolling-road / dyno bench (QC) | Custom-built rollers + brake, or SkyRC chassis dyno if available locally | $150–500 | Post-repair load test without track time (Chapter 12) |
 | Fleet trolleys ×3 | 3-shelf workshop trolleys | $180–300 | Moving 6–8 vehicles between pit lane and The Works |
 
-> **Investor Note.** Total Phase 1 tooling — six Artisan kits, shared benches, capital equipment, charging infrastructure — lands at **$28,000–38,000** including the charger bank costed in Chapter 11. This is under 2% of Phase 1 capex and is the least discretionary line in the budget: every dollar of fleet availability flows through these benches.
+> **Investor Note.** Total Phase 1 tooling — five Artisan kits (4 Artisans + Workshop Lead) plus one uncommitted float kit as training/loaner stock, shared benches, capital equipment, charging infrastructure — lands at **$28,000–38,000** including the charger bank costed in Chapter 11. This is under 2% of Phase 1 capex and is the least discretionary line in the budget: every dollar of fleet availability flows through these benches.
 
 ### 2.6 What we deliberately do not buy in Phase 1
 
@@ -4842,7 +4857,7 @@ The cardinal rule: **a servo is centered electronically before the horn goes on,
 3. Install, connect linkage, then set end points (EPA) on the transmitter/receiver so the servo **never stalls against a mechanical stop** — a stalled 25 kg servo draws amps until something (gear teeth, BEC, wiring) gives.
 4. Steering servos on the rental fleet get a **servo saver** verified at every service: compress by hand; if it doesn't give before the servo does, re-shim or replace the spring.
 
-Construction fleet note: boom/bucket functions on the lead-screw machines use limit micro-switches, not servo EPA — test both limits under no load before buttoning up (SOP-WS-012).
+Construction fleet note: boom/bucket functions on the lead-screw machines use limit micro-switches, not servo EPA — test both limits under no load before buttoning up (SOP-WS-011).
 
 ### 3.7 Wiring craft
 
@@ -5231,7 +5246,7 @@ The repair queue is a Kanban board in the artisan interface (Volume 13): columns
 
 - A ticket cannot enter *On Bench* without an Artisan and a bay assigned; a bay holds one active ticket.
 - *Waiting Parts* auto-links to the inventory module; when the bin scan or PO receipt lands, the ticket bounces back to *Queued* at the head of its class.
-- Vehicles in *QC* block their asset from booking until sign-off (the `status` ENUM stays `maintenance`).
+- Vehicles in *QC* block their asset from booking until sign-off (the fleet state stays `maintenance`; Volume 13 §6.3).
 - The board's aging alarm turns any B ticket amber at 18 h and red at 24 h (SLA), and pushes a notification to the Workshop Lead.
 
 The physical mirror: queue shelving at intake is labelled by class and the shelf tag holds the tote + ticket. Physical position and board column are reconciled at end-of-day (SOP-WS-015).
@@ -5376,7 +5391,7 @@ FMEA outputs and ticket Paretos flow into Volume 8's purchasing decisions in two
 
 ### 10.1 Role and stock
 
-The Battery Room is the *storekeeping* half of the LiPo estate: storage racks, logging bench, quarantine shelf. Charging happens next door in the bunker (Chapter 11); the two rooms share a pass-through hatch and nothing else. Stock under the 3:1 doctrine: ~150 vehicles × 3 = **≈450 packs** (2S and 3S, XT60), each with a laser-etched or heat-stamped pack ID linked to a battery record in RC WORLD OS (chemistry, capacity, C-rating, purchase date, cycle count, IR history).
+The Battery Room — **24 m², geometry per Volume 11 Chapter 6** — is the *storekeeping* half of the LiPo estate: storage racks, logging bench, quarantine shelf. Charging happens next door in the bunker (Chapter 11); the two rooms share a pass-through hatch and nothing else. Stock under the 3:1 doctrine: ~150 vehicles × 3 = **≈450 packs** (2S and 3S, XT60), each with a laser-etched or heat-stamped pack ID linked to a battery record in RC WORLD OS (chemistry, capacity, C-rating, purchase date, cycle count, IR history).
 
 ### 10.2 State-of-charge storekeeping
 
@@ -5397,7 +5412,7 @@ Every charge event logs pack ID, cycles, per-cell voltages, and **internal resis
 | Capacity vs label (annual discharge test) | >85% | 75–85% | <75% |
 | Cycle count | — | 150 | 200–250 typical economic life |
 
-Retirement is triggered by **any** retire condition, not consensus. Retired packs are logged, physically marked (corner cut off the shrink label), storage-discharged, then routed to disposal (§10.5). Expected replacement tempo at 230 cycles/day across a 450-pack pool: each pack averages ~0.5 cycles/day → ~200 cycles ≈ 13 months; plan **~35–40% pool replacement per year** in the Volume 10 opex line.
+Retirement is triggered by **any** retire condition, not consensus. Retired packs are logged, physically marked (corner cut off the shrink label), storage-discharged, then routed to disposal (§10.5). Replacement tempo follows Volume 10's throughput-derived model, which is canonical: **57,720 pack-cycles/year** across the ~450-pack pool ≈ **128 cycles per pack per year (~0.35 cycles/day)** — not every Shift consumes a full charge cycle (~30% buffer returned; multi-block Operator Shifts). Against the conservative 200-cycle retire trigger (economic band 200–250 cycles, or earlier on the IR thresholds above), a pack reaches retirement in roughly 19 months of cycling, bounded by a **~2-year calendar horizon**; plan **≈40–50% pool replacement per year** in the Volume 10 opex line.
 
 ### 10.4 Physical inspection and quarantine
 
@@ -5434,10 +5449,10 @@ The classic hobbyist advice — "soak the pack in salt water for a few days, the
 
 ### 11.1 Bunker design per doctrine
 
-The charging room is the park's engineered fire cell, built per the original blueprint's doctrine: **cinderblock construction, sandbag-supplemented**, sited against the external wall of The Works with the pass-through hatch to the Battery Room:
+The charging room is the park's engineered fire cell, built per the original blueprint's doctrine and dimensioned by Volume 11, Chapter 6: **30 m² internal (6.0 × 5.0 m), inside the building**, in **filled-cell CMU (cinderblock) construction, sandbag-supplemented**, with blast venting to the exterior wall, an **FD90 fire-rated self-closing door**, and the pass-through hatch to the Battery Room:
 
-- Cinderblock (CMU) walls on three sides plus the building's masonry wall; blockwork to ceiling; sandbags stacked to 1.2 m against the interior face of the working wall as spall/heat mass behind the charge racks.
-- Ventilation: high-level passive vent + low-level intake to outside (thermal-runaway gas is hot and voluminous; the room must vent *outwards*), no recirculation into the workshop HVAC.
+- Filled-cell CMU walls on all sides, blockwork to ceiling; sandbags stacked to 1.2 m against the interior face of the working wall as spall/heat mass behind the charge racks.
+- Ventilation: engineered blast/pressure vents through the exterior wall, high-level relief + low-level intake (thermal-runaway gas is hot and voluminous; the room must vent *outwards*), no recirculation into the workshop HVAC.
 - Charge racks: steel shelving; every charging pack sits **inside a LiPo-safe bag or open sand tray / ammo box**; 100 mm sand-filled steel trays under each shelf level catch and smother a dropping burning pack.
 - Floor: bare concrete; a 20 L dry-sand bucket per rack bay plus a long-handled scoop; nothing combustible in the room — no cardboard, no spare shrink, no curtains on the hatch.
 - Electrical: dedicated circuits (below), emergency power-off (EPO) mushroom button at the door cutting all charger outlets, smoke/heat detection + thermal camera on the racks with RC WORLD OS alerting, door signage: occupancy rules and the fire card (§11.6).
@@ -5497,7 +5512,7 @@ Posted on the door as the **Fire Card**:
 
 - **Never water on a burning LiPo pack.** Water conducts and spreads burning electrolyte; a lithium-*polymer* (Li-ion chemistry) fire is self-oxidizing during runaway — you cannot smother the reaction, only contain it and let it burn out.
 - **Class D extinguishers are for lithium-*metal* fires** (machining swarf, primary lithium cells) — they are *not* the tool for LiPo packs and we do not stock one for the charging room; this is a common and expensive misunderstanding.
-- **The correct response to a pack in runaway:** hit the EPO; if safely reachable with the scoop, move the tray/bag to the concrete apron outside the vent door (never bare hands); **bury in dry sand** from the rack buckets; withdraw; let it complete; ventilate. The bunker's whole design assumes the pack finishes burning where it sits.
+- **The correct response to a pack in runaway:** hit the EPO; if safely reachable with the scoop, lower the tray/bag to the concrete floor clear of the racks (never bare hands); **bury in dry sand** from the rack buckets; close the FD90 door behind you; let it complete; ventilate via the blast vents. The bunker's whole design assumes the pack finishes burning where it sits.
 - The Class ABC extinguisher outside the door exists for **secondary fires** (packaging, wiring, adjacent materials) — never as the primary response to the pack itself.
 - Any thermal event, including a pack that merely vented, triggers the incident report, quarantine of every pack that shared the rack shelf, and a review of the charge log within 24 h.
 - Quarterly drill: full walkthrough with a dummy pack, timed; the marshal team's park-wide emergency procedures are in Volume 1's safety annex.
@@ -5508,7 +5523,7 @@ Posted on the door as the **Fire Card**:
 
 ### 12.1 Pre-rental QC lane (fleet staging gate)
 
-Every vehicle passes the QC lane between `maintenance` and `active` — after any repair, PM, or overnight if flagged. The lane checklist (2–4 min, printed + kiosk):
+Every vehicle passes the QC lane between `maintenance` and `available` — after any repair, PM, or overnight if flagged. The lane checklist (2–4 min, printed + kiosk):
 
 - [ ] Visual: shell, mounts, tires, no missing fasteners on the visible plane
 - [ ] Rollers: throttle response clean at 25/50/100%, no drivetrain noise signature, brake/reverse per class profile
@@ -5518,7 +5533,7 @@ Every vehicle passes the QC lane between `maintenance` and `active` — after an
 - [ ] Current draw at free-run vs platform table (±20% band) — the cheapest hidden-fault detector in the building
 - [ ] Construction: full function sweep, limit stops, current trace within band
 - [ ] Battery bay: retention, connector condition
-- [ ] Sign-off scan → status `active`, vehicle to staging shelf
+- [ ] Sign-off scan → state `available`, vehicle to staging shelf
 
 ### 12.2 Post-repair road test protocol
 
@@ -5718,7 +5733,7 @@ The flashing/test jig (3D-printed cradle + pogo pins onto the programming pads, 
 
 ## 15. Volume Summary & Cross-References
 
-The Works is where RC WORLD's economics are physically defended. This volume specified the facility (180 m², one-way flow, segregated battery and bunkered charging rooms, ESD-protected electronics benches, task-graded lighting, treated compressed air, extracted soldering and paint stations); the tooling in three tiers (~$420–600 per Artisan, $4.5–6.5 k shared bench, $6–9 k capital including lathe, comm lathe and two 3D printers — $28–38 k all-in with charging infrastructure); the craft standards every repair is audited against (screw mapping, torque tables, blue-not-red threadlock, paper-strip gear mesh, servo centering, strain-relieved wiring, solder-joint criteria); a 30-entry trade-hacks compendium; seventeen SOPs from intake to end-of-day shutdown; a cycle-based PM system driven by RC WORLD OS odometers with family matrices and a lubrication chart; repair workflow math showing ~11 bench-hours/day at 230 Shifts/day and a 4-Artisan + Lead roster; min/max inventory with two-bin kanban and a $12–16.5 k consumables budget; FMEA tables for the touring car, excavator and LiPo pack with one open action (redundant current-limit stop for boom lead-screws); battery storekeeping at 3.80–3.85 V/cell with IR-based retirement and correct (non-salt-water) disposal; the charging bunker with a 24-channel charger bank, settings tables, restricted parallel-charging rules and the dry-sand-never-water fire doctrine; the QC lane and calibration schedule; the full custom-build tutorial with the 144010 park-spec conversion and the scratch-built recovery crawler; and the RCW Node bench program from incoming QC to firmware flash.
+The Works is where RC WORLD's economics are physically defended. This volume specified the facility (450 m² GFA per Volume 11 Chapter 6, organized around a ~180 m² wrenching/electronics core with one-way flow, a 24 m² battery room and a 30 m² internal charging bunker, ESD-protected electronics benches, task-graded lighting, treated compressed air, extracted soldering and paint stations); the tooling in three tiers (~$420–600 per Artisan, $4.5–6.5 k shared bench, $6–9 k capital including lathe, comm lathe and two 3D printers — $28–38 k all-in with charging infrastructure); the craft standards every repair is audited against (screw mapping, torque tables, blue-not-red threadlock, paper-strip gear mesh, servo centering, strain-relieved wiring, solder-joint criteria); a 30-entry trade-hacks compendium; seventeen SOPs from intake to end-of-day shutdown; a cycle-based PM system driven by RC WORLD OS odometers with family matrices and a lubrication chart; repair workflow math showing ~11 bench-hours/day at 230 Shifts/day and a 4-Artisan + Lead roster; min/max inventory with two-bin kanban and a $12–16.5 k consumables budget; FMEA tables for the touring car, excavator and LiPo pack with one open action (redundant current-limit stop for boom lead-screws); battery storekeeping at 3.80–3.85 V/cell with IR-based retirement and correct (non-salt-water) disposal; the charging bunker with a 24-channel charger bank, settings tables, restricted parallel-charging rules and the dry-sand-never-water fire doctrine; the QC lane and calibration schedule; the full custom-build tutorial with the 144010 park-spec conversion and the scratch-built recovery crawler; and the RCW Node bench program from incoming QC to firmware flash.
 
 **Cross-references.**
 
@@ -5727,9 +5742,9 @@ The Works is where RC WORLD's economics are physically defended. This volume spe
 - **Volumes 5 & 6** — aviation and marine PM annexes (flight-hours and flex-shaft regimes) that run on this volume's PM engine.
 - **Volume 8** — supplier register, landed-cost purchasing, kanban requisition handling and the platform-selection gate fed by Chapter 9's FMEA data.
 - **Volume 9** — Tow-Truck Retrieval Protocol experience design served by the §13.10 recovery crawler; Academy curriculum seeded by Chapter 13.
-- **Volume 10** — the opex lines this volume quantifies: Artisan roster, parts per 100 Shifts, ~35–40%/year battery pool replacement, tooling capex.
-- **Volume 11** — architectural execution of Chapter 1's services checklist, bunker construction, and electrical schedules.
-- **Volume 13** — RC WORLD OS modules this volume consumes: fleet status ENUM, `maintenance_logs`, PM engine, repair Kanban, battery records, Node firmware pipeline and kill-switch chain.
+- **Volume 10** — the opex lines this volume quantifies: Artisan roster, parts per 100 Shifts, ≈40–50%/year battery pool replacement (from the canonical 57,720 pack-cycles/year model), tooling capex.
+- **Volume 11 (Chapter 6)** — geometry authority for The Works (450 m² GFA, battery room 24 m², charging bunker 30 m² internal); architectural execution of Chapter 1's services checklist, bunker construction, and electrical schedules.
+- **Volume 13** — RC WORLD OS modules this volume consumes: the seven-state fleet status machine (§6.3), `maintenance_logs`, PM engine, repair Kanban, battery records, Node firmware pipeline and kill-switch chain.
 
 
 ---
@@ -5738,7 +5753,7 @@ The Works is where RC WORLD's economics are physically defended. This volume spe
 
 # Volume 8 — Procurement Handbook
 
-**RC WORLD — Master Development Plan** · Volume 8 of 12
+**RC WORLD — Master Development Plan** · Volume 8 of 13
 **Revision 1.0 • July 2026** · Status: Living document — bump revision on material change
 
 **Purpose of this volume.** This volume is the buying manual for the entire park. RC WORLD's business model rests on a single procurement thesis: the park buys commercial-grade, modifiable RC equipment **direct from Chinese factories at wholesale**, cutting out two to three distribution margins, and converts that cost advantage into fleet depth, spares abundance, and pricing headroom that no competitor buying at hobby-shop retail can match. This volume turns that thesis into an operating system. It sets the procurement doctrine (Chapter 1), maps the Chinese manufacturing geography the park will buy from (Chapter 2), and delivers the core asset of the volume — a directory of more than seventy real Chinese (plus Taiwanese and Hong Kong) manufacturers and brands, profiled by location, specialty, price tier, OEM capability, MOQ class, lead time, and RC WORLD relevance (Chapter 3). It then builds the machinery around the directory: a factory rating scorecard (Chapter 4), OEM and custom-program strategy including park-spec variants and RCW Node pre-installation (Chapter 5), MOQ and lead-time planning with worked buffer-stock math (Chapter 6), a China-specific negotiation playbook (Chapter 7), import and logistics strategy including the LiPo dangerous-goods constraints that shape the whole battery supply chain (Chapter 8), inspection and quality assurance with AQL tables and container checklists (Chapter 9), supplier scorecards and relationship management (Chapter 10), and the SOPs and templates that make the whole system executable by a two-person procurement function (Chapter 11). Where a specific commercial figure (exact MOQ, exact factory-gate price, exact tooling cost) could not be verified from public sources at the time of writing, this volume gives a realistic range and marks it **[verify at factory audit]** — the plan never fabricates precision it does not have.
@@ -6102,7 +6117,7 @@ Phase 2 pond complex (~24 vessels — Volume 6). Small category, but the venue-s
 | 57 | Feilun | Shantou/Shenzhen [verify] | 2000s [verify] | Entry boats (FT011/FT012) | Entry–Value | L1 | B–C | 3–6 wk | 3 |
 | 58 | Henglong marine | Chenghai, Shantou | (see #38) | Entry/mid boats from the tank house | Entry–Value | L1 | B | 4–8 wk | 2 |
 
-**Joysway (Dongguan, est. ~2009)** is the strategic marine partner, and the reason is one product: the **DragonFlite 95**, a one-design racing sailboat with an organized global class association. One-design means every hull is identical by rule — which is the park's racing doctrine (skill decides, hardware doesn't) already institutionalized by someone else. A DF95 park fleet plugs the Marine Division straight into an existing worldwide ranking culture and gives the sailing league instant legitimacy. Around it, Joysway's electric hulls (Bullet, Magic series, $40–110 wholesale [verify]) cover the powerboat Shifts, and the company's stated OEM/ODM posture makes park-liveried hulls a realistic L1–L2 ask. Weaknesses: sailboats demand wind and coaching (staffing implication, Volume 6); electric hull electronics need the same waterproofing audit as every marine brand. **RCW 5.**
+**Joysway (Dongguan, est. ~2009)** is the strategic marine partner, and the reason is one product family: the **DragonForce 65 / DragonFlite 95** one-design racing sailboats with organized global class associations. One-design means every hull is identical by rule — which is the park's racing doctrine (skill decides, hardware doesn't) already institutionalized by someone else. Volume 6 selects the DF65 V8 as the rental sail fleet with two DF95s as club/flagship boats; either way the park plugs straight into an existing worldwide ranking culture, giving the sailing league instant legitimacy. Around it, Joysway's electric hulls (Bullet, Magic series, $40–110 wholesale [verify]) cover the powerboat Shifts, and the company's stated OEM/ODM posture makes park-liveried hulls a realistic L1–L2 ask. Weaknesses: sailboats demand wind and coaching (staffing implication, Volume 6); electric hull electronics need the same waterproofing audit as every marine brand. **RCW 5.**
 
 **Volantex Racent** (Vector SR48/SR65/SR80, $30–90 wholesale) is the volume speedboat tier — self-righting hulls, tolerant electronics, and it rides the existing Volantex air relationship, so one supplier meeting covers two divisions. **TFL Hobby (Shenzhen [verify])** machines CNC-aluminium and fiberglass race hulls one class above anything else in the table — the premium demo/race tier and a source of hardware (struts, rudders, couplers) for The Works' marine bench. **Feilun** (FT011/FT012 class, $25–60) is the budget dual source and a retail-shelf line; treat its included electronics as replaceable. **Heng Long marine** exists mainly as an alternate quote. Marine-specific procurement notes: order 2× propeller sets and flex-shafts per hull per season (the category's tires); UV and water ingress make ESC potting/conformal coating a receiving-inspection checkpoint (Chapter 9); pond-weed tolerance testing is a sample-evaluation criterion (Chapter 11 form); and every marine PO includes hull-only spares at 15–20% of fleet count, because hulls fatigue at dock impacts long before electronics die. **RCW 4 / 3 / 3 / 2.**
 
@@ -6290,7 +6305,7 @@ Planning bands compiled from published wholesale behaviour of the Chapter 3 dire
 | LiPo packs | 50–200 | 500–1,000 | 500–2,000 | 2,000+ |
 | Spares/upgrade parts | 10–100 lots | n/a | n/a | tooling-gated |
 
-The Phase 1 fleet order (64 cars, 30 construction, 12 tractors, 16+4 crawlers, batteries at 3:1) clears stock-wholesale MOQ everywhere and reaches L1 thresholds on the four biggest SKUs (touring cars, buggies, dump trucks, entry crawlers) when initial + first replenishment orders are combined on one annual agreement — which is exactly how procurement should present it (Chapter 7).
+The Phase 1 fleet order (64 cars, 30 construction, 12 tractors, 16 crawlers incl. 4 premium plus 4 recovery crawlers, batteries at 3:1) clears stock-wholesale MOQ everywhere and reaches L1 thresholds on the four biggest SKUs (touring cars, buggies, dump trucks, entry crawlers) when initial + first replenishment orders are combined on one annual agreement — which is exactly how procurement should present it (Chapter 7).
 
 ### 6.2 The lead-time stack
 
@@ -6639,12 +6654,12 @@ This volume converted the park's founding procurement thesis — direct-from-Chi
 
 | | |
 |---|---|
-| **Document** | RC WORLD — Master Development Plan, Volume 9 of 12 |
+| **Document** | RC WORLD — Master Development Plan, Volume 9 of 13 |
 | **Title** | Customer Experience & Loyalty |
 | **Revision** | 1.0 — July 2026 |
 | **Status** | Living document — bump revision on material change |
 
-**Purpose of this volume.** This volume is the design authority for everything a customer sees, feels, earns and keeps at RC WORLD. It defines the experience philosophy (immersion-as-product, friction-to-gameplay conversion), the end-to-end customer journey with owners and KPIs per touchpoint, and — as its core chapter — the complete **RC WORLD License** tiered progression system the founder's brief mandates: XP earning rules, six license tiers with numeric thresholds and equipment unlock gates, division endorsements, a catalogue of 50 named achievement badges with telemetry triggers, the Gears loyalty economy, leaderboards and season structure with a two-track Season Pass, the three canonical membership tiers, and the corporate, birthday, school and university product lines built on top of them. It closes with the customer-facing mobile app walkthrough and the service standards and recovery doctrine. Volumes 3–6 gate equipment and score events against the tiers defined here; Volume 13 builds the software that runs them. If a number in this volume and a division volume ever disagree, this volume is the source of truth for licenses, badges, Gears and memberships.
+**Purpose of this volume.** This volume is the design authority for everything a customer sees, feels, earns and keeps at RC WORLD. It defines the experience philosophy (immersion-as-product, friction-to-gameplay conversion), the end-to-end customer journey with owners and KPIs per touchpoint, and — as its core chapter — the complete **RC WORLD License** tiered progression system the founder's brief mandates: XP earning rules, six license tiers with numeric thresholds and equipment unlock gates, division endorsements, a catalogue of 60 named achievement badges with telemetry triggers, the Gears loyalty economy, leaderboards and season structure with a two-track Season Pass, the three canonical membership tiers, and the corporate, birthday, school and university product lines built on top of them. It closes with the customer-facing mobile app walkthrough and the service standards and recovery doctrine. Volumes 3–6 gate equipment and score events against the tiers defined here; Volume 13 builds the software that runs them. If a number in this volume and a division volume ever disagree, this volume is the source of truth for licenses, badges, Gears and memberships.
 
 **Intended readers.** The General Manager and front-of-house team (all chapters); the marketing lead (Chapters 2, 5–9); the RC WORLD OS product team (Chapters 3–5, 10 — build detail in Volume 13); division leads whose equipment is license-gated (Chapter 3); the sales lead for corporate and education products (Chapters 7–9); investors assessing retention economics (Chapters 1, 3, 5, 6).
 
@@ -6678,7 +6693,7 @@ The industrial frame is not set dressing; it is the load-bearing structure of th
 - **Scores are production numbers.** Lap times, career tonnage, mission completions and smoothness indices are the customer's professional record, displayed the way a real site displays safety days and output boards.
 - **Progression is vocational.** You do not "level up" at RC WORLD; you get *licensed on equipment* — and the license genuinely unlocks machines the unlicensed cannot touch (Chapter 3).
 
-> **Investor Note.** The industrial frame is retention economics wearing a costume. Industry analysts (2025–2026) consistently find that competitive-socializing venues (karting, TopGolf-class formats) out-earn passive attractions on repeat visitation because scoring converts visitors into competitors. RC WORLD's frame goes one step further: it converts competitors into *careerists*. A customer three badges short of their Operator license has an unfinished identity, and unfinished identities re-book. The 90-day second-visit KPI (≥25%, set in Volume 2's risk register) is owned by this volume's mechanics.
+> **Investor Note.** The industrial frame is retention economics wearing a costume. Industry analysts (2025–2026) consistently find that competitive-socializing venues (karting, TopGolf-class formats) out-earn passive attractions on repeat visitation because scoring converts visitors into competitors. RC WORLD's frame goes one step further: it converts competitors into *careerists*. A customer three badges short of their Operator license has an unfinished identity, and unfinished identities re-book. The 90-day second-visit KPI (operating target ≥22% Year 1, building to ≥28% by Year 3 — Volume 10 §10.4) is owned by this volume's mechanics.
 
 ### 1.2 The three audiences of every moment
 
@@ -6737,8 +6752,8 @@ Each touchpoint has a single accountable owner and one primary KPI reviewed mont
 | 9 | **Pit stop theatre** (Operator Shifts) | At minute 20, car called to pit; Artisan swap staged front-of-house: fresh pack, tire glance, "you're clear" send-off | Pit-lane Artisan | Swap time (≤90 s) |
 | 10 | Results & badges | Session summary in-app within 60 s: laps/tonnage/mission score, smoothness index, XP, Gears, any badge pops (with sound, on the big screen if gold-class); highlight clip attached | OS product team | Summary open rate (≥80%) |
 | 11 | Retail & F&B | Exit route passes retail counter and kiosk; badge pins, park merch, starter RC kits; Gears burnable here | Retail/F&B lead | Attach rate — % of visits with F&B or retail spend (≥45%) |
-| 12 | **Re-booking hook** | Before the customer leaves Wi-Fi range: "next unlock" screen (XP to next tier, one suggested badge), one-tap re-book with off-peak discount | Marketing lead | 90-day second-visit rate (≥25%) |
-| 13 | Post-visit | NPS ping at +24 h; highlight clip share prompts; win-back ladder if dormant (Chapter 6.5) | Marketing lead | NPS (≥60) |
+| 12 | **Re-booking hook** | Before the customer leaves Wi-Fi range: "next unlock" screen (XP to next tier, one suggested badge), one-tap re-book with off-peak discount | Marketing lead | 90-day second-visit rate (≥22% Y1 / ≥28% Y3, Volume 10 §10.4) |
+| 13 | Post-visit | NPS ping at +24 h; highlight clip share prompts; win-back ladder if dormant (Chapter 6.5) | Marketing lead | NPS (≥55 Y1, ≥60 by Y3) |
 
 ### 2.3 Designing the two "wow" windows
 
@@ -6821,8 +6836,8 @@ Each endorsement has three grades — **Basic → Advanced → Master** — earn
 |---|---|---|---|---|
 | Motorsport | Track-craft check: 10 clean laps, pit-lane entry, flag signals | Sub-110% of class reference lap; race-start procedure; 1 sprint podium | Sub-105% reference lap; league season completed; drift or formula check | Volume 3, Ch. 13 |
 | Construction | Load-cycle check: 10 weighed loads, no spillage penalty; haul-road rules | 1 t career tonnage; loader check; Precision event finish | 5 t tonnage; hydraulic orientation; Team Campaign season | Volume 4, Ch. 8–9 |
-| Aviation | = **Cadet** stage (buddy-box solo circuit) | = **Pilot** stage (solo box, landing check) | = **FPV Racer / Instructor** stages | Volume 5, Flight Academy |
-| Marine | = **M1 Helm** (Discover Sail or harbour basics) | = **M2 Skipper** (sail course / tug-and-barge check) | = **M3 Racer** (race clinic, flagship + regatta scoring) | Volume 6, Ch. 5 |
+| Aviation | = **Ground Wings + Bronze Wings** (ground school, buddy-box, solo checkride) | = **Silver Wings** (solo currency, aerobatics sign-off) | = **Gold Wings + one type rating** (Type: Jet / Type: FPV / Type: Heli) | Volume 5, §9.3 |
+| Marine | = **Deckhand + Coxswain** (clean harbour Shift; precision docking, barge push) | = **Tug Master** *or* **Race Skipper** (two-tug assist / speed-pond license) | = **Sail Grade 3** *or* **Submariner** (B-rig weather sailing / precision hover) | Volume 6, Ch. 8 §8.4 |
 
 ### 3.6 Equipment unlock gates
 
@@ -6835,7 +6850,7 @@ The unlock table below is the canonical park-wide gate list. Division volumes re
 | Drift, short-course, wheel loader, dozer, fast-electric boats | $15 | Apprentice | Division Basic | Standard |
 | Premium crawlers (TRX-4 class), premium tractors + implement library | $22 | Operator | Division Basic | Standard |
 | **Premium hydraulics** (Kabolite K961/K963 class supervised Shifts) | $22/$38 | Operator | Construction Advanced | One-on-one Artisan |
-| **FPV** (drone racing, FPV crawler cams) | $22 | Operator | Aviation Advanced (FPV module) | Spotter required |
+| **FPV** (drone racing, FPV crawler cams) | $22 | Operator | Aviation **Type: FPV** rating (Ground Wings prerequisite — Volume 5 §9.3) | Spotter required |
 | Flagship hydraulic showcase (K970-class seat time) | event-priced | Foreman | Construction Master | One-on-one Artisan, listed slots |
 | Formula RC / drag events; **jet-class and scale-heli aircraft** (Phase 2+) | event-priced | Foreman | Division Master | Event marshals / instructor |
 | Recovery crawlers (outside a retrieval event, i.e. recreational towing Shifts) | $15 | Apprentice | — | Standard |
@@ -6913,9 +6928,9 @@ Badges are the granular texture of progression: the license answers "what rank a
 | E11 | **Crawler Scout** | Bronze | Entry crawler: Trail C bridge section clean. T: geofence |
 | E12 | **Summit Club** | Silver | Premium crawler: full Trail C including water hazard, no tow. T |
 | E13 | **Tug Ticket** | Bronze | Harbour tug basics check. M |
-| E14 | **Sail Trim** | Bronze | = Marine *Helm* stage (Volume 6). M |
+| E14 | **Sail Trim** | Bronze | = Marine *Sail Grade 1* task (Volume 6 §8.4). M |
 | E15 | **Submarine Qualified** | Silver | Sub Hunt mission scored ≥50%. T: mission console |
-| E16 | **Wings** | Silver | = Aviation *Pilot* stage solo check. M: instructor |
+| E16 | **Wings** | Silver | = *Bronze Wings* solo checkride (Volume 5 §9.3–9.4). M: instructor |
 | E17 | **FPV Cleared** | Silver | FPV module + first clean FPV heat. T+M |
 | E18 | **Heavy Ticket** | Gold | Premium hydraulic orientation + supervised Shift complete (Kabolite class). M: Artisan |
 
@@ -7049,7 +7064,7 @@ A committed customer completing ~2 visits/month with events finishes the free tr
 
 ### 5.6 Mechanics dashboard
 
-The GM reviews one funnel monthly: actives → % with a streak ≥3 → % Apprentice+ → % Operator+ → % on paid Season Pass → 90-day repeat rate. Targets by end of Year 1: 40% streak≥3, 55% Apprentice+, 18% Operator+, 12% paid pass, 25% repeat. Any mechanic that doesn't move this funnel within two seasons is retired — gamification is subject to the same utilization discipline as the fleet.
+The GM reviews one funnel monthly: actives → % with a streak ≥3 → % Apprentice+ → % Operator+ → % on paid Season Pass → 90-day repeat rate. Targets by end of Year 1: 40% streak≥3, 55% Apprentice+, 18% Operator+, 12% paid pass, 22% repeat (rising to 28% by Year 3 per Volume 10 §10.4). Any mechanic that doesn't move this funnel within two seasons is retired — gamification is subject to the same utilization discipline as the fleet.
 
 > **Field Note.** Resist the temptation to add currencies. Every gamified venue that decays into a "points, stars, tickets, crowns and crystals" bazaar trains customers to value nothing. RC WORLD runs exactly three numbers — XP (career), Gears (wallet), Track Points (season) — each derived from real behaviour, each spent on a different axis, and the third derived from the first. That is the entire economy. Hold the line.
 
@@ -7281,7 +7296,7 @@ Session-clock pause during retrieval is the load-bearing detail: it makes the "n
 
 ### 11.5 Measurement: NPS and CSAT
 
-- **NPS**: single-question push at +24 h post-visit (25 Gears for answering); target ≥60 by Month 12; detractors (<7) trigger a service-desk callback task within 48 h.
+- **NPS**: single-question push at +24 h post-visit (25 Gears for answering); target ≥55 by operating Month 12, building to ≥60 by Year 3; detractors (<7) trigger a service-desk callback task within 48 h.
 - **CSAT micro-pulses**: one-tap ratings embedded at three moments only — post-Shift summary, post-party (to the booking parent), post-corporate (to the organizer). Never more; survey fatigue is a real cost.
 - Both post to the GM dashboard alongside the journey KPIs (Section 2.2), reviewed weekly; any touchpoint two weeks below target gets a named owner and a dated fix.
 
@@ -7306,13 +7321,13 @@ RC WORLD's customer experience is one machine with many faces. The industrial fr
 **Cross-references**
 
 - **Volume 1** — Executive Master Plan: phasing of party rooms, classrooms and event centre; retention economics in the investment case.
-- **Volume 2** — Market Research: the competitive lessons (score everything, feed the spectators, sell the next visit) this volume operationalizes; the 90-day second-visit KPI's origin in the risk register.
+- **Volume 2** — Market Research: the competitive lessons (score everything, feed the spectators, sell the next visit) this volume operationalizes.
 - **Volume 3** — Motorsport Division: parity doctrine and reference laps behind the Pace Index; transmitter tier profiles; race formats, leagues and timing systems feeding XP and boards.
 - **Volume 4** — Construction Division: career tonnage, hopper load-cell scoring, Harvest Campaigns, hydraulic premium-experience supervision — all gated per Section 3.6 (which supersedes earlier "tier 2/3" phrasing).
-- **Volume 5** — Aviation Division: Flight Academy stages mapped to the Aviation endorsement (Cadet/Pilot/FPV Racer/Instructor); FPV and jet-class gates.
-- **Volume 6** — Marine Division: M1–M3 sailing ladder mapped to the Marine endorsement; mission scoring and retrieval Gears.
+- **Volume 5** — Aviation Division: the Wings ladder (§9.3: Ground → Bronze → Silver → Gold Wings, plus Type: Jet / Type: FPV / Type: Heli ratings) mapped to the Aviation endorsement grades; FPV and jet-class gates; checkride and currency rules.
+- **Volume 6** — Marine Division: the marine badge-task ladder (Ch. 8 §8.4: Deckhand, Coxswain, Tug Master, Race Skipper, Sail Grade 1–3, Submariner) mapped to the Marine endorsement grades; mission scoring and retrieval Gears.
 - **Volume 7** — Engineering & Workshop Manual: fleet-readiness and safety SOPs that the refund table and breakdown protocol depend on; The Works bench-hour supervision.
-- **Volume 10** — Finance: Gears redemption-cost guardrail (≤4% of gross revenue), membership and deferred-revenue modelling, top-up and party P&L lines, discount stacking cap.
+- **Volume 10** — Finance: Gears redemption-cost guardrail (≤4% of gross revenue), membership and deferred-revenue modelling, top-up and party P&L lines, discount stacking cap; home of the 90-day second-visit KPI (§10.4: ≥22% Year 1 / ≥28% Year 3, Phase 2 gate floor ≥20%).
 - **Volume 11** — Architecture & Park Design: party room, accessibility build specs, leaderboard screen placement, retail exit line.
 - **Volume 12** — Franchise Manual: license/badge/Gears canon as a mandatory franchise standard — customer careers must be portable across RC WORLD sites.
 - **Volume 13** — RC WORLD OS: the technical build of everything here — XP/Gears/Track Point ledgers, badge trigger pipeline, queue top-up logic, CRM churn states, leaderboard framework, app screens on Kotlin Multiplatform for Android and iOS.
@@ -7324,7 +7339,7 @@ RC WORLD's customer experience is one machine with many faces. The industrial fr
 
 # Volume 10 — Finance
 
-**RC WORLD — Master Development Plan** · Volume 10 of 12
+**RC WORLD — Master Development Plan** · Volume 10 of 13
 **Revision 1.0 — July 2026** · Status: Living document — bump revision on material change
 
 **Purpose of this volume.** This volume is the financial source of truth for the entire Master Development Plan. Every capex figure, revenue projection, cost assumption, and return metric quoted anywhere in Volumes 1–13 reconciles to the models built here. It constructs, line by line, the Phase 1 startup budget of ≈$1.85 M; the $2.6 M funding ask and its tranche structure; a bottom-up revenue engine that lands on the canonical Year 1 ≈$1.28 M, Year 3 ≈$2.6 M, and Year 5 ≈$3.4 M; the operating cost stack that yields a 24–28% EBITDA margin from Year 3; the monthly cash model that shows operating break-even at Month 16–19; and the profitability, sensitivity, and scenario apparatus an investor's analyst will want to stress. Every major claim is carried by a table, with the assumptions stated above it and the arithmetic shown so a CFO can audit it with a calculator. Where this volume and any other volume disagree on a number, this volume governs, and the other volume must be corrected.
@@ -7364,8 +7379,8 @@ Everything an investor needs to hold in their head about RC WORLD's finances fit
 | Year 3 revenue | **≈ $2.6 M** | §4.9 |
 | Year 5 revenue | **≈ $3.4 M** | §4.9 |
 | EBITDA margin, Year 3 onward | **24–28%** (24.2% Y3 → 27.4% Y5) | Chapter 7 |
-| Monthly operating break-even | **Month 16–19** (base model: Month 16) | Chapter 6 |
-| Full payback of invested capital | **Year 4–5** (base: Month ~53 on Phase 1 capital) | §7.4 |
+| Monthly operating break-even | **operating Month 16–19** (base model: Month 16) | Chapter 6 |
+| Full payback of invested capital | **Year 4–5** (base: operating Month ~53 on Phase 1 capital) | §7.4 |
 | Minimum modelled cash position | $476 K (Month 14) vs $250 K policy floor | §6.4 |
 
 > **Investor Note.** The single most important structural fact in this volume: RC WORLD is an **infrastructure-light, fleet-cheap, labor-and-experience business**. The entire Phase 1 powered fleet — roughly 150 vehicles including batteries, radios, and opening spares — costs $80 K, i.e. **4.3% of Phase 1 capex**. The expensive things (earthworks, buildings, tracks) last 10–20 years; the things customers wear out (cars, gears, tires, batteries) are cheap, sourced wholesale from China, and replaced from operating cash flow. This inversion — durable capex, disposable fleet — is why the model survives the stress tests in Chapter 9.
@@ -7377,7 +7392,8 @@ Stated once here; they apply to every table in this volume.
 | Convention | Value | Rationale |
 |---|---|---|
 | Currency | USD throughout, **nominal** (no inflation indexing) | Style-guide canon; nominal keeps tables auditable. Local-currency conversion is a franchise-localization task (Volume 12) |
-| Geography baseline | Mid-size international city, metro 1.0–2.5 M (worked at 1.5 M), peri-urban 4.8 ha leased site | Canon; demand funnel in Volume 2, Chapter 7 |
+| Geography baseline | Mid-size international city, metro 1.0–2.5 M (worked at 1.5 M), peri-urban 4.8 ha leased site | Canon; demand analysis in Volume 2, Chapter 9 (§9.4–9.5) |
+| Month frames | Build phasing uses the **project frame** (Phase 1 = project Months 0–12, park opens at project Month 12; Phase 2 = project Months 13–30; Phase 3 = project Months 31–60). All financial statements and division opening schedules in this volume use the **operating frame**: M1 = the opening month. Frames are labelled wherever ambiguity is possible | Style-guide month-numbering convention |
 | "Year 1" | First full operating year, opening assumed **Month 1 = March** (northern-temperate seasonality; shift the curve, not the totals, for other climates) | Style guide dating: plan written July 2026 |
 | Operating calendar | 360 operating days/year (5 maintenance closure days), 8 revenue hours/day average (10 weekend, 6–7 midweek) | Division operating doctrine, Volumes 3–6 |
 | Tax | **25% flat placeholder — verify locally.** Loss carryforward assumed available | Corporate rates in candidate jurisdictions span ~15–35%; the placeholder is deliberately mid-range and flagged in every after-tax table |
@@ -7388,7 +7404,7 @@ Stated once here; they apply to every table in this volume.
 
 ### 1.3 How this volume reconciles — a reading guide
 
-The volume is a single connected model, and the joins are explicit. Chapter 2 builds capex bottom-up to $1,850 K and shows the Phase 2/3 envelopes summing the five-year program to $3,900 K. Chapter 3 shows the $2.6 M ask as Phase 1 capex plus $750 K of working capital, operating funding, and reserve — the same $750 K that appears as opening cash in Chapter 6's monthly cash model. Chapter 4's revenue engine multiplies visitor volumes by the canonical price card and reconciles monthly to $1,280 K in Year 1 and annually to the five-year canon; its Year-1 output also reconciles (within rounding) to the independent market-side estimate in Volume 2, §7.3. Chapter 5's cost stack subtracts from Chapter 4's revenue to give the EBITDA row that Chapter 6 spreads monthly (break-even Month 16) and Chapter 7 carries into the P&L (margins 24.2–27.4% from Year 3, payback Year 4–5). Chapters 8–10 stress the same model rather than building new ones. A reader with one hour should read §1.1, §2.1, §3.1, §4.9, §6.3, and §7.1.
+The volume is a single connected model, and the joins are explicit. Chapter 2 builds capex bottom-up to $1,850 K and shows the Phase 2/3 envelopes summing the five-year program to $3,900 K. Chapter 3 shows the $2.6 M ask as Phase 1 capex plus $750 K of working capital, operating funding, and reserve — the same $750 K that appears as opening cash in Chapter 6's monthly cash model. Chapter 4's revenue engine multiplies visitor volumes by the canonical price card and reconciles monthly to $1,280 K in Year 1 and annually to the five-year canon; its Year-1 visit base also reconciles with Volume 2's independent ~37,000–43,000-visit Year-1 demand estimate (Chapter 9). Chapter 5's cost stack subtracts from Chapter 4's revenue to give the EBITDA row that Chapter 6 spreads monthly (break-even Month 16) and Chapter 7 carries into the P&L (margins 24.2–27.4% from Year 3, payback Year 4–5). Chapters 8–10 stress the same model rather than building new ones. A reader with one hour should read §1.1, §2.1, §3.1, §4.9, §6.3, and §7.1.
 
 ---
 
@@ -7423,7 +7439,7 @@ Assumptions: flat site with 2–4% natural grade (canon) minimizes cut/fill; the
 |---|---|---|
 | Bulk earthworks & grading | Whole-site strip, cut/fill balance, Mining Zone pit excavation & benching, compaction | 118 |
 | Drainage, stormwater & utilities | Perimeter swales, culverts, detention basin; power/water/data trenching from boundary to all zones | 96 |
-| Internal roads, paths & parking | Gravel service road loop, pedestrian paths, ~120-bay gravel car park, entrance apron | 62 |
+| Internal roads, paths & parking | Gravel service road loop, pedestrian paths, 88-bay gravel car park (Phase 1; expands to 132 bays + 4 bus bays in Phase 2, §2.12, per Volume 11), entrance apron | 62 |
 | Mining Zone civil fit-out | Graded haul roads (≤15°), aggregate beds (loose sand → 10 mm crushed stone), central hopper foundation & load-cell pad | 54 |
 | Agriculture Zone civil fit-out | Field grading, imported soil & row formation, irrigation trenches, barn/silo slab | 48 |
 | Fencing, gates & landscape | Full perimeter fence, zone barriers, spectator berms dressing, planting | 47 |
@@ -7448,16 +7464,16 @@ Check: 88 + 34 + 28 + 22 = **172**.
 
 ### 2.4 Buildings — $418 K
 
-Assumptions: light-steel-frame construction; entry pavilion at ~420 m² gross at ≈$495/m²; The Works at ~280 m² at ≈$565/m² (higher services density: three-phase power, compressed air, extraction); charging bunker built to the fire doctrine of Volume 7 (cinderblock, sand-topped charge bays, ventilation, thermal monitoring) at 60 m².
+Assumptions: areas per the built-form canon (Volume 11 is the geometry authority): entry pavilion **490 m² GFA** (including the 120 m² retail area) at a blended ≈$425/m² pavilion-grade shell-and-fit-out rate → $208 K; The Works **450 m² GFA** (workshop core ~180 m², parts store, QC lane, viewing window, plus the 24 m² battery room and **30 m² charging bunker, both internal** to the building) at a blended ≈$350/m² industrial-shell rate → $158 K. The engineering judgement: Volume 11's areas are larger but simpler than earlier massing studies — bigger clear-span shells at lower unit rates, with the services-dense zones priced separately — so the tendered category total is unchanged. The third line is not a building: it is the specialized fire-rated **fit-out** of the internal bunker and battery room to Volume 7's doctrine (masonry lining, sand-topped charge bays, forced ventilation, thermal monitoring, rated doors).
 
 | Line | Scope | m² | $K |
 |---|---|---|---|
-| Entry pavilion | Reception/POS, Toolbox Talk briefing room, F&B kiosk, retail counter, toilets, first aid | 420 | 208 |
-| The Works | Workshop bays, parts store, test bench row, staff room, GM/admin office | 280 | 158 |
-| Charging bunker | Fire-rated LiPo charging room per canon (bunkered, ventilated, monitored) | 60 | 52 |
-| **Buildings total** | | 760 | **418** |
+| Entry pavilion | Reception/POS, Toolbox Talk briefing room, F&B kiosk, 120 m² retail, toilets, first aid | 490 GFA | 208 |
+| The Works (shell & standard fit-out) | Workshop core ~180 m², parts store, QC lane, test bench row, staff room, GM/admin office, viewing window | 450 GFA | 158 |
+| Charging bunker & battery-room fit-out | Fire-rated fit-out of the 30 m² bunker + 24 m² battery room *within* The Works, per Volume 7 fire doctrine | (internal) | 52 |
+| **Buildings total** | | 940 GFA | **418** |
 
-Check: 208 + 158 + 52 = **418**.
+Check: 490 × $425 = $208.25 K → 208; 450 × $350 = $157.5 K → 158; 208 + 158 + 52 = **418**.
 
 ### 2.5 Fleet acquisition — $80 K
 
@@ -7566,22 +7582,22 @@ Held as a single unallocated line under GM + founder joint control, releasable o
 
 ### 2.12 Phase 2 and Phase 3 envelopes; five-year program — ≈$3.9 M
 
-Phase 2/3 budgets are planning envelopes (±15%), refined to line-item level in the Phase 2 investment memo gated at Month 12 (§3.5). They are consistent with the division volumes: the aviation enclosure estimate ($120–180 K) sits inside the $236 K aviation line (Volume 5), and the "$200,000-class" pond civil work inside the $231 K marine line (Volume 6).
+Phase 2/3 budgets are planning envelopes (±15%), refined to line-item level in the Phase 2 investment memo gated at operating Month 12 (§3.5). They carry the division volumes' own build-ups: the aviation line is Volume 5's bottom-up budget (enclosure $190 K + runway/apron civil $85 K + sim lab $45 K + fleet & radios $32 K + timing/AV $12 K = **$364 K**, including the ~20-aircraft fleet), and the marine line carries the pond civil work at ≈$212 K inside its $231 K (Volumes 6 and 11). The aviation uplift versus earlier drafts (+$128 K, plus its fleet moving inside the division line) is funded by value-engineering the restaurant/grandstand/retail/lawn package (−$64 K, per Volume 11's staged fit-out sequence) and by trimming Phase 2 contingency from ~10% to ~6.2% — defensible because the largest Phase 2 line is now a bottom-up engineering budget rather than an envelope.
 
-| Phase 2 line (Months 13–30) | $K | | Phase 3 line (Months 31–60) | $K |
+| Phase 2 line (project Months 13–30) | $K | | Phase 3 line (project Months 31–60) | $K |
 |---|---|---|---|---|
-| Aviation Division (netted airfield: enclosure, 30 m runway, helipads, FPV ground stations) | 236 | | Indoor all-weather arena (~1,200 m² hall, indoor track, lighting, HVAC) | 452 |
-| Marine Division (pond excavation & liner, decks/stations, water treatment, theming) | 231 | | Corporate event centre | 132 |
-| Full restaurant (build 232, kitchen 62, furniture 28) | 322 | | RC Academy classrooms | 108 |
-| Grandstand viewing | 118 | | Night-racing lighting | 78 |
-| Expanded retail | 58 | | Franchise pilot support (systems, documentation, pilot fit-out share) | 48 |
-| Events lawn | 36 | | | |
-| Phase 2 fleet (~20 aircraft ≈ 26; ~24 vessels ≈ 8; nodes/batteries/spares 10) | 44 | | | |
-| Subtotal | 1,045 | | Subtotal | 818 |
-| Contingency @ ~10% | 105 | | Contingency @ ~10% | 82 |
+| Aviation Division (Volume 5 build-up: enclosure 190, runway/apron civil 85, sim lab 45, fleet & radios 32, timing/AV 12) | 364 | | Indoor all-weather arena (~1,200 m² hall, indoor track, lighting, HVAC) | 452 |
+| Marine Division (pond civil ≈212, decks/stations, water treatment, theming) | 231 | | Corporate event centre | 132 |
+| Full restaurant (build 208, kitchen 58, furniture 24) | 290 | | RC Academy classrooms | 108 |
+| Grandstand viewing | 96 | | Night-racing lighting | 78 |
+| Expanded retail | 50 | | Franchise pilot support (systems, documentation, pilot fit-out share) | 48 |
+| Events lawn & parking expansion (+44 bays + 4 bus bays, Volume 11) | 34 | | | |
+| Marine fleet (~24 vessels ≈ 8) + Phase 2 RCW Nodes, batteries & spares (10) | 18 | | | |
+| Subtotal | 1,083 | | Subtotal | 818 |
+| Contingency @ ~6.2% | 67 | | Contingency @ ~10% | 82 |
 | **Phase 2 total** | **1,150** | | **Phase 3 total** | **900** |
 
-Checks: 236+231+322+118+58+36+44 = 1,045; +105 = **1,150 ✓ canon**. 452+132+108+78+48 = 818; +82 = **900 ✓ canon**. Five-year program: 1,850 + 1,150 + 900 = **3,900 ≈ $3.9 M ✓ canon**.
+Checks: 364+231+290+96+50+34+18 = 1,083; +67 = **1,150 ✓ canon**. Aviation internal: 190+85+45+32+12 = 364 ✓. Restaurant internal: 208+58+24 = 290 ✓. Phase 3: 452+132+108+78+48 = 818; +82 = **900 ✓ canon**. Five-year program: 1,850 + 1,150 + 900 = **3,900 ≈ $3.9 M ✓ canon**.
 
 ---
 
@@ -7608,9 +7624,9 @@ Capital is drawn in three tranches so investors never fund the next stage of ris
 
 | Tranche | $K | Timing | Milestone gate (all must be true) | Risk retired |
 |---|---|---|---|---|
-| T1 | 1,200 | At close (Month −12 relative to opening) | Lease executed; planning permits granted; civil tender within budget; GM contracted | Site & permitting risk |
-| T2 | 850 | ≈ Month −5 | Buildings weathertight; Tracks A/B/C substantially complete; ≥80% of fleet landed and commissioned; RC WORLD OS beta operating end-to-end (booking → telemetry → kill-switch demo); opening date fixed | Construction & technology risk |
-| T3 | 550 | Opening month | Soft opening complete; safety sign-off (Volume 7 audit); first 1,000 paid Shifts sold; insurance in force | Launch risk |
+| T1 | 1,200 | At close (≈ operating Month −12, i.e. project Month 0) | Lease executed; planning permits granted; civil tender within budget; GM contracted | Site & permitting risk |
+| T2 | 850 | ≈ operating Month −5 | Buildings weathertight; Tracks A/B/C substantially complete; ≥80% of fleet landed and commissioned; RC WORLD OS beta operating end-to-end (booking → telemetry → kill-switch demo); opening date fixed | Construction & technology risk |
+| T3 | 550 | At opening (operating Month 1) | Soft opening complete; safety sign-off (Volume 7 audit); first 1,000 paid Shifts sold; insurance in force | Launch risk |
 | **Total** | **2,600** | | | |
 
 Check: 1,200 + 850 + 550 = **2,600**. If a gate fails, the tranche pauses and the pre-agreed remediation ladder applies (descope per §2.11 hierarchy, re-tender, or — worst case — orderly wind-down with land improvements as residual value).
@@ -7640,7 +7656,7 @@ Pre-money value of $1.4 M reflects contributed IP: the complete Master Developme
 
 ### 3.5 Funding Phases 2 and 3
 
-Phase 2 ($1,150 K, spent Months 13–30) is funded by: retained operating cash flow (cumulative EBITDA turns positive during Year 2 — $154 K generated in Year 2, §7.1) plus an optional **$600 K equipment-and-fit-out facility** (modelled at 9% p.a., drawn in four $150 K tranches Months 15–21, amortizing over Years 4–5 — the exact draws, interest, and repayments appear in Chapter 6 and §7.1). The Phase 2 commitment itself is **gated on Year-1 actuals**: revenue ≥ 80% of plan and 90-day second-visit rate ≥ 20% (triggers per Volume 2, Chapter 9). Below gate, Phase 2 compresses to a "Marine-first" descope (~$620 K) or delays 6–12 months — the conservative scenario of Chapter 10. Phase 3 ($900 K, Months 37–60) is funded entirely from operating cash flow and is optionality, not obligation: each Phase 3 element must clear a standalone hurdle (≥25% ROIC on incremental EBITDA) at the Month-30 review (§10.2).
+Phase 2 ($1,150 K — project Months 13–30 in the phasing canon; in this model's cash flow the spend lands in **operating** Months 13–30, §6.1) is funded by: retained operating cash flow (cumulative EBITDA turns positive during Year 2 — $154 K generated in Year 2, §7.1) plus an optional **$600 K equipment-and-fit-out facility** (modelled at 9% p.a., drawn in four $150 K tranches Months 15–21, amortizing over Years 4–5 — the exact draws, interest, and repayments appear in Chapter 6 and §7.1). The Phase 2 commitment itself is **gated on Year-1 actuals**: revenue ≥ 80% of plan and 90-day second-visit rate ≥ 20% — the gate **floor**, deliberately set below the KPI's operating targets of ≥22% Year 1 / ≥28% Year 3 (the KPI's home is §10.4). Below gate, Phase 2 compresses to a "Marine-first" descope (~$620 K) or delays 6–12 months — the conservative scenario of Chapter 10. Phase 3 ($900 K, spent operating Months 37–60) is funded entirely from operating cash flow and is optionality, not obligation: each Phase 3 element must clear a standalone hurdle (≥25% ROIC on incremental EBITDA) at the operating Month-30 review (§10.2).
 
 ---
 
@@ -7648,11 +7664,11 @@ Phase 2 ($1,150 K, spent Months 13–30) is funded by: retained operating cash f
 
 ### 4.1 Architecture of the engine
 
-Revenue is built bottom-up in four stages — (1) visitor volume by day-type and season, (2) capacity and utilization from canonical fleet counts, (3) yield from the canonical price card, (4) attach and program revenue — and then reconciled three ways: monthly to Year 1's $1,280 K, annually to the five-year canon, and externally to Volume 2's independent market-side estimate (§7.3 there: ≈$860 K sessions, ≈$165 K F&B, ≈$100 K retail, ≈$75 K memberships, ≈$88 K corporate, ≈$88 K parties — each within rounding distance of the operating-side lines built here, which is the agreement you want from two models built from opposite ends).
+Revenue is built bottom-up in four stages — (1) visitor volume by day-type and season, (2) capacity and utilization from canonical fleet counts, (3) yield from the canonical price card, (4) attach and program revenue — and then reconciled three ways: monthly to Year 1's $1,280 K, annually to the five-year canon, and externally against the demand side: Volume 2's Chapter 9 works from catchment and per-visit spend to a Year-1 estimate of **~37,000–43,000 visits at a blended $30–35 per visitor-visit**, and this engine's 38,920 paid visits (≈42,000 gate visits) at $30.0 blended sit inside that band — the agreement you want from two models built from opposite ends.
 
 ### 4.2 Visitor volume by day-type and season
 
-Assumptions: 360 operating days; Year 1 opens March (M1); day-types calibrated to Volume 2's funnel output of ~110 visitors/operating-day average, with peak days 220–300 and midweek 40–60.
+Assumptions: 360 operating days; Year 1 opens March (operating M1); day-types calibrated to ~110 visitors/operating-day average — the midpoint of Volume 2's ~37–43 K-visit Year-1 estimate (Chapter 9, §9.4) — with peak days 220–300 and midweek 40–60.
 
 | Day-type | Days/yr | Avg paid visitors/day | Paid visits |
 |---|---|---|---|
@@ -7661,7 +7677,7 @@ Assumptions: 360 operating days; Year 1 opens March (M1); day-types calibrated t
 | Shoulder & event days (league nights, twilight events, corporate blocks) | 52 | 105 | 5,460 |
 | **Total individual paid visits** | **360** | **108 avg** | **38,920** |
 
-Check: 118×195 = 23,010; 190×55 = 10,450; 52×105 = 5,460; sum = **38,920** (÷360 = 108/day ✓ Volume 2). Member visits, party guests, and corporate attendees add ≈3,100 gate visits → **≈42,000 total visits**. Blended on-site spend = (1,280 − 6 sponsorship − 14 education) ÷ 42.0 = **$30.0/visitor**, inside Volume 2's $26–32 benchmark band.
+Check: 118×195 = 23,010; 190×55 = 10,450; 52×105 = 5,460; sum = **38,920** (÷360 = 108/day; inside Volume 2's ~37–43 K band ✓). Member visits, party guests, and corporate attendees add ≈3,100 gate visits → **≈42,000 total visits**. Blended on-site spend = (1,280 − 6 sponsorship − 14 education) ÷ 42.0 = **$30.0/visitor-visit**, at the conservative bottom edge of Volume 2's $30–35 band (Chapter 9).
 
 ### 4.3 Capacity and utilization from fleet counts
 
@@ -7710,13 +7726,13 @@ Check (Month 12): 240×29 + 82×59 + 22×99 = 6,960 + 4,838 + 2,178 = $13,976 �
 
 ### 4.6 Corporate, parties, education
 
-Assumptions: canonical anchors (corporate from $1,400 for 2 h/20 pax; parties from $349 for 10 children); demand pools per Volume 2 §7.2 step 5; averages exceed anchors because packages upsell (catering, extra Shifts, premium classes).
+Assumptions: canonical anchors (corporate from $1,400 for 2 h/20 pax; parties from $349 for 10 children); group-demand pools sized from the catchment segmentation in Volume 2, Chapter 9 (employers of 20+ staff, children turning 7–13, addressable schools in a 1.5 M metro); averages exceed anchors because packages upsell (catering, extra Shifts, premium classes).
 
-| Program | Year 1 volume | Avg ticket $ | Revenue $K | Volume 2 benchmark |
+| Program | Year 1 volume | Avg ticket $ | Revenue $K | Catchment-pool sanity band |
 |---|---|---|---|---|
-| Corporate events | 45 events | 1,600 | 72 | $70–140 K pool ✓ |
-| Birthday parties & groups | 190 parties | 420 | 80 | $80–150 K pool ✓ |
-| Education/schools | 35 visits | 400 | 14 | $8–25 K pool ✓ |
+| Corporate events | 45 events | 1,600 | 72 | $70–140 K ✓ |
+| Birthday parties & groups | 190 parties | 420 | 80 | $80–150 K ✓ |
+| Education/schools | 35 visits | 400 | 14 | $8–25 K ✓ |
 | **Program revenue** | | | **166** | |
 
 ### 4.7 F&B, retail, repairs, sponsorship
@@ -7755,7 +7771,7 @@ Checks: column sums — 786.2 ✓ §4.4; 70.0 ✓ §4.5; 166.0 ✓ §4.6; 242.0 
 
 ### 4.9 Five-year revenue — reconciles to canon
 
-Assumptions by year: **Y2** — frequency growth (leagues, licenses), membership base ×2.3, aviation soft-opens Month 23; **Y3** — first full year of the complete Phase 2 park (Aviation + Marine + restaurant: F&B steps up, per-cap rises); **Y4–Y5** — Phase 3 elements (indoor arena from Month ~44 removes weather ceiling; Academy scales education; night racing lifts peak yield). All figures $K.
+Assumptions by year (all months **operating** frame): **Y2** — frequency growth (leagues, licenses), membership base ×2.3, aviation opens in stages across operating Months 16–24 (sim lab M16, fixed-wing M19–20, full program M23–24) and marine across operating Months 20–24, per the canonical opening schedule; **Y3** — first full year of the complete Phase 2 park (Aviation + Marine + restaurant: F&B steps up, per-cap rises); **Y4–Y5** — Phase 3 elements (indoor arena from operating Month ~44 removes weather ceiling; Academy scales education; night racing lifts peak yield). All figures $K.
 
 | Revenue line | Y1 | Y2 | Y3 | Y4 | Y5 |
 |---|---|---|---|---|---|
@@ -7770,7 +7786,7 @@ Assumptions by year: **Y2** — frequency growth (leagues, licenses), membership
 | Sponsorship & media | 6 | 16 | 40 | 52 | 65 |
 | **Total revenue** | **1,280** | **1,905** | **2,600** | **3,030** | **3,400** |
 
-Column checks: Y1 786+70+72+80+14+158+84+10+6 = **1,280** ✓; Y2 1,120+160+115+112+32+220+112+18+16 = **1,905**; Y3 1,390+300+170+150+60+310+150+30+40 = **2,600 ✓ canon**; Y4 1,585+370+205+170+80+360+170+38+52 = **3,030**; Y5 1,730+430+240+190+100+410+190+45+65 = **3,400 ✓ canon**. Growth sanity: Y2 exit run-rate (Months 23–24 at $186–204 K/month, §6.2) annualizes to ≈$2.3–2.4 M, making Y3's $2.6 M a ~10% step on Phase 2 completion — frequency and new divisions, not a larger catchment (consistent with Volume 2, §7.3).
+Column checks: Y1 786+70+72+80+14+158+84+10+6 = **1,280** ✓; Y2 1,120+160+115+112+32+220+112+18+16 = **1,905**; Y3 1,390+300+170+150+60+310+150+30+40 = **2,600 ✓ canon**; Y4 1,585+370+205+170+80+360+170+38+52 = **3,030**; Y5 1,730+430+240+190+100+410+190+45+65 = **3,400 ✓ canon**. Growth sanity: Y2 exit run-rate (Months 23–24 at $186–204 K/month, §6.2) annualizes to ≈$2.3–2.4 M, making Y3's $2.6 M a ~10% step on Phase 2 completion — frequency and new divisions, not a larger catchment (consistent with the frequency assumptions in Volume 2, §9.5).
 
 Division attribution (Year 1, Shift + program revenue of $952 K): Motorsport ≈ $470 K, Construction & Agriculture ≈ $430 K, Crawler park & recovery ≈ $52 K — honouring both Volume 3's "highest single revenue engine" and Volume 4's "≈$410–470 K, roughly a third of park revenue" (430 ÷ 1,280 = 34%). Day-pass and bundle value is attributed by observed block consumption in RC WORLD OS.
 
@@ -7815,7 +7831,7 @@ The people ratio falling from 60% to 40% is the core of the margin story (§7.2)
 
 ### 5.2 Fleet maintenance, parts & batteries
 
-Assumptions: Year 1 fleet duty = 57,720 blocks × 20 min = 19,240 vehicle-hours + ~760 staff/test/practice hours ≈ **20,000 vehicle-hours**. Parts cost per vehicle-hour is derived from the failure-rate table below (component MTBF from the Volume 7 failure library and Source-2 failure-point lists), then cross-checked top-down. Batteries are consumables: 450 packs, conservative 250-cycle service life at rental duty (spec 300–500), one pack-cycle per block.
+Assumptions: Year 1 fleet duty = 57,720 blocks × 20 min = 19,240 vehicle-hours + ~760 staff/test/practice hours ≈ **20,000 vehicle-hours**. Parts cost per vehicle-hour is derived from the failure-rate table below (component MTBF from the Volume 7 failure library and Source-2 failure-point lists), then cross-checked top-down. Batteries are consumables costed on the merged cycle-life model shared with Volume 7: one pack-cycle per block; retirement at **200–250 logged cycles or on breaching the internal-resistance threshold**, whichever comes first; ≈**40–50% of the pool replaced per year**.
 
 | Component class (examples) | MTBF (veh-h) | Landed cost/event $ | Cost per veh-h $ |
 |---|---|---|---|
@@ -7829,7 +7845,7 @@ Assumptions: Year 1 fleet duty = 57,720 blocks × 20 min = 19,240 vehicle-hours 
 | Fasteners, lubricants, coating, misc consumables | — | — | 0.84 |
 | **Blended parts cost per vehicle-hour** | | | **2.10** |
 
-Check: 0.23+0.24+0.29+0.11+0.13+0.13+0.13+0.84 = **2.10** (motorsport runs ≈$2.60/h, construction ≈$1.30/h, crawlers ≈$1.10/h; the blend reflects the block mix). Battery math: 57,720 pack-cycles ÷ 250-cycle life = 231 packs/year × $23 = **$5.3 K** (budgeted $6 K including crash-damaged packs) — note each pack averages only 128 cycles/year (57,720 ÷ 450), so the *calendar* replacement horizon is ~2 years, matching the 2–3-year depreciation policy (§7.3).
+Check: 0.23+0.24+0.29+0.11+0.13+0.13+0.13+0.84 = **2.10** (motorsport runs ≈$2.60/h, construction ≈$1.30/h, crawlers ≈$1.10/h; the blend reflects the block mix). Battery math (merged model, per Volume 7): Year 1 throughput of 57,720 pack-cycles spreads across the ~450-pack pool as **≈128 cycles per pack per year** (57,720 ÷ 450); with retirement at 200–250 cycles or the internal-resistance threshold, ≈40–50% of the pool retires each year — 180–225 packs × $23 = **$4.1–5.2 K** (budgeted $6 K including crash-damaged packs). The ~2-year average pack life this implies matches the 2–3-year fleet depreciation policy (§7.3).
 
 | Fleet cost line ($K) | Y1 | Y2 | Y3 | Y4 | Y5 |
 |---|---|---|---|---|---|
@@ -7907,7 +7923,7 @@ Column checks: Y1 767+190+66+124+102+48+57+26 = **1,380**; Y3 1,040+232+118+244+
 
 ### 6.1 Conventions of the monthly model
 
-Opening cash = $750 K (the $2.6 M ask less $1,850 K Phase 1 capex, per §3.1 — all Phase 1 capex assumed spent by opening day). Sustaining fleet-renewal capex $3 K/month in Year 1 and $6 K/month in Year 2. Phase 2 capex spends $55 K/month in Months 13–18 and $75 K/month in Months 19–24 ($780 K in Year 2; the remaining $370 K falls in Months 25–30). The optional Phase 2 facility (§3.5) draws four $150 K tranches in Months 15, 17, 19, 21; interest at 0.75%/month (9% p.a.) on the drawn balance, paid monthly in arrears. Working-capital movements are treated as neutral (membership prepayments and gift-wallet float offset inventory growth; stated as a simplification). Tax: no cash tax in Years 1–2 (losses; §7.1).
+All months in this chapter are **operating** months (M1 = opening; §1.2 convention). Opening cash = $750 K (the $2.6 M ask less $1,850 K Phase 1 capex, per §3.1 — all Phase 1 capex assumed spent by opening day). Sustaining fleet-renewal capex $3 K/month in Year 1 and $6 K/month in Year 2. Phase 2 capex spends $55 K/month in operating Months 13–18 and $75 K/month in operating Months 19–24 ($780 K in Year 2; the remaining $370 K falls in operating Months 25–30). The optional Phase 2 facility (§3.5) draws four $150 K tranches in Months 15, 17, 19, 21; interest at 0.75%/month (9% p.a.) on the drawn balance, paid monthly in arrears. Working-capital movements are treated as neutral (membership prepayments and gift-wallet float offset inventory growth; stated as a simplification). Tax: no cash tax in Years 1–2 (losses; §7.1).
 
 ### 6.2 Monthly cash flow, Years 1–2 ($K)
 
@@ -7940,7 +7956,7 @@ Opening cash = $750 K (the $2.6 M ask less $1,850 K Phase 1 capex, per §3.1 —
 | 24 | 204 | 157 | 47 | −6 | −75 | — | −4.5 | −38.5 | 489.1 |
 | **Y2** | **1,905** | **1,751** | **154** | **−72** | **−780** | **600** | **−26.9** | **−124.9** | **489** |
 
-Checks: Year 1 revenue column sums to 1,280 ✓ §4.8; opex to 1,380 ✓ §5.6; EBITDA to −100 ✓. Year 2: revenue 1,905 ✓, opex 1,751 ✓, EBITDA 154 ✓; facility draws 4 × 150 = 600 ✓; interest 1.1+1.1+2.2+2.2+3.4+3.4+4.5+4.5+4.5 = 26.9 ✓ (0.75% on the stepped balance). Every closing-cash cell = prior cell + net cash. Months 23–24 include the Aviation Division soft-opening (Month 23) adding ≈$25–35 K/month — the bridge to Year 3's full-park revenue.
+Checks: Year 1 revenue column sums to 1,280 ✓ §4.8; opex to 1,380 ✓ §5.6; EBITDA to −100 ✓. Year 2: revenue 1,905 ✓, opex 1,751 ✓, EBITDA 154 ✓; facility draws 4 × 150 = 600 ✓; interest 1.1+1.1+2.2+2.2+3.4+3.4+4.5+4.5+4.5 = 26.9 ✓ (0.75% on the stepped balance). Every closing-cash cell = prior cell + net cash. The Year-2 revenue ramp carries the staged Phase 2 openings (all operating months): aviation sim lab from Month 16, fixed-wing Months 19–20, marine from Months 20–24, and the aviation full program in Months 23–24 adding ≈$25–35 K/month — the bridge to Year 3's full-park revenue.
 
 ### 6.3 Break-even — shown and explained
 
@@ -7952,7 +7968,7 @@ The cash curve has three regimes visible in §6.2: a **shallow Year-1 glide** fr
 
 ### 6.5 The cost-flex ladder (downside machinery)
 
-If revenue underperforms, costs flex in pre-agreed stages rather than ad-hoc cuts. The survival floor is the number Volume 2's sensitivity discussion references (≈$0.9 M/year): the minimum annualized cost stack that keeps the park open safely, ~$74 K/month.
+If revenue underperforms, costs flex in pre-agreed stages rather than ad-hoc cuts. The survival floor (≈$0.9 M/year) is the minimum annualized cost stack that keeps the park open safely, ~$74 K/month; it is the reference line for the downside cases in Volume 2's demand analysis (Chapter 9) and the master risk register (Volume 1, Chapter 8).
 
 | Stage (trigger) | Actions | Annualized stack $K |
 |---|---|---|
@@ -8028,7 +8044,7 @@ Check: 30.3+17.2+23.2+32.0+12.5+21.8+33.0+19.7+54.0+16.8 = 260.5; plus sustainin
 
 ### 7.4 Payback
 
-Cumulative EBITDA runs −100 → 54 → 684 → 1,466 → 2,396 ($K) across Years 1–5 (each year adds §7.1's EBITDA row; e.g. 684 = −100 + 154 + 630). Against **Phase 1 invested capital ($1,850 K)**: the crossing occurs when 1,850 − 1,466 = 384 of Year 5's 930 has accrued → 384 ÷ 930 × 12 ≈ 5 months into Year 5 = **Month ~53, early Year 5**. Against **capital actually consumed** (the $2.6 M ask less the ~$221 K still held as cash at end-Year 5, §7.6 — i.e. $2,379 K): 2,379 − 1,466 = 913 ÷ 930 × 12 ≈ 12 months → **Month ~60, end of Year 5**. The ambitious scenario (§10.1) pulls Phase-1 payback to **Month ~44 (Year 4)**; the conservative case pushes it beyond Year 5. Hence the canonical statement: **full payback Year 4–5, base case** — Year 5 on the base numbers, Year 4 achievable on the upside case, with Phase 2/3 self-funded throughout so payback is never diluted by follow-on equity.
+Cumulative EBITDA runs −100 → 54 → 684 → 1,466 → 2,396 ($K) across Years 1–5 (each year adds §7.1's EBITDA row; e.g. 684 = −100 + 154 + 630). Against **Phase 1 invested capital ($1,850 K)**: the crossing occurs when 1,850 − 1,466 = 384 of Year 5's 930 has accrued → 384 ÷ 930 × 12 ≈ 5 months into Year 5 = **operating Month ~53, early Year 5**. Against **capital actually consumed** (the $2.6 M ask less the ~$221 K still held as cash at end-Year 5, §7.6 — i.e. $2,379 K): 2,379 − 1,466 = 913 ÷ 930 × 12 ≈ 12 months → **Month ~60, end of Year 5**. The ambitious scenario (§10.1) pulls Phase-1 payback to **Month ~44 (Year 4)**; the conservative case pushes it beyond Year 5. Hence the canonical statement: **full payback Year 4–5, base case** — Year 5 on the base numbers, Year 4 achievable on the upside case, with Phase 2/3 self-funded throughout so payback is never diluted by follow-on equity.
 
 ### 7.5 Investor returns — IRR / MOIC ranges
 
@@ -8043,7 +8059,7 @@ Assumptions: Structure A cap table (investor 65%, §3.4); exit at end of Year 5 
 | Ambitious (1,280 / 560): equity value $K | 8,880 | 10,160 | 11,440 |
 | — investor proceeds (65%) / MOIC / IRR | 5,772 / 2.22× / 14.2% | 6,604 / 2.54× / 16.8% | 7,436 / 2.86× / 19.1% |
 
-Check (base/7.5×): 7.5 × 930 = 6,975 + 221 = 7,196; × 65% = 4,677; ÷ 2,600 = 1.80×; 1.80^(1/6) − 1 = 10.3%. Two upsides sit outside this table deliberately: **dividend capacity** of ~$300–400 K/year from Year 4 (post-facility-amortization free cash) adds ≈2–4 points of IRR if distributed rather than reinvested, and the **franchise program** (§10.3) is pure option value on the same equity.
+Check (base/7.5×): 7.5 × 930 = 6,975 + 221 = 7,196; × 65% = 4,677; ÷ 2,600 = 1.80×; 1.80^(1/6) − 1 = 10.3%. **Stated ranges for cross-volume citation (Volume 1 quotes these exactly): base case ≈ 1.6–2.0× MOIC / ≈ 8–12.5% IRR; ambitious case ≈ 2.2–2.9× MOIC / ≈ 14–19% IRR; conservative case ≈ 0.9–1.1× MOIC.** Two upsides sit outside this table deliberately: **dividend capacity** of ~$300–400 K/year from Year 4 (post-facility-amortization free cash) adds ≈2–4 points of IRR if distributed rather than reinvested, and the **franchise program** (§10.3) is pure option value on the same equity.
 
 > **Investor Note.** Read the base case honestly: **1.6–2.0× MOIC and high-single to low-double-digit IRR** is an infrastructure-flavored return, not a venture return — earned with real assets, a self-funding expansion path, capped follow-on exposure, and Year-4 dividend capacity. What makes the risk-reward attractive is the shape: the conservative case still returns ~0.9–1.1× (assets, cash, and a functioning business retain value), while the ambitious case and the franchise option carry venture-like upside. Investors seeking >20% IRR should price the franchise program into their thesis (Volume 12) or negotiate Structure B's downside seniority.
 
@@ -8067,9 +8083,9 @@ Check: 2,600 + 600 + 2,396 = 5,596 = 3,900 + 618 + 135 + 600 + 122 + 221. The mo
 
 ### 8.1 How the canonical prices were set
 
-The price card was benchmarked against the competitor set of Volume 2, Chapter 6, positioned on a simple rule: **price the Casual Shift below a karting heat and above a trampoline hour, because the experience sits between them in intensity and above both in novelty** — then let premium classes, time-extension, and bundles do the yield work.
+The price card was benchmarked against the competitor and precedent set of Volume 2, Chapter 8, positioned on a simple rule: **price the Casual Shift below a karting heat and above a trampoline hour, because the experience sits between them in intensity and above both in novelty** — then let premium classes, time-extension, and bundles do the yield work.
 
-| Benchmark (Volume 2, Ch 6) | Typical price | RC WORLD position |
+| Benchmark (Volume 2, Ch 8) | Typical price | RC WORLD position |
 |---|---|---|
 | Karting, single heat (10–15 min) | $25–35 | Casual Shift $15 undercuts at 20 min — deliberate trial-friendly entry |
 | Trampoline/adventure park, per hour | $15–25 | Operator Shift $26 ≈ 40+ min of operation + pit-stop theatre |
@@ -8167,11 +8183,11 @@ Assumptions differ only on the demand side and phasing pace; the cost machinery 
 | **Ambitious** — revenue | 1,450 | 2,300 | 3,200 | 3,900 | 4,500 |
 | — EBITDA (margin) | −40 | 320 (14%) | 870 (27%) | 1,090 (28%) | 1,280 (28%) |
 
-Derived markers: break-even Month 22–26 / **16–19** / 12–14; Phase-1 payback beyond Year 5 / **Month ~53** / Month ~44 (ambitious cumulative EBITDA: −40+320+870 = 1,150 by end-Y3; 1,850−1,150 = 700 ÷ 1,090 × 12 ≈ 8 months into Year 4). Note the conservative case still reaches a **21% margin business worth roughly its invested capital** — the downside is mediocrity, not wipeout — while the ambitious case is deliberately *not* heroic: +18% Year-1 visits is inside Volume 2's funnel upside band, and its margins are capped at 28% (canon) rather than allowed to inflate.
+Derived markers: break-even Month 22–26 / **16–19** / 12–14; Phase-1 payback beyond Year 5 / **Month ~53** / Month ~44 (ambitious cumulative EBITDA: −40+320+870 = 1,150 by end-Y3; 1,850−1,150 = 700 ÷ 1,090 × 12 ≈ 8 months into Year 4). Note the conservative case still reaches a **21% margin business worth roughly its invested capital** — the downside is mediocrity, not wipeout — while the ambitious case is deliberately *not* heroic: +18% Year-1 visits (≈46 K) barely exceeds the top of Volume 2's ~37–43 K demand band (Chapter 9), and its margins are capped at 28% (canon) rather than allowed to inflate.
 
 ### 10.2 Phase 3 optionality
 
-Phase 3 is a menu, not a bundle: each element clears a standalone hurdle (incremental EBITDA ÷ element capex ≥ 25%) at the Month-30 review, funded from cash flow only. Planning estimates: **indoor arena** ($452 K) — removes the weather ceiling on ~30% of currently-lost days and unlocks winter leagues; projected +$260–340 K revenue at ~45% incremental margin → ROIC ≈ 26–34%, the strongest and most strategic case (it is also the MKT-07 structural fix from Volume 2's risk register). **Night-racing lighting** ($78 K) — +$60–90 K high-margin event revenue → ROIC ≈ 35–55%, cheapest yes. **Academy classrooms** ($108 K) — education line 60 → 100+ with school-day utilization of empty midweek capacity → ROIC ≈ 20–30%, borderline standalone but strategically loaded (feeds licensing and franchise training). **Corporate event centre** ($132 K) — corporate 205 → 240+ at high margin → ROIC ≈ 20–26%. Elements failing their hurdle at Month 30 are re-tested annually; the base case assumes all four proceed across Months 37–60 within the $900 K envelope.
+Phase 3 is a menu, not a bundle: each element clears a standalone hurdle (incremental EBITDA ÷ element capex ≥ 25%) at the operating Month-30 review, funded from cash flow only. Planning estimates: **indoor arena** ($452 K) — removes the weather ceiling on ~30% of currently-lost days and unlocks winter leagues; projected +$260–340 K revenue at ~45% incremental margin → ROIC ≈ 26–34%, the strongest and most strategic case (it is also the structural fix for the weather-compression risk carried in the master risk register, Volume 1, Chapter 8). **Night-racing lighting** ($78 K) — +$60–90 K high-margin event revenue → ROIC ≈ 35–55%, cheapest yes. **Academy classrooms** ($108 K) — education line 60 → 100+ with school-day utilization of empty midweek capacity → ROIC ≈ 20–30%, borderline standalone but strategically loaded (feeds licensing and franchise training). **Corporate event centre** ($132 K) — corporate 205 → 240+ at high margin → ROIC ≈ 20–26%. Elements failing their hurdle at operating Month 30 are re-tested annually; the base case assumes all four proceed across operating Months 37–60 within the $900 K envelope.
 
 ### 10.3 Franchise upside (pointer to Volume 12)
 
@@ -8186,9 +8202,9 @@ The park is managed on ten numbers, computed continuously by RC WORLD OS (implem
 | RevPASH (revenue per available Shift-hour) | Shift & session revenue ÷ (concurrent stations × operating hours). Y1: 786.2 K ÷ (57 × 8 × 360) = **$4.79** | ≥ $4.75 | ≥ $6.50 (74 stations post-Phase 2: 1,390 K ÷ 213,120 = $6.52) |
 | Slot utilization | Blocks consumed ÷ slot capacity (§4.3). Y1: 57,720 ÷ 328,320 = **17.6%** | ≥ 17% | ≥ 24% |
 | Membership count / churn | Active members at month-end / cancellations ÷ opening members | 344 / ≤3.5%/mo | ~620 avg / ≤2.5%/mo |
-| 90-day second-visit rate | First-time visitors returning within 90 days (cohort-tracked) | ≥ 22% | ≥ 28% |
+| 90-day second-visit rate | First-time visitors returning within 90 days (cohort-tracked). This table is the KPI's canonical home; the Phase 2 gate uses a **floor of ≥ 20%** (§3.5) | ≥ 22% | ≥ 28% |
 | Maintenance cost per vehicle-hour | Total §5.2 fleet cost ÷ telemetry-logged vehicle-hours. Y1: 66,000 ÷ 20,000 = **$3.30** | ≤ $3.50 | ≤ $3.40 |
-| Fleet availability | Fleet-hours in `active` status ÷ scheduled fleet-hours (from `fleet_inventory`) | ≥ 92% | ≥ 94% |
+| Fleet availability | Fleet-hours in `active` status ÷ scheduled fleet-hours (from `fleet_inventory`); gate floor ≥ 90% | ≥ 92% | ≥ 94% |
 | F&B attach | F&B revenue ÷ gate visits. Y1: 158 K ÷ 42 K = **$3.76** | ≥ $3.75 | ≥ $4.40 (restaurant) |
 | Per-cap spend | (Total revenue − sponsorship − education) ÷ gate visits | ≥ $30 | ≥ $33 |
 | Labor ratio | People cost ÷ revenue (§5.1) | ≤ 60% | ≤ 41% |
@@ -8200,11 +8216,11 @@ The park is managed on ten numbers, computed continuously by RC WORLD OS (implem
 
 ## 11. Volume summary & cross-references
 
-This volume built RC WORLD's complete financial system and reconciled every output to the canonical headlines. **Capex:** Phase 1 builds bottom-up to $1,850 K across nine audited categories plus 10% contingency, with the striking structural fact that the entire ~150-asset fleet is only $80 K (4.3%) of it; Phase 2 ($1,150 K) and Phase 3 ($900 K) envelopes complete the ≈$3.9 M five-year program. **Funding:** the $2.6 M ask = $1,850 K capex + $750 K of working capital, operating funding, and reserve, drawn in three milestone-gated tranches ($1,200/$850/$550 K), with Phases 2–3 self-funded from cash flow plus an optional $600 K facility. **Revenue:** a bottom-up engine (39 K paid visits, 57 stations, 17.6% utilization, the canonical price card) lands Year 1 at $1,280 K monthly-reconciled, and the five-year table at $1,905 K / **$2,600 K** / $3,030 K / **$3,400 K** — agreeing independently with Volume 2's market-side estimate. **Costs and margin:** an $1,380 K Year-1 stack (60% people-weighted) grows only $590 K while revenue grows $1,320 K to Year 3, delivering EBITDA of −$100 K / $154 K / $630 K / $782 K / $930 K and the canonical **24–28% margin from Year 3**. **Cash:** the monthly model shows sustained operating break-even at **Month 16** (canonical band 16–19), a minimum cash of $476 K against a $250 K policy floor, and a closed five-year sources-and-uses at $5,596 K. **Returns:** payback **Year 4–5** (base Month ~53 on Phase 1 capital), base-case investor MOIC 1.6–2.0× / IRR 8–12.5% with conservative-case capital protection and ambitious-plus-franchise upside to ≈2.9× / ≈19%.
+This volume built RC WORLD's complete financial system and reconciled every output to the canonical headlines. **Capex:** Phase 1 builds bottom-up to $1,850 K across nine audited categories plus 10% contingency, with the striking structural fact that the entire ~150-asset fleet is only $80 K (4.3%) of it; Phase 2 ($1,150 K) and Phase 3 ($900 K) envelopes complete the ≈$3.9 M five-year program. **Funding:** the $2.6 M ask = $1,850 K capex + $750 K of working capital, operating funding, and reserve, drawn in three milestone-gated tranches ($1,200/$850/$550 K), with Phases 2–3 self-funded from cash flow plus an optional $600 K facility. **Revenue:** a bottom-up engine (39 K paid visits, 57 stations, 17.6% utilization, the canonical price card) lands Year 1 at $1,280 K monthly-reconciled, and the five-year table at $1,905 K / **$2,600 K** / $3,030 K / **$3,400 K** — sitting inside Volume 2's independent ~37,000–43,000-visit, $30–35-per-visit demand estimate (Chapter 9). **Costs and margin:** an $1,380 K Year-1 stack (60% people-weighted) grows only $590 K while revenue grows $1,320 K to Year 3, delivering EBITDA of −$100 K / $154 K / $630 K / $782 K / $930 K and the canonical **24–28% margin from Year 3**. **Cash:** the monthly model shows sustained operating break-even at **Month 16** (canonical band 16–19), a minimum cash of $476 K against a $250 K policy floor, and a closed five-year sources-and-uses at $5,596 K. **Returns:** payback **Year 4–5** (base Month ~53 on Phase 1 capital), base-case investor MOIC 1.6–2.0× / IRR 8–12.5% with conservative-case capital protection and ambitious-plus-franchise upside to ≈2.9× / ≈19%.
 
-Line items other volumes must treat as fixed (change them here first, then sweep): the Chapter 2 capex categories and totals; the $750 K opening cash and tranche gates (Chapter 3); the §4.4 price-volume table and §4.9 annual revenue lines; the §5.1 staffing establishment and §5.6 opex stack; the Month-16 break-even mechanics and §6.5 survival floor (≈$0.9 M — referenced by Volume 2); the §7.3 depreciation policy; and the §10.4 KPI definitions.
+Line items other volumes must treat as fixed (change them here first, then sweep): the Chapter 2 capex categories and totals; the $750 K opening cash and tranche gates (Chapter 3); the §4.4 price-volume table and §4.9 annual revenue lines; the §5.1 staffing establishment and §5.6 opex stack; the operating-Month-16 break-even mechanics and §6.5 survival floor (≈$0.9 M); the §7.3 depreciation policy; and the §10.4 KPI definitions (including the second-visit operating targets ≥22%/≥28% with the ≥20% Phase 2 gate floor).
 
-Cross-references: market and demand inputs — **Volume 2** (Chapters 6–7 feed §4.2 and §8.1; its §7.4 sensitivity references this volume's cost stack). Division revenue capacity and operating doctrine — **Volumes 3–6** (station counts in §4.3; division attribution in §4.9). Maintenance failure data and spares doctrine behind §5.2 — **Volume 7**. Procurement costs, landed-cost build-ups, and FX mitigation behind §2.5 and §9.4 — **Volume 8**. Membership, loyalty, parties, and the retention machinery that drives §4.5 and the second-visit KPI — **Volume 9**. Site works, buildings, and the world-building scope priced in §§2.2–2.4 — **Volume 11**. Franchise economics and localization of this model — **Volume 12** (Chapter 3 rebuilds Chapter 4 with local inputs). RC WORLD OS scope capitalized in §2.8 and the KPI dashboard implementation — **Volume 13**.
+Cross-references: market and demand inputs — **Volume 2** (Chapter 8's competitor and precedent benchmarks feed §8.1; Chapter 9's demand analysis, §9.4–9.5, feeds §4.2 and reconciles with Chapter 4's visit totals; the master risk register lives in Volume 1, Chapter 8). Division revenue capacity and operating doctrine — **Volumes 3–6** (station counts in §4.3; division attribution in §4.9). Maintenance failure data and spares doctrine behind §5.2 — **Volume 7**. Procurement costs, landed-cost build-ups, and FX mitigation behind §2.5 and §9.4 — **Volume 8**. Membership, loyalty, parties, and the retention machinery that drives §4.5 and the second-visit KPI — **Volume 9**. Site works, buildings, and the world-building scope priced in §§2.2–2.4 — **Volume 11**. Franchise economics and localization of this model — **Volume 12** (Chapter 3 rebuilds Chapter 4 with local inputs). RC WORLD OS scope capitalized in §2.8 and the KPI dashboard implementation — **Volume 13**.
 
 
 ---
@@ -8313,7 +8329,7 @@ The following checklist is the go/no-go filter for the reference site and for ev
 
 ### 2.1 Allocation: 48,000 m² fully accounted
 
-The master plan allocates every square meter of the 4.8 ha reference site. Areas are *precinct* areas — the zone plus its own internal service edge and immediate spectator edge; park-wide guest circulation and landscape are carried as their own lines. Guest circulation is **13% of the developed area**, inside the 12–15% band that keeps peak-day flows one-way capable (Chapter 9).
+The master plan allocates every square meter of the 4.8 ha reference site. Areas are *precinct* areas — the zone plus its own internal service edge and immediate spectator edge; park-wide guest circulation and landscape are carried as their own lines. Dedicated guest circulation (lines 10 + 16) is **≈ 12% of the developed area** (site less land bank), inside the 12–15% band that keeps peak-day flows one-way capable once each precinct's own spectator edge is counted (Chapter 9).
 
 | # | Precinct | Phase | Area (m²) | % of site | Key internal dimension |
 |---|---|---|---|---|---|
@@ -8329,11 +8345,11 @@ The master plan allocates every square meter of the 4.8 ha reference site. Areas
 | 10 | Guest circulation & viewing terraces (Ph. 1) | 1 | 4,300 | 9.0% | 3 m main spine (Ch. 9) |
 | 11 | Landscape berms, swales & detention (Ph. 1) | 1 | 3,650 | 7.6% | SW detention basin (Ch. 11) |
 | | **Phase 1 subtotal** | | **29,000** | **60.4%** | |
-| 12 | Aviation precinct (cage + apron + promenade) | 2 | 3,400 | 7.1% | Cage 60 × 40 × 15 m (Vol. 5 canon) |
-| 13 | Marine precinct (basins + marina + plant) | 2 | 2,300 | 4.8% | Main basin 40 × 25 m (Vol. 6 canon) |
+| 12 | Aviation precinct (cage + Whoop Arcade + promenade) | 2 | 3,400 | 7.1% | Cage 60 × 40 × 15 m (Vol. 5 canon) |
+| 13 | Marine precinct (pond pair + marina + plant) | 2 | 3,200 | 6.7% | Harbour 30 × 18 m + speed 60 × 25 m (Vol. 6 canon) |
 | 14 | Restaurant & terrace | 2 | 800 | 1.7% | 120 covers + 60 terrace (Ch. 8) |
 | 15 | Grandstand & events lawn | 2 | 2,600 | 5.4% | 200-seat grandstand (Ch. 9) |
-| 16 | Phase 2 circulation & landscape extension | 2 | 1,900 | 4.0% | — |
+| 16 | Phase 2 circulation & landscape extension | 2 | 1,000 | 2.1% | — |
 | | **Phase 2 subtotal** | | **11,000** | **22.9%** | |
 | 17 | Indoor arena, RC Academy & corporate centre | 3 | 2,600 | 5.4% | Arena 40 × 25 m clear-span (Ch. 14) |
 | 18 | Phase 3 plant & lighting infrastructure | 3 | 200 | 0.4% | — |
@@ -8341,7 +8357,7 @@ The master plan allocates every square meter of the 4.8 ha reference site. Areas
 | | **Phase 3 + reserve subtotal** | | **8,000** | **16.7%** | |
 | | **Total** | | **48,000** | **100%** | |
 
-Two ratios matter for review discipline. **Attraction : support** — precincts 3–9 and 12–13 (the paid experiences) total 18,950 m², 39.5% of site; if value-engineering ever pushes this below ~35% the park has become a car park with hobbies attached. **Hard : soft** — sealed and roofed surfaces total ≈ 31% of site at Phase 3 build-out, which the stormwater strategy (Chapter 11) is sized for; any increase re-opens the detention calculation.
+Two ratios matter for review discipline. **Attraction : support** — precincts 3–9 and 12–13 (the paid experiences) total 19,850 m², 41.4% of site; if value-engineering ever pushes this below ~35% the park has become a car park with hobbies attached. **Hard : soft** — sealed and roofed surfaces total ≈ 31% of site at Phase 3 build-out, which the stormwater strategy (Chapter 11) is sized for; any increase re-opens the detention calculation.
 
 ### 2.2 Adjacency logic
 
@@ -8349,9 +8365,9 @@ The plan is an argument, and each adjacency is a clause of it:
 
 - **Mining borders The Works** (precincts 7 and 9 share an edge) because the Construction Division has the park's heaviest assets, the highest per-Shift maintenance event rate (Volume 4), and the only bulk-material logistics: aggregate top-ups, hopper maintenance and the nightly face re-cut all run from The Works' yard through a single staff gate. The mining hopper sits at the zone's east end (fixed in Volume 4 by the sight-line rule) — which is exactly the Works-facing end, so the conveyor and weighbridge electronics are a 20 m walk from the electronics bench.
 - **The Works sits on the eastern service spine**, front door facing the guest path (the viewing window, Chapter 6, makes Artisan work a spectacle), back door facing the service road, so parts deliveries and fleet movements never cross a guest route.
-- **The Airfield is peripheral and downwind: the northeast corner.** Three independent reasons converge. (1) *Risk geometry* — although the cage makes flyaway physically contained (Volume 5), defense in depth wants maximum distance between flight operations and both the entry crowds and the public road. (2) *Noise* — EDF and prop noise is the park's loudest continuous source; with the prevailing southwesterly of the reference wind rose, the northeast corner exports noise away from the entry, the restaurant and the frontage neighbours. (3) *Structure* — the 16–17 m poles (Volume 5 canon) want the longest possible setback from the boundary the planning authority cares about, which is the road frontage. The cage's long axis runs E–W, within the ±20° of prevailing wind that Volume 5 requires.
-- **Marine and Agriculture are the calm band**, west-center, adjacent to each other: the two quietest, most family-skewed zones share the gentlest part of the noise gradient, the events lawn, and the afternoon shade of the western berm. The pond sits in the wind shadow engineered by that berm (Volume 6 makes wind shelter a revenue item).
-- **Track A fronts the social heart.** The asphalt track is the park's most legible spectacle, so it sits center-east where the pit lane, grandstand and (Phase 2) restaurant terrace all overlook it. The drag straight aligns with the grandstand's axis.
+- **The Airfield is peripheral and downwind: the northeast corner.** Three independent reasons converge. (1) *Risk geometry* — although the cage makes flyaway physically contained (Volume 5), defense in depth wants maximum distance between flight operations and both the entry crowds and the public road. (2) *Noise* — EDF and prop noise is the park's loudest continuous source; with the prevailing southwesterly of the reference wind rose, the northeast corner exports noise away from the entry, the restaurant and the frontage neighbours. (3) *Structure* — the 16–17 m poles (Volume 5 canon) want the longest possible setback from the boundary the planning authority cares about, which is the road frontage. The cage's long axis runs E–W, within ±20° of the prevailing wind — this volume's siting tolerance on Volume 5's requirement that the runway and circuit work into wind.
+- **Marine and Agriculture are the calm band**, west-center, adjacent to each other: the two quietest, most family-skewed zones share the gentlest part of the noise gradient, the events lawn, and the afternoon shade of the western berm. The harbour pond sits in the wind shadow engineered by that berm plus its own shelter belt (Volume 6 makes wind shelter a revenue item), while the sail area's windward shore is deliberately kept low and open (Volume 6, §4.2 and §6.6 doctrine); the speed pond's long axis is set across the prevailing wind to cut fetch, and the restaurant sits between the harbour and the spine so its terrace overlooks the working port (Volume 6's siting requirement) with Track A's straight in the second sight line.
+- **Track A fronts the social heart.** The asphalt track is the park's most legible spectacle, so it sits center-east where the pit lane and grandstand overlook it, and the (Phase 2) restaurant's second, east-facing terrace front catches its straight. The drag straight aligns with the grandstand's axis.
 - **Track B and Track C occupy the northwest**, between Agriculture and Mining: dirt with dirt. Their dust sources sit downwind of the guest core on the prevailing wind and their service needs share the northern staff route.
 - **Entry, parking and the Phase 3 arena hold the south frontage.** Everything a visitor does before paying — parking, drop-off, ticketing — stays south of the guest gateway; the arena (Phase 3) also fronts south so corporate-event traffic never enters the park proper.
 
@@ -8364,7 +8380,7 @@ Sound is planned as a south-to-north crescendo. At the frontage: car doors and c
 | Phase | Occupies | Construction access | Guest impact |
 |---|---|---|---|
 | **Phase 1 (Months 0–12)** | Precincts 1–11: entry + parking core (88 car bays), Tracks A/B/C, pit lane + charging, Mining, Agriculture, The Works, Phase 1 circulation and berms. Utilities trunk routes laid full-length with stubs at Phase 2/3 boundaries. | Full site is a construction site | — |
-| **Phase 2 (Months 13–30)** | Precincts 12–16: airfield cage, marine basins, restaurant, grandstand + events lawn, parking extension (+44 bays). | NE and W-center parcels, fenced; heavy deliveries (poles, liner, precast) via the eastern service road out of guest hours | Zero closure of Phase 1 zones; crane lifts for airfield poles scheduled on closed days |
+| **Phase 2 (Months 13–30)** | Precincts 12–16: airfield cage + Whoop Arcade, marine pond pair, restaurant, grandstand + events lawn, parking extension (+44 bays). | NE and W-center parcels, fenced; heavy deliveries (poles, liner, precast) via the eastern service road out of guest hours | Zero closure of Phase 1 zones; crane lifts for airfield poles scheduled on closed days |
 | **Phase 3 (Months 31–60)** | Precincts 17–18: indoor arena + academy + corporate centre (SE), night-racing lighting retrofit on Tracks A/B, franchise-pilot support space. | SE parcel direct from frontage — never enters the park | Lighting works at night behind track closures |
 
 The phase lines were drawn so that each later phase is a *parcel*, not a scatter: one construction fence, one gate, one insurance boundary. Phase 1 tenders should price the Phase 2 duct and drainage stubs as provisional sums — they cost hundreds now and tens of thousands if retro-trenched through a live park.
@@ -8394,19 +8410,19 @@ Scale: 1 character ≈ 3 m horizontal. North is up. Road frontage at bottom (sou
     │ │   TRACK B    │ │    MINING ZONE    │ │ THE │  ║  AIRFIELD CAGE     ║           │
     │ │  dirt rally  │ │     60 × 40 m     │ │WORKS│  ║  60 × 40 × 15 m    ║ s         │
     │ │  ~160 m line │ │  [hopper: E end]■ │ │ 450 │  ║  ▬▬▬ runway 30×4 ▬ ║ e         │ 150
-    │ └──────────────┘ └───═══walkway═══───┘ │ m²  │  ║  ◘ helipads  FPV◙  ║ r         │
+    │ └──────────────┘ └───═══walkway═══───┘ │ m²  │  ║  ◙FPV   helipads◘  ║ r         │
     │ ┌──────────┐      ═ elevated  over ═   └──┬──┘  ╚══ promenade ═══════╝ v         │
     │ │ TRACK C  │        mining  +2.4 m        yard                        i          │
     │ │ crawler  │ ┌────────────┐  ┌──────────────────────┐  ┌──────────┐  c           │
     │ │ 40×30 m  │ │AGRICULTURE │  │      TRACK A         │  │ EVENTS   │  e           │ 100
     │ └──────────┘ │  50 × 30 m │  │  asphalt ~180 m line │  │ LAWN     │               │
     │ ┌──────────┐ │ 8 cells +  │  │  drag straight ≥55 m │  │ (Ph.2)   │  r           │
-    │ │  MARINE  │ │ barn/silo  │  └──────────────────────┘  └──────────┘  o           │
-    │ │ 40×25 m  │ └────────────┘   ▤ grandstand (Ph.2)  ▥ pit lane +      a           │
-    │ │ + 8×6 sub│    ┌─────────┐   ┌────────────┐        charging stn     d           │ 50
+    │ │ MARINE:  │ │ barn/silo  │  └──────────────────────┘  └──────────┘  o           │
+    │ │ spd 60×25│ └────────────┘   ▤ grandstand (Ph.2)  ▥ pit lane +      a           │
+    │ │ hbr 30×18│    ┌─────────┐   ┌────────────┐        charging stn     d           │ 50
     │ └──────────┘    │RESTAUR. │   │   ENTRY    │   ┌───────────────────┐              │
     │  ◊ detention    │ (Ph.2)  │   │  PAVILION  │   │  INDOOR ARENA +   │              │
-    │    basin SW     │ terrace─┼──▶│  490 m²    │   │  ACADEMY (Ph.3)   │              │
+    │    basin SW ◀───┤terrace  ┼──▶│  490 m²    │   │  ACADEMY (Ph.3)   │              │
     │ ┌───────────────┴───────┐ │   │  + plaza   │   └───────────────────┘              │
     │ │  PARKING 132 + 4 bus  │ │   └─────┬──────┘      land bank ▒▒▒▒▒▒                │
     │ └───────────────────────┘ │    drop-off loop                                      │
@@ -8414,7 +8430,7 @@ Scale: 1 character ≈ 3 m horizontal. North is up. Road frontage at bottom (sou
    ══════════════════════ PUBLIC ROAD (frontage) ═════ guest gate ═════ service gate ════
 ```
 
-**Legend:** `╔═╗` netted airfield cage · `▬` runway · `◘` helipads · `◙` FPV volume · `■` mining hopper · `═══` elevated walkway · `▤` grandstand · `▥` pit lane · `◊` stormwater detention · `~` landscape berm · `▒` land bank · `Ph.2/Ph.3` phase-2/3 parcels · east edge `service road` runs frontage → The Works → airfield, fenced from guests.
+**Legend:** `╔═╗` netted airfield cage (helipads `◘` east, FPV gate course `◙` west, Whoop Arcade sub-enclosure beside cage) · `▬` runway · `■` mining hopper · `═══` elevated walkway · `▤` grandstand · `▥` pit lane · `◊` stormwater detention · `~` landscape berm · `▒` land bank · `Ph.2/Ph.3` phase-2/3 parcels · MARINE = speed pond 60 × 25 m + harbour pond 30 × 18 m with 6 × 4 m submarine bay (Vol. 6) · east edge `service road` runs frontage → The Works → airfield, fenced from guests.
 
 > **Field Note** — Walk the plan as a family of four before approving it: park (2 min), tickets and Toolbox Talk check (5), first machine visible within 60 seconds of the gateway (the pond or Track A — by design), lunch overlooking Track A, mining in the afternoon shade, exit through retail. If any future revision breaks the "first machine in 60 seconds" rule, the revision is wrong.
 
@@ -8616,22 +8632,23 @@ Both divisions are Phase 2 builds on parcels reserved, graded and utility-stubbe
 
 ### 5.1 Airfield envelope and siting
 
-The canonical enclosure (Volume 5, Section 2.1 — the numbers every volume quotes): **flight cage 60 × 40 m footprint, 15 m clear flight ceiling, ≈ 36,000 m³ enclosed volume**, long axis aligned within ±20° of the prevailing wind, sited in the northeast quadrant per the adjacency logic of Chapter 2.2. The aviation *precinct* (allocation table line 12) is 3,400 m²: the 2,400 m² cage plus the southern spectator promenade (60 × 6 m), the pilot-access vestibule aprons, the pole maintenance strip (2 m clear around the full perimeter — scissor-lift access to every pole, non-negotiable), and the flight-line container store.
+The canonical enclosure (Volume 5, Chapter 1 — the numbers every volume quotes): **flight cage 60 × 40 m footprint, 15 m clear flight ceiling, ≈ 36,000 m³ enclosed volume**, long axis aligned within ±20° of the prevailing wind (this volume's siting tolerance on Volume 5's into-wind circuit requirement), sited in the northeast quadrant per the adjacency logic of Chapter 2.2. The aviation *precinct* (allocation table line 12) is 3,400 m²: the 2,400 m² cage, the **12 × 8 m Whoop Arcade** fine-mesh sub-enclosure beside it (Volume 5, Chapter 6 — its own sealed airspace, framed-panel construction), the southern spectator promenade (60 × 6 m) with its standoff rail 2 m outside the netting (Volume 5's spectator rule: a slowed aircraft can still deform the mesh inward ~0.5 m), the pilot-access vestibule aprons, the mast maintenance strip (2 m clear around the full perimeter — scissor-lift access to every mast, non-negotiable), and the flight-line container store.
 
 **Siting inputs the architect must fix before Phase 2 documents:** the 12-month wind rose (commissioned at Phase 1 if not already available — Volume 5 requires it and this volume's site checklist demands it), a geotechnical confirmation at each pole position, and the aviation-obstacle check for 17 m structures **[verify locally]**.
 
 ### 5.2 Net engineering
 
-Volume 5, Section 2.2 fixes the netting specification (knotted UHMWPE #18-class or equivalent nylon, **45–48 mm mesh** walls and roof, ≥ 1.8 kN per-mesh break strength, black, UV-stabilized; 25 mm secondary skirt net at the spectator panel; ground edge sealed to < 50 mm gap). This volume adds the structure that carries it:
+Volume 5, Chapter 8 fixes the netting specification: main cage in **25 mm (1") knotless HDPE square mesh**, twine **≥ 2.0 mm high-tenacity, UV-stabilised**, with breaking strength verified by supplier certificate against the design cases Volume 5 states (a 5" racing quad at 130 km/h and a 70 mm EDF at 140 km/h); the **Whoop Arcade in 13 mm fine mesh** as framed panels; netting hung with breakaway margin — it absorbs strikes by deflecting, never drum-tight; ground seal **zero gap ≥ 25 mm anywhere**. This volume adds the structure that carries it:
 
 | Element | Specification |
 |---|---|
-| Poles | Tapered galvanized steel, **16–17 m** above ground, at **10–12 m centres** (18–20 poles — Volume 5 canon); base plate on reinforced concrete pad foundations, typically ~1.5 × 1.5 × 1.5 m in granular soils — final sizing by the structural engineer from site wind data and soil report **[verify locally]** |
-| Roof structure | Tensioned catenary cable grid, 8–10 mm galvanized or Dyneema-core, ≤ 12 m spacing, crowned +1 m at centre (Volume 5) for sag control and rain shedding; roof net in laced panels ≈ 12 × 12 m (Volume 5 Trade Hack — panel replacement, not sheet replacement) |
-| Tension system | Each perimeter cable terminated with a galvanized turnbuckle (M16 class) and a marked witness gauge; walls laced to border ropes (≥ 10 mm braided) top and bottom; **design pretension set by the net engineer so that no net face can deflect onto a flight path under working wind** — deflection check at 5 m buffer line |
-| Ground seal | Bottom border rope buried 150 mm or threaded through ballast pipe full perimeter; gaps > 50 mm are a defect (Volume 5: a quad that fits under the net is not contained) |
-| Access | Two personnel vestibules ≥ 2 × 2 m (double-door net airlocks) and one 3 m double-gated vehicle gate (Volume 5); vestibule doors interlocked — both never open together during flight status |
-| Inspection regime | Structural: annual pole/cable/termination inspection by the engineer; nets: Volume 5's repair standard (hand-lace ≤ 3 mesh squares; panel-replace beyond) |
+| Masts | Tapered galvanized steel, **16–17 m** above ground, at **10–12 m centres** (18–20 masts); base plate on reinforced concrete pad foundations, typically ~1.5 × 1.5 × 1.5 m in granular soils — final sizing by the structural engineer from site wind data and soil report **[verify locally]** |
+| Roof structure | Tensioned catenary cable grid, 8–10 mm galvanized or Dyneema-core, ≤ 12 m spacing, crowned +1 m at centre for sag control and rain shedding; roof net in laced panels ≈ 12 × 12 m so a prop-strike hole means dropping and re-lacing one panel from a scissor lift, not a crane-and-crew replacement |
+| Tension system | Each perimeter cable terminated with a galvanized turnbuckle (M16 class) and a marked witness gauge; walls laced to border ropes (≥ 10 mm braided) top and bottom; **pretension set by the net engineer to preserve Volume 5's breakaway-margin doctrine while keeping working-wind deflection clear of the 5 m flight-path buffer** |
+| Ground seal | Bottom border rope buried 150 mm or threaded through ballast pipe full perimeter; any gap ≥ 25 mm is a defect (Volume 5: a whoop that fits under the net is not contained) |
+| Access | Two personnel airlocks (double-door vestibules, sized ≥ 2 × 2 m by this volume) — outer door closed before inner opens — and one 3 m double-gated vehicle gate openable only when airspace is cold (Volume 5 door doctrine) |
+| Whoop Arcade structure | 12 × 8 m framed-panel enclosure on a galvanized steel frame at 3 m height, 13 mm mesh, single vestibule, fully sealed at grade |
+| Inspection regime | Structural: annual mast/cable/termination inspection by the engineer; nets: Volume 5's daily walkdown and monthly detailed inspection schedule, with mast bolts torque-checked monthly |
 
 > **Safety Warning** — The cage is a life-safety structure with a 15–25 year design life and it fails in storms, not in operation. The structural engineer's wind analysis must model the net **iced and fouled** (leaves, snow band per climate) as a load case, and the operations manual must include a drop-or-derig wind threshold for named storms **[verify locally]** for the local wind code. A net specified only for sunny-day containment is under-specified by roughly a factor of three.
 
@@ -8639,55 +8656,60 @@ Volume 5, Section 2.2 fixes the netting specification (knotted UHMWPE #18-class 
 
 | Element | Specification |
 |---|---|
-| Runway | **30 × 4 m** (canon), machine-floated concrete 120 mm on 150 mm base, or fine asphalt equivalent; centreline and threshold markings in traffic paint; crossfall 1.5% to the north edge drain; surface tolerance 3 mm / 3 m |
-| Overruns | 5 m mown-turf at each threshold (Volume 5 — also the EDF belly-landing strip); turf on 100 mm rootzone over free-draining base |
-| Apron | 12 × 8 m concrete pad at the runway's south-east, linking the vehicle gate, the pilot boxes and the helipad edge |
-| Helipads | **Two, 1.2 × 1.2 m at 0.8 m height** (Volume 5 canon), steel frame, anti-slip deck, on the apron's east edge |
-| Pilot boxes | Four, in line along the runway's south side, 3 m back from pavement (Volume 5); 2.0 × 1.5 m each, 1.1 m rail, transmitter shelf per §4.1 ergonomics; the cage wall's **2 m overhead net apron** projects over the boxes so no aircraft can descend on a pilot |
-| FPV race volume | Sector B per Volume 5: eastern ≈ 30 × 15 m, curtain-netted to 8 m on messenger cables, repositionable |
-| Flight-line store | 20 ft container inside the cage at the vehicle gate: aircraft racking, field-repair bench, no battery charging (all charging in the bunker or the marine/aviation charging annex per doctrine) |
+| Runway | **30 m paved** (canon) at 4 m width (this volume's construction dimension), machine-floated concrete 120 mm on 150 mm base, or fine asphalt equivalent; runs along the cage's long axis; centreline and threshold markings in traffic paint; crossfall 1.5% to the north edge drain; surface tolerance 3 mm / 3 m |
+| Overruns & margins | **15 m paved overrun** plus mown-grass margins inside the net (Volume 5); grass on 100 mm rootzone over free-draining base |
+| Apron | 12 × 8 m concrete pad at the runway's south-east, linking the vehicle gate, the pilot boxes and the helipad edge; fixed-wing arming happens here facing the runway (Volume 5 flight-line doctrine) |
+| Helipads | **Two, 1.5 × 1.5 m platforms at 1.0 m height** (Volume 5 canon), steel frame, rubber-surfaced deck, railed on the spectator side, on the cage's **eastern edge** serving the 15 × 15 m heli hover box (Volume 5, §5.3) |
+| Pilot boxes | Four, numbered, in line along the runway's south side, 3 m back from pavement (this volume's setback); 2.0 × 1.5 m each, 1.1 m rail, transmitter shelf per §4.1 ergonomics; a **2 m overhead net apron** projects from the cage wall over the boxes so no aircraft can descend on a pilot; the painted flight line per Volume 5, Chapter 8 runs along their front edge |
+| Drone-racing course | **Western half of the cage** (Volume 5): reconfigurable air-gate and flag course in MultiGP/DRL grammar, gates on movable ballasted bases — no fixed structure, so the volume reverts to general flight between race slots |
+| Flight-line store | 20 ft container inside the cage at the vehicle gate: aircraft racking, field-repair bench, steel ammo-box caddies for the day's packs; no charging except the Arcade desk's supervised 1S board per Volume 5 — all pack charging happens in the Phase 1 charging bunker, extended with aviation shelving in Phase 2 |
 
-### 5.4 Marine basins
+### 5.4 Marine ponds
 
-Volume 6 fixes the waterspace: **main basin ~40 × 25 m (1,000 m² water), 600 mm perimeter shelf grading to 800 mm central channel, ≈ 630–650 m³**; within it the **harbour basin (Zone H) 14 × 25 m** boomed off from the open-water/fast-electric area; plus the separate **8 × 6 m submarine basin at 800 mm (≈ 38 m³)**. In this volume's terms these are the **pond pair**: the *harbour pond* (Zone H, dead-slow scale operations, quay-walled) and the *speed pond* (the remaining 26 × 25 m open-water area, fast-electric and sail) sharing one liner and one plant system, with the clear-water submarine basin as an annex. **Maximum depth 800 mm everywhere, forever** — Volume 6 states it as a safety specification and this volume repeats it as a hold-point on the excavation drawings.
+Volume 6, Chapter 6 fixes the waterspace as a **pond pair — two hydraulically independent ponds sharing one plant room**: the **harbour pond, 30 × 18 m (540 m² water)**, a rectangular quay-walled basin at 400–500 mm general depth; and the **speed pond, 60 × 25 m (1,500 m² water)**, a rounded-rectangle "stadium" plan at a uniform 500–600 mm. The division's depth doctrine is a **400–600 mm working band across both ponds** — deep enough that keels, rudders and water pickups never ground, shallow enough that a staff member in waders can walk every square metre. The **sole engineered exception is the submarine bay: 6 × 4 m at 1.5 m deep**, a cast-concrete box baffled off the harbour pond, carrying the acrylic viewing window (~1,200 × 600 × 40 mm marine-grade cast panel per Volume 6, set at child-eye height and shaded by the quay canopy). This volume repeats all three depth figures as hold-points on the excavation drawings.
 
-**Section through the main basin (E–W at the harbour):**
+**Section through the harbour pond (windward edge to quay, showing the submarine bay):**
 
 ```
-  guest side                                                     marina side
-  1.1 m fence   spectator quay (canopy 12×4 m)      boom         launch beach
-  ─────┐  ┌──────────────┐                           ┆    ┌────~ ~ ~──────
-       │  │ quay wall ▓  │ +150 coping               ┆    │ beach 1:5
-  ═════╪══╡ timber-faced ╞═══ waterline ═════════════┆════╪═════════════
-       │  │ concrete, D- │  −600 shelf (2 m wide)    ┆    │
-       │  │ fender at WL │ ─────┐                    ┆    │
-       │  └──────────────┘      └──── −800 central channel ────┘
-       │   ZONE H (harbour pond) ┆  open water (speed pond)
-       └── 60-mil EPDM liner + ≥300 g/m² geotextile, anchor trench at rim ──
+ windward side                                                       guest side
+ shelter belt   marina hut /                 baffle    SUB BAY      1.1 m balustrade
+ (2.5–3 m)      landing stage (gated)        wall      6 × 4 m      + quay canopy
+  ♣♣♣ ┌────────┐                              ┃                    ┌─────
+  ♣♣♣ │        │╔═ waterline ════════════════╗┃╔══════════════════╗│ quay wall ▓
+      │  stage │║  −400…−500 general depth   ║┃║                  ║│ block, rendered,
+      └───┬────┘║        (working band)      ║┃║   −1,500 deep    ║│ timber-capped
+          │     ╚═══╗ silt sump at drain ╔═══╝┃║                  ◙│◁ acrylic window
+          │         ╚════════════════════╝    ┃╚══════════════════╝│  1,200×600×40
+          └── EPDM liner on ≥300 g/m² geotextile, dressed up behind walls;
+              sub bay = cast concrete box, tanked, FLANGED to the EPDM (clamped,
+              sealed detail by the liner supplier's approved installer)
 ```
 
 | Element | Specification (Volume 6 governs; construction notes here) |
 |---|---|
-| Liner system | 60-mil (1.5 mm) EPDM membrane on ≥ 300 g/m² non-woven geotextile, laps 150 mm, carried into a perimeter anchor trench; no chlorine ever (Volume 6 water doctrine) |
-| Quay walls | Zone H east and north: vertical timber-faced concrete, coping +150 mm above waterline, continuous rubber D-fender at waterline, berth markings 1–4 (gameplay per Volume 6) |
-| Edge profile elsewhere | 2 m-wide 600 mm shelf, corners radiused 2 m with a skimmer per downwind corner (Volume 6 Trade Hack) |
-| Floor finishes | 40 mm washed pea gravel over sacrificial geotextile in harbour and beach traffic areas; bare liner in the fast-electric zone (Volume 6) |
-| Launch beach & rescue dock | 1:5 grade beach, staff-controlled; both are the only rail-gap edges in the precinct |
-| Precinct barrier | 1.1 m fence with self-closing self-latching gates around the whole pond precinct; quay handrails with kick-plate except beach/rescue dock (Volume 6 barrier plan) **[verify locally]** against local pool/pond barrier law |
-| Wind shelter | The western landscape berm (3 m) plus a 2 m evergreen hedge band give the basin its sheltered operating window (Volume 6: shelter is revenue protection) |
+| Liner system | **EPDM membrane basins with concrete structures standing inside them** (Volume 6's hybrid doctrine); ≥ 300 g/m² non-woven geotextile under every square metre, carried up behind walls; ~2,600 m² liner total incl. walls/overlap; order as few, huge factory panels (Volume 6 Trade Hack: field seams are the only young failure); no chlorine ever |
+| Quay walls (harbour) | Hollow concrete block on strip footings, rendered, built *inside* the liner line with the liner dressed up behind; timber capping; fendered berths (gameplay per Volume 6) |
+| Submarine bay | Cast-concrete box, cementitious tanking, mechanically flanged to the EPDM with a clamped sealed detail — **the one specialist joint in the build, executed by the liner supplier's approved installer**; acrylic window framed aquarium-style; baffle wall hydraulically separates the bay so barge traffic cannot stir sediment into it |
+| Speed-pond edges | Concrete edge beam + rip-rap over liner on the straights (wake energy breaks on rock, not soil — Volume 6); **cobble wave beach at the downwind end** where wind and wake energy both arrive; turn buoys ≥ 4 m off the banks |
+| Pond floors | Harbour floor laser-screeded ±20 mm, falling to a silt sump with bottom drain at the deepest corner; cut/fill balanced into the site's 2–4% grade |
+| Landing stages | Supervised, staff-controlled, **self-closing gates** (Volume 6 barrier rule); boats armed only on the stand, facing open water |
+| Public barrier | **1.1 m post-and-rail balustrade with mesh infill wherever the public can approach water deeper than 300 mm** (Volume 6's absolute rule), broken only at the supervised landing stages and the viewing-window bay **[verify locally]** against local pool/pond barrier law |
+| Wind & siting | Speed-pond long axis set **across the prevailing wind** (fetch control); harbour pond sheltered by the marina hut, quay canopy and a 2.5–3 m evergreen shelter belt on the windward side; the **sail area's windward shore stays low and open** (sail needs wind); restaurant terrace overlooks the harbour (all Volume 6 siting requirements, resolved in this master plan) |
+| Capex | Pond complex civil work **≈ $212,000** (Volume 6, §6.9 breakdown; carried in Volume 10's Phase 2 envelope) |
 
 ### 5.5 Marine plant room
 
-A 20 ft high-cube container adjacent to the marina building, on a 100 mm bunded slab:
+One shared plant room between the two ponds (Volume 6) — a 20 ft high-cube container beside the marina hut on a 100 mm bunded slab — serving two hydraulically separate loops:
 
 | Item | Specification |
 |---|---|
-| Circulation | Pump set sized to **Q = 15 m³/h** (Volume 6: 48 h turnover + skimmer draw), duty/standby pair |
-| Filtration | Mechanical (sieve/bead) + UV clarifier line per Volume 6, Chapter 2; backwash discharges to the sewer connection, not the swales **[verify locally]** |
-| Pipework | 3 skimmer suction lines + 2 floor returns cast under the quay ring at construction; isolation valves inside the container |
-| Top-up | Metered mains top-up with air-gap break tank (backflow prevention **[verify locally]**) |
+| Harbour loop | Turnover every 4 h → duty flow **62.5 m³/h**; Volume 6's worked sizing: ≈ 5.9 m total dynamic head → **1.5 kW low-head pump, preferably 2 × 0.75 kW for redundancy** and half-flow night/winter economy |
+| Speed-pond loop | Turnover every 8 h → **≈ 100 m³/h**, sized by the same method; shares the plant room, never the water |
+| Filtration | Drum/bead mechanical filters both loops; **UV clarifier loop on the harbour pond** (the viewing-bay water passes the UV bank every cycle — clarity is the submarine product); total pump connected load ≈ 1.2–1.8 kW (Volume 6); backwash discharges to sewer, not the swales **[verify locally]** |
+| Intakes | Floating-weir skimmers: **4 on the harbour pond, 6 on the speed pond**, plus one bottom drain per silt sump; isolation valves inside the container |
+| Top-up | Metered mains top-up through an air-gap break tank (backflow prevention **[verify locally]**); summer evaporation budget 100–150 mm/month across both ponds ≈ 25–30 m³ (Volume 6) |
 | Electrical | Fed from the marine sub-board; pumps on the essential-services bus (Chapter 12) so circulation survives a park power event |
-| Access | Double doors to a 2 m hard apron; sump and strainer serviceable by one Artisan without entering the water |
+| Access | Double doors to a 2 m hard apron; sumps and strainers serviceable by one Artisan without entering the water |
 
 ---
 
@@ -8742,7 +8764,7 @@ The bunker implements the canonical battery doctrine (bunkered charging; 3:1 bat
 | Detection & suppression | Smoke + heat detection zoned to the park panel; no water sprinkler over lithium — Class D/ABC extinguishers at door plus a sand/vermiculite quench bin and lifting tongs; ventilation ≥ 6 air changes/hour extracting at high level **[verify locally]** |
 | Monitoring | Temperature and smoke telemetry into RC WORLD OS; charger fleet on networked monitoring; CCTV inside (Chapter 13) |
 
-> **Safety Warning** — The bunker's safety case rests on three assumptions that operations must never erode: (1) charging happens **only** in the bunker and the Chapter 7 customer charging station — never at pit bays, never in the battery room; (2) packs outside the 3.4–4.2 V/cell window or with any physical damage are quarantined in the sand bin, not racked; (3) the blow-out panels' exclusion strip stays fenced and empty — it is not storage. All three appear on the daily close-down checklist (Volume 7).
+> **Safety Warning** — The bunker's safety case rests on three assumptions that operations must never erode: (1) charging happens **only** in the bunker and the Chapter 7 customer charging station — never at pit bays, never in the battery room; the sole documented exception is Volume 5's supervised 1S whoop board at the Arcade desk (max 6 packs, fireproof mat, staff eyes); (2) packs outside the 3.4–4.2 V/cell window or with any physical damage are quarantined in the sand bin, not racked; (3) the blow-out panels' exclusion strip stays fenced and empty — it is not storage. All three appear on the daily close-down checklist (Volume 7).
 
 ### 6.3 MEP requirements
 
@@ -8817,7 +8839,7 @@ The plaza (part of precinct 1) carries the corten RC WORLD gateway totem, the pa
 
 ### 8.2 Restaurant (Phase 2)
 
-A 380 m² GFA pavilion with its long glazed side and terrace overlooking Track A's T5 sweeper and main straight — the table with a view of the racing is the product.
+A 380 m² GFA pavilion sited between the harbour pond and the guest spine, with a dual-aspect terrace: the primary, west-facing front **overlooks the working harbour** — Volume 6's fixed siting requirement, because the terrace converts the port's continuous slow spectacle (tugs, barges, the fire-boat shows) directly into F&B dwell — while the east front catches Track A's T5 sweeper and main straight across the spine. The table with a view of a working machine is the product on both fronts.
 
 | Element | Specification |
 |---|---|
@@ -8846,8 +8868,8 @@ Roughly one companion watches for every driver on-station (Volume 2's visit-grou
 | Grandstand at Track A | 2 | **200 seated** | 5 tiers × 40; steel frame, timber seats, 400 mm row rise / 800 mm going (C-value sight-line check over a standing child at the rail — RC spectating looks *down*, so generous rise matters more than at a stadium); full shade canopy; front row +1.2 m above track datum behind the two-stage barrier; accessible platform for 6 wheelchairs + companions at tier 1 **[verify locally]** |
 | Elevated mining walkway | 1 | 60 standing | **1.8 m wide × 30 m long at +2.4 m** above pit datum, crossing the Mining Zone's west end; steel structure, mesh balustrade **1.3 m** with kick-plate (elevated = taller rail), anti-drop mesh to 100 mm aperture full height — nothing droppable reaches the pit; ramped access 1:14 both ends; the park's signature photo spot, looking down the haul-road loop to the hopper |
 | Viewing mounds (berm tops) | 1 | ~150 standing total | The Chapter 11 berms double as terraced viewing: sleeper-edged terraces cut into the south faces at Track B and the airfield promenade |
-| Spectator terraces | 1 | continuous | The 2 m terrace behind mining's operator line (Volume 4), Track C boardwalk widenings, pond spectator quay (Volume 6: 12 × 4 m canopy, 30 spectators) |
-| Airfield promenade | 2 | 80 standing | 60 × 6 m along the cage's south face, fine-mesh spectator panel + 25 mm skirt net (Volume 5), lean rail, interpretive graphics |
+| Spectator terraces | 1 | continuous | The 2 m terrace behind mining's operator line (Volume 4), Track C boardwalk widenings, the harbour's canopied quay and viewing-window bay (Volume 6) with the restaurant terrace above them |
+| Airfield promenade | 2 | 80 standing | 60 × 6 m along the cage's south face, viewing through the 25 mm mesh (no openable panels on public faces — Volume 5), standoff lean rail 2 m outside the netting, interpretive graphics, FPV repeater screens set at the rail so crowds gather at the screens, not against the net |
 
 ### 9.2 Circulation network
 
@@ -8915,7 +8937,7 @@ The park's earthworks balance goes into perimeter berms — spoil from the pond,
 | Berm | Location | Profile | Functions |
 |---|---|---|---|
 | North berm | Full northern boundary, ~180 m | h = 3.0 m, crest 2 m wide, guest face 1:3, boundary face 1:2 | Acoustic screen for the loud band (mining, Track B, airfield); wind shelter; terraced viewing on the south face at Track B |
-| West berm | West boundary at the pond, ~90 m | h = 3.0 m + 2 m evergreen hedge on crest | The marine wind shelter Volume 6 prices as revenue; afternoon shade for Agriculture |
+| West berm | West boundary at the ponds, ~90 m | h = 3.0 m at the harbour end, tapering to ≤ 1 m with low planting along the sail area's windward shore; 2.5–3 m evergreen shelter belt windward of the harbour only | The harbour wind shelter Volume 6 prices as revenue — solid at the harbour, deliberately low and open where the sail fleet needs clean wind (Volume 6, §4.2/§6.6); afternoon shade for Agriculture |
 | Frontage berm | South, broken at gates | h = 1.5 m, planted | Visual dress to the road; keeps the cage and gateway visible above it by design |
 
 Acoustic performance to be verified by the consultant against the Chapter 2.3 targets **[verify locally]**; as a planning rule of thumb a 3 m berm breaking line-of-sight yields ~5–8 dB attenuation at the boundary — the gradient plan does the rest.
@@ -8926,7 +8948,7 @@ Three rules govern species selection (local ecologist adapts the list **[verify 
 
 ### 11.3 Dust suppression
 
-Dust is the operating cost of a dirt park: Track B's watering ring (§3.2), mining's nightly wet-grooming (Volume 4), the northern service road dressed in crusher fines with a calcium-chloride/lignin binder refreshed each season, and hose points at 40 m spacing on the irrigation main. Wind-blown dust from the loose zones is intercepted by the berm-and-hedge line before it reaches the pond (skimmer load) or the airfield (runway grip). The morning "hose-and-broom reset" (design tenet 4, §1.2) is a designed capability: every zone has a washdown point, falls, and a silt trap.
+Dust is the operating cost of a dirt park: Track B's watering ring (§3.2), mining's nightly wet-grooming (Volume 4), the northern service road dressed in crusher fines with a calcium-chloride/lignin binder refreshed each season, and hose points at 40 m spacing on the irrigation main. Wind-blown dust from the loose zones is intercepted by the berm-and-hedge line before it reaches the ponds (skimmer load and viewing-bay clarity) or the airfield (runway grip). The morning "hose-and-broom reset" (design tenet 4, §1.2) is a designed capability: every zone has a washdown point, falls, and a silt trap.
 
 ### 11.4 Stormwater and drainage strategy
 
@@ -8990,7 +9012,7 @@ The Phase 1 connection is sized for Phase 2 (≈ 140 kVA demand); the Phase 3 st
 ### 12.3 Water
 
 - **Mains:** municipal potable connection at the frontage; meter + backflow prevention **[verify locally]**; potable distribution to pavilion, Works, restaurant, first-aid, hose-union points.
-- **Pond top-up:** metered branch with air-gap break tank at the marine plant room (§5.5); budget evaporation + splash losses ≈ 1–2% of volume/week in summer (≈ 7–13 m³/week) — the meter reading is a Volume 6 weekly checklist item.
+- **Pond top-up:** metered branch with air-gap break tank at the marine plant room (§5.5); budget summer evaporation of 100–150 mm/month across both ponds ≈ 25–30 m³/month (Volume 6) plus splash losses — the meter reading is a Volume 6 checklist item.
 - **Irrigation & dust suppression:** a dedicated non-potable ring main (fed from mains in Phase 1; a rainwater-harvest tank at The Works' roof is the Phase 2 upgrade) serving Track B's watering ring, the hose points at 40 m spacing, hedge drip lines and the turf overruns.
 - **Sewer:** pavilion, Works and restaurant to the municipal sewer (or approved on-site treatment — site-selection item); kitchen via grease interceptor; workshop intake sink via silt/oil interceptor; pond backwash to sewer, never to the swales **[verify locally]**.
 
@@ -9035,13 +9057,13 @@ Draw pits at ≤ 50 m spacing and every change of direction; every duct proved a
 |---|---|
 | Site perimeter | 1.8 m galvanized weldmesh (358-class anti-climb on the road frontage and service gates), concealed in the berm/hedge line where it crosses guest views |
 | Zone edges (guest/live separation) | The 1.1 m rail-and-kick-plate family (§1.1); mesh infill ≤ 100 mm aperture wherever small children queue |
-| Pond precinct | 1.1 m with self-closing self-latching gates (Volume 6 canon) **[verify locally]** |
+| Pond barrier line | 1.1 m post-and-rail balustrade with mesh infill wherever the public can approach water deeper than 300 mm; self-closing gates at the supervised landing stages (Volume 6 canon) **[verify locally]** |
 | Charging rooms, plant, bunker strips | 2.0 m mesh enclosures, locked, signed |
 | Construction phase lines | 2.0 m temporary hoarding, graphics-wrapped (the hoarding sells Phase 2) |
 
 ### 13.2 CCTV coverage logic
 
-Coverage is designed by *incident question*, not camera count — every location where the operation would ask "what happened?" gets a view: all POS and cash handling; both charging rooms (interior, thermal watchpoint per §7.4); every zone's operating surface (the same masts as the Wi-Fi APs — one pole family carries AP + camera + PA horn); all gates and interlocks; the pond waterline (two views, full surface); the car park and drop-off; The Works' intake (asset chain-of-custody). Phase 1 ≈ 32 cameras, PoE, recorded 30 days at the comms room NVR (essential bus), with RC WORLD OS integration limited to event bookmarks (a kill-switch trigger or gate alarm bookmarks the relevant streams). Privacy signage and retention per local law **[verify locally]**.
+Coverage is designed by *incident question*, not camera count — every location where the operation would ask "what happened?" gets a view: all POS and cash handling; both charging rooms (interior, thermal watchpoint per §7.4); every zone's operating surface (the same masts as the Wi-Fi APs — one pole family carries AP + camera + PA horn); all gates and interlocks; both pond waterlines (full surface coverage); the car park and drop-off; The Works' intake (asset chain-of-custody). Phase 1 ≈ 32 cameras, PoE, recorded 30 days at the comms room NVR (essential bus), with RC WORLD OS integration limited to event bookmarks (a kill-switch trigger or gate alarm bookmarks the relevant streams). Privacy signage and retention per local law **[verify locally]**.
 
 | Coverage group | Cameras (Ph. 1) | View standard |
 |---|---|---|
@@ -9052,7 +9074,7 @@ Coverage is designed by *incident question*, not camera count — every location
 | Car park, drop-off, plaza | 5 | Observe + plate capture at both vehicle gates |
 | The Works intake & yard | 2 | Recognize (asset chain-of-custody) |
 
-Phase 2 adds ≈ 10 (pond waterline ×2, marina, cage interior ×2, promenade, restaurant, grandstand, events lawn, extension parking); Phase 3 the arena interior set. One deliberate omission: no camera is pointed at the rostrum drivers' faces at eye level — telemetry already records what their vehicles did, and the park photographs its guests for joy (Volume 9's media program), not surveillance.
+Phase 2 adds ≈ 11 (harbour pond + submarine bay window ×2, speed pond ×2, marina hut, cage interior ×2, promenade, restaurant, grandstand, events lawn, extension parking); Phase 3 the arena interior set. One deliberate omission: no camera is pointed at the rostrum drivers' faces at eye level — telemetry already records what their vehicles did, and the park photographs its guests for joy (Volume 9's media program), not surveillance.
 
 ### 13.3 Access control tied to RC WORLD OS roles
 
@@ -9072,7 +9094,7 @@ Physical access mirrors the OS role model (canon: executive, finance, HR, operat
 - **First-aid points:** the pavilion first-aid room (§8.1, ambulance-accessible) plus wall stations (AED, trauma kit, burn kit) at the pit theatre, The Works and — Phase 2 — the marina. Burn kits acknowledge the LiPo risk profile.
 - **Assembly points:** two — the events lawn (north assembly) and the car-park head (south assembly), signed from every zone; choice of two means no route past a plausible incident (fire at The Works blocks neither).
 - **PA:** zone horns on the AP/CCTV poles, addressable by zone from the duty office and the OS duty console; the all-park evacuation tone is generator-backed.
-- **Lightning protection:** the airfield's 17 m poles are the site's air terminals whether planned or not — so plan it: the cage poles are bonded and earthed as a lightning protection system by the electrical designer **[verify locally]**, the flight program's storm rules (Volume 5) close the cage well before risk, and the same weather trigger closes the pond (Volume 6) and clears the mining rim's sail line. A site lightning-risk assessment is a Phase 2 design deliverable.
+- **Lightning protection:** the airfield's 17 m poles are the site's air terminals whether planned or not — so plan it: the cage poles are bonded and earthed as a lightning protection system by the electrical designer **[verify locally]**, the flight program's storm rules (Volume 5) close the cage well before risk, and the same weather trigger closes both ponds (Volume 6's 30/30 water-clear protocol) and clears the mining rim's sail line. A site lightning-risk assessment is a Phase 2 design deliverable.
 - **Fire zones and extinguisher schedule:** the site is zoned to the detection panel as: Z1 pavilion/retail, Z2 The Works, **Z2B bunker**, Z3 pit/charging, Z4 restaurant (Ph. 2), Z5 arena (Ph. 3), plus external plant nodes. Extinguisher family **[verify locally — types/spacing are code items]**: ABC dry powder at all plant and vehicles; CO₂ at electrical boards and comms; wet chemical at kitchens; **Class D capability + sand quench bins at both charging rooms and the battery room**; travel distance to an extinguisher ≤ 20 m back-of-house.
 
 > **Safety Warning** — The interlock chain (OS zone status → gate release → marshal badge) is only as safe as its failure mode. Specify every live-zone gate **fail-secure for entry, fail-safe for exit**: a network or power failure must never trap a person inside a zone, and must never release public entry into one. This requirement is written on the door-hardware schedule, tested at commissioning, and re-tested quarterly (Volume 7 maintenance matrix).
@@ -9099,7 +9121,7 @@ Two parcels (allocation line 19, 5,200 m² total) are held in low-cost landscape
 
 ### 14.3 Second-site learnings
 
-Everything this volume fixes — the adjacency logic, the noise gradient, zone envelopes, the room schedules, the load schedule — is the *reference design* that Volume 12 turns into a franchise kit-of-parts: which dimensions are doctrine (haul-road 15°, pond 800 mm, cage envelope, bunker construction, sight-line rules), which are climate-adaptable (shade ratios, indoor-hybrid variants for Gulf and monsoon markets flagged in Volume 2), and which are free (track layout within the geometric rules, palette species, building expression). As-built deviations from this volume at the reference site must be logged in the drawing register *with reasons* — the second site inherits the reasons, not just the drawings. See Volume 12, Chapter 3.
+Everything this volume fixes — the adjacency logic, the noise gradient, zone envelopes, the room schedules, the load schedule — is the *reference design* that Volume 12 turns into a franchise kit-of-parts: which dimensions are doctrine (haul-road 15°, the 400–600 mm pond working band with the 1.5 m submarine-bay exception, cage envelope, bunker construction, sight-line rules), which are climate-adaptable (shade ratios, indoor-hybrid variants for Gulf and monsoon markets flagged in Volume 2), and which are free (track layout within the geometric rules, palette species, building expression). As-built deviations from this volume at the reference site must be logged in the drawing register *with reasons* — the second site inherits the reasons, not just the drawings. See Volume 12, Chapter 3.
 
 ---
 
@@ -9107,12 +9129,12 @@ Everything this volume fixes — the adjacency logic, the noise gradient, zone e
 
 - [ ] Topographic + geotechnical surveys reconciled with the Chapter 2 allocation plan; setting-out grid issued.
 - [ ] All **[verify locally]** items dispositioned in a code-compliance register signed by the local engineer of record.
-- [ ] Hold-point dimensions verified on setting-out: haul-road grades ≤ 15° (built 14°), lane widths (agriculture 600 mm), pond depth ≤ 800 mm, cage envelope 60 × 40 × 15 m, jump landing ratio ≥ 5:1, rail heights 1.1 m / 1.3 m elevated.
+- [ ] Hold-point dimensions verified on setting-out: haul-road grades ≤ 15° (built 14°), lane widths (agriculture 600 mm), pond depths in the 400–600 mm working band with the 6 × 4 m submarine bay at 1.5 m as the sole exception (Vol. 6), cage envelope 60 × 40 × 15 m, jump landing ratio ≥ 5:1, rail heights 1.1 m / 1.3 m elevated.
 - [ ] Cast-in items confirmed before pours: timing-loop conduits (Tracks A/B, arena grid), lighting pole bases and ducts, pond pipework, hopper holding-down bolts, duct ring with Phase 2/3 stubs.
 - [ ] Charging bunker + charging station: construction per §6.2/§7.2 witnessed (filled CMU, blow-out panels, FD90 doors, EPO, contactor timing tested).
 - [ ] Interlock chain commissioned: every live-zone gate tested fail-secure-in/fail-safe-out with OS zone status; results in the O&M file.
 - [ ] Wi-Fi survey at machine height (0.3 m) shows ≥ −65 dBm on 100% of operating surfaces; kill-switch latency test passed park-wide.
-- [ ] Net installation certified by the net engineer: pretension witness gauges recorded, ground-seal gap ≤ 50 mm full perimeter, panel lacing per spec.
+- [ ] Net installation certified by the net engineer: pretension witness gauges recorded with breakaway margin preserved, ground seal at **zero gap ≥ 25 mm** full perimeter (Vol. 5), panel lacing per spec, mesh supplier certificates on file (25 mm main cage / 13 mm Arcade).
 - [ ] Rostrum and operator-station sight-line checks signed (every position sees its full envelope; Track A checked bidirectionally).
 - [ ] Drainage proved: hose-test every zone to its silt trap; detention basin outlet at consented rate.
 - [ ] As-built drawings, O&M manuals, and the deviations-with-reasons register lodged (feeds §14.3 and Volume 12).
@@ -9122,7 +9144,7 @@ Everything this volume fixes — the adjacency logic, the noise gradient, zone e
 
 ## Volume summary & cross-references
 
-Volume 11 converts RC WORLD's operating doctrine into buildable geometry on the canonical 4.8 ha reference site. Its fixed decisions: a fully allocated **48,000 m² master plan** (Phase 1 60.4%, Phase 2 22.9%, Phase 3 + land bank 16.7%) organized by a south-to-north noise gradient with Mining beside The Works and the airfield peripheral-downwind; an **industrial-authentic** materials and naming language governed by the sight-line doctrine (*see everything, touch nothing live*, 1.1 m rail family, interlocked gates); **Track A** at ~180 m/3.5–4.5 m with a 58 m straight, 15 mm kerbs and two-stage barriers; **Track B** at ~160 m with 5:1 landing-ratio tabletops and 400 mm berms; a ten-feature **Track C** with 120 mm water-depth limits; the Volume 4 mining/agriculture geometry carried into civil detail (300 mm benches, 14° ramps, 4.0 m station pitch at 1.1 m rails); the Volume 5 cage (60 × 40 × 15 m) and Volume 6 basins (40 × 25 m at ≤ 800 mm) given their structures, liners and plant; a **450 m² Works** with a doctrine-compliant 30 m² charging bunker and a 490 m² entry pavilion with 120 m² retail; a worked charging-load method (≈ 3.5 kVA customer station, ≈ 9 kVA bunker); a site load schedule reaching ≈ 207 kVA demand at Phase 3; a 12-AP telemetry-grade Wi-Fi plan; and role-keyed access control that makes RC WORLD OS's permissions physical.
+Volume 11 converts RC WORLD's operating doctrine into buildable geometry on the canonical 4.8 ha reference site. Its fixed decisions: a fully allocated **48,000 m² master plan** (Phase 1 60.4%, Phase 2 22.9%, Phase 3 + land bank 16.7%) organized by a south-to-north noise gradient with Mining beside The Works and the airfield peripheral-downwind; an **industrial-authentic** materials and naming language governed by the sight-line doctrine (*see everything, touch nothing live*, 1.1 m rail family, interlocked gates); **Track A** at ~180 m/3.5–4.5 m with a 58 m straight, 15 mm kerbs and two-stage barriers; **Track B** at ~160 m with 5:1 landing-ratio tabletops and 400 mm berms; a ten-feature **Track C** with 120 mm water-depth limits; the Volume 4 mining/agriculture geometry carried into civil detail (300 mm benches, 14° ramps, 4.0 m station pitch at 1.1 m rails); the Volume 5 cage (60 × 40 × 15 m, 25 mm knotless HDPE mesh with the 13 mm Whoop Arcade beside it) and the Volume 6 pond pair (harbour 30 × 18 m + speed 60 × 25 m at 400–600 mm, with the 6 × 4 m submarine bay at 1.5 m as the sole depth exception, ≈ $212 k civil work) given their structures, liners and plant; a **450 m² Works** with a doctrine-compliant 30 m² charging bunker and a 490 m² entry pavilion with 120 m² retail; a worked charging-load method (≈ 3.5 kVA customer station, ≈ 9 kVA bunker); a site load schedule reaching ≈ 207 kVA demand at Phase 3; a 12-AP telemetry-grade Wi-Fi plan; and role-keyed access control that makes RC WORLD OS's permissions physical.
 
 **Cross-references.** Volume 1 carries the master-plan summary for investors. Volume 2 supplies the demand model behind capacity, parking and catchment (Chapters 7) and the diorama-supplier channel behind zone dressing (Chapter 4). Volume 3 governs everything on wheels on Tracks A/B and the racing program this geometry serves (its Sections 9.6/10.4 are closed out by Chapter 3 here). Volume 4 is source of truth for Mining and Agriculture internals restated in Chapter 4. Volume 5 owns the cage rationale and netting spec built in Chapter 5; Volume 6 owns the waterspace doctrine behind §5.4–5.5. Volume 7 operates The Works designed in Chapter 6 and owns the maintenance regimes this fabric assumes. Volume 8 procures the materials, nets, chargers and dressing packages. Volume 9 programs the guest journey through Chapters 8–9's spaces. Volume 10 carries the capex these drawings imply and the phasing economics of Chapter 2.4. Volume 12 inherits the reference design per §14.3. Volume 13 specifies RC WORLD OS, whose zone statuses, roles and telemetry this volume wires into gates, screens and the essential bus.
 
@@ -9133,7 +9155,7 @@ Volume 11 converts RC WORLD's operating doctrine into buildable geometry on the 
 
 # Volume 12 — Franchise Manual
 
-**RC WORLD — Master Development Plan** · Volume 12 of 12
+**RC WORLD — Master Development Plan** · Volume 12 of 13
 **Revision:** 1.0 · **Date:** July 2026 · **Status:** Living document — bump revision on material change
 
 **Purpose of this volume.** This volume defines how the RC WORLD business is replicated: the franchise strategy and its rationale, the three licensed park formats, the international expansion framework, the legal and licensing architecture, the fee structure and unit economics for both franchisee and franchisor, and the complete operating machinery of a franchise system — recruitment, site approval, training through the RC WORLD Academy, brand standards, quality audits, and franchisor support operations. It is written *before* the first franchise is sold, deliberately: the founding thesis of this volume is that the thirteen-volume documented system you are holding — engineering specifications, SOPs, fleet doctrine, procurement channels, RCW Node hardware, RC WORLD OS software, and the customer-experience canon — **is the franchise product**. The flagship park proves it; this volume packages it. The franchise pilot is a Phase 3 activity (months 31–60); everything here is sequenced against that canon.
@@ -10004,7 +10026,7 @@ The build runs on a compact senior team; the roadmap detail is Chapter 14.
 
 Phasing: **MVP (v1)** ships before Phase 1 opening — bookings, wallet + payments, telemetry + kill-switch, fleet + maintenance, POS, RBAC core, Toolbox Talk (Chapter 14 defines the sprint plan). **v1.5** (Months 13–20) adds HR/payroll depth, finance close automation, CRM automations. **v2** (Months 21–36) adds franchise multi-tenancy activation, advanced analytics, and the Phase 2 division modules (aviation/marine mission scoring).
 
-Budget, consistent with Volume 10's software line: **v1 development ≈ $185k** (team-months at blended $9–11k/month fully loaded in a favourable engineering market, plus $12k hardware/bench/licences), inside Phase 1's $1.85 M capex envelope; **run costs ≈ $45k/year** (Supabase Pro-class tier, container hosting, PSP fixed fees, push/email volume, observability tooling, store accounts) plus the run-team payroll above, which Volume 10 carries under operating headcount. Volume 10 is the source of truth for the consolidated numbers; any change there sweeps back into this section.
+Budget, consistent with Volume 10's software line: **v1 development ≈ $165k** (team-months at blended $9–11k/month fully loaded in a favourable engineering market, plus $12k hardware/bench/licences), inside Phase 1's $1.85 M capex envelope; **run costs ≈ $45k/year** (Supabase Pro-class tier, container hosting, PSP fixed fees, push/email volume, observability tooling, store accounts) plus the run-team payroll above, which Volume 10 carries under operating headcount. Volume 10 is the source of truth for the consolidated numbers; any change there sweeps back into this section.
 
 ## 3. Identity, Roles & Access Control
 
@@ -10478,7 +10500,7 @@ Volume 10's KPI set is defined *as SQL against this schema* so every number on t
 | Membership churn | memberships lapsed in month ÷ active at month start, from membership ledger releases; cohort view by join month |
 | Wallet liability & breakage | `wallet_liability_control` balance; breakage sweep trend |
 | Fleet availability | time-in-status share of `available`+`bound`+`on_track` vs. `maintenance` per class (from status-transition intervals, §6.3) |
-| 90-day second-visit rate (Volume 2 canary) | customers with ≥2 visit days within 90 days of first ÷ first-visit cohort |
+| 90-day second-visit rate (the demand-model canary; targets in Volume 10 §10.4) | customers with ≥2 visit days within 90 days of first ÷ first-visit cohort |
 | Battery pool health | packs in service ÷ (vehicles active × 3) per class — the 3:1 doctrine as a live number |
 
 Each KPI ships as a versioned SQL view; the dashboard renders views, never ad-hoc queries — when a definition changes, the view changes in a reviewed migration and every consumer moves together.

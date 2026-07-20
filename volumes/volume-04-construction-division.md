@@ -1,6 +1,6 @@
 # Volume 4 — RC Construction Division
 
-**RC WORLD — Master Development Plan** · Volume 4 of 12
+**RC WORLD — Master Development Plan** · Volume 4 of 13
 **Revision:** 1.0 — July 2026 · **Status:** Living document — bump revision on material change
 
 **Purpose of this volume.** This is the handbook of the RC WORLD Construction Division: the Mining Zone and the Agriculture Zone that open with Phase 1 as one of the park's two anchor attractions. It specifies every machine class the division operates — from the Huina 1580 rental excavators to the single Kabolite-class hydraulic flagship — with anatomy, operating envelopes, verified 2026 market pricing and duty ratings; it derives the 1:3 excavator-to-dump-truck logistics ratio with worked queueing arithmetic; it engineers the haul roads, the open-pit material recirculation loop, the agricultural field grid, and the operator stations customers stand at; it defines the competition formats that convert earthmoving into repeat revenue; and it closes with the division-specific maintenance program, preventive-maintenance matrix and FMEA table that keep forty-two machines in daily public service. It is written to be handed out chapter by chapter: the civil contractor gets Chapters 5, 6 and 10, the Artisans get Chapters 2, 8 and 12, the events team gets Chapter 11, and the investor reads all of it.

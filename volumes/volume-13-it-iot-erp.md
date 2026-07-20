@@ -183,7 +183,7 @@ The build runs on a compact senior team; the roadmap detail is Chapter 14.
 
 Phasing: **MVP (v1)** ships before Phase 1 opening — bookings, wallet + payments, telemetry + kill-switch, fleet + maintenance, POS, RBAC core, Toolbox Talk (Chapter 14 defines the sprint plan). **v1.5** (Months 13–20) adds HR/payroll depth, finance close automation, CRM automations. **v2** (Months 21–36) adds franchise multi-tenancy activation, advanced analytics, and the Phase 2 division modules (aviation/marine mission scoring).
 
-Budget, consistent with Volume 10's software line: **v1 development ≈ $185k** (team-months at blended $9–11k/month fully loaded in a favourable engineering market, plus $12k hardware/bench/licences), inside Phase 1's $1.85 M capex envelope; **run costs ≈ $45k/year** (Supabase Pro-class tier, container hosting, PSP fixed fees, push/email volume, observability tooling, store accounts) plus the run-team payroll above, which Volume 10 carries under operating headcount. Volume 10 is the source of truth for the consolidated numbers; any change there sweeps back into this section.
+Budget, consistent with Volume 10's software line: **v1 development ≈ $165k** (team-months at blended $9–11k/month fully loaded in a favourable engineering market, plus $12k hardware/bench/licences), inside Phase 1's $1.85 M capex envelope; **run costs ≈ $45k/year** (Supabase Pro-class tier, container hosting, PSP fixed fees, push/email volume, observability tooling, store accounts) plus the run-team payroll above, which Volume 10 carries under operating headcount. Volume 10 is the source of truth for the consolidated numbers; any change there sweeps back into this section.
 
 ## 3. Identity, Roles & Access Control
 
@@ -657,7 +657,7 @@ Volume 10's KPI set is defined *as SQL against this schema* so every number on t
 | Membership churn | memberships lapsed in month ÷ active at month start, from membership ledger releases; cohort view by join month |
 | Wallet liability & breakage | `wallet_liability_control` balance; breakage sweep trend |
 | Fleet availability | time-in-status share of `available`+`bound`+`on_track` vs. `maintenance` per class (from status-transition intervals, §6.3) |
-| 90-day second-visit rate (Volume 2 canary) | customers with ≥2 visit days within 90 days of first ÷ first-visit cohort |
+| 90-day second-visit rate (the demand-model canary; targets in Volume 10 §10.4) | customers with ≥2 visit days within 90 days of first ÷ first-visit cohort |
 | Battery pool health | packs in service ÷ (vehicles active × 3) per class — the 3:1 doctrine as a live number |
 
 Each KPI ships as a versioned SQL view; the dashboard renders views, never ad-hoc queries — when a definition changes, the view changes in a reviewed migration and every consumer moves together.

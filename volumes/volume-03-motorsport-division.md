@@ -1,6 +1,6 @@
 # Volume 3 — RC Motorsport Division
 
-**RC WORLD — Master Development Plan** · Volume 3 of 12
+**RC WORLD — Master Development Plan** · Volume 3 of 13
 **Revision 1.0 — July 2026** · Status: Living document — bump revision on material change
 
 **Purpose of this volume.** This volume is the complete engineering and operating specification for the RC WORLD Motorsport Division: the Phase 1 fleet of **64 racing cars** across seven vehicle classes, the three-track Speed & Off-Road Hub (Tracks A and B in Motorsport scope; Track C belongs to the crawler program in Volume 4's adventure annex), and the race-operations business built on top of them. It codifies the division's founding doctrine — **standardized chassis, personalities created through tuning, races decided by driver skill, lap-time parity within 2–3% across every car in a class** — and turns that doctrine into working engineering: platform selection, parts commonality, fleet blueprinting and balancing procedures, ESC programming tables, suspension setup sheets, gearing mathematics, corner-weighting procedure, rental-hardening specifications, RCW Node integration, Shift turnaround workflow, and race-day operations. A competent race engineer hired into RC WORLD should be able to run this division from this volume plus the workshop practices in Volume 7.
@@ -77,22 +77,22 @@ The canonical Phase 1 motorsport fleet is **64 cars**, allocated as follows. The
 
 | # | Class | Scale | Fleet | Platform (primary) | Track | Speed (rental cap / capability) | Skill gate |
 |---|---|---|---|---|---|---|---|
-| 1 | Entry / Academy | 1/14 | 10 | MJX Hyper Go 14301/14210-class; LDRC entry scale | A (+ B paddock loop) | 30 km/h / ~55 km/h | Toolbox Talk only (age 8+) |
-| 2 | Touring / GT | 1/10 | 14 | Shaft-drive 4WD touring (TT-02 Type-S / Carten T410 class) | A | 40 km/h / ~55 km/h | Rookie license |
-| 3 | Drift | 1/10 | 12 | MST RMX 2.5 S+ (RWD) | A drift annex | 25 km/h / ~35 km/h | Rookie license |
-| 4 | Buggy / Rally | 1/14 | 12 | WLtoys 144010-class, upgraded | B | 50 km/h / ~75 km/h | Standard tier |
-| 5 | Short-Course | 1/10 | 8 | 2WD/4WD SCT (Slash-class; ZD Racing value alternative) | B | 40 km/h / ~55 km/h | Standard tier |
-| 6 | Formula RC | 1/10 | 4 | F104/TRF103-class pan car, 21.5T spec | A | 45 km/h / ~55 km/h | Licensed tier + supervision |
-| 7 | Drag | 1/10 | 4 | Touring-derived no-prep drag conversion | A straight (40.2 m strip) | event only / 100+ km/h | Any tier (staged launch); Licensed for free-brake passes |
+| 1 | Entry / Academy | 1/14 | 10 | MJX Hyper Go 14301/14210-class; LDRC entry scale | A (+ B paddock loop) | 30 km/h / ~55 km/h | Learner (age 8+, Toolbox Talk) |
+| 2 | Touring / GT | 1/10 | 14 | Shaft-drive 4WD touring (TT-02 Type-S / Carten T410 class) | A | 40 km/h / ~55 km/h | Apprentice |
+| 3 | Drift | 1/10 | 12 | MST RMX 2.5 S+ (RWD) | A drift annex | 25 km/h / ~35 km/h | Apprentice |
+| 4 | Buggy / Rally | 1/14 | 12 | WLtoys 144010-class, upgraded | B | 50 km/h / ~75 km/h | Apprentice |
+| 5 | Short-Course | 1/10 | 8 | 2WD/4WD SCT (Slash-class; ZD Racing value alternative) | B | 40 km/h / ~55 km/h | Apprentice |
+| 6 | Formula RC | 1/10 | 4 | F104/TRF103-class pan car, 21.5T spec | A | 45 km/h / ~55 km/h | Foreman + Motorsport Master endorsement (supervised) |
+| 7 | Drag | 1/10 | 4 | Touring-derived no-prep drag conversion | A straight (40.2 m strip) | event only / 100+ km/h | Any license (staged launch); Foreman + endorsement for free-brake passes |
 | | **Total** | | **64** | | | | |
 
-Skill gates map to the RC WORLD License ladder (Volume 9) and are enforced twice: the OS refuses a transmitter pairing above the customer's tier (Section 12.1), and the tier's locked transmitter profile caps EPA and throttle curve regardless. Electronics stack per class — motor, ESC, battery — is consolidated in Section 3.3; per-class detail follows below.
+Skill gates use the RC WORLD License tiers (Learner → Apprentice → Operator → Foreman → Site Manager → Legend — Volume 9), enforced twice: the OS refuses a transmitter pairing above the customer's license tier (Section 12.1), and each tier maps to a locked **transmitter profile** — Rookie (Learner/Apprentice), Standard (Operator), Licensed (Foreman+), per Volume 9 §3.6 — that caps EPA and throttle curve regardless. Electronics stack per class is consolidated in Section 3.3; per-class detail follows.
 
 Classes 6 and 7 (8 cars combined) are **special-event classes**: they do not run walk-up Shifts but anchor scheduled events, exhibitions, and top-tier license experiences (Chapter 11).
 
 ### 2.2 Class 1 — Entry / Academy (1/14, 10 cars)
 
-**Role.** The first rung: walk-up customers, children 8+, birthday parties, the Rookie license test bed. Everything about this class minimizes the cost of a mistake — kinetic energy at 30 km/h in a 1.4 kg car is about 49 J, roughly a tenth of a 1/10 buggy at speed.
+**Role.** The first rung: walk-up customers, children 8+, birthday parties, the Learner license test bed. Everything about this class minimizes the cost of a mistake — kinetic energy at 30 km/h in a 1.4 kg car is about 49 J, roughly a tenth of a 1/10 buggy at speed.
 
 **Hardware.** The MJX Hyper Go 1/14 family is the reference platform: metal chassis, 4WD, oil-filled shocks, 2845/2852-class brushless motor with 45 A independent ESC, 2S LiPo. The 14301/14302 rally-pattern cars suit Track A duty; the 14210 truck variant tolerates paddock abuse. Manufacturer speed claims reach 55 km/h on 2S; RC WORLD caps the class at ~30 km/h via throttle EPA and ESC profile (Chapter 5). LDRC's entry-scale line is the secondary source for licensed-body variety (supplier detail in Volume 8). Wholesale cost per car including spares kit: $90–140.
 
@@ -316,7 +316,7 @@ Class spread **1.4% — pass, inside target**. Bench time: ~2.5 Artisan-hours fo
 
 The weekly audit is the calibrated measurement; the RCW Node makes the other six days observable too. Every customer lap generates a telemetry lap record tagged with car ID, driver license tier, battery pack ID, and ambient. Raw customer lap times are useless for parity directly — driver skill variance swamps car variance — but two derived statistics are not:
 
-- **Per-car best-decile drift.** RC WORLD OS tracks each car's 90th-percentile-best lap by *Licensed-tier* drivers over a rolling 14 days, normalized to the class's same-day median. A car drifting >1% slow over a week is flagged for the bench before the weekly audit would catch it. The Licensed-tier filter matters: good drivers find a car's real pace; novices find their own.
+- **Per-car best-decile drift.** RC WORLD OS tracks each car's 90th-percentile-best lap by *Foreman-and-above* drivers over a rolling 14 days, normalized to the class's same-day median. A car drifting >1% slow over a week is flagged for the bench before the weekly audit would catch it. The filter matters: good drivers find a car's real pace; novices find their own.
 - **Straight-line sector consistency.** The Node's speed trace over the main-straight geofence sector is driver-insensitive at full throttle. A car whose trap-speed distribution shifts down 2%+ against class peers has a powertrain problem regardless of what its lap times say.
 
 Both statistics render on the fleet dashboard (Chapter 14) as per-car sparklines. They do not replace the audit — telemetry cannot control for tires, traffic, or track state the way a reference driver can — but they turn the weekly snapshot into a continuous control loop, and they usually name the guilty subsystem before the car reaches the bench.
@@ -398,14 +398,14 @@ Each personality must re-pass the parity audit as configured (the reference driv
 
 ### 5.4 Throttle curves at the transmitter
 
-Punch shapes *how fast* the ESC delivers current; the transmitter's throttle curve shapes *how much* throttle a given trigger position requests in the first place. The two are tuned together, and the curve lives in the locked transmitter tier profiles (Section 12.1), which is why it belongs to fleet configuration rather than per-car setup. Fleet curves, expressed as output % at 25/50/75/100% trigger travel:
+Punch shapes *how fast* the ESC delivers current; the transmitter's throttle curve shapes *how much* throttle a given trigger position requests. The two are tuned together, and the curve lives in the locked transmitter profiles (Section 12.1; license-tier mapping Volume 9 §3.6), which is why it belongs to fleet configuration rather than per-car setup. Fleet curves, as output % at 25/50/75/100% trigger travel:
 
-| Tier profile | 25% | 50% | 75% | 100% | Character |
+| Transmitter profile (Volume 9 §3.6) | 25% | 50% | 75% | 100% | Character |
 |---|---|---|---|---|---|
-| Rookie (expo −30%, EPA 60%) | 10% | 25% | 42% | 60% | Long, gentle lower band; a nervous full pull still lands at the class rental cap |
-| Standard (expo −15%, EPA 80%) | 16% | 36% | 58% | 80% | Progressive but honest; the default customer feel |
-| Licensed (linear, EPA 100%) | 25% | 50% | 75% | 100% | Verbatim input inside class gearing caps |
-| Drift all tiers (expo −20%) | 14% | 33% | 56% | tier EPA | Widens the partial-throttle band where wheelspeed control lives |
+| Rookie — Learner/Apprentice (expo −30%, EPA 60%) | 10% | 25% | 42% | 60% | Long, gentle lower band; a nervous full pull still lands at the class rental cap |
+| Standard — Operator (expo −15%, EPA 80%) | 16% | 36% | 58% | 80% | Progressive but honest; the default customer feel |
+| Licensed — Foreman+ (linear, EPA 100%) | 25% | 50% | 75% | 100% | Verbatim input inside class gearing caps |
+| Drift all profiles (expo −20%) | 14% | 33% | 56% | profile EPA | Widens the partial-throttle band where wheelspeed control lives |
 
 Design logic: negative expo flattens the curve through the first half of trigger travel — where novices actually drive — so small hand movements make small speed changes, while the top of the band is reachable deliberately rather than accidentally. Drift keeps moderate expo at every tier because partial-throttle modulation *is* the class skill. Brake-side curves stay linear on all profiles (nobody should meet a nonlinear brake in an emergency), with authority set by the ESC's max-brake-force parameter. Curve revisions are fleet-configuration changes: Motorsport Lead sign-off, OS config log entry, and a spot parity re-run.
 
@@ -725,7 +725,7 @@ Formula is run as a strict spec class — the point is precision, not developmen
 
 ### 11.2 Formula event formats
 
-- **Formula Experience** (weekly, license-gated at Operator tier): 30-minute guided session — briefing, 2 practice Shifts' worth of track time, 8-minute sprint with grid and podium. Priced as a premium experience, not a Shift.
+- **Formula Experience** (weekly; gated at Foreman + Motorsport Master endorsement, instructor-supervised): 30-minute guided session — briefing, 2 practice Shifts' worth of track time, 8-minute sprint with grid and podium. Priced as a premium experience, not a Shift.
 - **Formula Cup** (monthly): qualifying + two 8-minute finals, grid of 8 (4 fleet cars double-stinted across two semis), championship points into the annual calendar (Section 13.6).
 
 ### 11.3 Energy-allocation racing (the power-management format)
@@ -764,7 +764,7 @@ The transmitter is the customer's entire interface with the division, and it is 
 
 - **One transmitter model park-wide for surface vehicles** (4-channel 2.4 GHz surface radio with model memory, EPA, dual rate, physical menu lockout — procurement spec in Volume 8). One model means one Toolbox Talk diagram, one battery type, one spare pool.
 - **Menu lockout is physical and procedural:** menu access disabled on customer units (button combination set and taped internally where supported; units audited weekly). Customers get steering wheel, throttle trigger, and nothing else that changes state.
-- **Rate limiting by license tier is a transmitter profile, not a car change.** Steering EPA and throttle EPA/curve are pre-programmed per tier: Rookie (steering 75%, throttle 60%, softened center), Standard (90/80), Licensed (100/100 within class caps). The transmitter binds to the car at the counter by QR scan (RC WORLD OS pairs `asset_tag` to transmitter ID and writes the session to the queue roster) and refuses a pairing whose tier exceeds the customer's license.
+- **Rate limiting by license tier is a transmitter profile, not a car change.** Steering EPA and throttle EPA/curve are pre-programmed per transmitter profile (Volume 9 §3.6): Rookie for Learner/Apprentice (steering 75%, throttle 60%, softened center), Standard for Operator (90/80), Licensed for Foreman+ (100/100 within class caps). The transmitter binds to the car at the counter by QR scan (RC WORLD OS pairs `asset_tag` to transmitter ID and writes the session to the queue roster) and refuses a pairing whose profile exceeds the customer's license tier.
 - **The RCW Node is the enforcement backstop.** Whatever the transmitter commands, the Micro-Node's PWM intercept enforces the park-side rules: under-voltage throttle-back at 3.4 V/cell, geofence kill at track boundaries, remote kill from the director's console, and telemetry streaming to RC WORLD OS over the Wi-Fi mesh. Transmitter EPA shapes the *experience*; the Node guarantees the *limits*. Gyro-stability aids, where a class uses them (drift gyro; optional steering assist on entry class), are configured on the car and license-gated the same way.
 
 ### 12.2 The hardening pass (car induction)
@@ -790,7 +790,7 @@ Bodies absorb the first hit, so bodies are engineered as consumables with a serv
 
 ### 12.4 Asset tagging and telemetry integration
 
-Every car carries three identities that must always agree: the **physical asset tag** (laser-etched QR + human-readable ID, e.g. `MS-T-04`, on chassis and body), the **RCW Node MAC** (the telemetry identity in `fleet_inventory`), and the **timing transponder ID** (Section 13.3). RC WORLD OS is the master record: status ENUM (active/maintenance/charging), total Shifts run, motor/ESC/tire sub-asset histories, last parity result, last profile write. The Node makes the car self-reporting: voltage and position land in `live_telemetry`, lap crossings corroborate the timing system, and the maintenance module opens flags on runtime thresholds (Volume 7; KPI hooks in Chapter 14).
+Every car carries three identities that must always agree: the **physical asset tag** (laser-etched QR + human-readable ID, e.g. `MS-T-04`, on chassis and body), the **RCW Node MAC** (the telemetry identity in `fleet_inventory`), and the **timing transponder ID** (Section 13.3). RC WORLD OS is the master record: lifecycle status (seven states: available → bound → on_track → pit → maintenance → charging → retired; see Volume 13 §6.3), total Shifts run, motor/ESC/tire sub-asset histories, last parity result, last profile write. The Node makes the car self-reporting: voltage and position land in `live_telemetry`, lap crossings corroborate the timing system, and the maintenance module opens flags on runtime thresholds (Volume 7; KPI hooks in Chapter 14).
 
 ### 12.5 The Shift turnaround
 
@@ -869,7 +869,7 @@ Class B/C events feed the MTBF KPI (Chapter 14); Class A does not. A car with th
 
 The division runs four customer-facing competition formats, tiered to the license ladder:
 
-- **Sprint races** (daily, walk-up): 6–8 minute heats inside a standard Shift slot, grid formed from the queue, class-locked. Results post to the leaderboard and earn Gears — any Standard-tier customer's Shift can become a race.
+- **Sprint races** (daily, walk-up): 6–8 minute heats inside a standard Shift slot, grid formed from the queue, class-locked. Results post to the leaderboard and earn Gears — any Apprentice-or-higher customer's Shift can become a race.
 - **Endurance events** (monthly): 30–60 minute team races (2–3 drivers per car) with mandatory pit windows for the Artisan battery swap. Endurance sells memberships: it requires teammates.
 - **Ladder leagues** (six-week seasons): weekly heats, points, promotion/relegation between Rookie/Clubman/Pro divisions per class — the retention backbone (Volume 9 ties standing to license tier and Gears multipliers).
 - **Special-event formats:** Formula Cup and drag brackets (Chapter 11), drift competitions judged on line/angle/style (three-judge club format), and the seasonal championship (Section 13.6).

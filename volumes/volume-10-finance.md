@@ -1,6 +1,6 @@
 # Volume 10 — Finance
 
-**RC WORLD — Master Development Plan** · Volume 10 of 12
+**RC WORLD — Master Development Plan** · Volume 10 of 13
 **Revision 1.0 — July 2026** · Status: Living document — bump revision on material change
 
 **Purpose of this volume.** This volume is the financial source of truth for the entire Master Development Plan. Every capex figure, revenue projection, cost assumption, and return metric quoted anywhere in Volumes 1–13 reconciles to the models built here. It constructs, line by line, the Phase 1 startup budget of ≈$1.85 M; the $2.6 M funding ask and its tranche structure; a bottom-up revenue engine that lands on the canonical Year 1 ≈$1.28 M, Year 3 ≈$2.6 M, and Year 5 ≈$3.4 M; the operating cost stack that yields a 24–28% EBITDA margin from Year 3; the monthly cash model that shows operating break-even at Month 16–19; and the profitability, sensitivity, and scenario apparatus an investor's analyst will want to stress. Every major claim is carried by a table, with the assumptions stated above it and the arithmetic shown so a CFO can audit it with a calculator. Where this volume and any other volume disagree on a number, this volume governs, and the other volume must be corrected.
@@ -40,8 +40,8 @@ Everything an investor needs to hold in their head about RC WORLD's finances fit
 | Year 3 revenue | **≈ $2.6 M** | §4.9 |
 | Year 5 revenue | **≈ $3.4 M** | §4.9 |
 | EBITDA margin, Year 3 onward | **24–28%** (24.2% Y3 → 27.4% Y5) | Chapter 7 |
-| Monthly operating break-even | **Month 16–19** (base model: Month 16) | Chapter 6 |
-| Full payback of invested capital | **Year 4–5** (base: Month ~53 on Phase 1 capital) | §7.4 |
+| Monthly operating break-even | **operating Month 16–19** (base model: Month 16) | Chapter 6 |
+| Full payback of invested capital | **Year 4–5** (base: operating Month ~53 on Phase 1 capital) | §7.4 |
 | Minimum modelled cash position | $476 K (Month 14) vs $250 K policy floor | §6.4 |
 
 > **Investor Note.** The single most important structural fact in this volume: RC WORLD is an **infrastructure-light, fleet-cheap, labor-and-experience business**. The entire Phase 1 powered fleet — roughly 150 vehicles including batteries, radios, and opening spares — costs $80 K, i.e. **4.3% of Phase 1 capex**. The expensive things (earthworks, buildings, tracks) last 10–20 years; the things customers wear out (cars, gears, tires, batteries) are cheap, sourced wholesale from China, and replaced from operating cash flow. This inversion — durable capex, disposable fleet — is why the model survives the stress tests in Chapter 9.
@@ -53,7 +53,8 @@ Stated once here; they apply to every table in this volume.
 | Convention | Value | Rationale |
 |---|---|---|
 | Currency | USD throughout, **nominal** (no inflation indexing) | Style-guide canon; nominal keeps tables auditable. Local-currency conversion is a franchise-localization task (Volume 12) |
-| Geography baseline | Mid-size international city, metro 1.0–2.5 M (worked at 1.5 M), peri-urban 4.8 ha leased site | Canon; demand funnel in Volume 2, Chapter 7 |
+| Geography baseline | Mid-size international city, metro 1.0–2.5 M (worked at 1.5 M), peri-urban 4.8 ha leased site | Canon; demand analysis in Volume 2, Chapter 9 (§9.4–9.5) |
+| Month frames | Build phasing uses the **project frame** (Phase 1 = project Months 0–12, park opens at project Month 12; Phase 2 = project Months 13–30; Phase 3 = project Months 31–60). All financial statements and division opening schedules in this volume use the **operating frame**: M1 = the opening month. Frames are labelled wherever ambiguity is possible | Style-guide month-numbering convention |
 | "Year 1" | First full operating year, opening assumed **Month 1 = March** (northern-temperate seasonality; shift the curve, not the totals, for other climates) | Style guide dating: plan written July 2026 |
 | Operating calendar | 360 operating days/year (5 maintenance closure days), 8 revenue hours/day average (10 weekend, 6–7 midweek) | Division operating doctrine, Volumes 3–6 |
 | Tax | **25% flat placeholder — verify locally.** Loss carryforward assumed available | Corporate rates in candidate jurisdictions span ~15–35%; the placeholder is deliberately mid-range and flagged in every after-tax table |
@@ -64,7 +65,7 @@ Stated once here; they apply to every table in this volume.
 
 ### 1.3 How this volume reconciles — a reading guide
 
-The volume is a single connected model, and the joins are explicit. Chapter 2 builds capex bottom-up to $1,850 K and shows the Phase 2/3 envelopes summing the five-year program to $3,900 K. Chapter 3 shows the $2.6 M ask as Phase 1 capex plus $750 K of working capital, operating funding, and reserve — the same $750 K that appears as opening cash in Chapter 6's monthly cash model. Chapter 4's revenue engine multiplies visitor volumes by the canonical price card and reconciles monthly to $1,280 K in Year 1 and annually to the five-year canon; its Year-1 output also reconciles (within rounding) to the independent market-side estimate in Volume 2, §7.3. Chapter 5's cost stack subtracts from Chapter 4's revenue to give the EBITDA row that Chapter 6 spreads monthly (break-even Month 16) and Chapter 7 carries into the P&L (margins 24.2–27.4% from Year 3, payback Year 4–5). Chapters 8–10 stress the same model rather than building new ones. A reader with one hour should read §1.1, §2.1, §3.1, §4.9, §6.3, and §7.1.
+The volume is a single connected model, and the joins are explicit. Chapter 2 builds capex bottom-up to $1,850 K and shows the Phase 2/3 envelopes summing the five-year program to $3,900 K. Chapter 3 shows the $2.6 M ask as Phase 1 capex plus $750 K of working capital, operating funding, and reserve — the same $750 K that appears as opening cash in Chapter 6's monthly cash model. Chapter 4's revenue engine multiplies visitor volumes by the canonical price card and reconciles monthly to $1,280 K in Year 1 and annually to the five-year canon; its Year-1 visit base also reconciles with Volume 2's independent ~37,000–43,000-visit Year-1 demand estimate (Chapter 9). Chapter 5's cost stack subtracts from Chapter 4's revenue to give the EBITDA row that Chapter 6 spreads monthly (break-even Month 16) and Chapter 7 carries into the P&L (margins 24.2–27.4% from Year 3, payback Year 4–5). Chapters 8–10 stress the same model rather than building new ones. A reader with one hour should read §1.1, §2.1, §3.1, §4.9, §6.3, and §7.1.
 
 ---
 
@@ -99,7 +100,7 @@ Assumptions: flat site with 2–4% natural grade (canon) minimizes cut/fill; the
 |---|---|---|
 | Bulk earthworks & grading | Whole-site strip, cut/fill balance, Mining Zone pit excavation & benching, compaction | 118 |
 | Drainage, stormwater & utilities | Perimeter swales, culverts, detention basin; power/water/data trenching from boundary to all zones | 96 |
-| Internal roads, paths & parking | Gravel service road loop, pedestrian paths, ~120-bay gravel car park, entrance apron | 62 |
+| Internal roads, paths & parking | Gravel service road loop, pedestrian paths, 88-bay gravel car park (Phase 1; expands to 132 bays + 4 bus bays in Phase 2, §2.12, per Volume 11), entrance apron | 62 |
 | Mining Zone civil fit-out | Graded haul roads (≤15°), aggregate beds (loose sand → 10 mm crushed stone), central hopper foundation & load-cell pad | 54 |
 | Agriculture Zone civil fit-out | Field grading, imported soil & row formation, irrigation trenches, barn/silo slab | 48 |
 | Fencing, gates & landscape | Full perimeter fence, zone barriers, spectator berms dressing, planting | 47 |
@@ -124,16 +125,16 @@ Check: 88 + 34 + 28 + 22 = **172**.
 
 ### 2.4 Buildings — $418 K
 
-Assumptions: light-steel-frame construction; entry pavilion at ~420 m² gross at ≈$495/m²; The Works at ~280 m² at ≈$565/m² (higher services density: three-phase power, compressed air, extraction); charging bunker built to the fire doctrine of Volume 7 (cinderblock, sand-topped charge bays, ventilation, thermal monitoring) at 60 m².
+Assumptions: areas per the built-form canon (Volume 11 is the geometry authority): entry pavilion **490 m² GFA** (including the 120 m² retail area) at a blended ≈$425/m² pavilion-grade shell-and-fit-out rate → $208 K; The Works **450 m² GFA** (workshop core ~180 m², parts store, QC lane, viewing window, plus the 24 m² battery room and **30 m² charging bunker, both internal** to the building) at a blended ≈$350/m² industrial-shell rate → $158 K. The engineering judgement: Volume 11's areas are larger but simpler than earlier massing studies — bigger clear-span shells at lower unit rates, with the services-dense zones priced separately — so the tendered category total is unchanged. The third line is not a building: it is the specialized fire-rated **fit-out** of the internal bunker and battery room to Volume 7's doctrine (masonry lining, sand-topped charge bays, forced ventilation, thermal monitoring, rated doors).
 
 | Line | Scope | m² | $K |
 |---|---|---|---|
-| Entry pavilion | Reception/POS, Toolbox Talk briefing room, F&B kiosk, retail counter, toilets, first aid | 420 | 208 |
-| The Works | Workshop bays, parts store, test bench row, staff room, GM/admin office | 280 | 158 |
-| Charging bunker | Fire-rated LiPo charging room per canon (bunkered, ventilated, monitored) | 60 | 52 |
-| **Buildings total** | | 760 | **418** |
+| Entry pavilion | Reception/POS, Toolbox Talk briefing room, F&B kiosk, 120 m² retail, toilets, first aid | 490 GFA | 208 |
+| The Works (shell & standard fit-out) | Workshop core ~180 m², parts store, QC lane, test bench row, staff room, GM/admin office, viewing window | 450 GFA | 158 |
+| Charging bunker & battery-room fit-out | Fire-rated fit-out of the 30 m² bunker + 24 m² battery room *within* The Works, per Volume 7 fire doctrine | (internal) | 52 |
+| **Buildings total** | | 940 GFA | **418** |
 
-Check: 208 + 158 + 52 = **418**.
+Check: 490 × $425 = $208.25 K → 208; 450 × $350 = $157.5 K → 158; 208 + 158 + 52 = **418**.
 
 ### 2.5 Fleet acquisition — $80 K
 
@@ -242,22 +243,22 @@ Held as a single unallocated line under GM + founder joint control, releasable o
 
 ### 2.12 Phase 2 and Phase 3 envelopes; five-year program — ≈$3.9 M
 
-Phase 2/3 budgets are planning envelopes (±15%), refined to line-item level in the Phase 2 investment memo gated at Month 12 (§3.5). They are consistent with the division volumes: the aviation enclosure estimate ($120–180 K) sits inside the $236 K aviation line (Volume 5), and the "$200,000-class" pond civil work inside the $231 K marine line (Volume 6).
+Phase 2/3 budgets are planning envelopes (±15%), refined to line-item level in the Phase 2 investment memo gated at operating Month 12 (§3.5). They carry the division volumes' own build-ups: the aviation line is Volume 5's bottom-up budget (enclosure $190 K + runway/apron civil $85 K + sim lab $45 K + fleet & radios $32 K + timing/AV $12 K = **$364 K**, including the ~20-aircraft fleet), and the marine line carries the pond civil work at ≈$212 K inside its $231 K (Volumes 6 and 11). The aviation uplift versus earlier drafts (+$128 K, plus its fleet moving inside the division line) is funded by value-engineering the restaurant/grandstand/retail/lawn package (−$64 K, per Volume 11's staged fit-out sequence) and by trimming Phase 2 contingency from ~10% to ~6.2% — defensible because the largest Phase 2 line is now a bottom-up engineering budget rather than an envelope.
 
-| Phase 2 line (Months 13–30) | $K | | Phase 3 line (Months 31–60) | $K |
+| Phase 2 line (project Months 13–30) | $K | | Phase 3 line (project Months 31–60) | $K |
 |---|---|---|---|---|
-| Aviation Division (netted airfield: enclosure, 30 m runway, helipads, FPV ground stations) | 236 | | Indoor all-weather arena (~1,200 m² hall, indoor track, lighting, HVAC) | 452 |
-| Marine Division (pond excavation & liner, decks/stations, water treatment, theming) | 231 | | Corporate event centre | 132 |
-| Full restaurant (build 232, kitchen 62, furniture 28) | 322 | | RC Academy classrooms | 108 |
-| Grandstand viewing | 118 | | Night-racing lighting | 78 |
-| Expanded retail | 58 | | Franchise pilot support (systems, documentation, pilot fit-out share) | 48 |
-| Events lawn | 36 | | | |
-| Phase 2 fleet (~20 aircraft ≈ 26; ~24 vessels ≈ 8; nodes/batteries/spares 10) | 44 | | | |
-| Subtotal | 1,045 | | Subtotal | 818 |
-| Contingency @ ~10% | 105 | | Contingency @ ~10% | 82 |
+| Aviation Division (Volume 5 build-up: enclosure 190, runway/apron civil 85, sim lab 45, fleet & radios 32, timing/AV 12) | 364 | | Indoor all-weather arena (~1,200 m² hall, indoor track, lighting, HVAC) | 452 |
+| Marine Division (pond civil ≈212, decks/stations, water treatment, theming) | 231 | | Corporate event centre | 132 |
+| Full restaurant (build 208, kitchen 58, furniture 24) | 290 | | RC Academy classrooms | 108 |
+| Grandstand viewing | 96 | | Night-racing lighting | 78 |
+| Expanded retail | 50 | | Franchise pilot support (systems, documentation, pilot fit-out share) | 48 |
+| Events lawn & parking expansion (+44 bays + 4 bus bays, Volume 11) | 34 | | | |
+| Marine fleet (~24 vessels ≈ 8) + Phase 2 RCW Nodes, batteries & spares (10) | 18 | | | |
+| Subtotal | 1,083 | | Subtotal | 818 |
+| Contingency @ ~6.2% | 67 | | Contingency @ ~10% | 82 |
 | **Phase 2 total** | **1,150** | | **Phase 3 total** | **900** |
 
-Checks: 236+231+322+118+58+36+44 = 1,045; +105 = **1,150 ✓ canon**. 452+132+108+78+48 = 818; +82 = **900 ✓ canon**. Five-year program: 1,850 + 1,150 + 900 = **3,900 ≈ $3.9 M ✓ canon**.
+Checks: 364+231+290+96+50+34+18 = 1,083; +67 = **1,150 ✓ canon**. Aviation internal: 190+85+45+32+12 = 364 ✓. Restaurant internal: 208+58+24 = 290 ✓. Phase 3: 452+132+108+78+48 = 818; +82 = **900 ✓ canon**. Five-year program: 1,850 + 1,150 + 900 = **3,900 ≈ $3.9 M ✓ canon**.
 
 ---
 
@@ -284,9 +285,9 @@ Capital is drawn in three tranches so investors never fund the next stage of ris
 
 | Tranche | $K | Timing | Milestone gate (all must be true) | Risk retired |
 |---|---|---|---|---|
-| T1 | 1,200 | At close (Month −12 relative to opening) | Lease executed; planning permits granted; civil tender within budget; GM contracted | Site & permitting risk |
-| T2 | 850 | ≈ Month −5 | Buildings weathertight; Tracks A/B/C substantially complete; ≥80% of fleet landed and commissioned; RC WORLD OS beta operating end-to-end (booking → telemetry → kill-switch demo); opening date fixed | Construction & technology risk |
-| T3 | 550 | Opening month | Soft opening complete; safety sign-off (Volume 7 audit); first 1,000 paid Shifts sold; insurance in force | Launch risk |
+| T1 | 1,200 | At close (≈ operating Month −12, i.e. project Month 0) | Lease executed; planning permits granted; civil tender within budget; GM contracted | Site & permitting risk |
+| T2 | 850 | ≈ operating Month −5 | Buildings weathertight; Tracks A/B/C substantially complete; ≥80% of fleet landed and commissioned; RC WORLD OS beta operating end-to-end (booking → telemetry → kill-switch demo); opening date fixed | Construction & technology risk |
+| T3 | 550 | At opening (operating Month 1) | Soft opening complete; safety sign-off (Volume 7 audit); first 1,000 paid Shifts sold; insurance in force | Launch risk |
 | **Total** | **2,600** | | | |
 
 Check: 1,200 + 850 + 550 = **2,600**. If a gate fails, the tranche pauses and the pre-agreed remediation ladder applies (descope per §2.11 hierarchy, re-tender, or — worst case — orderly wind-down with land improvements as residual value).
@@ -316,7 +317,7 @@ Pre-money value of $1.4 M reflects contributed IP: the complete Master Developme
 
 ### 3.5 Funding Phases 2 and 3
 
-Phase 2 ($1,150 K, spent Months 13–30) is funded by: retained operating cash flow (cumulative EBITDA turns positive during Year 2 — $154 K generated in Year 2, §7.1) plus an optional **$600 K equipment-and-fit-out facility** (modelled at 9% p.a., drawn in four $150 K tranches Months 15–21, amortizing over Years 4–5 — the exact draws, interest, and repayments appear in Chapter 6 and §7.1). The Phase 2 commitment itself is **gated on Year-1 actuals**: revenue ≥ 80% of plan and 90-day second-visit rate ≥ 20% (triggers per Volume 2, Chapter 9). Below gate, Phase 2 compresses to a "Marine-first" descope (~$620 K) or delays 6–12 months — the conservative scenario of Chapter 10. Phase 3 ($900 K, Months 37–60) is funded entirely from operating cash flow and is optionality, not obligation: each Phase 3 element must clear a standalone hurdle (≥25% ROIC on incremental EBITDA) at the Month-30 review (§10.2).
+Phase 2 ($1,150 K — project Months 13–30 in the phasing canon; in this model's cash flow the spend lands in **operating** Months 13–30, §6.1) is funded by: retained operating cash flow (cumulative EBITDA turns positive during Year 2 — $154 K generated in Year 2, §7.1) plus an optional **$600 K equipment-and-fit-out facility** (modelled at 9% p.a., drawn in four $150 K tranches Months 15–21, amortizing over Years 4–5 — the exact draws, interest, and repayments appear in Chapter 6 and §7.1). The Phase 2 commitment itself is **gated on Year-1 actuals**: revenue ≥ 80% of plan and 90-day second-visit rate ≥ 20% — the gate **floor**, deliberately set below the KPI's operating targets of ≥22% Year 1 / ≥28% Year 3 (the KPI's home is §10.4). Below gate, Phase 2 compresses to a "Marine-first" descope (~$620 K) or delays 6–12 months — the conservative scenario of Chapter 10. Phase 3 ($900 K, spent operating Months 37–60) is funded entirely from operating cash flow and is optionality, not obligation: each Phase 3 element must clear a standalone hurdle (≥25% ROIC on incremental EBITDA) at the operating Month-30 review (§10.2).
 
 ---
 
@@ -324,11 +325,11 @@ Phase 2 ($1,150 K, spent Months 13–30) is funded by: retained operating cash f
 
 ### 4.1 Architecture of the engine
 
-Revenue is built bottom-up in four stages — (1) visitor volume by day-type and season, (2) capacity and utilization from canonical fleet counts, (3) yield from the canonical price card, (4) attach and program revenue — and then reconciled three ways: monthly to Year 1's $1,280 K, annually to the five-year canon, and externally to Volume 2's independent market-side estimate (§7.3 there: ≈$860 K sessions, ≈$165 K F&B, ≈$100 K retail, ≈$75 K memberships, ≈$88 K corporate, ≈$88 K parties — each within rounding distance of the operating-side lines built here, which is the agreement you want from two models built from opposite ends).
+Revenue is built bottom-up in four stages — (1) visitor volume by day-type and season, (2) capacity and utilization from canonical fleet counts, (3) yield from the canonical price card, (4) attach and program revenue — and then reconciled three ways: monthly to Year 1's $1,280 K, annually to the five-year canon, and externally against the demand side: Volume 2's Chapter 9 works from catchment and per-visit spend to a Year-1 estimate of **~37,000–43,000 visits at a blended $30–35 per visitor-visit**, and this engine's 38,920 paid visits (≈42,000 gate visits) at $30.0 blended sit inside that band — the agreement you want from two models built from opposite ends.
 
 ### 4.2 Visitor volume by day-type and season
 
-Assumptions: 360 operating days; Year 1 opens March (M1); day-types calibrated to Volume 2's funnel output of ~110 visitors/operating-day average, with peak days 220–300 and midweek 40–60.
+Assumptions: 360 operating days; Year 1 opens March (operating M1); day-types calibrated to ~110 visitors/operating-day average — the midpoint of Volume 2's ~37–43 K-visit Year-1 estimate (Chapter 9, §9.4) — with peak days 220–300 and midweek 40–60.
 
 | Day-type | Days/yr | Avg paid visitors/day | Paid visits |
 |---|---|---|---|
@@ -337,7 +338,7 @@ Assumptions: 360 operating days; Year 1 opens March (M1); day-types calibrated t
 | Shoulder & event days (league nights, twilight events, corporate blocks) | 52 | 105 | 5,460 |
 | **Total individual paid visits** | **360** | **108 avg** | **38,920** |
 
-Check: 118×195 = 23,010; 190×55 = 10,450; 52×105 = 5,460; sum = **38,920** (÷360 = 108/day ✓ Volume 2). Member visits, party guests, and corporate attendees add ≈3,100 gate visits → **≈42,000 total visits**. Blended on-site spend = (1,280 − 6 sponsorship − 14 education) ÷ 42.0 = **$30.0/visitor**, inside Volume 2's $26–32 benchmark band.
+Check: 118×195 = 23,010; 190×55 = 10,450; 52×105 = 5,460; sum = **38,920** (÷360 = 108/day; inside Volume 2's ~37–43 K band ✓). Member visits, party guests, and corporate attendees add ≈3,100 gate visits → **≈42,000 total visits**. Blended on-site spend = (1,280 − 6 sponsorship − 14 education) ÷ 42.0 = **$30.0/visitor-visit**, at the conservative bottom edge of Volume 2's $30–35 band (Chapter 9).
 
 ### 4.3 Capacity and utilization from fleet counts
 
@@ -386,13 +387,13 @@ Check (Month 12): 240×29 + 82×59 + 22×99 = 6,960 + 4,838 + 2,178 = $13,976 �
 
 ### 4.6 Corporate, parties, education
 
-Assumptions: canonical anchors (corporate from $1,400 for 2 h/20 pax; parties from $349 for 10 children); demand pools per Volume 2 §7.2 step 5; averages exceed anchors because packages upsell (catering, extra Shifts, premium classes).
+Assumptions: canonical anchors (corporate from $1,400 for 2 h/20 pax; parties from $349 for 10 children); group-demand pools sized from the catchment segmentation in Volume 2, Chapter 9 (employers of 20+ staff, children turning 7–13, addressable schools in a 1.5 M metro); averages exceed anchors because packages upsell (catering, extra Shifts, premium classes).
 
-| Program | Year 1 volume | Avg ticket $ | Revenue $K | Volume 2 benchmark |
+| Program | Year 1 volume | Avg ticket $ | Revenue $K | Catchment-pool sanity band |
 |---|---|---|---|---|
-| Corporate events | 45 events | 1,600 | 72 | $70–140 K pool ✓ |
-| Birthday parties & groups | 190 parties | 420 | 80 | $80–150 K pool ✓ |
-| Education/schools | 35 visits | 400 | 14 | $8–25 K pool ✓ |
+| Corporate events | 45 events | 1,600 | 72 | $70–140 K ✓ |
+| Birthday parties & groups | 190 parties | 420 | 80 | $80–150 K ✓ |
+| Education/schools | 35 visits | 400 | 14 | $8–25 K ✓ |
 | **Program revenue** | | | **166** | |
 
 ### 4.7 F&B, retail, repairs, sponsorship
@@ -431,7 +432,7 @@ Checks: column sums — 786.2 ✓ §4.4; 70.0 ✓ §4.5; 166.0 ✓ §4.6; 242.0 
 
 ### 4.9 Five-year revenue — reconciles to canon
 
-Assumptions by year: **Y2** — frequency growth (leagues, licenses), membership base ×2.3, aviation soft-opens Month 23; **Y3** — first full year of the complete Phase 2 park (Aviation + Marine + restaurant: F&B steps up, per-cap rises); **Y4–Y5** — Phase 3 elements (indoor arena from Month ~44 removes weather ceiling; Academy scales education; night racing lifts peak yield). All figures $K.
+Assumptions by year (all months **operating** frame): **Y2** — frequency growth (leagues, licenses), membership base ×2.3, aviation opens in stages across operating Months 16–24 (sim lab M16, fixed-wing M19–20, full program M23–24) and marine across operating Months 20–24, per the canonical opening schedule; **Y3** — first full year of the complete Phase 2 park (Aviation + Marine + restaurant: F&B steps up, per-cap rises); **Y4–Y5** — Phase 3 elements (indoor arena from operating Month ~44 removes weather ceiling; Academy scales education; night racing lifts peak yield). All figures $K.
 
 | Revenue line | Y1 | Y2 | Y3 | Y4 | Y5 |
 |---|---|---|---|---|---|
@@ -446,7 +447,7 @@ Assumptions by year: **Y2** — frequency growth (leagues, licenses), membership
 | Sponsorship & media | 6 | 16 | 40 | 52 | 65 |
 | **Total revenue** | **1,280** | **1,905** | **2,600** | **3,030** | **3,400** |
 
-Column checks: Y1 786+70+72+80+14+158+84+10+6 = **1,280** ✓; Y2 1,120+160+115+112+32+220+112+18+16 = **1,905**; Y3 1,390+300+170+150+60+310+150+30+40 = **2,600 ✓ canon**; Y4 1,585+370+205+170+80+360+170+38+52 = **3,030**; Y5 1,730+430+240+190+100+410+190+45+65 = **3,400 ✓ canon**. Growth sanity: Y2 exit run-rate (Months 23–24 at $186–204 K/month, §6.2) annualizes to ≈$2.3–2.4 M, making Y3's $2.6 M a ~10% step on Phase 2 completion — frequency and new divisions, not a larger catchment (consistent with Volume 2, §7.3).
+Column checks: Y1 786+70+72+80+14+158+84+10+6 = **1,280** ✓; Y2 1,120+160+115+112+32+220+112+18+16 = **1,905**; Y3 1,390+300+170+150+60+310+150+30+40 = **2,600 ✓ canon**; Y4 1,585+370+205+170+80+360+170+38+52 = **3,030**; Y5 1,730+430+240+190+100+410+190+45+65 = **3,400 ✓ canon**. Growth sanity: Y2 exit run-rate (Months 23–24 at $186–204 K/month, §6.2) annualizes to ≈$2.3–2.4 M, making Y3's $2.6 M a ~10% step on Phase 2 completion — frequency and new divisions, not a larger catchment (consistent with the frequency assumptions in Volume 2, §9.5).
 
 Division attribution (Year 1, Shift + program revenue of $952 K): Motorsport ≈ $470 K, Construction & Agriculture ≈ $430 K, Crawler park & recovery ≈ $52 K — honouring both Volume 3's "highest single revenue engine" and Volume 4's "≈$410–470 K, roughly a third of park revenue" (430 ÷ 1,280 = 34%). Day-pass and bundle value is attributed by observed block consumption in RC WORLD OS.
 
@@ -491,7 +492,7 @@ The people ratio falling from 60% to 40% is the core of the margin story (§7.2)
 
 ### 5.2 Fleet maintenance, parts & batteries
 
-Assumptions: Year 1 fleet duty = 57,720 blocks × 20 min = 19,240 vehicle-hours + ~760 staff/test/practice hours ≈ **20,000 vehicle-hours**. Parts cost per vehicle-hour is derived from the failure-rate table below (component MTBF from the Volume 7 failure library and Source-2 failure-point lists), then cross-checked top-down. Batteries are consumables: 450 packs, conservative 250-cycle service life at rental duty (spec 300–500), one pack-cycle per block.
+Assumptions: Year 1 fleet duty = 57,720 blocks × 20 min = 19,240 vehicle-hours + ~760 staff/test/practice hours ≈ **20,000 vehicle-hours**. Parts cost per vehicle-hour is derived from the failure-rate table below (component MTBF from the Volume 7 failure library and Source-2 failure-point lists), then cross-checked top-down. Batteries are consumables costed on the merged cycle-life model shared with Volume 7: one pack-cycle per block; retirement at **200–250 logged cycles or on breaching the internal-resistance threshold**, whichever comes first; ≈**40–50% of the pool replaced per year**.
 
 | Component class (examples) | MTBF (veh-h) | Landed cost/event $ | Cost per veh-h $ |
 |---|---|---|---|
@@ -505,7 +506,7 @@ Assumptions: Year 1 fleet duty = 57,720 blocks × 20 min = 19,240 vehicle-hours 
 | Fasteners, lubricants, coating, misc consumables | — | — | 0.84 |
 | **Blended parts cost per vehicle-hour** | | | **2.10** |
 
-Check: 0.23+0.24+0.29+0.11+0.13+0.13+0.13+0.84 = **2.10** (motorsport runs ≈$2.60/h, construction ≈$1.30/h, crawlers ≈$1.10/h; the blend reflects the block mix). Battery math: 57,720 pack-cycles ÷ 250-cycle life = 231 packs/year × $23 = **$5.3 K** (budgeted $6 K including crash-damaged packs) — note each pack averages only 128 cycles/year (57,720 ÷ 450), so the *calendar* replacement horizon is ~2 years, matching the 2–3-year depreciation policy (§7.3).
+Check: 0.23+0.24+0.29+0.11+0.13+0.13+0.13+0.84 = **2.10** (motorsport runs ≈$2.60/h, construction ≈$1.30/h, crawlers ≈$1.10/h; the blend reflects the block mix). Battery math (merged model, per Volume 7): Year 1 throughput of 57,720 pack-cycles spreads across the ~450-pack pool as **≈128 cycles per pack per year** (57,720 ÷ 450); with retirement at 200–250 cycles or the internal-resistance threshold, ≈40–50% of the pool retires each year — 180–225 packs × $23 = **$4.1–5.2 K** (budgeted $6 K including crash-damaged packs). The ~2-year average pack life this implies matches the 2–3-year fleet depreciation policy (§7.3).
 
 | Fleet cost line ($K) | Y1 | Y2 | Y3 | Y4 | Y5 |
 |---|---|---|---|---|---|
@@ -583,7 +584,7 @@ Column checks: Y1 767+190+66+124+102+48+57+26 = **1,380**; Y3 1,040+232+118+244+
 
 ### 6.1 Conventions of the monthly model
 
-Opening cash = $750 K (the $2.6 M ask less $1,850 K Phase 1 capex, per §3.1 — all Phase 1 capex assumed spent by opening day). Sustaining fleet-renewal capex $3 K/month in Year 1 and $6 K/month in Year 2. Phase 2 capex spends $55 K/month in Months 13–18 and $75 K/month in Months 19–24 ($780 K in Year 2; the remaining $370 K falls in Months 25–30). The optional Phase 2 facility (§3.5) draws four $150 K tranches in Months 15, 17, 19, 21; interest at 0.75%/month (9% p.a.) on the drawn balance, paid monthly in arrears. Working-capital movements are treated as neutral (membership prepayments and gift-wallet float offset inventory growth; stated as a simplification). Tax: no cash tax in Years 1–2 (losses; §7.1).
+All months in this chapter are **operating** months (M1 = opening; §1.2 convention). Opening cash = $750 K (the $2.6 M ask less $1,850 K Phase 1 capex, per §3.1 — all Phase 1 capex assumed spent by opening day). Sustaining fleet-renewal capex $3 K/month in Year 1 and $6 K/month in Year 2. Phase 2 capex spends $55 K/month in operating Months 13–18 and $75 K/month in operating Months 19–24 ($780 K in Year 2; the remaining $370 K falls in operating Months 25–30). The optional Phase 2 facility (§3.5) draws four $150 K tranches in Months 15, 17, 19, 21; interest at 0.75%/month (9% p.a.) on the drawn balance, paid monthly in arrears. Working-capital movements are treated as neutral (membership prepayments and gift-wallet float offset inventory growth; stated as a simplification). Tax: no cash tax in Years 1–2 (losses; §7.1).
 
 ### 6.2 Monthly cash flow, Years 1–2 ($K)
 
@@ -616,7 +617,7 @@ Opening cash = $750 K (the $2.6 M ask less $1,850 K Phase 1 capex, per §3.1 —
 | 24 | 204 | 157 | 47 | −6 | −75 | — | −4.5 | −38.5 | 489.1 |
 | **Y2** | **1,905** | **1,751** | **154** | **−72** | **−780** | **600** | **−26.9** | **−124.9** | **489** |
 
-Checks: Year 1 revenue column sums to 1,280 ✓ §4.8; opex to 1,380 ✓ §5.6; EBITDA to −100 ✓. Year 2: revenue 1,905 ✓, opex 1,751 ✓, EBITDA 154 ✓; facility draws 4 × 150 = 600 ✓; interest 1.1+1.1+2.2+2.2+3.4+3.4+4.5+4.5+4.5 = 26.9 ✓ (0.75% on the stepped balance). Every closing-cash cell = prior cell + net cash. Months 23–24 include the Aviation Division soft-opening (Month 23) adding ≈$25–35 K/month — the bridge to Year 3's full-park revenue.
+Checks: Year 1 revenue column sums to 1,280 ✓ §4.8; opex to 1,380 ✓ §5.6; EBITDA to −100 ✓. Year 2: revenue 1,905 ✓, opex 1,751 ✓, EBITDA 154 ✓; facility draws 4 × 150 = 600 ✓; interest 1.1+1.1+2.2+2.2+3.4+3.4+4.5+4.5+4.5 = 26.9 ✓ (0.75% on the stepped balance). Every closing-cash cell = prior cell + net cash. The Year-2 revenue ramp carries the staged Phase 2 openings (all operating months): aviation sim lab from Month 16, fixed-wing Months 19–20, marine from Months 20–24, and the aviation full program in Months 23–24 adding ≈$25–35 K/month — the bridge to Year 3's full-park revenue.
 
 ### 6.3 Break-even — shown and explained
 
@@ -628,7 +629,7 @@ The cash curve has three regimes visible in §6.2: a **shallow Year-1 glide** fr
 
 ### 6.5 The cost-flex ladder (downside machinery)
 
-If revenue underperforms, costs flex in pre-agreed stages rather than ad-hoc cuts. The survival floor is the number Volume 2's sensitivity discussion references (≈$0.9 M/year): the minimum annualized cost stack that keeps the park open safely, ~$74 K/month.
+If revenue underperforms, costs flex in pre-agreed stages rather than ad-hoc cuts. The survival floor (≈$0.9 M/year) is the minimum annualized cost stack that keeps the park open safely, ~$74 K/month; it is the reference line for the downside cases in Volume 2's demand analysis (Chapter 9) and the master risk register (Volume 1, Chapter 8).
 
 | Stage (trigger) | Actions | Annualized stack $K |
 |---|---|---|
@@ -704,7 +705,7 @@ Check: 30.3+17.2+23.2+32.0+12.5+21.8+33.0+19.7+54.0+16.8 = 260.5; plus sustainin
 
 ### 7.4 Payback
 
-Cumulative EBITDA runs −100 → 54 → 684 → 1,466 → 2,396 ($K) across Years 1–5 (each year adds §7.1's EBITDA row; e.g. 684 = −100 + 154 + 630). Against **Phase 1 invested capital ($1,850 K)**: the crossing occurs when 1,850 − 1,466 = 384 of Year 5's 930 has accrued → 384 ÷ 930 × 12 ≈ 5 months into Year 5 = **Month ~53, early Year 5**. Against **capital actually consumed** (the $2.6 M ask less the ~$221 K still held as cash at end-Year 5, §7.6 — i.e. $2,379 K): 2,379 − 1,466 = 913 ÷ 930 × 12 ≈ 12 months → **Month ~60, end of Year 5**. The ambitious scenario (§10.1) pulls Phase-1 payback to **Month ~44 (Year 4)**; the conservative case pushes it beyond Year 5. Hence the canonical statement: **full payback Year 4–5, base case** — Year 5 on the base numbers, Year 4 achievable on the upside case, with Phase 2/3 self-funded throughout so payback is never diluted by follow-on equity.
+Cumulative EBITDA runs −100 → 54 → 684 → 1,466 → 2,396 ($K) across Years 1–5 (each year adds §7.1's EBITDA row; e.g. 684 = −100 + 154 + 630). Against **Phase 1 invested capital ($1,850 K)**: the crossing occurs when 1,850 − 1,466 = 384 of Year 5's 930 has accrued → 384 ÷ 930 × 12 ≈ 5 months into Year 5 = **operating Month ~53, early Year 5**. Against **capital actually consumed** (the $2.6 M ask less the ~$221 K still held as cash at end-Year 5, §7.6 — i.e. $2,379 K): 2,379 − 1,466 = 913 ÷ 930 × 12 ≈ 12 months → **Month ~60, end of Year 5**. The ambitious scenario (§10.1) pulls Phase-1 payback to **Month ~44 (Year 4)**; the conservative case pushes it beyond Year 5. Hence the canonical statement: **full payback Year 4–5, base case** — Year 5 on the base numbers, Year 4 achievable on the upside case, with Phase 2/3 self-funded throughout so payback is never diluted by follow-on equity.
 
 ### 7.5 Investor returns — IRR / MOIC ranges
 
@@ -719,7 +720,7 @@ Assumptions: Structure A cap table (investor 65%, §3.4); exit at end of Year 5 
 | Ambitious (1,280 / 560): equity value $K | 8,880 | 10,160 | 11,440 |
 | — investor proceeds (65%) / MOIC / IRR | 5,772 / 2.22× / 14.2% | 6,604 / 2.54× / 16.8% | 7,436 / 2.86× / 19.1% |
 
-Check (base/7.5×): 7.5 × 930 = 6,975 + 221 = 7,196; × 65% = 4,677; ÷ 2,600 = 1.80×; 1.80^(1/6) − 1 = 10.3%. Two upsides sit outside this table deliberately: **dividend capacity** of ~$300–400 K/year from Year 4 (post-facility-amortization free cash) adds ≈2–4 points of IRR if distributed rather than reinvested, and the **franchise program** (§10.3) is pure option value on the same equity.
+Check (base/7.5×): 7.5 × 930 = 6,975 + 221 = 7,196; × 65% = 4,677; ÷ 2,600 = 1.80×; 1.80^(1/6) − 1 = 10.3%. **Stated ranges for cross-volume citation (Volume 1 quotes these exactly): base case ≈ 1.6–2.0× MOIC / ≈ 8–12.5% IRR; ambitious case ≈ 2.2–2.9× MOIC / ≈ 14–19% IRR; conservative case ≈ 0.9–1.1× MOIC.** Two upsides sit outside this table deliberately: **dividend capacity** of ~$300–400 K/year from Year 4 (post-facility-amortization free cash) adds ≈2–4 points of IRR if distributed rather than reinvested, and the **franchise program** (§10.3) is pure option value on the same equity.
 
 > **Investor Note.** Read the base case honestly: **1.6–2.0× MOIC and high-single to low-double-digit IRR** is an infrastructure-flavored return, not a venture return — earned with real assets, a self-funding expansion path, capped follow-on exposure, and Year-4 dividend capacity. What makes the risk-reward attractive is the shape: the conservative case still returns ~0.9–1.1× (assets, cash, and a functioning business retain value), while the ambitious case and the franchise option carry venture-like upside. Investors seeking >20% IRR should price the franchise program into their thesis (Volume 12) or negotiate Structure B's downside seniority.
 
@@ -743,9 +744,9 @@ Check: 2,600 + 600 + 2,396 = 5,596 = 3,900 + 618 + 135 + 600 + 122 + 221. The mo
 
 ### 8.1 How the canonical prices were set
 
-The price card was benchmarked against the competitor set of Volume 2, Chapter 6, positioned on a simple rule: **price the Casual Shift below a karting heat and above a trampoline hour, because the experience sits between them in intensity and above both in novelty** — then let premium classes, time-extension, and bundles do the yield work.
+The price card was benchmarked against the competitor and precedent set of Volume 2, Chapter 8, positioned on a simple rule: **price the Casual Shift below a karting heat and above a trampoline hour, because the experience sits between them in intensity and above both in novelty** — then let premium classes, time-extension, and bundles do the yield work.
 
-| Benchmark (Volume 2, Ch 6) | Typical price | RC WORLD position |
+| Benchmark (Volume 2, Ch 8) | Typical price | RC WORLD position |
 |---|---|---|
 | Karting, single heat (10–15 min) | $25–35 | Casual Shift $15 undercuts at 20 min — deliberate trial-friendly entry |
 | Trampoline/adventure park, per hour | $15–25 | Operator Shift $26 ≈ 40+ min of operation + pit-stop theatre |
@@ -843,11 +844,11 @@ Assumptions differ only on the demand side and phasing pace; the cost machinery 
 | **Ambitious** — revenue | 1,450 | 2,300 | 3,200 | 3,900 | 4,500 |
 | — EBITDA (margin) | −40 | 320 (14%) | 870 (27%) | 1,090 (28%) | 1,280 (28%) |
 
-Derived markers: break-even Month 22–26 / **16–19** / 12–14; Phase-1 payback beyond Year 5 / **Month ~53** / Month ~44 (ambitious cumulative EBITDA: −40+320+870 = 1,150 by end-Y3; 1,850−1,150 = 700 ÷ 1,090 × 12 ≈ 8 months into Year 4). Note the conservative case still reaches a **21% margin business worth roughly its invested capital** — the downside is mediocrity, not wipeout — while the ambitious case is deliberately *not* heroic: +18% Year-1 visits is inside Volume 2's funnel upside band, and its margins are capped at 28% (canon) rather than allowed to inflate.
+Derived markers: break-even Month 22–26 / **16–19** / 12–14; Phase-1 payback beyond Year 5 / **Month ~53** / Month ~44 (ambitious cumulative EBITDA: −40+320+870 = 1,150 by end-Y3; 1,850−1,150 = 700 ÷ 1,090 × 12 ≈ 8 months into Year 4). Note the conservative case still reaches a **21% margin business worth roughly its invested capital** — the downside is mediocrity, not wipeout — while the ambitious case is deliberately *not* heroic: +18% Year-1 visits (≈46 K) barely exceeds the top of Volume 2's ~37–43 K demand band (Chapter 9), and its margins are capped at 28% (canon) rather than allowed to inflate.
 
 ### 10.2 Phase 3 optionality
 
-Phase 3 is a menu, not a bundle: each element clears a standalone hurdle (incremental EBITDA ÷ element capex ≥ 25%) at the Month-30 review, funded from cash flow only. Planning estimates: **indoor arena** ($452 K) — removes the weather ceiling on ~30% of currently-lost days and unlocks winter leagues; projected +$260–340 K revenue at ~45% incremental margin → ROIC ≈ 26–34%, the strongest and most strategic case (it is also the MKT-07 structural fix from Volume 2's risk register). **Night-racing lighting** ($78 K) — +$60–90 K high-margin event revenue → ROIC ≈ 35–55%, cheapest yes. **Academy classrooms** ($108 K) — education line 60 → 100+ with school-day utilization of empty midweek capacity → ROIC ≈ 20–30%, borderline standalone but strategically loaded (feeds licensing and franchise training). **Corporate event centre** ($132 K) — corporate 205 → 240+ at high margin → ROIC ≈ 20–26%. Elements failing their hurdle at Month 30 are re-tested annually; the base case assumes all four proceed across Months 37–60 within the $900 K envelope.
+Phase 3 is a menu, not a bundle: each element clears a standalone hurdle (incremental EBITDA ÷ element capex ≥ 25%) at the operating Month-30 review, funded from cash flow only. Planning estimates: **indoor arena** ($452 K) — removes the weather ceiling on ~30% of currently-lost days and unlocks winter leagues; projected +$260–340 K revenue at ~45% incremental margin → ROIC ≈ 26–34%, the strongest and most strategic case (it is also the structural fix for the weather-compression risk carried in the master risk register, Volume 1, Chapter 8). **Night-racing lighting** ($78 K) — +$60–90 K high-margin event revenue → ROIC ≈ 35–55%, cheapest yes. **Academy classrooms** ($108 K) — education line 60 → 100+ with school-day utilization of empty midweek capacity → ROIC ≈ 20–30%, borderline standalone but strategically loaded (feeds licensing and franchise training). **Corporate event centre** ($132 K) — corporate 205 → 240+ at high margin → ROIC ≈ 20–26%. Elements failing their hurdle at operating Month 30 are re-tested annually; the base case assumes all four proceed across operating Months 37–60 within the $900 K envelope.
 
 ### 10.3 Franchise upside (pointer to Volume 12)
 
@@ -862,9 +863,9 @@ The park is managed on ten numbers, computed continuously by RC WORLD OS (implem
 | RevPASH (revenue per available Shift-hour) | Shift & session revenue ÷ (concurrent stations × operating hours). Y1: 786.2 K ÷ (57 × 8 × 360) = **$4.79** | ≥ $4.75 | ≥ $6.50 (74 stations post-Phase 2: 1,390 K ÷ 213,120 = $6.52) |
 | Slot utilization | Blocks consumed ÷ slot capacity (§4.3). Y1: 57,720 ÷ 328,320 = **17.6%** | ≥ 17% | ≥ 24% |
 | Membership count / churn | Active members at month-end / cancellations ÷ opening members | 344 / ≤3.5%/mo | ~620 avg / ≤2.5%/mo |
-| 90-day second-visit rate | First-time visitors returning within 90 days (cohort-tracked) | ≥ 22% | ≥ 28% |
+| 90-day second-visit rate | First-time visitors returning within 90 days (cohort-tracked). This table is the KPI's canonical home; the Phase 2 gate uses a **floor of ≥ 20%** (§3.5) | ≥ 22% | ≥ 28% |
 | Maintenance cost per vehicle-hour | Total §5.2 fleet cost ÷ telemetry-logged vehicle-hours. Y1: 66,000 ÷ 20,000 = **$3.30** | ≤ $3.50 | ≤ $3.40 |
-| Fleet availability | Fleet-hours in `active` status ÷ scheduled fleet-hours (from `fleet_inventory`) | ≥ 92% | ≥ 94% |
+| Fleet availability | Fleet-hours in `active` status ÷ scheduled fleet-hours (from `fleet_inventory`); gate floor ≥ 90% | ≥ 92% | ≥ 94% |
 | F&B attach | F&B revenue ÷ gate visits. Y1: 158 K ÷ 42 K = **$3.76** | ≥ $3.75 | ≥ $4.40 (restaurant) |
 | Per-cap spend | (Total revenue − sponsorship − education) ÷ gate visits | ≥ $30 | ≥ $33 |
 | Labor ratio | People cost ÷ revenue (§5.1) | ≤ 60% | ≤ 41% |
@@ -876,8 +877,8 @@ The park is managed on ten numbers, computed continuously by RC WORLD OS (implem
 
 ## 11. Volume summary & cross-references
 
-This volume built RC WORLD's complete financial system and reconciled every output to the canonical headlines. **Capex:** Phase 1 builds bottom-up to $1,850 K across nine audited categories plus 10% contingency, with the striking structural fact that the entire ~150-asset fleet is only $80 K (4.3%) of it; Phase 2 ($1,150 K) and Phase 3 ($900 K) envelopes complete the ≈$3.9 M five-year program. **Funding:** the $2.6 M ask = $1,850 K capex + $750 K of working capital, operating funding, and reserve, drawn in three milestone-gated tranches ($1,200/$850/$550 K), with Phases 2–3 self-funded from cash flow plus an optional $600 K facility. **Revenue:** a bottom-up engine (39 K paid visits, 57 stations, 17.6% utilization, the canonical price card) lands Year 1 at $1,280 K monthly-reconciled, and the five-year table at $1,905 K / **$2,600 K** / $3,030 K / **$3,400 K** — agreeing independently with Volume 2's market-side estimate. **Costs and margin:** an $1,380 K Year-1 stack (60% people-weighted) grows only $590 K while revenue grows $1,320 K to Year 3, delivering EBITDA of −$100 K / $154 K / $630 K / $782 K / $930 K and the canonical **24–28% margin from Year 3**. **Cash:** the monthly model shows sustained operating break-even at **Month 16** (canonical band 16–19), a minimum cash of $476 K against a $250 K policy floor, and a closed five-year sources-and-uses at $5,596 K. **Returns:** payback **Year 4–5** (base Month ~53 on Phase 1 capital), base-case investor MOIC 1.6–2.0× / IRR 8–12.5% with conservative-case capital protection and ambitious-plus-franchise upside to ≈2.9× / ≈19%.
+This volume built RC WORLD's complete financial system and reconciled every output to the canonical headlines. **Capex:** Phase 1 builds bottom-up to $1,850 K across nine audited categories plus 10% contingency, with the striking structural fact that the entire ~150-asset fleet is only $80 K (4.3%) of it; Phase 2 ($1,150 K) and Phase 3 ($900 K) envelopes complete the ≈$3.9 M five-year program. **Funding:** the $2.6 M ask = $1,850 K capex + $750 K of working capital, operating funding, and reserve, drawn in three milestone-gated tranches ($1,200/$850/$550 K), with Phases 2–3 self-funded from cash flow plus an optional $600 K facility. **Revenue:** a bottom-up engine (39 K paid visits, 57 stations, 17.6% utilization, the canonical price card) lands Year 1 at $1,280 K monthly-reconciled, and the five-year table at $1,905 K / **$2,600 K** / $3,030 K / **$3,400 K** — sitting inside Volume 2's independent ~37,000–43,000-visit, $30–35-per-visit demand estimate (Chapter 9). **Costs and margin:** an $1,380 K Year-1 stack (60% people-weighted) grows only $590 K while revenue grows $1,320 K to Year 3, delivering EBITDA of −$100 K / $154 K / $630 K / $782 K / $930 K and the canonical **24–28% margin from Year 3**. **Cash:** the monthly model shows sustained operating break-even at **Month 16** (canonical band 16–19), a minimum cash of $476 K against a $250 K policy floor, and a closed five-year sources-and-uses at $5,596 K. **Returns:** payback **Year 4–5** (base Month ~53 on Phase 1 capital), base-case investor MOIC 1.6–2.0× / IRR 8–12.5% with conservative-case capital protection and ambitious-plus-franchise upside to ≈2.9× / ≈19%.
 
-Line items other volumes must treat as fixed (change them here first, then sweep): the Chapter 2 capex categories and totals; the $750 K opening cash and tranche gates (Chapter 3); the §4.4 price-volume table and §4.9 annual revenue lines; the §5.1 staffing establishment and §5.6 opex stack; the Month-16 break-even mechanics and §6.5 survival floor (≈$0.9 M — referenced by Volume 2); the §7.3 depreciation policy; and the §10.4 KPI definitions.
+Line items other volumes must treat as fixed (change them here first, then sweep): the Chapter 2 capex categories and totals; the $750 K opening cash and tranche gates (Chapter 3); the §4.4 price-volume table and §4.9 annual revenue lines; the §5.1 staffing establishment and §5.6 opex stack; the operating-Month-16 break-even mechanics and §6.5 survival floor (≈$0.9 M); the §7.3 depreciation policy; and the §10.4 KPI definitions (including the second-visit operating targets ≥22%/≥28% with the ≥20% Phase 2 gate floor).
 
-Cross-references: market and demand inputs — **Volume 2** (Chapters 6–7 feed §4.2 and §8.1; its §7.4 sensitivity references this volume's cost stack). Division revenue capacity and operating doctrine — **Volumes 3–6** (station counts in §4.3; division attribution in §4.9). Maintenance failure data and spares doctrine behind §5.2 — **Volume 7**. Procurement costs, landed-cost build-ups, and FX mitigation behind §2.5 and §9.4 — **Volume 8**. Membership, loyalty, parties, and the retention machinery that drives §4.5 and the second-visit KPI — **Volume 9**. Site works, buildings, and the world-building scope priced in §§2.2–2.4 — **Volume 11**. Franchise economics and localization of this model — **Volume 12** (Chapter 3 rebuilds Chapter 4 with local inputs). RC WORLD OS scope capitalized in §2.8 and the KPI dashboard implementation — **Volume 13**.
+Cross-references: market and demand inputs — **Volume 2** (Chapter 8's competitor and precedent benchmarks feed §8.1; Chapter 9's demand analysis, §9.4–9.5, feeds §4.2 and reconciles with Chapter 4's visit totals; the master risk register lives in Volume 1, Chapter 8). Division revenue capacity and operating doctrine — **Volumes 3–6** (station counts in §4.3; division attribution in §4.9). Maintenance failure data and spares doctrine behind §5.2 — **Volume 7**. Procurement costs, landed-cost build-ups, and FX mitigation behind §2.5 and §9.4 — **Volume 8**. Membership, loyalty, parties, and the retention machinery that drives §4.5 and the second-visit KPI — **Volume 9**. Site works, buildings, and the world-building scope priced in §§2.2–2.4 — **Volume 11**. Franchise economics and localization of this model — **Volume 12** (Chapter 3 rebuilds Chapter 4 with local inputs). RC WORLD OS scope capitalized in §2.8 and the KPI dashboard implementation — **Volume 13**.
