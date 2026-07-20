@@ -28,8 +28,13 @@ checklists set denser).
 
 `python3 build/assemble.py` concatenates all volumes into
 `build/RC-WORLD-Master-Development-Plan.md`, prints per-volume word counts and estimated page
-counts, and (if `pandoc` is installed) renders `build/RC-WORLD-Master-Development-Plan.docx`
-and `.pdf`.
+counts, and (if `pandoc` is installed) renders `build/RC-WORLD-Master-Development-Plan.docx`.
+
+`python3 build/render_pdf.py` produces the professionally formatted PDF
+(`build/RC-WORLD-Master-Development-Plan.pdf`): A4, branded cover, master table of contents
+with page references, running headers carrying the current volume title, page numbering,
+styled tables and callouts. Requires `pandoc` plus the Python packages `weasyprint` and
+`markdown` (`pip install weasyprint markdown`). Print styling lives in `build/pdf-style.css`.
 
 ## Living-document workflow
 
