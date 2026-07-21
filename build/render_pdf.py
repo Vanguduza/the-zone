@@ -53,7 +53,7 @@ def main() -> int:
     subprocess.run(
         [
             "pandoc", str(MASTER_MD),
-            "-f", "markdown+pipe_tables+task_lists",
+            "-f", "markdown-yaml_metadata_block+pipe_tables+task_lists",
             "-t", "html5", "--standalone",
             "--toc", "--toc-depth=2",
             "--metadata", "title=RC WORLD — Master Development Plan",

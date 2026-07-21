@@ -126,18 +126,45 @@ The 13-volume master plan is unchanged and remains the growth/investor documenta
 adapts its doctrine to bootstrap scale.
 
 - Budget: **$10,000 all-in** (fleet, batteries, site works, tools, admin, contingency).
-- Site: **300 m²** leased/borrowed space (indoor warehouse bay or fenced yard).
-- Scope: **Construction Division only** — metal, electric, electromechanical (lead-screw)
-  machines. **No hydraulics anywhere in the bootstrap fleet**: hydraulic equipment (Kabolite
-  class) is explicitly deferred as the first major upgrade purchased from operating proceeds.
+- Site: **300 m²** leased/borrowed space (indoor warehouse bay preferred; fenced yard variant).
+- Scope: **the whole park in miniature — every division present at micro scale**:
+  - **Construction/Mining** (anchor zone): metal, electric, electromechanical (lead-screw)
+    Huina-class machines. **No hydraulics anywhere in the bootstrap fleet**: hydraulic
+    equipment (Kabolite class) is explicitly deferred as the first major upgrade from proceeds.
+  - **Motorsport**: compact **1/10-scale** technical circuit (drift/gymkhana format on the
+    bare concrete floor — the Track A surface doctrine at micro scale; speeds managed by
+    layout tightness and throttle-limited transmitters). Fleet built per the founder's
+    original racing doctrine (source PDF 3 / Volume 3): **one identical budget 1/10 chassis
+    platform bought in multiples, common electronics and batteries, a different body shell
+    on each car for identity, and each car tuned to a distinct handling personality**
+    (ESC/throttle profile, gearing, springs, oils, ballast, camber/toe) while lap-time
+    parity stays within 2–3% — winners are decided by driver skill, never by the car.
+    Cars carry personality names, not model numbers.
+  - **Crawler park**: compact technical course (MN/WPL-class 1/12–1/16 crawlers).
+  - **Aviation**: fully netted **micro-drone (Tiny-Whoop, 1S) cage** — the Volume 5 Whoop
+    Arcade concept as the entire division; no fixed-wing/heli/EDF at this scale.
+  - **Marine**: above-ground rigid/frame pool basin with mini electric boats.
+  - Agriculture is represented inside the construction zone (tractor + implement demo cell).
 - Doctrine retained at micro scale: 20-minute Shift billing, excavator:dump-truck 1:3 ratio,
   LiPo 3.4–4.2 V/cell window, 3:1 battery ratio, XT60 standard, customers never enter the dig
   zone, daily inspections, spares-with-fleet ordering.
 - Doctrine deferred: RCW Node telemetry and RC WORLD OS (replaced by manual/spreadsheet +
-  phone-timer operation), Wi-Fi mesh, all other divisions, buildings.
-- Upgrade ladder: reinvested proceeds climb Micro-Park → expanded micro fleet → hydraulic
-  premium tier → multi-zone mini-park → master plan Phase 1 (with external investors, using
-  Volumes 1–13 as the prospectus).
+  phone-timer operation), Wi-Fi mesh, hydraulics, full-size division formats, buildings.
+- Upgrade ladder: reinvested proceeds climb Micro-Park → deepened micro divisions → hydraulic
+  premium tier → larger site with full-format zones → master plan Phase 1 (with external
+  investors, using Volumes 1–13 as the prospectus).
+- Format: Volume 14 is written as a **decision document** — every major choice (site,
+  sourcing channel, fleet platform per division, execution sequence, marketing route) is
+  presented as compared options with advantages/disadvantages and a clearly recommended
+  route, so the founder can adapt when local quotes or availability differ.
+- Sourcing doctrine: **China-direct only, but reliability-gated** — buy exclusively from
+  Chinese manufacturers with an established track record for reliable, affordable,
+  good-quality product (the Volume 8 directory's proven names: Huina construction, WLtoys/
+  MJX/LDRC-class cars, MN/WPL crawlers, Happymodel/BetaFPV-class whoops, Flysky/Radiolink
+  radios, Gens Ace/CNHL/Ovonic-class batteries, SkyRC/ISDT chargers, Hobbywing electronics).
+  No unknown white-label brands, no unbranded ultra-cheap listings, no compromises on the
+  charging/battery chain. Channel choice (Alibaba small-wholesale vs AliExpress official
+  stores vs Banggood-class retail) is an options analysis per category in Volume 14.
 
 ## 4. Cross-referencing
 

@@ -66,7 +66,7 @@ This plan serves six end uses at once: the self-funded launch, investor presenta
 
 ### 3.1 The founder, bootstrapping
 
-Read **Volume 14 (Bootstrap Launch Plan)** first — the day-to-day operating plan for the $10,000 / 300 m² Micro-Park. Its technical backing is **Volume 4** (the Construction Division doctrine the Micro-Park inherits) and **Volume 7** (maintenance and rebuild skills, scaled down in Volume 14, Chapter 7). Volumes 1–13 become active at the external-raise milestone — Rung 5 of Volume 14's upgrade ladder — as the prospectus, unchanged.
+Read **Volume 14 (Bootstrap Launch Plan)** first — the day-to-day operating plan for the $10,000 / 300 m² **whole-park-in-miniature** Micro-Park (every division at micro scale). Technical backing: **Volume 4** (construction), **Volume 3** (1/10 parity racing doctrine), **Volume 5** (whoop cage), **Volume 6** (marine), **Volume 7** (maintenance). Volumes 1–13 activate at Rung 5 (external raise) as the prospectus, unchanged.
 
 ### 3.2 Investors (equity)
 
@@ -150,7 +150,7 @@ The plan is a living document. Suppliers change models, prices drift, and phase 
 
 **Volume 13 — IT, IoT & ERP Systems (RC WORLD OS).** The technology volume: RCW Node hardware (ESP32-C3, Micro-Node and Heavy-Node), kill-switch logic, Wi-Fi mesh, and the full ERP covering finance, HR/payroll, payments, bookings, fleet, live telemetry, POS/retail, F&B, inventory, CRM, events, access control, reporting/BI, and franchise multi-site support — Supabase (PostgreSQL) + Kotlin services, Kotlin Multiplatform / Compose Multiplatform apps on **both Android and iOS**, role-based interfaces for each user class.
 
-**Volume 14 — Bootstrap Launch Plan ($10K / 300 m² Micro-Park).** The self-funded launch that precedes Phase 1, leaving Volumes 1–13 unchanged as the growth-target and investor documentation: an exact $10,000 line-item budget, the 300 m² layout, the all-electromechanical fleet doctrine (no hydraulics — the first hydraulic machine is the first upgrade bought from proceeds), the solo-operator playbook, micro-scale pricing, shoestring marketing, the milestone-gated upgrade ladder climbing from reinvested proceeds to master-plan Phase 1 (Rung 5 = the external raise), and the risk register with explicit stop-loss criteria.
+**Volume 14 — Bootstrap Launch Plan ($10K / 300 m² Micro-Park).** The self-funded launch preceding Phase 1: the **whole park in miniature** — Construction, 1/10 parity-tuned Motorsport, Crawler, Whoop-cage Aviation, Marine pool, and Agriculture demo — inside an exact $10,000 budget and 300 m² layout. Written as a decision document (options + recommendations on site, sourcing, fleet, operations, pricing, launch, and 3D-print vs buy theming). All-electromechanical, no hydraulics day one; Bambu P1S printer at Rung 1; hydraulic premium at Rung 2; external raise at Rung 5 activates Volumes 1–13.
 
 ## 6. Glossary of Canonical Terms
 
@@ -175,7 +175,7 @@ The plan is a living document. Suppliers change models, prices drift, and phase 
 | **Battery doctrine** | 2S/3S LiPo, XT60 standard (Deans legacy acceptable), 3:1 battery-to-vehicle ratio, 3.4–4.2 V/cell operating window. |
 | **1:3 ratio** | Canonical excavator-to-dump-truck fleet ratio in the Mining Zone. |
 | **Rental vs premium fleet** | Rental construction machines are electromechanical (lead-screw); hydraulic machines (Kabolite class) are reserved for premium supervised experiences and display. The bootstrap fleet (Volume 14) contains no hydraulics at all. |
-| **Micro-Park** | The self-funded bootstrap launch format: 300 m², $10,000 all-in, Construction Division only, electromechanical machines only. Volume 14. |
+| **Micro-Park** | The self-funded bootstrap launch: 300 m², $10,000 all-in, **every division at micro scale** (construction anchor + 1/10 racing + crawler + whoop cage + marine pool). Volume 14. |
 | **Phase 1 / 2 / 3** | "Core Park" (project Months 0–12); "Full Park" (project Months 13–30); "Destination & Beyond" (project Months 31–60). Build phasing uses *project* months (park opens at project Month 12); financials and division opening schedules use *operating* months (M1 = opening month). |
 
 ## 7. Volume Summary & Cross-References

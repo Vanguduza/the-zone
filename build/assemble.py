@@ -73,7 +73,7 @@ def main() -> int:
         docx = OUT_DIR / "RC-WORLD-Master-Development-Plan.docx"
         subprocess.run(
             ["pandoc", str(OUT_MD), "-o", str(docx), "--toc", "--toc-depth=2",
-             "-f", "markdown", "--metadata", "title=RC WORLD — Master Development Plan"],
+             "-f", "markdown-yaml_metadata_block", "-t", "docx",
             check=False,
         )
         print(f"Wrote {docx.relative_to(ROOT)}")
