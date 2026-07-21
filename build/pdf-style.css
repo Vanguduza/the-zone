@@ -1,0 +1,212 @@
+/* RC WORLD Master Development Plan — print stylesheet (WeasyPrint) */
+
+/* ---------- Page geometry ---------- */
+@page {
+  size: A4;
+  margin: 22mm 19mm 20mm 19mm;
+
+  @top-left {
+    content: "RC WORLD — Master Development Plan";
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 7pt;
+    letter-spacing: 0.08em;
+    color: #8a8f98;
+    text-transform: uppercase;
+  }
+  @top-right {
+    content: string(volumetitle);
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 7pt;
+    color: #8a8f98;
+  }
+  @bottom-center {
+    content: "Page " counter(page) " of " counter(pages);
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 8pt;
+    color: #6b7076;
+  }
+  @bottom-right {
+    content: "Revision 1.0 — July 2026";
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 7pt;
+    color: #b0b4ba;
+  }
+}
+
+@page cover {
+  margin: 0;
+  background: #10233f;
+  @top-left { content: none; }
+  @top-right { content: none; }
+  @bottom-center { content: none; }
+  @bottom-right { content: none; }
+}
+
+@page toc {
+  @top-right { content: "Contents"; }
+}
+
+/* ---------- Cover ---------- */
+.cover {
+  page: cover;
+  height: 297mm;
+  color: #ffffff;
+  font-family: "DejaVu Sans", sans-serif;
+  padding: 42mm 24mm 0 24mm;
+  box-sizing: border-box;
+}
+.cover .rule {
+  width: 42mm; height: 1.6mm; background: #e8a13d;
+  margin-bottom: 14mm;
+}
+.cover h1 {
+  font-size: 46pt; letter-spacing: 0.14em; margin: 0 0 6mm 0;
+  border: none; color: #ffffff; page-break-before: avoid;
+}
+.cover .subtitle {
+  font-size: 19pt; font-weight: 300; color: #cdd8e8; margin: 0 0 10mm 0;
+}
+.cover .tagline {
+  font-size: 10.5pt; letter-spacing: 0.12em; text-transform: uppercase;
+  color: #e8a13d; margin: 0 0 26mm 0;
+}
+.cover .volumes-note {
+  font-size: 10pt; line-height: 1.7; color: #9fb0c6; max-width: 120mm;
+}
+.cover .edition {
+  position: absolute; bottom: 22mm; left: 24mm; right: 24mm;
+  font-size: 9pt; color: #7e93af;
+  border-top: 0.3pt solid #3a5273; padding-top: 4mm;
+}
+
+/* ---------- Base typography ---------- */
+html { font-size: 10pt; }
+body {
+  font-family: "DejaVu Serif", serif;
+  font-size: 10pt;
+  line-height: 1.5;
+  color: #1c1e21;
+  hyphens: auto;
+}
+p { margin: 0 0 0.65em 0; text-align: justify; }
+strong { color: #10233f; }
+a { color: #17457c; text-decoration: none; }
+
+/* ---------- Headings ---------- */
+h1, h2, h3, h4 {
+  font-family: "DejaVu Sans", sans-serif;
+  color: #10233f;
+  line-height: 1.25;
+  page-break-after: avoid;
+}
+
+/* Volume title = H1: starts a fresh page, banner style */
+h1 {
+  string-set: volumetitle content();
+  page-break-before: always;
+  font-size: 24pt;
+  margin: 26mm 0 10mm 0;
+  padding-bottom: 5mm;
+  border-bottom: 1.2mm solid #e8a13d;
+}
+h2 {
+  font-size: 14.5pt;
+  margin: 1.6em 0 0.55em 0;
+  padding-bottom: 1.2mm;
+  border-bottom: 0.35pt solid #c3c9d1;
+}
+h3 { font-size: 11.5pt; margin: 1.25em 0 0.4em 0; }
+h4 { font-size: 10.5pt; margin: 1.1em 0 0.3em 0; }
+
+/* ---------- Pandoc title block: hidden (custom cover instead) ---------- */
+header#title-block-header { display: none; }
+
+/* ---------- Table of contents ---------- */
+nav#TOC { page: toc; page-break-before: always; }
+nav#TOC::before {
+  content: "Master Table of Contents";
+  display: block;
+  font-family: "DejaVu Sans", sans-serif;
+  font-size: 24pt; font-weight: bold; color: #10233f;
+  margin: 10mm 0 10mm 0; padding-bottom: 5mm;
+  border-bottom: 1.2mm solid #e8a13d;
+}
+nav#TOC ul { list-style: none; padding-left: 0; margin: 0; }
+nav#TOC > ul > li { margin-top: 4.5mm; }
+nav#TOC > ul > li > a {
+  font-family: "DejaVu Sans", sans-serif;
+  font-weight: bold; font-size: 10.5pt; color: #10233f;
+}
+nav#TOC ul ul { padding-left: 6mm; margin-top: 1mm; }
+nav#TOC ul ul li { margin: 0.6mm 0; font-size: 9pt; }
+nav#TOC a::after {
+  content: leader(". ") " " target-counter(attr(href url), page);
+  color: #6b7076; font-weight: normal;
+}
+
+/* ---------- Tables ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.8em 0 1.1em 0;
+  font-family: "DejaVu Sans", sans-serif;
+  font-size: 8pt;
+  line-height: 1.35;
+}
+th {
+  background: #10233f; color: #ffffff;
+  font-weight: bold; text-align: left;
+  padding: 1.6mm 2mm;
+}
+td {
+  padding: 1.4mm 2mm;
+  border-bottom: 0.3pt solid #ced3da;
+  vertical-align: top;
+}
+tr:nth-child(even) td { background: #f2f4f7; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; }
+
+/* ---------- Callouts (Field Note / Trade Hack / Safety Warning / Investor Note) ---------- */
+blockquote {
+  margin: 0.9em 0;
+  padding: 2.6mm 4mm 2.2mm 4mm;
+  background: #f4f6f9;
+  border-left: 1.4mm solid #e8a13d;
+  font-family: "DejaVu Sans", sans-serif;
+  font-size: 8.8pt;
+  page-break-inside: avoid;
+}
+blockquote p { margin: 0 0 0.4em 0; text-align: left; }
+blockquote p:last-child { margin-bottom: 0; }
+
+/* ---------- Code / ASCII diagrams ---------- */
+pre {
+  font-family: "DejaVu Sans Mono", monospace;
+  font-size: 7pt;
+  line-height: 1.3;
+  background: #f6f7f9;
+  border: 0.3pt solid #d4d8de;
+  padding: 2.5mm 3mm;
+  margin: 0.8em 0;
+  white-space: pre;
+  overflow: hidden;
+}
+code {
+  font-family: "DejaVu Sans Mono", monospace;
+  font-size: 8.4pt;
+  background: #f2f4f7;
+  padding: 0 0.8mm;
+}
+pre code { background: none; padding: 0; font-size: inherit; }
+
+/* ---------- Lists ---------- */
+ul, ol { margin: 0.35em 0 0.8em 0; padding-left: 5.5mm; }
+li { margin: 0.22em 0; }
+li > ul, li > ol { margin: 0.15em 0 0.25em 0; }
+
+/* Task-list checkboxes */
+input[type="checkbox"] { width: 3mm; height: 3mm; margin-right: 1.5mm; }
+
+/* ---------- Rules & misc ---------- */
+hr { border: none; border-top: 0.35pt solid #c3c9d1; margin: 1.6em 0; }
