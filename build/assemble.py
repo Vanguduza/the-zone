@@ -33,6 +33,7 @@ VOLUME_ORDER = [
     "volume-11-architecture-park-design.md",
     "volume-12-franchise-manual.md",
     "volume-13-it-iot-erp.md",
+    "volume-14-bootstrap-launch-plan.md",
 ]
 
 WORDS_PER_PAGE = 400.0

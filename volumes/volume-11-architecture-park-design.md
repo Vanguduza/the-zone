@@ -1,6 +1,6 @@
 # RC WORLD Master Development Plan — Volume 11: Architecture & Park Design
 
-**Volume 11 of 13** · **Revision:** 1.0 — July 2026 · **Status:** Living document — bump revision on material change
+**Volume 11 of 14** · **Revision:** 1.0 — July 2026 · **Status:** Living document — bump revision on material change
 
 **Purpose of this volume.** This volume is the architects' and contractors' brief for the RC WORLD park: the master site plan for the canonical 4.8-hectare reference site, dimensioned zone-by-zone design concepts, building floor plans with room schedules, utilities and infrastructure concepts, and the safety, security and landscape systems that bind them together. It translates the operating doctrine of Volumes 3–7 — sight-line separation, the 15° haul-road limit, the bunkered charging doctrine, the fully netted airfield, the 20-minute Shift throughput model — into buildable geometry: areas in m², heights in mm, gradients in degrees and percent, electrical loads in kVA. It is written so that a design team can take it, a topographic survey, and the local code set, and proceed directly to schematic design. Where this volume states a dimension, every other volume must quote it; where another volume is named as source of truth (fleet counts, pond depth, cage envelope), this volume quotes *it* and says so.
 

@@ -1,6 +1,6 @@
 # Volume 10 — Finance
 
-**RC WORLD — Master Development Plan** · Volume 10 of 13
+**RC WORLD — Master Development Plan** · Volume 10 of 14
 **Revision 1.0 — July 2026** · Status: Living document — bump revision on material change
 
 **Purpose of this volume.** This volume is the financial source of truth for the entire Master Development Plan. Every capex figure, revenue projection, cost assumption, and return metric quoted anywhere in Volumes 1–13 reconciles to the models built here. It constructs, line by line, the Phase 1 startup budget of ≈$1.85 M; the $2.6 M funding ask and its tranche structure; a bottom-up revenue engine that lands on the canonical Year 1 ≈$1.28 M, Year 3 ≈$2.6 M, and Year 5 ≈$3.4 M; the operating cost stack that yields a 24–28% EBITDA margin from Year 3; the monthly cash model that shows operating break-even at Month 16–19; and the profitability, sensitivity, and scenario apparatus an investor's analyst will want to stress. Every major claim is carried by a table, with the assumptions stated above it and the arithmetic shown so a CFO can audit it with a calculator. Where this volume and any other volume disagree on a number, this volume governs, and the other volume must be corrected.

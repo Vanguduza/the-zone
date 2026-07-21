@@ -20,6 +20,7 @@ standalone markdown file, written to `style-guide.md` and consistent with
 | 11 | `volume-11-architecture-park-design.md` | Architecture & Park Design | 18,000 | ~54 |
 | 12 | `volume-12-franchise-manual.md` | Franchise Manual | 13,000 | ~39 |
 | 13 | `volume-13-it-iot-erp.md` | IT, IoT & ERP Systems (RC WORLD OS) | 16,000 | ~48 |
+| 14 | `volume-14-bootstrap-launch-plan.md` | Bootstrap Launch Plan ($10K / 300 m² Micro-Park) | 12,000 | ~36 |
 
 Combined target ≈ 196,000 words ≈ **440–490 finished pages** (at ~400 words/page, tables and
 checklists set denser).

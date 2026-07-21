@@ -1,6 +1,6 @@
 # Volume 3 — RC Motorsport Division
 
-**RC WORLD — Master Development Plan** · Volume 3 of 13
+**RC WORLD — Master Development Plan** · Volume 3 of 14
 **Revision 1.0 — July 2026** · Status: Living document — bump revision on material change
 
 **Purpose of this volume.** This volume is the complete engineering and operating specification for the RC WORLD Motorsport Division: the Phase 1 fleet of **64 racing cars** across seven vehicle classes, the three-track Speed & Off-Road Hub (Tracks A and B in Motorsport scope; Track C belongs to the crawler program in Volume 4's adventure annex), and the race-operations business built on top of them. It codifies the division's founding doctrine — **standardized chassis, personalities created through tuning, races decided by driver skill, lap-time parity within 2–3% across every car in a class** — and turns that doctrine into working engineering: platform selection, parts commonality, fleet blueprinting and balancing procedures, ESC programming tables, suspension setup sheets, gearing mathematics, corner-weighting procedure, rental-hardening specifications, RCW Node integration, Shift turnaround workflow, and race-day operations. A competent race engineer hired into RC WORLD should be able to run this division from this volume plus the workshop practices in Volume 7.

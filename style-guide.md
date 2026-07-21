@@ -119,6 +119,26 @@ one coherent book and never contradict each other on facts, names, or numbers.
   hydraulic (Kabolite class) reserved for premium supervised experiences and display.
 - Racing fleet: standardized chassis, personalities via tuning, lap-time parity within 2–3%.
 
+### Bootstrap edition canon (Volume 14 is the source of truth)
+
+The founder launches self-funded BEFORE the master plan's Phase 1: the **RC WORLD Micro-Park**.
+The 13-volume master plan is unchanged and remains the growth/investor documentation; Volume 14
+adapts its doctrine to bootstrap scale.
+
+- Budget: **$10,000 all-in** (fleet, batteries, site works, tools, admin, contingency).
+- Site: **300 m²** leased/borrowed space (indoor warehouse bay or fenced yard).
+- Scope: **Construction Division only** — metal, electric, electromechanical (lead-screw)
+  machines. **No hydraulics anywhere in the bootstrap fleet**: hydraulic equipment (Kabolite
+  class) is explicitly deferred as the first major upgrade purchased from operating proceeds.
+- Doctrine retained at micro scale: 20-minute Shift billing, excavator:dump-truck 1:3 ratio,
+  LiPo 3.4–4.2 V/cell window, 3:1 battery ratio, XT60 standard, customers never enter the dig
+  zone, daily inspections, spares-with-fleet ordering.
+- Doctrine deferred: RCW Node telemetry and RC WORLD OS (replaced by manual/spreadsheet +
+  phone-timer operation), Wi-Fi mesh, all other divisions, buildings.
+- Upgrade ladder: reinvested proceeds climb Micro-Park → expanded micro fleet → hydraulic
+  premium tier → multi-zone mini-park → master plan Phase 1 (with external investors, using
+  Volumes 1–13 as the prospectus).
+
 ## 4. Cross-referencing
 
 Refer to other volumes as "see Volume 7, Chapter 4". Do not duplicate large blocks of another

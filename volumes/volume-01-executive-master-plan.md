@@ -1,6 +1,6 @@
 # Volume 1 — Executive Master Plan
 
-**RC WORLD — Master Development Plan** · Volume 1 of 13
+**RC WORLD — Master Development Plan** · Volume 1 of 14
 **Revision 1.0 — July 2026** · Status: Living document — bump revision on material change
 
 **Purpose of this volume.** This volume is the whole business in one document. It states the concept and the thesis behind it, the mission and values that govern every operating decision, the business model and the unit economics that make a fleet of small machines a real company, the park itself at a glance, the $2.6 M investment opportunity with its staged tranches and use of funds, the three development phases with their gating criteria, the headline financial trajectory, the ten risks that matter most, and the five-year expansion roadmap. Every chapter here is a summary with a pointer: the detail lives in Volumes 2–13, and where a number appears in this volume it is the canonical headline figure whose source of truth is the volume cited. An investor should be able to read this volume alone and understand exactly what is being built, what it costs, what it earns, and what could go wrong.

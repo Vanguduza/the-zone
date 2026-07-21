@@ -1,6 +1,6 @@
 # Volume 12 — Franchise Manual
 
-**RC WORLD — Master Development Plan** · Volume 12 of 13
+**RC WORLD — Master Development Plan** · Volume 12 of 14
 **Revision:** 1.0 · **Date:** July 2026 · **Status:** Living document — bump revision on material change
 
 **Purpose of this volume.** This volume defines how the RC WORLD business is replicated: the franchise strategy and its rationale, the three licensed park formats, the international expansion framework, the legal and licensing architecture, the fee structure and unit economics for both franchisee and franchisor, and the complete operating machinery of a franchise system — recruitment, site approval, training through the RC WORLD Academy, brand standards, quality audits, and franchisor support operations. It is written *before* the first franchise is sold, deliberately: the founding thesis of this volume is that the thirteen-volume documented system you are holding — engineering specifications, SOPs, fleet doctrine, procurement channels, RCW Node hardware, RC WORLD OS software, and the customer-experience canon — **is the franchise product**. The flagship park proves it; this volume packages it. The franchise pilot is a Phase 3 activity (months 31–60); everything here is sequenced against that canon.

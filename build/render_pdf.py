@@ -28,11 +28,13 @@ COVER = """
   <p class="subtitle">Master Development Plan</p>
   <p class="tagline">Investor Prospectus &bull; Operations Manual &bull; Engineering Handbook</p>
   <p class="volumes-note">
-    Thirteen volumes covering the executive master plan, market research, the four
+    Fourteen volumes covering the executive master plan, market research, the four
     operating divisions (Motorsport, Construction, Aviation, Marine), the engineering
     &amp; workshop manual, the China procurement handbook, customer experience &amp;
-    loyalty, finance, architecture &amp; park design, the franchise manual, and the
-    RC&nbsp;WORLD&nbsp;OS technology platform.
+    loyalty, finance, architecture &amp; park design, the franchise manual, the
+    RC&nbsp;WORLD&nbsp;OS technology platform &mdash; and the self-funded
+    <strong style="color:#e8a13d">$10,000 / 300&nbsp;m&sup2; Bootstrap Launch Plan</strong>
+    that starts the journey.
   </p>
   <p class="edition">Revision 1.0 &mdash; July 2026 &nbsp;&nbsp;|&nbsp;&nbsp;
     Living master document &mdash; volumes are revised independently; the canon of
